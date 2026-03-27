@@ -88,13 +88,9 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="bg-navy text-white sticky top-0 z-50 shadow-lg">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <Home className="w-8 h-8 text-gold" />
-            <div>
-              <h1 className="text-xl font-bold">Southern Cities Realty</h1>
-              <p className="text-xs text-gold">Part of Southern Cities Enterprises</p>
-            </div>
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center space-x-3">
+            <img src="/logos/sc-logo-horizontal.svg" alt="Southern Cities Enterprises" className="h-16 md:h-20 w-auto" />
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#services" className="hover:text-gold transition">Services</a>
