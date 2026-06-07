@@ -2,21 +2,108 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --navy: #1a2744;
-  --gold: #d4a843;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@layer base {
+  :root {
+    color-scheme: light;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background:
+      radial-gradient(circle at 92% 8%, rgba(250, 140, 65, 0.10), transparent 28%),
+      radial-gradient(circle at 8% 92%, rgba(19, 36, 82, 0.06), transparent 30%),
+      linear-gradient(180deg, #fbf7f1 0%, #f5f1ea 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), serif;
+    letter-spacing: -0.03em;
+  }
+
+  p,
+  li,
+  a,
+  input,
+  textarea,
+  select,
+  button {
+    font-family: var(--font-body), sans-serif;
+  }
+
+  ::selection {
+    background: rgba(250, 140, 65, 0.28);
+    color: #132452;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-label {
+    @apply text-xs font-semibold uppercase tracking-[0.28em] text-brand-500;
+  }
+
+  .section-title {
+    @apply font-display text-4xl leading-[1.05] text-navy-950 md:text-5xl;
+  }
+
+  .section-copy {
+    @apply text-base leading-7 text-slate-600 md:text-lg;
+  }
+
+  .cta-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(250,140,65,0.32)] transition hover:bg-brand-400 hover:shadow-[0_12px_36px_rgba(250,140,65,0.45)];
+  }
+
+  .cta-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3.5 text-sm font-semibold text-navy-950 transition hover:border-brand-400 hover:text-brand-500;
+  }
+
+  .cta-ghost-dark {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/18 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/32 hover:bg-white/8;
+  }
+
+  .glass-panel {
+    @apply rounded-[28px] border border-slate-200/70 bg-white shadow-[0_24px_80px_rgba(15,23,42,0.08)] backdrop-blur;
+  }
+
+  .dark-panel {
+    @apply rounded-[28px] border border-white/10 bg-navy-950 text-white shadow-[0_24px_80px_rgba(2,6,23,0.36)];
+  }
+
+  .fine-grid {
+    background-image:
+      linear-gradient(rgba(15, 23, 42, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .marquee-track {
+    animation: marquee 38s linear infinite;
+  }
+
+  .property-card {
+    @apply relative overflow-hidden rounded-[28px] border border-slate-200/70 bg-white shadow-[0_20px_60px_rgba(15,23,42,0.08)] transition hover:-translate-y-1 hover:shadow-[0_28px_80px_rgba(15,23,42,0.14)];
+  }
+
+  .ring-divider {
+    background: linear-gradient(90deg, transparent, rgba(15, 23, 42, 0.14), transparent);
+    height: 1px;
+    width: 100%;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
