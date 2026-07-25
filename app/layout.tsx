@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Fraunces, Manrope } from 'next/font/google'
 import { Mail, MapPin, Phone } from 'lucide-react'
+import { Analytics } from '@vercel/analytics/react'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     template: '%s | Southern Cities Realty',
   },
   description:
-    'Full-service residential brokerage serving Charlotte, Lake Norman, Fort Mill, and the surrounding Carolinas. Disciplined buyer representation, listing strategy, and relocation guidance from a broker who understands the house, not just the contract.',
+    'Full-service residential brokerage serving Charlotte, Lake Norman, Fort Mill, and the Carolinas. Buy or sell with honest advice, deep local knowledge, and a broker who understands the house, not just the contract.',
   keywords: [
     'Charlotte real estate',
     'Charlotte realtor',
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Southern Cities Realty | Charlotte Residential Brokerage',
     description:
-      'Disciplined residential brokerage for buyers, sellers, and relocations across Charlotte and the surrounding Carolinas markets.',
+      'Buy or sell with a Charlotte brokerage backed by a licensed builder and a real estate finance team.',
     url: 'https://southerncitiesrealty.com',
     siteName: 'Southern Cities Realty',
     type: 'website',
@@ -44,82 +45,53 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Southern Cities Realty',
-    description: 'Residential brokerage with sharper judgment — Charlotte and the Carolinas.',
+    description: 'The Charlotte brokerage that knows the house, not just the paperwork.',
   },
 }
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/listings', label: 'Listings' },
-  { href: '/services', label: 'Services' },
+  { href: '/listings', label: 'Buy' },
+  { href: '/#sell', label: 'Sell' },
+  { href: '/neighborhoods', label: 'Areas We Serve' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ]
 
 function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/8 bg-navy-950/92 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-3" aria-label="Southern Cities Realty home">
+    <header className="sticky top-0 z-50 border-b border-[#e8e2d6] bg-[#fbf7f1]/85 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3 sm:px-6 lg:px-8">
+        <Link href="/" className="mr-auto flex items-center" aria-label="Southern Cities Realty home">
           <img
-            src="/logos/sc-realty-mark.png"
-            alt=""
-            aria-hidden="true"
-            className="h-10 w-auto md:h-11"
+            src="/logos/sc-realty-horizontal.png"
+            alt="Southern Cities Realty"
+            className="h-9 w-auto sm:h-11"
           />
-          <span className="font-display text-[1.05rem] leading-none tracking-[0.04em] text-white md:text-[1.15rem]">
-            <span className="block font-semibold">SOUTHERN CITIES</span>
-            <span className="block font-semibold text-brand-400">REALTY</span>
-          </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 text-sm font-medium text-white/74 md:flex">
-          {navLinks.slice(0, 4).map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="relative transition hover:text-white"
-            >
-              {link.label}
-            </Link>
-          ))}
-          <Link
-            href="/contact"
-            className="rounded-full bg-brand-500 px-5 py-2.5 font-semibold text-white shadow-[0_8px_24px_rgba(250,140,65,0.32)] transition hover:bg-brand-400 hover:shadow-[0_10px_28px_rgba(250,140,65,0.42)]"
-          >
-            Contact
-          </Link>
+        <nav className="flex items-center gap-x-5 gap-y-1 text-sm font-medium text-navy-950 sm:gap-x-7">
+          {navLinks.map((link) =>
+            link.href.includes('#') ? (
+              <a key={link.href} href={link.href} className="transition hover:text-brand-500">
+                {link.label}
+              </a>
+            ) : (
+              <Link key={link.href} href={link.href} className="transition hover:text-brand-500">
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
 
-        <MobileNav />
+        <Link
+          href="/listings"
+          className="rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400"
+        >
+          Search homes
+        </Link>
       </div>
     </header>
-  )
-}
-
-function MobileNav() {
-  return (
-    <div className="md:hidden">
-      <input type="checkbox" id="mobile-menu" className="peer hidden" />
-      <label
-        htmlFor="mobile-menu"
-        className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-full border border-white/14 bg-white/6"
-        aria-label="Open menu"
-      >
-        <svg className="h-5 w-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </label>
-      <div className="absolute left-0 right-0 top-full hidden border-t border-white/10 bg-navy-950/98 backdrop-blur peer-checked:block">
-        <nav className="flex flex-col px-6 py-6 text-base font-medium text-white/86">
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href} className="border-b border-white/8 py-4 transition hover:text-white">
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-      </div>
-    </div>
   )
 }
 
@@ -137,9 +109,9 @@ function Footer() {
               </span>
             </div>
             <p className="mt-6 max-w-md text-sm leading-7 text-white/64">
-              Southern Cities Realty is the residential brokerage arm of Southern Cities Enterprises.
-              We help buyers, sellers, and relocations move with more clarity, tighter execution, and
-              better decision-making across Charlotte and the surrounding Carolinas markets.
+              Southern Cities Realty is a Charlotte residential brokerage helping buyers and sellers
+              across North Carolina make their move with honest advice, real local knowledge, and
+              brokers who actually pick up the phone.
             </p>
             <div className="mt-7 flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-white/50">
               <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
@@ -163,7 +135,7 @@ function Footer() {
             <div className="mt-5 flex flex-col gap-3 text-sm text-white/64">
               <span>Charlotte</span>
               <span>Lake Norman</span>
-              <span>Fort Mill</span>
+              <span>Davidson</span>
               <span>Concord &amp; Kannapolis</span>
               <span>Gastonia</span>
             </div>
@@ -176,13 +148,13 @@ function Footer() {
                 <MapPin className="mt-0.5 h-4 w-4 flex-none text-brand-300" />
                 <span>Charlotte, North Carolina</span>
               </div>
-              <a href="tel:+17042992742" className="flex items-start gap-3 transition hover:text-white">
+              <a href="tel:+17046040608" className="flex items-start gap-3 transition hover:text-white">
                 <Phone className="mt-0.5 h-4 w-4 flex-none text-brand-300" />
-                <span>(704) 299-2742</span>
+                <span>(704) 604-0608</span>
               </a>
-              <a href="mailto:realty@developthesouth.com" className="flex items-start gap-3 transition hover:text-white">
+              <a href="mailto:admin@southerncitiesrealty.com" className="flex items-start gap-3 transition hover:text-white">
                 <Mail className="mt-0.5 h-4 w-4 flex-none text-brand-300" />
-                <span>realty@developthesouth.com</span>
+                <span>admin@southerncitiesrealty.com</span>
               </a>
             </div>
           </div>
@@ -192,6 +164,7 @@ function Footer() {
           <p>© 2026 Southern Cities Realty. All rights reserved.</p>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <span>NC Real Estate Brokerage</span>
+            <span>Firm License #C42672</span>
             <span>Broker-in-Charge: Darius Walton, NC License #321548</span>
           </div>
         </div>
@@ -211,6 +184,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   )

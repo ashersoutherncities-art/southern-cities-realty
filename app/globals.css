@@ -107,3 +107,16 @@
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+
+@keyframes quizFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.quiz-fade {
+  animation: quizFade 0.35s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-fade { animation: none; }
+}

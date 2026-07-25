@@ -1,0 +1,233 @@
+{
+ "ballantyne": {
+  "name": "Ballantyne",
+  "area": "South Charlotte",
+  "file": "/neighborhoods/ballantyne.jpg",
+  "creator": "City Dweller 2",
+  "license": "by-sa",
+  "license_version": "4.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=144852039",
+  "kb": 148
+ },
+ "southpark": {
+  "name": "SouthPark",
+  "area": "Charlotte",
+  "file": "/neighborhoods/southpark.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/2452606815",
+  "kb": 30
+ },
+ "dilworth": {
+  "name": "Dilworth",
+  "area": "Charlotte",
+  "file": "/neighborhoods/dilworth.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/3614989898",
+  "kb": 186
+ },
+ "myers-park": {
+  "name": "Myers Park",
+  "area": "Central Charlotte",
+  "file": "/neighborhoods/myers-park.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/3740106962",
+  "kb": 209
+ },
+ "plaza-midwood": {
+  "name": "Plaza Midwood",
+  "area": "Charlotte",
+  "file": "/neighborhoods/plaza-midwood.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/3629138910",
+  "kb": 116
+ },
+ "noda": {
+  "name": "NoDa",
+  "area": "Charlotte",
+  "file": "/neighborhoods/noda.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/3418959774",
+  "kb": 183
+ },
+ "matthews": {
+  "name": "Matthews",
+  "area": "Charlotte metro",
+  "file": "/neighborhoods/matthews.jpg",
+  "creator": "Jon Platek",
+  "license": "by-sa",
+  "license_version": "3.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=15745274",
+  "kb": 63
+ },
+ "waxhaw": {
+  "name": "Waxhaw",
+  "area": "Charlotte metro",
+  "file": "/neighborhoods/waxhaw.jpg",
+  "creator": "Indy beetle",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=146044973",
+  "kb": 118
+ },
+ "concord": {
+  "name": "Concord",
+  "area": "North of Charlotte",
+  "file": "/neighborhoods/concord.jpg",
+  "creator": "Dough4872",
+  "license": "by-sa",
+  "license_version": "4.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=80045576",
+  "kb": 114
+ },
+ "huntersville": {
+  "name": "Huntersville",
+  "area": "North Mecklenburg",
+  "file": "/neighborhoods/huntersville.jpg",
+  "creator": "Brett VA",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/23351990@N03/5488719295",
+  "kb": 158
+ },
+ "mooresville": {
+  "name": "Mooresville",
+  "area": "Lake Norman area",
+  "file": "/neighborhoods/mooresville.jpg",
+  "creator": "James St. John",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/47445767@N05/49615051057",
+  "kb": 117
+ },
+ "uptown": {
+  "name": "Uptown",
+  "area": "Charlotte",
+  "file": "/neighborhoods/uptown.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/2332138300",
+  "kb": 45
+ },
+ "south-end": {
+  "name": "South End",
+  "area": "Charlotte",
+  "file": "/neighborhoods/south-end.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/2543370327",
+  "kb": 55
+ },
+ "loso": {
+  "name": "LoSo",
+  "area": "Lower South End",
+  "file": "/neighborhoods/loso.jpg",
+  "creator": "denton.harryman@att.net",
+  "license": "cc0",
+  "license_version": "1.0",
+  "source": "https://www.flickr.com/photos/125583916@N08/51316298088",
+  "kb": 161
+ },
+ "university": {
+  "name": "University",
+  "area": "Northeast Charlotte",
+  "file": "/neighborhoods/university.jpg",
+  "creator": "James Willamor",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/3560120509",
+  "kb": 172
+ },
+ "elizabeth": {
+  "name": "Elizabeth",
+  "area": "Central Charlotte",
+  "file": "/neighborhoods/elizabeth.jpg",
+  "creator": "Bz3rk",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=7105022",
+  "kb": 219
+ },
+ "cornelius": {
+  "name": "Cornelius",
+  "area": "Lake Norman",
+  "file": "/neighborhoods/cornelius.jpg",
+  "creator": "Dough4872",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=80016847",
+  "kb": 106
+ },
+ "davidson": {
+  "name": "Davidson",
+  "area": "North Mecklenburg",
+  "file": "/neighborhoods/davidson.jpg",
+  "creator": "Jim Evans",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Davidson_Penland_House,_Galveston.jpg",
+  "kb": 243
+ },
+ "harrisburg": {
+  "name": "Harrisburg",
+  "area": "Cabarrus County",
+  "file": "/neighborhoods/harrisburg.jpg",
+  "creator": "Harrisburg_11",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Harrisburg_nc.jpg",
+  "kb": 151
+ },
+ "mint-hill": {
+  "name": "Mint Hill",
+  "area": "Southeast metro",
+  "file": "/neighborhoods/mint-hill.jpg",
+  "creator": "Algorhythms",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mint_Hill_City_Hall_%26_Fountain.jpg",
+  "kb": 141
+ },
+ "pineville": {
+  "name": "Pineville",
+  "area": "South Charlotte",
+  "file": "/neighborhoods/pineville.jpg",
+  "creator": "Deshort",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Main_Street,_Pineville_NC.jpg",
+  "kb": 116
+ },
+ "weddington": {
+  "name": "Weddington",
+  "area": "Union County",
+  "file": "/neighborhoods/weddington.jpg",
+  "creator": "Dclemens1971",
+  "license_name": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:All_Saints_Anglican_Church,_Weddington,_North_Carolina_03.jpg",
+  "kb": 154
+ },
+ "indian-trail": {
+  "name": "Indian Trail",
+  "area": "Union County",
+  "file": "/neighborhoods/indian-trail.jpg",
+  "creator": "Abbeynball",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Indian_Trail_Town_Hall_copy.jpg",
+  "kb": 167
+ },
+ "gastonia": {
+  "name": "Gastonia",
+  "area": "Gaston County",
+  "file": "/neighborhoods/gastonia.jpg",
+  "creator": "Caspermichael24",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Downtown_Gastonia_Main_Street.jpg",
+  "kb": 187
+ }
+}

@@ -13,11 +13,14 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
+          50: '#fef4ec',
           300: '#f8b98f',
           400: '#f7a15f',
           500: '#fa8c41',
+          600: '#e0742c',
         },
         navy: {
+          900: '#1b2d5e',
           950: '#132452',
         },
         cream: {
