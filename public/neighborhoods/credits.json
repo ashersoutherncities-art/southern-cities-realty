@@ -822,5 +822,23 @@
   "license_name": "CC BY-SA 3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Mystic_Cottage_(Pinehurst,_North_Carolina)_001.jpg",
   "kb": 323
+ },
+ "kannapolis": {
+  "name": "Kannapolis",
+  "area": "North Carolina",
+  "file": "/neighborhoods/kannapolis.jpg",
+  "creator": "Indy beetle",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Gem_Theater_in_Kannapolis.jpg",
+  "kb": 232
+ },
+ "steele-creek": {
+  "name": "Steele Creek",
+  "area": "North Carolina",
+  "file": "/neighborhoods/steele-creek.jpg",
+  "creator": "HowardMorland",
+  "license_name": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Whitewater_01.jpg",
+  "kb": 276
  }
 }

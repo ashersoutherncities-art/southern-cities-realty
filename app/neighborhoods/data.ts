@@ -158,7 +158,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'steele-creek', name: 'Steele Creek', subtitle: 'Southwest Charlotte', group: 'Charlotte Neighborhoods',
-    image: null,
+    image: '/neighborhoods/steele-creek.jpg',
     about: 'A fast-growing Southwest Charlotte area near the airport and Lake Wylie, with newer neighborhoods, room to spread out, and quick highway access.',
     food: 'Restaurants and everyday dining around Rivergate and the Steele Creek corridor.',
     shops: 'Rivergate shopping center and surrounding retail.',
@@ -213,7 +213,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'kannapolis', name: 'Kannapolis', subtitle: 'Cabarrus County', group: 'North Charlotte',
-    image: null,
+    image: '/neighborhoods/kannapolis.jpg',
     about: 'A Cabarrus County city with a reinvented, walkable downtown, the North Carolina Research Campus, and Atrium Health Ballpark, offering strong value north of Charlotte.',
     food: 'Downtown restaurants and dining around West Avenue and the ballpark.',
     shops: 'Downtown shops and everyday retail.',
