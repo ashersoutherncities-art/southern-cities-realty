@@ -344,7 +344,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'cary', name: 'Cary', subtitle: 'Wake County · The Triangle', region: 'triangle',
-    image: '/neighborhoods/belmont.jpg',
+    image: '/neighborhoods/cary.jpg',
     about: "One of the Triangle’s most sought-after suburbs: top-rated schools, well-planned neighborhoods, parks, and an easy commute across the region.",
     food: 'Downtown Cary’s growing restaurant scene and international dining.',
     shops: 'Downtown Cary, Waverly Place, and nearby retail.',
@@ -353,7 +353,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'apex', name: 'Apex', subtitle: 'Wake County · The Triangle', region: 'triangle',
-    image: null,
+    image: '/neighborhoods/apex.jpg',
     about: 'A booming Wake County town with a charming historic downtown and highly-rated schools, regularly ranked among the best places to live in the country.',
     food: 'Historic downtown Apex restaurants and cafes.',
     shops: 'Downtown Apex shops and Beaver Creek Commons.',
@@ -362,7 +362,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'wake-forest', name: 'Wake Forest', subtitle: 'Wake County · The Triangle', region: 'triangle',
-    image: null,
+    image: '/neighborhoods/wake-forest.jpg',
     about: 'A growing town just north of Raleigh with a historic downtown, strong schools, and newer neighborhoods with an easy commute into the city.',
     food: 'Historic downtown Wake Forest dining and breweries.',
     shops: 'Downtown shops and Wake Forest Crossing.',
@@ -391,7 +391,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'high-point', name: 'High Point', subtitle: 'Guilford County · The Triad', region: 'triad',
-    image: null,
+    image: '/neighborhoods/high-point.jpg',
     about: 'The furniture capital of the world, with strong value, a growing downtown ballpark district, and an easy central-Triad location.',
     food: 'Downtown dining around the ballpark and local favorites.',
     shops: 'The High Point Market showrooms and local retail.',
@@ -400,7 +400,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
   },
   {
     slug: 'kernersville', name: 'Kernersville', subtitle: 'Forsyth County · The Triad', region: 'triad',
-    image: null,
+    image: '/neighborhoods/kernersville.jpg',
     about: 'A friendly town centered between Greensboro and Winston-Salem, offering small-town charm with quick access to both Triad hubs.',
     food: 'Downtown Kernersville restaurants and cafes.',
     shops: 'Downtown shops and everyday retail.',
@@ -418,7 +418,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['hendersonville', 'waynesville', 'brevard'],
   },
   {
-    slug: 'hendersonville', name: 'Hendersonville', subtitle: 'Henderson County · Western NC', region: 'western', image: null,
+    slug: 'hendersonville', name: 'Hendersonville', subtitle: 'Henderson County · Western NC', region: 'western', image: '/neighborhoods/hendersonville.jpg',
     about: 'A charming foothills town south of Asheville, known for its historic Main Street, apple country, and easy access to waterfalls and forests.',
     food: 'Historic Main Street restaurants, cideries, and cafes.',
     shops: 'Downtown Main Street shops and boutiques.',
@@ -434,7 +434,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['blowing-rock', 'lenoir'],
   },
   {
-    slug: 'blowing-rock', name: 'Blowing Rock', subtitle: 'Watauga County · High Country', region: 'western', image: null,
+    slug: 'blowing-rock', name: 'Blowing Rock', subtitle: 'Watauga County · High Country', region: 'western', image: '/neighborhoods/blowing-rock.jpg',
     about: 'A picturesque resort village on the Blue Ridge Parkway, famous for its cool summers, Main Street charm, and mountain scenery.',
     food: 'Village restaurants, cafes, and taverns.',
     shops: 'The walkable Main Street shopping village.',
@@ -442,7 +442,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['boone', 'lenoir'],
   },
   {
-    slug: 'hickory', name: 'Hickory', subtitle: 'Catawba County · Western NC', region: 'western', image: null,
+    slug: 'hickory', name: 'Hickory', subtitle: 'Catawba County · Western NC', region: 'western', image: '/neighborhoods/hickory.jpg',
     about: 'A manufacturing and furniture hub in the western foothills, with a revitalized downtown, lake access, and strong value.',
     food: 'Downtown Hickory restaurants and breweries.',
     shops: 'Downtown shops and area furniture outlets.',
@@ -450,7 +450,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['lenoir', 'asheville'],
   },
   {
-    slug: 'lenoir', name: 'Lenoir', subtitle: 'Caldwell County · Western NC', region: 'western', image: null,
+    slug: 'lenoir', name: 'Lenoir', subtitle: 'Caldwell County · Western NC', region: 'western', image: '/neighborhoods/lenoir.jpg',
     about: 'A foothills town with deep furniture heritage, a walkable downtown square, and quick access to the Blue Ridge and Wilson Creek.',
     food: 'Downtown square restaurants and local spots.',
     shops: 'Downtown shops and local retail.',
@@ -458,7 +458,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['hickory', 'boone'],
   },
   {
-    slug: 'waynesville', name: 'Waynesville', subtitle: 'Haywood County · Western NC', region: 'western', image: null,
+    slug: 'waynesville', name: 'Waynesville', subtitle: 'Haywood County · Western NC', region: 'western', image: '/neighborhoods/waynesville.jpg',
     about: 'A welcoming mountain town west of Asheville, with a lively Main Street and gateway access to the Great Smokies and Blue Ridge Parkway.',
     food: 'Main Street restaurants, breweries, and cafes.',
     shops: 'The walkable Main Street arts-and-crafts shops.',
@@ -466,7 +466,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['asheville', 'brevard'],
   },
   {
-    slug: 'brevard', name: 'Brevard', subtitle: 'Transylvania County · Western NC', region: 'western', image: null,
+    slug: 'brevard', name: 'Brevard', subtitle: 'Transylvania County · Western NC', region: 'western', image: '/neighborhoods/brevard.jpg',
     about: 'The "Land of Waterfalls," a small mountain town beside Pisgah National Forest, known for its music festival and famous white squirrels.',
     food: 'Downtown restaurants, cafes, and breweries.',
     shops: 'Walkable downtown boutiques and outfitters.',

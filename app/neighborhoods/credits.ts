@@ -1,375 +1,76 @@
 // AUTO-GENERATED from public/neighborhoods/credits.json — photo attribution (CC).
 export const PHOTO_CREDITS: {name:string;creator:string;license:string;source:string}[] = [
-  {
-    "name": "Asheville",
-    "creator": "BlakeLewisPhotography",
-    "license": "CC BY-SA 2.0",
-    "source": "https://www.flickr.com/photos/7838598@N06/7253049690"
-  },
-  {
-    "name": "Ballantyne",
-    "creator": "City Dweller 2",
-    "license": "CC",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=144852039"
-  },
-  {
-    "name": "Belmont",
-    "creator": "Cgballer (talk) (Uploads)",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Belmont_NC_HistoricDowntown1.JPG"
-  },
-  {
-    "name": "Biltmore Village",
-    "creator": "Jeremy Thompson",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Biltmore_McDonald%27s,_Asheville_NC_-_exterior.jpg"
-  },
-  {
-    "name": "Boone",
-    "creator": "Jeremy Mikkola from Boone, NC",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=7293478"
-  },
-  {
-    "name": "Brier Creek",
-    "creator": "Ildar Sagdejev (Specious)",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2008-08-01_Corner_of_Brier_Creek_Reservoir.jpg"
-  },
-  {
-    "name": "Chapel Hill",
-    "creator": "Jackpaylor",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=47102980"
-  },
-  {
-    "name": "Concord",
-    "creator": "Dough4872",
-    "license": "CC",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=80045576"
-  },
-  {
-    "name": "Cornelius",
-    "creator": "Dough4872",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=80016847"
-  },
-  {
-    "name": "Davidson",
-    "creator": "Jim Evans",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Davidson_Penland_House,_Galveston.jpg"
-  },
-  {
-    "name": "Dilworth",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/3614989898"
-  },
-  {
-    "name": "Downtown Asheville",
-    "creator": "Jeremy Thompson",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Asheville_North_Carolina_June_2023_-_Pack_Square_towards_Jackson_Building.jpg"
-  },
-  {
-    "name": "Downtown Durham",
-    "creator": "Warren LeMay from Covington, KY, United States",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:American_Tobacco_Campus,_Durham,_NC_(49160940568).jpg"
-  },
-  {
-    "name": "Downtown Raleigh",
-    "creator": "www.fayettevillestreet.com",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fayetteville_Street_during_Winter_2019,_Raleigh,_NC.jpg"
-  },
-  {
-    "name": "Durham",
-    "creator": "James Willamor",
-    "license": "CC BY-SA 2.0",
-    "source": "https://www.flickr.com/photos/81464596@N00/12841763974"
-  },
-  {
-    "name": "Elizabeth",
-    "creator": "Bz3rk",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=7105022"
-  },
-  {
-    "name": "Five Points",
-    "creator": "Monumenteer2014camper",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:TK_Kaffee_and_Eclectic_Eatery,_Five_Points,_Raleigh,_North_Carolina.jpg"
-  },
-  {
-    "name": "Forest Hills",
-    "creator": "Nyttend",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Forest_Hills_Historic_District_in_Indianapolis.jpg"
-  },
-  {
-    "name": "Gastonia",
-    "creator": "Caspermichael24",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Downtown_Gastonia_Main_Street.jpg"
-  },
-  {
-    "name": "Greensboro",
-    "creator": "Beyonce245 of English Wikipedia.",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Greensboro_Skyline.jpg"
-  },
-  {
-    "name": "Harrisburg",
-    "creator": "Harrisburg_11",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Harrisburg_nc.jpg"
-  },
-  {
-    "name": "Hatteras",
-    "creator": "Kip Robinson",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=71986847"
-  },
-  {
-    "name": "Historic Oakwood",
-    "creator": "Mx. Granger",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Oakwood_Historic_District_-_corner_of_Person_St_and_Jones_St.jpg"
-  },
-  {
-    "name": "Hope Valley",
-    "creator": "Willthacheerleader18",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Front_of_Hope_Valley_Country_Club.jpg"
-  },
-  {
-    "name": "Huntersville",
-    "creator": "Brett VA",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/23351990@N03/5488719295"
-  },
-  {
-    "name": "Indian Trail",
-    "creator": "Abbeynball",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Indian_Trail_Town_Hall_copy.jpg"
-  },
-  {
-    "name": "LoSo",
-    "creator": "denton.harryman@att.net",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/125583916@N08/51316298088"
-  },
-  {
-    "name": "Matthews",
-    "creator": "Jon Platek",
-    "license": "CC",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=15745274"
-  },
-  {
-    "name": "Midtown",
-    "creator": "Southern Cities Realty",
-    "license": "Original photo (Southern Cities Realty)",
-    "source": ""
-  },
-  {
-    "name": "Mint Hill",
-    "creator": "Algorhythms",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mint_Hill_City_Hall_%26_Fountain.jpg"
-  },
-  {
-    "name": "Montford",
-    "creator": "Karen D. Hoffman",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Homewood_School_Building,_Zillicoa_St.,_Montford_Area.JPG"
-  },
-  {
-    "name": "Mooresville",
-    "creator": "James St. John",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/47445767@N05/49615051057"
-  },
-  {
-    "name": "Myers Park",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/3740106962"
-  },
-  {
-    "name": "New Bern",
-    "creator": "Tradewinds",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:New_Bern_Historic_District.JPG"
-  },
-  {
-    "name": "NoDa",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/3418959774"
-  },
-  {
-    "name": "North Asheville",
-    "creator": "Southern Post Card Co., Asheville, North Carolina",
-    "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Approach_to_Grove_Park_Inn.jpg"
-  },
-  {
-    "name": "North Hills",
-    "creator": "James Willamor",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:North_Hills_-_panoramio.jpg"
-  },
-  {
-    "name": "Old West Durham",
-    "creator": "Warren LeMay from Covington, KY, United States",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:9th_Street,_Old_West_Durham,_Durham,_NC_(49139665428).jpg"
-  },
-  {
-    "name": "Pineville",
-    "creator": "Deshort",
-    "license": "CC BY-SA 3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Main_Street,_Pineville_NC.jpg"
-  },
-  {
-    "name": "Plaza Midwood",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/3629138910"
-  },
-  {
-    "name": "Raleigh",
-    "creator": "James Willamor",
-    "license": "CC BY-SA 2.0",
-    "source": "https://www.flickr.com/photos/81464596@N00/13139075614"
-  },
-  {
-    "name": "River Arts District",
-    "creator": "Jonathan Geiger",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:River_Arts_District,_Asheville,_NC.jpg"
-  },
-  {
-    "name": "South Durham",
-    "creator": "Rafi B. from Somewhere in Texas :)",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fountain_at_Southpoint_Mall_Durham,_NC.jpg"
-  },
-  {
-    "name": "South End",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/2543370327"
-  },
-  {
-    "name": "SouthPark",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/2452606815"
-  },
-  {
-    "name": "Trinity Park",
-    "creator": "Warren LeMay from Covington, KY, United States",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Buchanan_Boulevard,_Trinity_Park,_Durham,_NC_(49140375761).jpg"
-  },
-  {
-    "name": "University",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/3560120509"
-  },
-  {
-    "name": "Uptown",
-    "creator": "James Willamor",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/81464596@N00/2332138300"
-  },
-  {
-    "name": "Village District",
-    "creator": "State Archives of North Carolina",
-    "license": "No restrictions",
-    "source": "https://commons.wikimedia.org/wiki/File:Cameron_Village_(21517941983).jpg"
-  },
-  {
-    "name": "Waxhaw",
-    "creator": "Indy beetle",
-    "license": "CC",
-    "source": "https://commons.wikimedia.org/w/index.php?curid=146044973"
-  },
-  {
-    "name": "Weddington",
-    "creator": "Dclemens1971",
-    "license": "CC BY 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:All_Saints_Anglican_Church,_Weddington,_North_Carolina_03.jpg"
-  },
-  {
-    "name": "West Asheville",
-    "creator": "w_lemay",
-    "license": "CC0",
-    "source": "https://commons.wikimedia.org/wiki/File:Haywood_Road,_West_Asheville,_Asheville,_NC_-_31785586467.jpg"
-  },
-  {
-    "name": "Wilmington",
-    "creator": "James Willamor",
-    "license": "CC BY-SA 2.0",
-    "source": "https://www.flickr.com/photos/81464596@N00/10566705125"
-  },
-  {
-    "name": "Winston-Salem",
-    "creator": "James Willamor",
-    "license": "CC BY-SA 2.0",
-    "source": "https://www.flickr.com/photos/81464596@N00/2331354877"
-  },
-  {
-    "name": "quiz-home-eclectic",
-    "creator": "sergejf",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/7942389@N04/4716322296"
-  },
-  {
-    "name": "quiz-home-historic",
-    "creator": "taberandrew",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/88442983@N00/775761672"
-  },
-  {
-    "name": "quiz-home-modern",
-    "creator": "pnwra",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/17573364@N00/814299833"
-  },
-  {
-    "name": "quiz-home-upscale",
-    "creator": "dbking",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/65193799@N00/38194590"
-  },
-  {
-    "name": "quiz-wknd-historic",
-    "creator": "Brett VA",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/23351990@N03/2282056253"
-  },
-  {
-    "name": "quiz-wknd-music",
-    "creator": "Taylor Ramos",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/23724456@N04/2726719565"
-  },
-  {
-    "name": "quiz-wknd-shopping",
-    "creator": "Dominic's pics",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/64097751@N00/1135876473"
-  },
-  {
-    "name": "quiz-wknd-water",
-    "creator": "Richard Elzey",
-    "license": "CC",
-    "source": "https://www.flickr.com/photos/54602205@N00/8665164581"
-  }
+  {"name": "", "creator": "taberandrew", "license": "", "source": "https://www.flickr.com/photos/88442983@N00/775761672"},
+  {"name": "", "creator": "pnwra", "license": "", "source": "https://www.flickr.com/photos/17573364@N00/814299833"},
+  {"name": "", "creator": "sergejf", "license": "", "source": "https://www.flickr.com/photos/7942389@N04/4716322296"},
+  {"name": "", "creator": "Taylor Ramos", "license": "", "source": "https://www.flickr.com/photos/23724456@N04/2726719565"},
+  {"name": "", "creator": "Dominic's pics", "license": "", "source": "https://www.flickr.com/photos/64097751@N00/1135876473"},
+  {"name": "", "creator": "Brett VA", "license": "", "source": "https://www.flickr.com/photos/23351990@N03/2282056253"},
+  {"name": "", "creator": "dbking", "license": "", "source": "https://www.flickr.com/photos/65193799@N00/38194590"},
+  {"name": "", "creator": "Richard Elzey", "license": "", "source": "https://www.flickr.com/photos/54602205@N00/8665164581"},
+  {"name": "Apex", "creator": "Pithon314", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Apex_Downtown_2025.jpg"},
+  {"name": "Asheville", "creator": "BlakeLewisPhotography", "license": "CC BY-SA 2.0", "source": "https://www.flickr.com/photos/7838598@N06/7253049690"},
+  {"name": "Ballantyne", "creator": "City Dweller 2", "license": "", "source": "https://commons.wikimedia.org/w/index.php?curid=144852039"},
+  {"name": "Belmont", "creator": "Cgballer (talk) (Uploads)", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Belmont_NC_HistoricDowntown1.JPG"},
+  {"name": "Biltmore Village", "creator": "Jeremy Thompson", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Biltmore_McDonald%27s,_Asheville_NC_-_exterior.jpg"},
+  {"name": "Blowing Rock", "creator": "Fjmustak", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Blowing_Rock_North_Carolina.jpg"},
+  {"name": "Boone", "creator": "Jeremy Mikkola from Boone, NC", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/w/index.php?curid=7293478"},
+  {"name": "Brevard", "creator": "Harrison Keely", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Aerial_of_downtown_Brevard,_North_Carolina,_in_Transylvania_County_04.jpg"},
+  {"name": "Brier Creek", "creator": "Ildar Sagdejev (Specious)", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:2008-08-01_Corner_of_Brier_Creek_Reservoir.jpg"},
+  {"name": "Cary", "creator": "Reverie 39", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Carycenter.png"},
+  {"name": "Chapel Hill", "creator": "Jackpaylor", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/w/index.php?curid=47102980"},
+  {"name": "Concord", "creator": "Dough4872", "license": "", "source": "https://commons.wikimedia.org/w/index.php?curid=80045576"},
+  {"name": "Cornelius", "creator": "Dough4872", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/w/index.php?curid=80016847"},
+  {"name": "Davidson", "creator": "Jim Evans", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Davidson_Penland_House,_Galveston.jpg"},
+  {"name": "Dilworth", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/3614989898"},
+  {"name": "Downtown Asheville", "creator": "Jeremy Thompson", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Asheville_North_Carolina_June_2023_-_Pack_Square_towards_Jackson_Building.jpg"},
+  {"name": "Downtown Durham", "creator": "Warren LeMay from Covington, KY, United States", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:American_Tobacco_Campus,_Durham,_NC_(49160940568).jpg"},
+  {"name": "Downtown Raleigh", "creator": "www.fayettevillestreet.com", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Fayetteville_Street_during_Winter_2019,_Raleigh,_NC.jpg"},
+  {"name": "Durham", "creator": "James Willamor", "license": "CC BY-SA 2.0", "source": "https://www.flickr.com/photos/81464596@N00/12841763974"},
+  {"name": "Elizabeth", "creator": "Bz3rk", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/w/index.php?curid=7105022"},
+  {"name": "Five Points", "creator": "Monumenteer2014camper", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:TK_Kaffee_and_Eclectic_Eatery,_Five_Points,_Raleigh,_North_Carolina.jpg"},
+  {"name": "Forest Hills", "creator": "Nyttend", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Forest_Hills_Historic_District_in_Indianapolis.jpg"},
+  {"name": "Gastonia", "creator": "Caspermichael24", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Downtown_Gastonia_Main_Street.jpg"},
+  {"name": "Greensboro", "creator": "Beyonce245 of English Wikipedia.", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Greensboro_Skyline.jpg"},
+  {"name": "Harrisburg", "creator": "Harrisburg_11", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Harrisburg_nc.jpg"},
+  {"name": "Hatteras", "creator": "Kip Robinson", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/w/index.php?curid=71986847"},
+  {"name": "Hendersonville", "creator": "Pollinator", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Hendersonville_downtown_9230.JPG"},
+  {"name": "Hickory", "creator": "Tylerg", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Hickory_Southwest_Downtown_Historic_District_Hickory_NC.jpg"},
+  {"name": "High Point", "creator": "Exwhysee", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Downtown_High_Point,_NC.jpg"},
+  {"name": "Historic Oakwood", "creator": "Mx. Granger", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Oakwood_Historic_District_-_corner_of_Person_St_and_Jones_St.jpg"},
+  {"name": "Hope Valley", "creator": "Willthacheerleader18", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Front_of_Hope_Valley_Country_Club.jpg"},
+  {"name": "Huntersville", "creator": "Brett VA", "license": "", "source": "https://www.flickr.com/photos/23351990@N03/5488719295"},
+  {"name": "Indian Trail", "creator": "Abbeynball", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Indian_Trail_Town_Hall_copy.jpg"},
+  {"name": "Kernersville", "creator": "Upstateherd", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Korner%27s_Folly_-_Kernersville.jpg"},
+  {"name": "Lenoir", "creator": "Ken Thomas", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Lenoir_Main_Street-27527.jpg"},
+  {"name": "LoSo", "creator": "denton.harryman@att.net", "license": "", "source": "https://www.flickr.com/photos/125583916@N08/51316298088"},
+  {"name": "Matthews", "creator": "Jon Platek", "license": "", "source": "https://commons.wikimedia.org/w/index.php?curid=15745274"},
+  {"name": "Midtown", "creator": "Southern Cities Realty", "license": "Original photo (Southern Cities Realty)", "source": ""},
+  {"name": "Mint Hill", "creator": "Algorhythms", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mint_Hill_City_Hall_%26_Fountain.jpg"},
+  {"name": "Montford", "creator": "Karen D. Hoffman", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Homewood_School_Building,_Zillicoa_St.,_Montford_Area.JPG"},
+  {"name": "Mooresville", "creator": "James St. John", "license": "", "source": "https://www.flickr.com/photos/47445767@N05/49615051057"},
+  {"name": "Myers Park", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/3740106962"},
+  {"name": "New Bern", "creator": "Tradewinds", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:New_Bern_Historic_District.JPG"},
+  {"name": "NoDa", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/3418959774"},
+  {"name": "North Asheville", "creator": "Southern Post Card Co., Asheville, North Carolina ", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Approach_to_Grove_Park_Inn.jpg"},
+  {"name": "North Hills", "creator": "James Willamor", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:North_Hills_-_panoramio.jpg"},
+  {"name": "Old West Durham", "creator": "Warren LeMay from Covington, KY, United States", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:9th_Street,_Old_West_Durham,_Durham,_NC_(49139665428).jpg"},
+  {"name": "Pineville", "creator": "Deshort", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Main_Street,_Pineville_NC.jpg"},
+  {"name": "Plaza Midwood", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/3629138910"},
+  {"name": "Raleigh", "creator": "James Willamor", "license": "CC BY-SA 2.0", "source": "https://www.flickr.com/photos/81464596@N00/13139075614"},
+  {"name": "River Arts District", "creator": "Jonathan Geiger", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:River_Arts_District,_Asheville,_NC.jpg"},
+  {"name": "South Durham", "creator": "Rafi B. from Somewhere in Texas :)", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Fountain_at_Southpoint_Mall_Durham,_NC.jpg"},
+  {"name": "South End", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/2543370327"},
+  {"name": "SouthPark", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/2452606815"},
+  {"name": "Trinity Park", "creator": "Warren LeMay from Covington, KY, United States", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Buchanan_Boulevard,_Trinity_Park,_Durham,_NC_(49140375761).jpg"},
+  {"name": "University", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/3560120509"},
+  {"name": "Uptown", "creator": "James Willamor", "license": "", "source": "https://www.flickr.com/photos/81464596@N00/2332138300"},
+  {"name": "Village District", "creator": "State Archives of North Carolina", "license": "No restrictions", "source": "https://commons.wikimedia.org/wiki/File:Cameron_Village_(21517941983).jpg"},
+  {"name": "Wake Forest", "creator": "Rysnap1024", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Wake_forest_nc_downtown.jpg"},
+  {"name": "Waxhaw", "creator": "Indy beetle", "license": "", "source": "https://commons.wikimedia.org/w/index.php?curid=146044973"},
+  {"name": "Waynesville", "creator": "Lawrenceoftyrone", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Historic_Main_Street_Waynesville.JPG"},
+  {"name": "Weddington", "creator": "Dclemens1971", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:All_Saints_Anglican_Church,_Weddington,_North_Carolina_03.jpg"},
+  {"name": "West Asheville", "creator": "w_lemay", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Haywood_Road,_West_Asheville,_Asheville,_NC_-_31785586467.jpg"},
+  {"name": "Wilmington", "creator": "James Willamor", "license": "CC BY-SA 2.0", "source": "https://www.flickr.com/photos/81464596@N00/10566705125"},
+  {"name": "Winston-Salem", "creator": "James Willamor", "license": "CC BY-SA 2.0", "source": "https://www.flickr.com/photos/81464596@N00/2331354877"},
 ]

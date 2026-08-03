@@ -579,5 +579,104 @@
   "license_name": "Original photo (Southern Cities Realty)",
   "source": "",
   "kb": 421
+ },
+ "apex": {
+  "name": "Apex",
+  "area": "North Carolina",
+  "file": "/neighborhoods/apex.jpg",
+  "creator": "Pithon314",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Apex_Downtown_2025.jpg",
+  "kb": 184
+ },
+ "blowing-rock": {
+  "name": "Blowing Rock",
+  "area": "North Carolina",
+  "file": "/neighborhoods/blowing-rock.jpg",
+  "creator": "Fjmustak",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Blowing_Rock_North_Carolina.jpg",
+  "kb": 361
+ },
+ "brevard": {
+  "name": "Brevard",
+  "area": "North Carolina",
+  "file": "/neighborhoods/brevard.jpg",
+  "creator": "Harrison Keely",
+  "license_name": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Aerial_of_downtown_Brevard,_North_Carolina,_in_Transylvania_County_04.jpg",
+  "kb": 446
+ },
+ "hendersonville": {
+  "name": "Hendersonville",
+  "area": "North Carolina",
+  "file": "/neighborhoods/hendersonville.jpg",
+  "creator": "Pollinator",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hendersonville_downtown_9230.JPG",
+  "kb": 340
+ },
+ "kernersville": {
+  "name": "Kernersville",
+  "area": "North Carolina",
+  "file": "/neighborhoods/kernersville.jpg",
+  "creator": "Upstateherd",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Korner%27s_Folly_-_Kernersville.jpg",
+  "kb": 320
+ },
+ "lenoir": {
+  "name": "Lenoir",
+  "area": "North Carolina",
+  "file": "/neighborhoods/lenoir.jpg",
+  "creator": "Ken Thomas",
+  "license_name": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Lenoir_Main_Street-27527.jpg",
+  "kb": 226
+ },
+ "wake-forest": {
+  "name": "Wake Forest",
+  "area": "North Carolina",
+  "file": "/neighborhoods/wake-forest.jpg",
+  "creator": "Rysnap1024",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Wake_forest_nc_downtown.jpg",
+  "kb": 322
+ },
+ "cary": {
+  "name": "Cary",
+  "area": "North Carolina",
+  "file": "/neighborhoods/cary.jpg",
+  "creator": "Reverie 39",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Carycenter.png",
+  "kb": 166
+ },
+ "hickory": {
+  "name": "Hickory",
+  "area": "North Carolina",
+  "file": "/neighborhoods/hickory.jpg",
+  "creator": "Tylerg",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hickory_Southwest_Downtown_Historic_District_Hickory_NC.jpg",
+  "kb": 170
+ },
+ "high-point": {
+  "name": "High Point",
+  "area": "North Carolina",
+  "file": "/neighborhoods/high-point.jpg",
+  "creator": "Exwhysee",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Downtown_High_Point,_NC.jpg",
+  "kb": 185
+ },
+ "waynesville": {
+  "name": "Waynesville",
+  "area": "North Carolina",
+  "file": "/neighborhoods/waynesville.jpg",
+  "creator": "Lawrenceoftyrone",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Historic_Main_Street_Waynesville.JPG",
+  "kb": 210
  }
 }
