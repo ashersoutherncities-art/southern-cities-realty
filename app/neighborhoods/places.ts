@@ -28,7 +28,7 @@ export const PLACES: Record<string, Places> = {
     ],
   },
   'south-end': {
-    eat: ['Sycamore Brewing', 'Wooden Robot Brewery', 'The Suffolk Punch'],
+    eat: ['Wooden Robot Brewery', 'The Suffolk Punch'],
     coffee: ['Not Just Coffee (Atherton Mill)'],
     parks: ['Charlotte Rail Trail'],
     shopping: ['Atherton Mill', 'Charlotte Design District'],
@@ -47,12 +47,17 @@ export const PLACES: Record<string, Places> = {
     shopping: ['SouthPark (nearby)'],
     entertainment: ['Queens Road willow-oak canopy'],
   },
+  midtown: {
+    eat: ["Mama Ricotta's · a beloved Charlotte Italian institution", "Dressler's · upscale steaks and seafood", 'Pizzeria Omaggio · wood-fired Neapolitan pizza', 'Lost World Brewing · neighborhood brewery and taproom'],
+    parks: ['Little Sugar Creek Greenway · the scenic urban trail with the fountains', 'Midtown Park · pickleball courts and green space'],
+    shopping: ["The Metropolitan · Target, Trader Joe's, and Marshalls"],
+  },
   'plaza-midwood': {
-    eat: ['Soul Gastrolounge', "Zada Jane's", 'The Common Market'],
-    coffee: ['Central Coffee Co.'],
+    eat: ['Supperland · Southern dining in a restored church', 'Uchi · acclaimed upscale sushi', 'Soul Gastrolounge · tapas, sushi, and rooftop energy', 'Prosecceria · Italian small plates and prosecco', 'Papi Ricko · Latin American eats', 'Dish · Southern comfort classics', "Zada Jane's · neighborhood brunch"],
+    coffee: ['Giddy Goat Coffee · cozy neighborhood coffeehouse', 'Central Coffee Co.'],
     parks: ['Veterans Park'],
-    shopping: ['Central Avenue vintage & boutiques'],
-    entertainment: ['Resident Culture Brewing', 'Snug Harbor', 'Petra’s'],
+    shopping: ['2nd Street thrift store · vintage and thrift finds', 'Central Avenue boutiques'],
+    entertainment: ['Resident Culture Brewing', "Workman's Friend · Irish pub", 'Snug Harbor · dive-y live music', 'The Common Market · part deli, part bar'],
   },
   noda: {
     eat: ['Cabo Fish Taco', 'Crepe Cellar', 'Haberdish'],

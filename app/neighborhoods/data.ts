@@ -5,15 +5,30 @@ export type Neighborhood = {
   slug: string
   name: string
   subtitle: string
-  group: (typeof GROUPS)[number]
+  group?: (typeof GROUPS)[number]
   image: string | null
   about: string
   food: string
   shops: string
   thingsToDo: string
   nearby: string[]
+  // Region slug (regions.ts). Defaults to 'charlotte' when omitted.
+  region?: string
+  // Parent hub city slug (e.g. 'raleigh'). When a city area has children, its
+  // page renders like a hub (neighborhood grid + quiz), like Charlotte.
+  parent?: string
 }
 
+export function areaRegion(n: Neighborhood): string {
+  return n.region || 'charlotte'
+}
+
+export function childrenOf(slug: string): Neighborhood[] {
+  return NEIGHBORHOODS.filter((n) => n.parent === slug)
+}
+
+// Charlotte-region sub-groups (used by the deep Charlotte page). Statewide regions
+// live in regions.ts (the single source of truth for the "Areas We Serve" model).
 export const GROUPS = [
   'Charlotte Neighborhoods',
   'North Charlotte',
@@ -59,6 +74,15 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     shops: 'Boutiques and local shops along East Boulevard.',
     thingsToDo: 'Freedom Park and Latta Park, plus the greenway and easy access to the city.',
     nearby: ['myers-park', 'south-end', 'elizabeth'],
+  },
+  {
+    slug: 'midtown', name: 'Midtown', subtitle: 'Charlotte', group: 'Charlotte Neighborhoods',
+    image: '/neighborhoods/midtown.jpg',
+    about: "Charlotte's Midtown sits between Uptown and Dilworth along the Little Sugar Creek Greenway: a walkable, modern pocket anchored by the Metropolitan's shops and restaurants, with parks, pickleball, and quick access to everything.",
+    food: 'A dense mix of Charlotte favorites, from longtime Italian to steakhouses and a neighborhood brewery.',
+    shops: "The Metropolitan (Target, Trader Joe's, Marshalls) and everyday retail along Kings Drive.",
+    thingsToDo: 'The Little Sugar Creek Greenway, pickleball and green space at Midtown Park, and shopping at the Metropolitan.',
+    nearby: ['dilworth', 'elizabeth', 'uptown'],
   },
   {
     slug: 'myers-park', name: 'Myers Park', subtitle: 'Central Charlotte', group: 'Charlotte Neighborhoods',
@@ -278,7 +302,518 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     food: 'Downtown Gastonia restaurants and breweries along the Franklin corridor and the FUSE district.',
     shops: 'Downtown shops and everyday retail, with more along Franklin Boulevard.',
     thingsToDo: 'Minor-league baseball at CaroMont Health Park, the Schiele Museum, Crowders Mountain State Park, and Daniel Stowe Botanical Garden nearby.',
-    nearby: ['steele-creek', 'uptown'],
+    nearby: ['belmont', 'steele-creek', 'uptown'],
+  },
+  {
+    slug: 'belmont', name: 'Belmont', subtitle: 'Gaston County', group: 'Gaston County',
+    image: '/neighborhoods/belmont.jpg',
+    about: 'A fast-growing, charming Gaston County town just west of Charlotte across the Catawba River, known for its walkable historic Main Street, Belmont Abbey College, and quick access to the U.S. National Whitewater Center.',
+    food: 'Downtown Main Street restaurants, breweries, and cafes.',
+    shops: 'Historic downtown Main Street shops and boutiques.',
+    thingsToDo: 'Historic downtown Belmont, the Daniel Stowe Botanical Garden, and the U.S. National Whitewater Center nearby.',
+    nearby: ['gastonia', 'steele-creek'],
+  },
+
+  // ================= TRIANGLE (Raleigh–Durham) =================
+  {
+    slug: 'raleigh', name: 'Raleigh', subtitle: 'Wake County · The Triangle', region: 'triangle',
+    image: '/neighborhoods/raleigh.jpg',
+    about: "North Carolina's capital and the heart of the Triangle. A fast-growing city with a walkable downtown, major universities, a strong job market, and an abundance of parks and greenways.",
+    food: 'A deep downtown and Warehouse District dining scene, breweries, and food halls.',
+    shops: 'Downtown boutiques, North Hills, and major retail across the city.',
+    thingsToDo: 'The North Carolina Museum of Art, historic Pullen Park, PNC Arena, and the state museums downtown.',
+    nearby: ['durham', 'cary', 'wake-forest'],
+  },
+  {
+    slug: 'durham', name: 'Durham', subtitle: 'Durham County · The Triangle', region: 'triangle',
+    image: '/neighborhoods/durham.jpg',
+    about: 'Home to Duke University and a nationally celebrated food-and-arts scene, anchored by the revitalized American Tobacco district and a lively, creative downtown.',
+    food: 'One of the South’s best food cities, with acclaimed restaurants and the American Tobacco Campus.',
+    shops: 'Downtown shops, Brightleaf Square, and local markets.',
+    thingsToDo: 'Duke University and Duke Gardens, the Durham Bulls at Durham Bulls Athletic Park, and the Museum of Life and Science.',
+    nearby: ['raleigh', 'chapel-hill', 'cary'],
+  },
+  {
+    slug: 'chapel-hill', name: 'Chapel Hill', subtitle: 'Orange County · The Triangle', region: 'triangle',
+    image: '/neighborhoods/chapel-hill.jpg',
+    about: 'A classic college town built around UNC, with Franklin Street’s shops and restaurants, leafy neighborhoods, and a tight-knit, walkable feel.',
+    food: 'Franklin Street restaurants, cafes, and long-standing local institutions.',
+    shops: 'Franklin Street boutiques and University Place.',
+    thingsToDo: 'UNC athletics, the North Carolina Botanical Garden, and the Morehead Planetarium.',
+    nearby: ['durham', 'cary', 'raleigh'],
+  },
+  {
+    slug: 'cary', name: 'Cary', subtitle: 'Wake County · The Triangle', region: 'triangle',
+    image: '/neighborhoods/belmont.jpg',
+    about: "One of the Triangle’s most sought-after suburbs: top-rated schools, well-planned neighborhoods, parks, and an easy commute across the region.",
+    food: 'Downtown Cary’s growing restaurant scene and international dining.',
+    shops: 'Downtown Cary, Waverly Place, and nearby retail.',
+    thingsToDo: 'Bond Park, Koka Booth Amphitheatre, and the USA Baseball National Training Complex.',
+    nearby: ['apex', 'raleigh', 'chapel-hill'],
+  },
+  {
+    slug: 'apex', name: 'Apex', subtitle: 'Wake County · The Triangle', region: 'triangle',
+    image: null,
+    about: 'A booming Wake County town with a charming historic downtown and highly-rated schools, regularly ranked among the best places to live in the country.',
+    food: 'Historic downtown Apex restaurants and cafes.',
+    shops: 'Downtown Apex shops and Beaver Creek Commons.',
+    thingsToDo: 'Historic downtown Apex, the American Tobacco Trail, and nearby Jordan Lake.',
+    nearby: ['cary', 'raleigh'],
+  },
+  {
+    slug: 'wake-forest', name: 'Wake Forest', subtitle: 'Wake County · The Triangle', region: 'triangle',
+    image: null,
+    about: 'A growing town just north of Raleigh with a historic downtown, strong schools, and newer neighborhoods with an easy commute into the city.',
+    food: 'Historic downtown Wake Forest dining and breweries.',
+    shops: 'Downtown shops and Wake Forest Crossing.',
+    thingsToDo: 'E. Carroll Joyner Park, the Wake Forest Renaissance Centre, and historic downtown.',
+    nearby: ['raleigh', 'durham'],
+  },
+
+  // ================= TRIAD (Greensboro–Winston-Salem) =================
+  {
+    slug: 'greensboro', name: 'Greensboro', subtitle: 'Guilford County · The Triad', region: 'triad',
+    image: '/neighborhoods/greensboro.jpg',
+    about: 'The largest city in the Triad, with a walkable downtown, several universities, extensive parks and greenways, and affordable, characterful neighborhoods.',
+    food: 'Downtown restaurants, breweries, and a growing local food scene.',
+    shops: 'Friendly Center, downtown boutiques, and major retail.',
+    thingsToDo: 'The Greensboro Science Center, downtown’s LeBauer Park, and Wet’n Wild Emerald Pointe.',
+    nearby: ['winston-salem', 'high-point'],
+  },
+  {
+    slug: 'winston-salem', name: 'Winston-Salem', subtitle: 'Forsyth County · The Triad', region: 'triad',
+    image: '/neighborhoods/winston-salem.jpg',
+    about: "The 'City of Arts and Innovation,' known for its historic Old Salem district, thriving arts scene, universities, and a revitalized downtown.",
+    food: 'Downtown restaurants, breweries, and the Innovation Quarter.',
+    shops: 'Downtown shops, Reynolda Village, and Thruway retail.',
+    thingsToDo: 'Old Salem, the Reynolda House Museum of American Art, and Kaleideum.',
+    nearby: ['greensboro', 'kernersville', 'high-point'],
+  },
+  {
+    slug: 'high-point', name: 'High Point', subtitle: 'Guilford County · The Triad', region: 'triad',
+    image: null,
+    about: 'The furniture capital of the world, with strong value, a growing downtown ballpark district, and an easy central-Triad location.',
+    food: 'Downtown dining around the ballpark and local favorites.',
+    shops: 'The High Point Market showrooms and local retail.',
+    thingsToDo: 'The High Point Market, Rockers baseball at Truist Point, and city parks.',
+    nearby: ['greensboro', 'winston-salem'],
+  },
+  {
+    slug: 'kernersville', name: 'Kernersville', subtitle: 'Forsyth County · The Triad', region: 'triad',
+    image: null,
+    about: 'A friendly town centered between Greensboro and Winston-Salem, offering small-town charm with quick access to both Triad hubs.',
+    food: 'Downtown Kernersville restaurants and cafes.',
+    shops: 'Downtown shops and everyday retail.',
+    thingsToDo: 'Historic Körner’s Folly, Fourth of July festivals, and town parks.',
+    nearby: ['winston-salem', 'greensboro'],
+  },
+
+  // ================= WESTERN NC (Asheville & the Mountains) =================
+  {
+    slug: 'asheville', name: 'Asheville', subtitle: 'Buncombe County · Western NC', region: 'western', image: '/neighborhoods/asheville.jpg',
+    about: 'The cultural capital of the Blue Ridge: a walkable, artsy mountain city known for its food-and-brewery scene, historic architecture, and stunning mountain surroundings.',
+    food: "One of the South's top food-and-brewery destinations, from downtown to the River Arts District.",
+    shops: 'Downtown boutiques, galleries, and the River Arts District studios.',
+    thingsToDo: 'The Biltmore Estate, the Blue Ridge Parkway, the River Arts District, and downtown’s galleries and breweries.',
+    nearby: ['hendersonville', 'waynesville', 'brevard'],
+  },
+  {
+    slug: 'hendersonville', name: 'Hendersonville', subtitle: 'Henderson County · Western NC', region: 'western', image: null,
+    about: 'A charming foothills town south of Asheville, known for its historic Main Street, apple country, and easy access to waterfalls and forests.',
+    food: 'Historic Main Street restaurants, cideries, and cafes.',
+    shops: 'Downtown Main Street shops and boutiques.',
+    thingsToDo: 'Historic Main Street, apple orchards, and nearby DuPont State Recreational Forest.',
+    nearby: ['asheville', 'brevard'],
+  },
+  {
+    slug: 'boone', name: 'Boone', subtitle: 'Watauga County · High Country', region: 'western', image: '/neighborhoods/boone.jpg',
+    about: 'A lively mountain college town at the heart of the High Country, home to Appalachian State University and gateway to hiking, skiing, and the Blue Ridge.',
+    food: 'King Street restaurants, breweries, and college-town favorites.',
+    shops: 'Historic King Street shops and outfitters.',
+    thingsToDo: 'Appalachian State University, King Street, and Blue Ridge hiking and skiing.',
+    nearby: ['blowing-rock', 'lenoir'],
+  },
+  {
+    slug: 'blowing-rock', name: 'Blowing Rock', subtitle: 'Watauga County · High Country', region: 'western', image: null,
+    about: 'A picturesque resort village on the Blue Ridge Parkway, famous for its cool summers, Main Street charm, and mountain scenery.',
+    food: 'Village restaurants, cafes, and taverns.',
+    shops: 'The walkable Main Street shopping village.',
+    thingsToDo: 'The Blowing Rock overlook, Moses H. Cone Memorial Park, and Tweetsie Railroad.',
+    nearby: ['boone', 'lenoir'],
+  },
+  {
+    slug: 'hickory', name: 'Hickory', subtitle: 'Catawba County · Western NC', region: 'western', image: null,
+    about: 'A manufacturing and furniture hub in the western foothills, with a revitalized downtown, lake access, and strong value.',
+    food: 'Downtown Hickory restaurants and breweries.',
+    shops: 'Downtown shops and area furniture outlets.',
+    thingsToDo: 'Downtown Hickory, Lake Hickory, and Crawdads baseball at L.P. Frans Stadium.',
+    nearby: ['lenoir', 'asheville'],
+  },
+  {
+    slug: 'lenoir', name: 'Lenoir', subtitle: 'Caldwell County · Western NC', region: 'western', image: null,
+    about: 'A foothills town with deep furniture heritage, a walkable downtown square, and quick access to the Blue Ridge and Wilson Creek.',
+    food: 'Downtown square restaurants and local spots.',
+    shops: 'Downtown shops and local retail.',
+    thingsToDo: 'The foothills, Wilson Creek, and a walkable downtown square.',
+    nearby: ['hickory', 'boone'],
+  },
+  {
+    slug: 'waynesville', name: 'Waynesville', subtitle: 'Haywood County · Western NC', region: 'western', image: null,
+    about: 'A welcoming mountain town west of Asheville, with a lively Main Street and gateway access to the Great Smokies and Blue Ridge Parkway.',
+    food: 'Main Street restaurants, breweries, and cafes.',
+    shops: 'The walkable Main Street arts-and-crafts shops.',
+    thingsToDo: 'Historic Main Street and gateway access to the Great Smoky Mountains and Blue Ridge Parkway.',
+    nearby: ['asheville', 'brevard'],
+  },
+  {
+    slug: 'brevard', name: 'Brevard', subtitle: 'Transylvania County · Western NC', region: 'western', image: null,
+    about: 'The "Land of Waterfalls," a small mountain town beside Pisgah National Forest, known for its music festival and famous white squirrels.',
+    food: 'Downtown restaurants, cafes, and breweries.',
+    shops: 'Walkable downtown boutiques and outfitters.',
+    thingsToDo: 'Pisgah National Forest waterfalls, the Brevard Music Center, and downtown’s white squirrels.',
+    nearby: ['asheville', 'hendersonville'],
+  },
+
+  // ================= WILMINGTON & THE COAST =================
+  {
+    slug: 'wilmington', name: 'Wilmington', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: '/neighborhoods/wilmington.jpg',
+    about: 'A historic port city on the Cape Fear River, with a beautiful downtown Riverwalk, a thriving film industry, a university, and beaches just minutes away.',
+    food: 'Riverfront and downtown restaurants, seafood, and a growing culinary scene.',
+    shops: 'Downtown boutiques, The Cotton Exchange, and Mayfaire.',
+    thingsToDo: 'The Riverwalk, the historic downtown, the Battleship USS North Carolina, and UNCW.',
+    nearby: ['wrightsville-beach', 'carolina-beach', 'leland'],
+  },
+  {
+    slug: 'wrightsville-beach', name: 'Wrightsville Beach', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: null,
+    about: 'A classic barrier-island beach town just east of Wilmington, known for surfing, paddleboarding, and its walkable, laid-back vibe.',
+    food: 'Beachside seafood spots and casual dining.',
+    shops: 'Beach shops and local boutiques.',
+    thingsToDo: 'Beach days, surfing, and Johnnie Mercer’s Pier.',
+    nearby: ['wilmington', 'carolina-beach'],
+  },
+  {
+    slug: 'carolina-beach', name: 'Carolina Beach', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: null,
+    about: 'A family-friendly beach town on Pleasure Island with a nostalgic boardwalk, state park, and easy access to Wilmington.',
+    food: 'Boardwalk eats, seafood, and Britt’s famous donuts.',
+    shops: 'Boardwalk and beach-town shops.',
+    thingsToDo: 'The oceanfront boardwalk and Carolina Beach State Park.',
+    nearby: ['wilmington', 'wrightsville-beach'],
+  },
+  {
+    slug: 'leland', name: 'Leland', subtitle: 'Brunswick County · The Coast', region: 'wilmington', image: null,
+    about: 'A fast-growing Brunswick County town just across the river from Wilmington, popular for newer neighborhoods and easy coastal access.',
+    food: 'Local restaurants and everyday dining.',
+    shops: 'Shopping centers and everyday retail.',
+    thingsToDo: 'Riverfront parks and quick access to Wilmington and the beaches.',
+    nearby: ['wilmington', 'southport'],
+  },
+  {
+    slug: 'southport', name: 'Southport', subtitle: 'Brunswick County · The Coast', region: 'wilmington', image: null,
+    about: 'A picture-perfect historic waterfront town at the mouth of the Cape Fear River, known for its charm, film shoots, and small-town coastal pace.',
+    food: 'Waterfront seafood and downtown cafes.',
+    shops: 'Historic downtown boutiques and antiques.',
+    thingsToDo: 'The historic waterfront, the Fort Fisher ferry, and small-town coastal charm.',
+    nearby: ['leland', 'wilmington'],
+  },
+  {
+    slug: 'hampstead', name: 'Hampstead', subtitle: 'Pender County · The Coast', region: 'wilmington', image: null,
+    about: 'A quieter coastal community in Pender County between Wilmington and Topsail Island, popular for golf and waterfront living.',
+    food: 'Local seafood and casual dining.',
+    shops: 'Everyday retail and local shops.',
+    thingsToDo: 'Coastal living near Topsail Island and area golf.',
+    nearby: ['wilmington', 'wrightsville-beach'],
+  },
+
+  // ================= EASTERN NC =================
+  {
+    slug: 'greenville', name: 'Greenville', subtitle: 'Pitt County · Eastern NC', region: 'eastern', image: null,
+    about: 'The hub of eastern NC, home to East Carolina University and a growing medical center, with a lively Uptown and Tar River waterfront.',
+    food: 'Uptown restaurants, breweries, and college-town dining.',
+    shops: 'Uptown boutiques and area retail.',
+    thingsToDo: 'East Carolina University, Uptown Greenville, and the Tar River greenway.',
+    nearby: ['new-bern', 'kinston', 'wilson'],
+  },
+  {
+    slug: 'new-bern', name: 'New Bern', subtitle: 'Craven County · Eastern NC', region: 'eastern', image: '/neighborhoods/new-bern.jpg',
+    about: 'A historic colonial river town at the meeting of the Neuse and Trent rivers, known for Tryon Palace, a walkable downtown, and being the birthplace of Pepsi.',
+    food: 'Downtown riverfront restaurants and cafes.',
+    shops: 'Historic downtown boutiques and antiques.',
+    thingsToDo: 'Tryon Palace, the historic riverfront, and the birthplace of Pepsi-Cola.',
+    nearby: ['greenville', 'jacksonville'],
+  },
+  {
+    slug: 'jacksonville', name: 'Jacksonville', subtitle: 'Onslow County · Eastern NC', region: 'eastern', image: null,
+    about: 'A coastal-plain city in Onslow County, home to Marine Corps Base Camp Lejeune and close to the beaches of the Crystal Coast.',
+    food: 'Local restaurants and everyday dining.',
+    shops: 'Shopping centers and area retail.',
+    thingsToDo: 'Coastal Onslow County, home to Camp Lejeune, near area beaches.',
+    nearby: ['new-bern', 'greenville'],
+  },
+  {
+    slug: 'goldsboro', name: 'Goldsboro', subtitle: 'Wayne County · Eastern NC', region: 'eastern', image: null,
+    about: 'A Wayne County city with a revitalizing downtown and Seymour Johnson Air Force Base, offering strong value in eastern NC.',
+    food: 'Downtown restaurants and local barbecue.',
+    shops: 'Downtown shops and area retail.',
+    thingsToDo: 'A revitalizing downtown, Seymour Johnson Air Force Base, and Cliffs of the Neuse nearby.',
+    nearby: ['wilson', 'kinston'],
+  },
+  {
+    slug: 'kinston', name: 'Kinston', subtitle: 'Lenoir County · Eastern NC', region: 'eastern', image: null,
+    about: 'A Neuse River town with a nationally celebrated downtown food scene, riverfront nature, and minor-league baseball.',
+    food: 'A celebrated downtown dining scene and local barbecue.',
+    shops: 'Downtown shops and galleries.',
+    thingsToDo: 'A celebrated downtown food scene, Neuseway Nature Park, and Wood Ducks baseball at Grainger Stadium.',
+    nearby: ['greenville', 'goldsboro'],
+  },
+  {
+    slug: 'wilson', name: 'Wilson', subtitle: 'Wilson County · Eastern NC', region: 'eastern', image: null,
+    about: 'A historic tobacco-market town with a revitalizing downtown, known for the whimsical Whirligig Park.',
+    food: 'Downtown restaurants and eastern-NC barbecue.',
+    shops: 'Downtown shops and boutiques.',
+    thingsToDo: 'The Vollis Simpson Whirligig Park and a historic downtown.',
+    nearby: ['greenville', 'goldsboro'],
+  },
+
+  // ================= FAYETTEVILLE & THE SANDHILLS =================
+  {
+    slug: 'fayetteville', name: 'Fayetteville', subtitle: 'Cumberland County · The Sandhills', region: 'sandhills', image: null,
+    about: 'A diverse, growing city anchored by Fort Liberty, with a revitalizing downtown, strong value, and a central Sandhills location.',
+    food: 'Downtown restaurants and international dining.',
+    shops: 'Downtown boutiques and Cross Creek Mall.',
+    thingsToDo: 'Fort Liberty, the Airborne & Special Operations Museum, and a revitalizing downtown.',
+    nearby: ['hope-mills', 'southern-pines', 'pinehurst'],
+  },
+  {
+    slug: 'pinehurst', name: 'Pinehurst', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: null,
+    about: 'The golf capital of America, a resort village of tree-lined streets, historic charm, and world-famous courses.',
+    food: 'Village restaurants and resort dining.',
+    shops: 'The historic Village of Pinehurst shops.',
+    thingsToDo: 'World-famous golf at Pinehurst Resort and the historic Village of Pinehurst.',
+    nearby: ['southern-pines', 'aberdeen'],
+  },
+  {
+    slug: 'southern-pines', name: 'Southern Pines', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: null,
+    about: 'A charming Sandhills town with a historic downtown, horse-country estates, and longleaf-pine nature preserves.',
+    food: 'Historic downtown restaurants and cafes.',
+    shops: 'Walkable downtown boutiques.',
+    thingsToDo: 'A historic downtown, horse country, and the Weymouth Woods Sandhills Nature Preserve.',
+    nearby: ['pinehurst', 'aberdeen'],
+  },
+  {
+    slug: 'aberdeen', name: 'Aberdeen', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: null,
+    about: 'A Moore County town with historic railroad heritage and easy access to the golf and amenities of Pinehurst and Southern Pines.',
+    food: 'Local restaurants and everyday dining.',
+    shops: 'Local shops and area retail.',
+    thingsToDo: 'Historic railroad heritage and easy access to Pinehurst golf.',
+    nearby: ['southern-pines', 'pinehurst'],
+  },
+  {
+    slug: 'hope-mills', name: 'Hope Mills', subtitle: 'Cumberland County · The Sandhills', region: 'sandhills', image: null,
+    about: 'A friendly Cumberland County town just south of Fayetteville, centered on Hope Mills Lake with an easy commute.',
+    food: 'Local restaurants and casual dining.',
+    shops: 'Everyday shopping centers.',
+    thingsToDo: 'Hope Mills Lake and an easy commute to Fayetteville.',
+    nearby: ['fayetteville'],
+  },
+
+  // ================= THE OUTER BANKS =================
+  {
+    slug: 'corolla', name: 'Corolla', subtitle: 'Currituck County · Outer Banks', region: 'outer-banks', image: null,
+    about: 'A quiet, upscale beach community on the northern Outer Banks, famous for its wild horses, lighthouse, and 4x4 beaches.',
+    food: 'Beachside restaurants and seafood.',
+    shops: 'Corolla Light and TimBuck II shops.',
+    thingsToDo: 'The wild Banker horses, the Currituck Beach Lighthouse, and quiet 4x4 beaches.',
+    nearby: ['duck', 'kitty-hawk'],
+  },
+  {
+    slug: 'duck', name: 'Duck', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    about: 'An upscale, walkable Outer Banks town known for its soundside boardwalk, cottages, and family-friendly pace.',
+    food: 'Soundside restaurants and cafes.',
+    shops: 'The Duck village boutiques and boardwalk shops.',
+    thingsToDo: 'The Duck Boardwalk, upscale beach cottages, and sound-side sunsets.',
+    nearby: ['corolla', 'kitty-hawk'],
+  },
+  {
+    slug: 'kitty-hawk', name: 'Kitty Hawk', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    about: 'A classic Outer Banks beach town tied to the Wright Brothers’ first flight, with wide beaches and an easy, uncrowded feel.',
+    food: 'Beach-town seafood and casual dining.',
+    shops: 'Beach shops and local retail.',
+    thingsToDo: 'Wide beaches and the Wright Brothers first-flight history.',
+    nearby: ['kill-devil-hills', 'duck'],
+  },
+  {
+    slug: 'kill-devil-hills', name: 'Kill Devil Hills', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    about: 'The most populous Outer Banks town and home to the Wright Brothers National Memorial, with lively beaches and amenities.',
+    food: 'Oceanfront restaurants and seafood.',
+    shops: 'Beach shops and shopping centers.',
+    thingsToDo: 'The Wright Brothers National Memorial and Jockey’s Ridge nearby.',
+    nearby: ['nags-head', 'kitty-hawk'],
+  },
+  {
+    slug: 'nags-head', name: 'Nags Head', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    about: 'A quintessential Outer Banks beach town, home to the East Coast’s tallest sand dune and classic oceanfront cottages.',
+    food: 'Oceanfront seafood and OBX favorites.',
+    shops: 'Beach shops, outlets, and local boutiques.',
+    thingsToDo: 'Jockey’s Ridge State Park’s towering dunes, Bodie Island Lighthouse, and classic OBX beaches.',
+    nearby: ['kill-devil-hills', 'hatteras'],
+  },
+  {
+    slug: 'hatteras', name: 'Hatteras', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: '/neighborhoods/hatteras.jpg',
+    about: 'A remote, iconic stretch of the Outer Banks on Hatteras Island, known for its lighthouse, National Seashore, and world-class fishing.',
+    food: 'Fresh seafood and village eateries.',
+    shops: 'Village shops and fishing outfitters.',
+    thingsToDo: 'The Cape Hatteras Lighthouse, the National Seashore, and world-class fishing.',
+    nearby: ['nags-head', 'kill-devil-hills'],
+  },
+
+  // ================= RALEIGH NEIGHBORHOODS =================
+  {
+    slug: 'downtown-raleigh', name: 'Downtown Raleigh', subtitle: 'Raleigh · The Triangle', region: 'triangle', parent: 'raleigh', image: '/neighborhoods/downtown-raleigh.jpg',
+    about: 'The walkable heart of the capital, from Fayetteville Street and Moore Square to the buzzing Warehouse District and Glenwood South nightlife.',
+    food: 'Warehouse District and Fayetteville Street restaurants, Videri Chocolate Factory, and the Raleigh Beer Garden.',
+    shops: 'Downtown boutiques, galleries, and the City Market.',
+    thingsToDo: 'Moore Square, the free NC state museums, Red Hat Amphitheater, and First Friday art walks.',
+    nearby: ['five-points-raleigh', 'oakwood', 'village-district'],
+  },
+  {
+    slug: 'north-hills', name: 'North Hills', subtitle: 'Midtown Raleigh · The Triangle', region: 'triangle', parent: 'raleigh', image: '/neighborhoods/north-hills.jpg',
+    about: '“Midtown” Raleigh: a modern, mixed-use hub of shopping, dining, offices, and apartments built around the North Hills district.',
+    food: 'North Hills restaurants, rooftop bars, and cafes.',
+    shops: 'The North Hills shopping district, from national brands to local boutiques.',
+    thingsToDo: 'Midtown Park concerts and events, plus the Raleigh greenway network.',
+    nearby: ['five-points-raleigh', 'village-district', 'downtown-raleigh'],
+  },
+  {
+    slug: 'five-points-raleigh', name: 'Five Points', subtitle: 'Raleigh · The Triangle', region: 'triangle', parent: 'raleigh', image: '/neighborhoods/five-points-raleigh.jpg',
+    about: 'One of Raleigh’s most beloved historic neighborhoods, with tree-lined streets, 1920s homes, and a walkable, village-like commercial node.',
+    food: 'Neighborhood restaurants, coffee shops, and long-standing local favorites.',
+    shops: 'Independent boutiques and everyday shops at the Five Points crossroads.',
+    thingsToDo: 'The historic Rialto Theatre, Hayes Barton’s architecture, and nearby greenways.',
+    nearby: ['north-hills', 'village-district', 'oakwood'],
+  },
+  {
+    slug: 'village-district', name: 'Village District', subtitle: 'Raleigh · The Triangle', region: 'triangle', parent: 'raleigh', image: '/neighborhoods/village-district.jpg',
+    about: 'The established, walkable area around the Village District (formerly Cameron Village), near NC State and Downtown, known for shopping and classic homes.',
+    food: 'Village District restaurants and cafes.',
+    shops: 'The Village District shopping center and surrounding boutiques.',
+    thingsToDo: 'Pullen Park nearby, NC State athletics, and easy access to Downtown.',
+    nearby: ['five-points-raleigh', 'downtown-raleigh', 'north-hills'],
+  },
+  {
+    slug: 'oakwood', name: 'Historic Oakwood', subtitle: 'Raleigh · The Triangle', region: 'triangle', parent: 'raleigh', image: '/neighborhoods/oakwood.jpg',
+    about: 'A National Register historic district just east of Downtown, famous for its beautifully preserved Victorian homes and tight-knit community.',
+    food: 'Cafes and restaurants a short walk toward Downtown.',
+    shops: 'Nearby Person Street shops and Downtown retail.',
+    thingsToDo: 'Oakwood’s Victorian architecture, Historic Oakwood Cemetery, and the annual holiday home tour.',
+    nearby: ['downtown-raleigh', 'five-points-raleigh'],
+  },
+  {
+    slug: 'brier-creek', name: 'Brier Creek', subtitle: 'Northwest Raleigh · The Triangle', region: 'triangle', parent: 'raleigh', image: '/neighborhoods/brier-creek.jpg',
+    about: 'A newer, convenient Northwest Raleigh area near RDU airport and RTP, built around golf, shopping, and modern neighborhoods.',
+    food: 'Brier Creek Commons restaurants and everyday dining.',
+    shops: 'Brier Creek Commons shopping center.',
+    thingsToDo: 'Golf at Brier Creek Country Club and quick access to the airport and Research Triangle Park.',
+    nearby: ['north-hills', 'downtown-raleigh'],
+  },
+
+  // ================= DURHAM NEIGHBORHOODS =================
+  {
+    slug: 'downtown-durham', name: 'Downtown Durham', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/downtown-durham.jpg',
+    about: 'Durham’s revitalized core, anchored by the American Tobacco Campus, a nationally known food scene, and top arts and sports venues.',
+    food: 'Some of the South’s best restaurants, food halls, and breweries downtown.',
+    shops: 'Downtown boutiques, Brightleaf Square, and the Durham Central Park market.',
+    thingsToDo: 'The American Tobacco Campus, DPAC, Durham Bulls baseball at Durham Bulls Athletic Park, and the CCB Plaza bull.',
+    nearby: ['trinity-park', 'old-west-durham', 'forest-hills'],
+  },
+  {
+    slug: 'trinity-park', name: 'Trinity Park', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/trinity-park.jpg',
+    about: 'A historic neighborhood of early-1900s homes next to Duke’s East Campus, walkable to Ninth Street and Downtown.',
+    food: 'Ninth Street restaurants and cafes nearby.',
+    shops: 'Ninth Street shops and Duke-area retail.',
+    thingsToDo: 'Duke’s East Campus and the Al Buehler Trail, plus easy access to Downtown.',
+    nearby: ['old-west-durham', 'downtown-durham'],
+  },
+  {
+    slug: 'old-west-durham', name: 'Old West Durham', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/old-west-durham.jpg',
+    about: 'A walkable district around Ninth Street near Duke, mixing historic mill houses with shops, restaurants, and student energy.',
+    food: 'The Ninth Street restaurant-and-coffee scene.',
+    shops: 'Ninth Street boutiques and local shops.',
+    thingsToDo: 'Ninth Street, Duke’s campus, and the Durham greenways.',
+    nearby: ['trinity-park', 'downtown-durham'],
+  },
+  {
+    slug: 'hope-valley', name: 'Hope Valley', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/hope-valley.jpg',
+    about: 'One of Durham’s most established neighborhoods: a historic 1920s country-club community of gracious homes and mature trees.',
+    food: 'Dining nearby along University Drive and in Southwest Durham.',
+    shops: 'Everyday retail nearby, with Downtown a short drive.',
+    thingsToDo: 'Hope Valley Country Club golf and quiet, tree-lined streets.',
+    nearby: ['forest-hills', 'south-durham'],
+  },
+  {
+    slug: 'forest-hills', name: 'Forest Hills', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/forest-hills.jpg',
+    about: 'A historic, hilly neighborhood just south of Downtown, known for its 1920s architecture and its namesake park.',
+    food: 'Downtown Durham dining a short drive away.',
+    shops: 'Nearby Lakewood and Downtown retail.',
+    thingsToDo: 'Forest Hills Park and quick access to Downtown.',
+    nearby: ['downtown-durham', 'hope-valley'],
+  },
+  {
+    slug: 'south-durham', name: 'South Durham', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/south-durham.jpg',
+    about: 'The fast-growing southern side of Durham near The Streets at Southpoint and Research Triangle Park, popular for newer homes and convenience.',
+    food: 'Southpoint-area restaurants and everyday dining.',
+    shops: 'The Streets at Southpoint mall and surrounding retail.',
+    thingsToDo: 'Southpoint shopping, the American Tobacco Trail, and quick RTP access.',
+    nearby: ['hope-valley', 'forest-hills'],
+  },
+
+  // ================= ASHEVILLE NEIGHBORHOODS =================
+  {
+    slug: 'downtown-asheville', name: 'Downtown Asheville', subtitle: 'Asheville · Western NC', region: 'western', parent: 'asheville', image: '/neighborhoods/downtown-asheville.jpg',
+    about: 'The lively heart of the mountains: historic Art Deco architecture, a nationally known food-and-brewery scene, galleries, and Pack Square.',
+    food: 'One of the country’s top small-city food and craft-beer scenes.',
+    shops: 'The Grove Arcade, downtown boutiques, and galleries.',
+    thingsToDo: 'Pack Square, the Asheville Art Museum, the Grove Arcade, and endless breweries.',
+    nearby: ['montford', 'river-arts-district', 'west-asheville'],
+  },
+  {
+    slug: 'west-asheville', name: 'West Asheville', subtitle: 'Asheville · Western NC', region: 'western', parent: 'asheville', image: '/neighborhoods/west-asheville.jpg',
+    about: 'The hip, walkable west side, centered on Haywood Road’s independent restaurants, breweries, coffee shops, and bungalows.',
+    food: 'Haywood Road’s restaurants, breweries, and coffee shops.',
+    shops: 'Independent boutiques and vintage along Haywood Road.',
+    thingsToDo: 'The Haywood Road strip and the French Broad River nearby.',
+    nearby: ['river-arts-district', 'downtown-asheville'],
+  },
+  {
+    slug: 'montford', name: 'Montford', subtitle: 'Asheville · Western NC', region: 'western', parent: 'asheville', image: '/neighborhoods/montford.jpg',
+    about: 'A historic district just north of Downtown, famous for its Victorian and Arts-and-Crafts homes and leafy, walkable streets.',
+    food: 'Downtown dining a short walk away.',
+    shops: 'Nearby downtown shops and galleries.',
+    thingsToDo: 'The Montford Historic District, Riverside Cemetery, and the Montford Park Players summer theatre.',
+    nearby: ['downtown-asheville', 'north-asheville'],
+  },
+  {
+    slug: 'river-arts-district', name: 'River Arts District', subtitle: 'Asheville · Western NC', region: 'western', parent: 'asheville', image: '/neighborhoods/river-arts-district.jpg',
+    about: 'A revitalized industrial stretch along the French Broad River, packed with artist studios, galleries, breweries, and the RAD greenway.',
+    food: 'RAD breweries, cafes, and riverside restaurants.',
+    shops: 'Working artist studios and galleries.',
+    thingsToDo: 'Artist studios, the French Broad River greenway, and RAD breweries.',
+    nearby: ['west-asheville', 'downtown-asheville'],
+  },
+  {
+    slug: 'biltmore-village', name: 'Biltmore Village', subtitle: 'Asheville · Western NC', region: 'western', parent: 'asheville', image: '/neighborhoods/biltmore-village.jpg',
+    about: 'A charming historic village at the gates of the Biltmore Estate, with Tudor-style shops, restaurants, and the Cathedral of All Souls.',
+    food: 'Village restaurants and cafes.',
+    shops: 'Biltmore Village boutiques and galleries.',
+    thingsToDo: 'The Biltmore Estate, Biltmore Village shops, and the Cathedral of All Souls.',
+    nearby: ['downtown-asheville', 'north-asheville'],
+  },
+  {
+    slug: 'north-asheville', name: 'North Asheville', subtitle: 'Asheville · Western NC', region: 'western', parent: 'asheville', image: '/neighborhoods/north-asheville.jpg',
+    about: 'An established, upscale side of Asheville with historic homes, the iconic Grove Park Inn, and Beaver Lake.',
+    food: 'Charlotte Street and Merrimon Avenue dining.',
+    shops: 'Charlotte Street and Merrimon Avenue shops.',
+    thingsToDo: 'The Omni Grove Park Inn, Beaver Lake, and the Botanical Gardens at Asheville.',
+    nearby: ['montford', 'downtown-asheville'],
   },
 ]
 
@@ -295,6 +830,7 @@ export const AREA_META: Record<string, AreaMeta> = {
   'south-end': { zip: '28203', district: CMS[0], districtUrl: CMS[1] },
   loso: { zip: '28217', district: CMS[0], districtUrl: CMS[1] },
   dilworth: { zip: '28203', district: CMS[0], districtUrl: CMS[1] },
+  midtown: { zip: '28204', district: CMS[0], districtUrl: CMS[1] },
   'myers-park': { zip: '28207', district: CMS[0], districtUrl: CMS[1] },
   'plaza-midwood': { zip: '28205', district: CMS[0], districtUrl: CMS[1] },
   noda: { zip: '28205', district: CMS[0], districtUrl: CMS[1] },
@@ -319,6 +855,76 @@ export const AREA_META: Record<string, AreaMeta> = {
   marvin: { zip: '28173', district: UCPS[0], districtUrl: UCPS[1] },
   'indian-trail': { zip: '28079', district: UCPS[0], districtUrl: UCPS[1] },
   gastonia: { zip: '28054', district: 'Gaston County Schools', districtUrl: 'https://www.gaston.k12.nc.us' },
+  belmont: { zip: '28012', district: 'Gaston County Schools', districtUrl: 'https://www.gaston.k12.nc.us' },
+  // Triangle
+  raleigh: { zip: '27601', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  durham: { zip: '27701', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  'chapel-hill': { zip: '27514', district: 'Chapel Hill–Carrboro City Schools', districtUrl: 'https://www.chccs.org' },
+  cary: { zip: '27511', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  apex: { zip: '27502', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  'wake-forest': { zip: '27587', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  // Triad
+  greensboro: { zip: '27401', district: 'Guilford County Schools', districtUrl: 'https://www.gcsnc.com' },
+  'winston-salem': { zip: '27101', district: 'Winston-Salem/Forsyth County Schools', districtUrl: 'https://www.wsfcs.k12.nc.us' },
+  'high-point': { zip: '27260', district: 'Guilford County Schools', districtUrl: 'https://www.gcsnc.com' },
+  kernersville: { zip: '27284', district: 'Winston-Salem/Forsyth County Schools', districtUrl: 'https://www.wsfcs.k12.nc.us' },
+  // Raleigh neighborhoods (Wake County Public Schools)
+  'downtown-raleigh': { zip: '27601', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  'north-hills': { zip: '27609', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  'five-points-raleigh': { zip: '27608', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  'village-district': { zip: '27605', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  oakwood: { zip: '27604', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  'brier-creek': { zip: '27617', district: 'Wake County Public Schools', districtUrl: 'https://www.wcpss.net' },
+  // Durham neighborhoods (Durham Public Schools)
+  'downtown-durham': { zip: '27701', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  'trinity-park': { zip: '27701', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  'old-west-durham': { zip: '27705', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  'hope-valley': { zip: '27707', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  'forest-hills': { zip: '27707', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  'south-durham': { zip: '27713', district: 'Durham Public Schools', districtUrl: 'https://www.dpsnc.net' },
+  // Asheville neighborhoods (Asheville City Schools)
+  'downtown-asheville': { zip: '28801', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  'west-asheville': { zip: '28806', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  montford: { zip: '28801', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  'river-arts-district': { zip: '28801', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  'biltmore-village': { zip: '28803', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  'north-asheville': { zip: '28804', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  // Western NC
+  asheville: { zip: '28801', district: 'Asheville City Schools', districtUrl: 'https://www.ashevillecityschools.net' },
+  hendersonville: { zip: '28792', district: 'Henderson County Public Schools', districtUrl: 'https://www.hcpsnc.org' },
+  boone: { zip: '28607', district: 'Watauga County Schools', districtUrl: 'https://www.wataugaschools.org' },
+  'blowing-rock': { zip: '28605', district: 'Watauga County Schools', districtUrl: 'https://www.wataugaschools.org' },
+  hickory: { zip: '28601', district: 'Hickory Public Schools', districtUrl: 'https://www.hickoryschools.net' },
+  lenoir: { zip: '28645', district: 'Caldwell County Schools', districtUrl: 'https://www.caldwellschools.com' },
+  waynesville: { zip: '28786', district: 'Haywood County Schools', districtUrl: 'https://www.haywood.k12.nc.us' },
+  brevard: { zip: '28712', district: 'Transylvania County Schools', districtUrl: 'https://www.tcsnc.org' },
+  // Wilmington & the Coast
+  wilmington: { zip: '28401', district: 'New Hanover County Schools', districtUrl: 'https://www.nhcs.net' },
+  'wrightsville-beach': { zip: '28480', district: 'New Hanover County Schools', districtUrl: 'https://www.nhcs.net' },
+  'carolina-beach': { zip: '28428', district: 'New Hanover County Schools', districtUrl: 'https://www.nhcs.net' },
+  leland: { zip: '28451', district: 'Brunswick County Schools', districtUrl: 'https://www.bcswan.net' },
+  southport: { zip: '28461', district: 'Brunswick County Schools', districtUrl: 'https://www.bcswan.net' },
+  hampstead: { zip: '28443', district: 'Pender County Schools', districtUrl: 'https://www.pendercountyschools.net' },
+  // Eastern NC
+  greenville: { zip: '27858', district: 'Pitt County Schools', districtUrl: 'https://www.pittschools.org' },
+  'new-bern': { zip: '28560', district: 'Craven County Schools', districtUrl: 'https://www.cravenk12.org' },
+  jacksonville: { zip: '28540', district: 'Onslow County Schools', districtUrl: 'https://www.onslow.k12.nc.us' },
+  goldsboro: { zip: '27530', district: 'Wayne County Public Schools', districtUrl: 'https://www.waynecountyschools.org' },
+  kinston: { zip: '28501', district: 'Lenoir County Public Schools', districtUrl: 'https://www.lenoir.k12.nc.us' },
+  wilson: { zip: '27893', district: 'Wilson County Schools', districtUrl: 'https://www.wilsonschoolsnc.net' },
+  // Sandhills
+  fayetteville: { zip: '28301', district: 'Cumberland County Schools', districtUrl: 'https://www.ccs.k12.nc.us' },
+  pinehurst: { zip: '28374', district: 'Moore County Schools', districtUrl: 'https://www.ncmcs.org' },
+  'southern-pines': { zip: '28387', district: 'Moore County Schools', districtUrl: 'https://www.ncmcs.org' },
+  aberdeen: { zip: '28315', district: 'Moore County Schools', districtUrl: 'https://www.ncmcs.org' },
+  'hope-mills': { zip: '28348', district: 'Cumberland County Schools', districtUrl: 'https://www.ccs.k12.nc.us' },
+  // Outer Banks
+  corolla: { zip: '27927', district: 'Currituck County Schools', districtUrl: 'https://www.currituck.k12.nc.us' },
+  duck: { zip: '27949', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
+  'kitty-hawk': { zip: '27949', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
+  'kill-devil-hills': { zip: '27948', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
+  'nags-head': { zip: '27959', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
+  hatteras: { zip: '27943', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
 }
 
 export const BY_SLUG: Record<string, Neighborhood> = Object.fromEntries(
@@ -328,6 +934,10 @@ export const BY_SLUG: Record<string, Neighborhood> = Object.fromEntries(
 export function neighborhoodsByGroup() {
   return GROUPS.map((group) => ({
     group,
-    items: NEIGHBORHOODS.filter((n) => n.group === group),
+    items: NEIGHBORHOODS.filter((n) => n.group === group && areaRegion(n) === 'charlotte'),
   }))
+}
+
+export function areasInRegion(regionSlug: string): Neighborhood[] {
+  return NEIGHBORHOODS.filter((n) => areaRegion(n) === regionSlug)
 }

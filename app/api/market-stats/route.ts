@@ -18,7 +18,7 @@ export async function GET(request: Request) {
 
   try {
     const res = await fetch(
-      `https://api.rentcast.io/v1/markets?zipCode=${zip}&dataType=Sale`,
+      `https://api.rentcast.io/v1/markets?zipCode=${zip}&dataType=Sale,Rental`,
       {
         headers: { 'X-Api-Key': key, Accept: 'application/json' },
         // Cache each ZIP for 7 days to stay well within RentCast request limits.
@@ -30,6 +30,7 @@ export async function GET(request: Request) {
     }
     const data = await res.json()
     const s = data?.saleData || {}
+    const r = data?.rentalData || {}
     const hasData = s.medianPrice != null || s.averagePrice != null
     return NextResponse.json({
       available: hasData,
@@ -40,7 +41,9 @@ export async function GET(request: Request) {
       medianDaysOnMarket: s.medianDaysOnMarket ?? null,
       totalListings: s.totalListings ?? null,
       newListings: s.newListings ?? null,
-      lastUpdated: s.lastUpdatedDate ?? null,
+      medianRent: r.medianRent ?? null,
+      averageRent: r.averageRent ?? null,
+      lastUpdated: s.lastUpdatedDate ?? r.lastUpdatedDate ?? null,
     })
   } catch {
     return NextResponse.json({ available: false, reason: 'fetch-error' })

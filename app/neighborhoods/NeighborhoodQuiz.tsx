@@ -38,10 +38,10 @@ const QUIZ: Q[] = [
     q: 'Your perfect weekend?',
     layout: 'photo',
     a: [
-      { t: 'Live music, art & food', img: '/neighborhoods/noda.jpg', s: ['noda', 'plaza-midwood', 'south-end'] },
-      { t: 'On the water or outdoors', img: '/neighborhoods/mooresville.jpg', s: ['cornelius', 'davidson', 'mooresville', 'steele-creek'] },
-      { t: 'Shopping & dining out', img: '/neighborhoods/southpark.jpg', s: ['southpark', 'uptown', 'cotswold', 'pineville'] },
-      { t: 'Strolling historic streets', img: '/neighborhoods/myers-park.jpg', s: ['dilworth', 'myers-park', 'elizabeth', 'davidson'] },
+      { t: 'Live music, art & food', img: '/neighborhoods/quiz/wknd-music.jpg', s: ['noda', 'plaza-midwood', 'south-end'] },
+      { t: 'On the water or outdoors', img: '/neighborhoods/quiz/wknd-water.jpg', s: ['cornelius', 'davidson', 'mooresville', 'steele-creek'] },
+      { t: 'Shopping & dining out', img: '/neighborhoods/quiz/wknd-shopping.jpg', s: ['southpark', 'uptown', 'cotswold', 'pineville'] },
+      { t: 'Strolling historic streets', img: '/neighborhoods/quiz/wknd-historic.jpg', s: ['dilworth', 'myers-park', 'elizabeth', 'davidson'] },
     ],
   },
   {
@@ -67,10 +67,10 @@ const QUIZ: Q[] = [
     q: 'Which home speaks to you?',
     layout: 'photo',
     a: [
-      { t: 'Historic charm & character', img: '/neighborhoods/dilworth.jpg', s: ['dilworth', 'myers-park', 'plaza-midwood', 'elizabeth', 'davidson'] },
-      { t: 'New & modern', img: '/neighborhoods/ballantyne.jpg', s: ['ballantyne', 'university', 'indian-trail', 'harrisburg'] },
-      { t: 'Upscale & polished', img: '/neighborhoods/southpark.jpg', s: ['southpark', 'myers-park', 'weddington', 'marvin'] },
-      { t: 'Eclectic & one-of-a-kind', img: '/neighborhoods/plaza-midwood.jpg', s: ['noda', 'plaza-midwood', 'loso'] },
+      { t: 'Historic charm & character', img: '/neighborhoods/quiz/home-historic.jpg', s: ['dilworth', 'myers-park', 'plaza-midwood', 'elizabeth', 'davidson'] },
+      { t: 'New & modern', img: '/neighborhoods/quiz/home-modern.jpg', s: ['ballantyne', 'university', 'indian-trail', 'harrisburg'] },
+      { t: 'Upscale & polished', img: '/neighborhoods/quiz/home-upscale.jpg', s: ['southpark', 'myers-park', 'weddington', 'marvin'] },
+      { t: 'Eclectic & one-of-a-kind', img: '/neighborhoods/quiz/home-eclectic.jpg', s: ['noda', 'plaza-midwood', 'loso'] },
     ],
   },
   {

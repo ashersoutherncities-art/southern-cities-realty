@@ -229,5 +229,355 @@
   "license_name": "CC BY-SA 4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Downtown_Gastonia_Main_Street.jpg",
   "kb": 187
+ },
+ "quiz-home-historic": {
+  "label": "Historic charm & character (quiz tile)",
+  "file": "/neighborhoods/quiz/home-historic.jpg",
+  "creator": "taberandrew",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/88442983@N00/775761672",
+  "title": "1203 Williamsburg Road",
+  "kb": 321
+ },
+ "quiz-home-modern": {
+  "label": "New & modern (quiz tile)",
+  "file": "/neighborhoods/quiz/home-modern.jpg",
+  "creator": "pnwra",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/17573364@N00/814299833",
+  "title": "Modern House in Victoria",
+  "kb": 188
+ },
+ "quiz-home-eclectic": {
+  "label": "Eclectic & one-of-a-kind (quiz tile)",
+  "file": "/neighborhoods/quiz/home-eclectic.jpg",
+  "creator": "sergejf",
+  "license": "by-sa",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/7942389@N04/4716322296",
+  "title": "Colorful victorian houses",
+  "kb": 261
+ },
+ "quiz-wknd-music": {
+  "label": "Live music, art & food (quiz tile)",
+  "file": "/neighborhoods/quiz/wknd-music.jpg",
+  "creator": "Taylor Ramos",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/23724456@N04/2726719565",
+  "title": "The Cure Concert 2",
+  "kb": 146
+ },
+ "quiz-wknd-shopping": {
+  "label": "Shopping & dining out (quiz tile)",
+  "file": "/neighborhoods/quiz/wknd-shopping.jpg",
+  "creator": "Dominic's pics",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/64097751@N00/1135876473",
+  "title": "More Cafe Bar Restaurant / Trafalgar Street",
+  "kb": 286
+ },
+ "quiz-wknd-historic": {
+  "label": "Strolling historic streets (quiz tile)",
+  "file": "/neighborhoods/quiz/wknd-historic.jpg",
+  "creator": "Brett VA",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/23351990@N03/2282056253",
+  "title": "Mizner Park Liner Town Homes",
+  "kb": 259
+ },
+ "quiz-home-upscale": {
+  "label": "Upscale & polished (quiz tile)",
+  "file": "/neighborhoods/quiz/home-upscale.jpg",
+  "creator": "dbking",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/65193799@N00/38194590",
+  "title": "FDR's home 'Springwood'",
+  "kb": 181
+ },
+ "quiz-wknd-water": {
+  "label": "On the water or outdoors (quiz tile)",
+  "file": "/neighborhoods/quiz/wknd-water.jpg",
+  "creator": "Richard Elzey",
+  "license": "by",
+  "license_version": "2.0",
+  "source": "https://www.flickr.com/photos/54602205@N00/8665164581",
+  "title": "Learning",
+  "kb": 217
+ },
+ "raleigh": {
+  "name": "Raleigh",
+  "area": "Wake County \u00b7 The Triangle",
+  "file": "/neighborhoods/raleigh.jpg",
+  "creator": "James Willamor",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/13139075614",
+  "kb": 104
+ },
+ "durham": {
+  "name": "Durham",
+  "area": "Durham County \u00b7 The Triangle",
+  "file": "/neighborhoods/durham.jpg",
+  "creator": "James Willamor",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/12841763974",
+  "kb": 66
+ },
+ "chapel-hill": {
+  "name": "Chapel Hill",
+  "area": "Orange County \u00b7 The Triangle",
+  "file": "/neighborhoods/chapel-hill.jpg",
+  "creator": "Jackpaylor",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=47102980",
+  "kb": 110
+ },
+ "winston-salem": {
+  "name": "Winston-Salem",
+  "area": "Forsyth County \u00b7 The Triad",
+  "file": "/neighborhoods/winston-salem.jpg",
+  "creator": "James Willamor",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/2331354877",
+  "kb": 47
+ },
+ "asheville": {
+  "name": "Asheville",
+  "area": "Buncombe County \u00b7 Western NC",
+  "file": "/neighborhoods/asheville.jpg",
+  "creator": "BlakeLewisPhotography",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/7838598@N06/7253049690",
+  "kb": 142
+ },
+ "wilmington": {
+  "name": "Wilmington",
+  "area": "New Hanover County \u00b7 The Coast",
+  "file": "/neighborhoods/wilmington.jpg",
+  "creator": "James Willamor",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/81464596@N00/10566705125",
+  "kb": 40
+ },
+ "boone": {
+  "name": "Boone",
+  "area": "Watauga County \u00b7 High Country",
+  "file": "/neighborhoods/boone.jpg",
+  "creator": "Jeremy Mikkola from Boone, NC",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=7293478",
+  "kb": 145
+ },
+ "hatteras": {
+  "name": "Hatteras",
+  "area": "Dare County \u00b7 Outer Banks",
+  "file": "/neighborhoods/hatteras.jpg",
+  "creator": "Kip Robinson",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=71986847",
+  "kb": 63
+ },
+ "greensboro": {
+  "name": "Greensboro",
+  "area": "Guilford County \u00b7 The Triad",
+  "file": "/neighborhoods/greensboro.jpg",
+  "creator": "Beyonce245 of English Wikipedia.",
+  "license_name": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Greensboro_Skyline.jpg",
+  "kb": 118
+ },
+ "new-bern": {
+  "name": "New Bern",
+  "area": "Craven County \u00b7 Eastern NC",
+  "file": "/neighborhoods/new-bern.jpg",
+  "creator": "Tradewinds",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:New_Bern_Historic_District.JPG",
+  "kb": 173
+ },
+ "belmont": {
+  "name": "Belmont",
+  "area": "Gaston County",
+  "file": "/neighborhoods/belmont.jpg",
+  "creator": "Cgballer (talk) (Uploads)",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Belmont_NC_HistoricDowntown1.JPG",
+  "kb": 141
+ },
+ "downtown-raleigh": {
+  "name": "Downtown Raleigh",
+  "area": "Raleigh",
+  "file": "/neighborhoods/downtown-raleigh.jpg",
+  "creator": "www.fayettevillestreet.com",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fayetteville_Street_during_Winter_2019,_Raleigh,_NC.jpg",
+  "kb": 203
+ },
+ "north-hills": {
+  "name": "North Hills",
+  "area": "Raleigh",
+  "file": "/neighborhoods/north-hills.jpg",
+  "creator": "James Willamor",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:North_Hills_-_panoramio.jpg",
+  "kb": 164
+ },
+ "five-points-raleigh": {
+  "name": "Five Points",
+  "area": "Raleigh",
+  "file": "/neighborhoods/five-points-raleigh.jpg",
+  "creator": "Monumenteer2014camper",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:TK_Kaffee_and_Eclectic_Eatery,_Five_Points,_Raleigh,_North_Carolina.jpg",
+  "kb": 166
+ },
+ "village-district": {
+  "name": "Village District",
+  "area": "Raleigh",
+  "file": "/neighborhoods/village-district.jpg",
+  "creator": "State Archives of North Carolina",
+  "license_name": "No restrictions",
+  "source": "https://commons.wikimedia.org/wiki/File:Cameron_Village_(21517941983).jpg",
+  "kb": 242
+ },
+ "oakwood": {
+  "name": "Historic Oakwood",
+  "area": "Raleigh",
+  "file": "/neighborhoods/oakwood.jpg",
+  "creator": "Mx. Granger",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Oakwood_Historic_District_-_corner_of_Person_St_and_Jones_St.jpg",
+  "kb": 119
+ },
+ "brier-creek": {
+  "name": "Brier Creek",
+  "area": "Raleigh",
+  "file": "/neighborhoods/brier-creek.jpg",
+  "creator": "Ildar Sagdejev (Specious)",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:2008-08-01_Corner_of_Brier_Creek_Reservoir.jpg",
+  "kb": 91
+ },
+ "downtown-durham": {
+  "name": "Downtown Durham",
+  "area": "Durham",
+  "file": "/neighborhoods/downtown-durham.jpg",
+  "creator": "Warren LeMay from Covington, KY, United States",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:American_Tobacco_Campus,_Durham,_NC_(49160940568).jpg",
+  "kb": 187
+ },
+ "trinity-park": {
+  "name": "Trinity Park",
+  "area": "Durham",
+  "file": "/neighborhoods/trinity-park.jpg",
+  "creator": "Warren LeMay from Covington, KY, United States",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Buchanan_Boulevard,_Trinity_Park,_Durham,_NC_(49140375761).jpg",
+  "kb": 191
+ },
+ "old-west-durham": {
+  "name": "Old West Durham",
+  "area": "Durham",
+  "file": "/neighborhoods/old-west-durham.jpg",
+  "creator": "Warren LeMay from Covington, KY, United States",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:9th_Street,_Old_West_Durham,_Durham,_NC_(49139665428).jpg",
+  "kb": 161
+ },
+ "hope-valley": {
+  "name": "Hope Valley",
+  "area": "Durham",
+  "file": "/neighborhoods/hope-valley.jpg",
+  "creator": "Willthacheerleader18",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Front_of_Hope_Valley_Country_Club.jpg",
+  "kb": 113
+ },
+ "forest-hills": {
+  "name": "Forest Hills",
+  "area": "Durham",
+  "file": "/neighborhoods/forest-hills.jpg",
+  "creator": "Nyttend",
+  "license_name": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Forest_Hills_Historic_District_in_Indianapolis.jpg",
+  "kb": 205
+ },
+ "south-durham": {
+  "name": "South Durham",
+  "area": "Durham",
+  "file": "/neighborhoods/south-durham.jpg",
+  "creator": "Rafi B. from Somewhere in Texas :)",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Fountain_at_Southpoint_Mall_Durham,_NC.jpg",
+  "kb": 193
+ },
+ "downtown-asheville": {
+  "name": "Downtown Asheville",
+  "area": "Asheville",
+  "file": "/neighborhoods/downtown-asheville.jpg",
+  "creator": "Jeremy Thompson",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Asheville_North_Carolina_June_2023_-_Pack_Square_towards_Jackson_Building.jpg",
+  "kb": 149
+ },
+ "west-asheville": {
+  "name": "West Asheville",
+  "area": "Asheville",
+  "file": "/neighborhoods/west-asheville.jpg",
+  "creator": "w_lemay",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Haywood_Road,_West_Asheville,_Asheville,_NC_-_31785586467.jpg",
+  "kb": 165
+ },
+ "montford": {
+  "name": "Montford",
+  "area": "Asheville",
+  "file": "/neighborhoods/montford.jpg",
+  "creator": "Karen D. Hoffman",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Homewood_School_Building,_Zillicoa_St.,_Montford_Area.JPG",
+  "kb": 243
+ },
+ "river-arts-district": {
+  "name": "River Arts District",
+  "area": "Asheville",
+  "file": "/neighborhoods/river-arts-district.jpg",
+  "creator": "Jonathan Geiger",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:River_Arts_District,_Asheville,_NC.jpg",
+  "kb": 206
+ },
+ "biltmore-village": {
+  "name": "Biltmore Village",
+  "area": "Asheville",
+  "file": "/neighborhoods/biltmore-village.jpg",
+  "creator": "Jeremy Thompson",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Biltmore_McDonald%27s,_Asheville_NC_-_exterior.jpg",
+  "kb": 128
+ },
+ "north-asheville": {
+  "name": "North Asheville",
+  "area": "Asheville",
+  "file": "/neighborhoods/north-asheville.jpg",
+  "creator": "Southern Post Card Co., Asheville, North Carolina ",
+  "license_name": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Approach_to_Grove_Park_Inn.jpg",
+  "kb": 194
+ },
+ "midtown": {
+  "name": "Midtown",
+  "area": "Charlotte",
+  "file": "/neighborhoods/midtown.jpg",
+  "creator": "Southern Cities Realty",
+  "license_name": "Original photo (Southern Cities Realty)",
+  "source": "",
+  "kb": 421
  }
 }

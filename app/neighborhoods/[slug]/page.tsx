@@ -4,11 +4,17 @@ import { notFound } from 'next/navigation'
 import {
   ArrowRight,
   CalendarCheck,
+  Camera,
   Clock,
   Coffee,
+  Croissant,
+  Dog,
+  Gem,
   GraduationCap,
+  Heart,
   Map as MapIcon,
   MapPin,
+  Route,
   Search,
   Ticket,
   Trees,
@@ -16,12 +22,19 @@ import {
   ShoppingBag,
   Sparkles,
 } from 'lucide-react'
-import { AREA_META, BY_SLUG, NEIGHBORHOODS } from '../data'
+import { AREA_META, BY_SLUG, NEIGHBORHOODS, childrenOf } from '../data'
+import { BY_REGION, REGIONS } from '../regions'
 import { PLACES, type Places } from '../places'
+import { LOCAL_PICKS } from '../local-picks'
+import { HUB_QUIZZES } from '../hub-quizzes'
 import { NeighborhoodCard } from '../NeighborhoodCard'
+import { HubQuiz } from '../HubQuiz'
+import { RegionView } from './RegionView'
 import { MarketStats } from './MarketStats'
 
-const PLACE_CATS: { key: keyof Places; label: string; icon: React.ComponentType<{ className?: string }> }[] = [
+type IconCmp = React.ComponentType<{ className?: string }>
+
+const PLACE_CATS: { key: keyof Places; label: string; icon: IconCmp }[] = [
   { key: 'eat', label: 'Restaurants & Food', icon: UtensilsCrossed },
   { key: 'coffee', label: 'Coffee & Bakeries', icon: Coffee },
   { key: 'parks', label: 'Parks & Outdoors', icon: Trees },
@@ -29,11 +42,32 @@ const PLACE_CATS: { key: keyof Places; label: string; icon: React.ComponentType<
   { key: 'entertainment', label: 'Entertainment & Culture', icon: Ticket },
 ]
 
+const PICK_CARDS: { key: 'coffee' | 'brunch' | 'dateNight'; label: string; icon: IconCmp }[] = [
+  { key: 'coffee', label: 'Best Coffee', icon: Coffee },
+  { key: 'brunch', label: 'Best Brunch', icon: Croissant },
+  { key: 'dateNight', label: 'Date Night', icon: Heart },
+]
+
+const PICK_TAGS: { key: 'dogFriendly' | 'hiddenGems' | 'instaSpots'; label: string; icon: IconCmp }[] = [
+  { key: 'dogFriendly', label: 'Dog-Friendly', icon: Dog },
+  { key: 'hiddenGems', label: 'Hidden Gems', icon: Gem },
+  { key: 'instaSpots', label: 'Instagram-Worthy', icon: Camera },
+]
+
 export function generateStaticParams() {
-  return NEIGHBORHOODS.map((n) => ({ slug: n.slug }))
+  return [...REGIONS.map((r) => ({ slug: r.slug })), ...NEIGHBORHOODS.map((n) => ({ slug: n.slug }))]
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const region = BY_REGION[params.slug]
+  if (region) {
+    return {
+      title: `${region.name} — Areas We Serve`,
+      description: `${region.blurb} Southern Cities Realty serves buyers and sellers across ${region.short} and all of North Carolina.`,
+      alternates: { canonical: `/neighborhoods/${region.slug}` },
+      openGraph: region.image ? { images: [region.image] } : undefined,
+    }
+  }
   const n = BY_SLUG[params.slug]
   if (!n) return { title: 'Neighborhood Guide' }
   return {
@@ -58,11 +92,22 @@ const UPCOMING = [
 ]
 
 export default function NeighborhoodPage({ params }: { params: { slug: string } }) {
+  const region = BY_REGION[params.slug]
+  if (region) return <RegionView region={region} />
+
   const n = BY_SLUG[params.slug]
   if (!n) notFound()
   const meta = AREA_META[n.slug]
+  const hoods = childrenOf(n.slug)
+  const hubQuiz = HUB_QUIZZES[n.slug]
   const places = PLACES[n.slug]
   const hasPlaces = places && PLACE_CATS.some((c) => places[c.key]?.length)
+  const picks = LOCAL_PICKS[n.slug]
+  const hasPicks =
+    picks &&
+    (picks.weekend ||
+      PICK_CARDS.some((c) => picks[c.key]) ||
+      PICK_TAGS.some((t) => picks[t.key]?.length))
   const nearby = n.nearby.map((s) => BY_SLUG[s]).filter(Boolean)
 
   return (
@@ -118,6 +163,41 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
         </div>
       </section>
 
+      {/* HUB: NEIGHBORHOODS GRID */}
+      {hoods.length > 0 && (
+        <section className="bg-white/70 py-14 md:py-16">
+          <div className="page-shell">
+            <p className="section-label">Neighborhoods</p>
+            <h2 className="section-title mt-3">Explore {n.name}, neighborhood by neighborhood.</h2>
+            <p className="section-copy mt-4 max-w-2xl">
+              Each area has its own character. Browse the guides, or take the quiz below to find your fit.
+            </p>
+            <div className="mt-8 grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-3 lg:grid-cols-4">
+              {hoods.map((h) => (
+                <NeighborhoodCard key={h.slug} n={h} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* HUB: NEIGHBORHOOD MATCH QUIZ */}
+      {hubQuiz && (
+        <section id="quiz" className="bg-cream-50 py-14 md:py-16">
+          <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">🔍 Not sure where to start?</p>
+              <h2 className="section-title mt-3">Find your {n.name} neighborhood.</h2>
+              <p className="section-copy mt-4 max-w-lg">
+                Answer a few quick questions and we&rsquo;ll point you to the {n.name} neighborhoods that fit your
+                style.
+              </p>
+            </div>
+            <HubQuiz questions={hubQuiz} hubName={n.name} />
+          </div>
+        </section>
+      )}
+
       {/* LOCAL FAVORITES */}
       {hasPlaces && places && (
         <section className="bg-white/70 py-14 md:py-16">
@@ -150,6 +230,64 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
             <p className="mt-4 text-xs text-slate-400">
               A curated sample of established local landmarks — not a complete directory.
             </p>
+          </div>
+        </section>
+      )}
+
+      {/* LOCAL PICKS (editorial) */}
+      {hasPicks && picks && (
+        <section className="bg-cream-50 py-14 md:py-16">
+          <div className="page-shell">
+            <p className="section-label">Local Picks</p>
+            <h2 className="section-title mt-3">How to enjoy {n.name}.</h2>
+            <p className="section-copy mt-4 max-w-2xl">Our brokers&rsquo; picks &mdash; the spots we&rsquo;d actually send you to.</p>
+
+            {picks.weekend && (
+              <div className="mt-8 flex items-start gap-4 rounded-[22px] border border-brand-400/40 bg-white p-6 shadow-[0_14px_40px_rgba(15,23,42,0.06)] md:p-7">
+                <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-brand-500 text-white">
+                  <Route className="h-5 w-5" />
+                </span>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-brand-600">The perfect weekend</p>
+                  <p className="mt-1.5 text-[15px] leading-7 text-navy-950">{picks.weekend}</p>
+                </div>
+              </div>
+            )}
+
+            {PICK_CARDS.some((c) => picks[c.key]) && (
+              <div className="mt-5 grid gap-4 sm:grid-cols-3">
+                {PICK_CARDS.filter((c) => picks[c.key]).map(({ key, label, icon: Icon }) => (
+                  <div key={key} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">{label}</p>
+                    <p className="mt-1 font-display text-lg leading-snug text-navy-950">{picks[key]}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {PICK_TAGS.some((t) => picks[t.key]?.length) && (
+              <div className="mt-4 grid gap-4 sm:grid-cols-3">
+                {PICK_TAGS.filter((t) => picks[t.key]?.length).map(({ key, label, icon: Icon }) => (
+                  <div key={key} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
+                    <div className="flex items-center gap-2">
+                      <Icon className="h-4 w-4 text-brand-500" />
+                      <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-navy-950">{label}</h3>
+                    </div>
+                    <ul className="mt-3 space-y-2">
+                      {picks[key]!.map((x) => (
+                        <li key={x} className="flex items-start gap-2.5 text-sm leading-6 text-slate-600">
+                          <span className="mt-2 h-1 w-1 flex-none rounded-full bg-brand-400" />
+                          {x}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </section>
       )}

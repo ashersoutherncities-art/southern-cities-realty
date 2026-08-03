@@ -1,22 +1,52 @@
 import type { Metadata } from 'next'
-import { Search } from 'lucide-react'
-import { neighborhoodsByGroup } from './data'
-import { NeighborhoodCard } from './NeighborhoodCard'
-import { NeighborhoodQuiz } from './NeighborhoodQuiz'
-import { PHOTO_CREDITS } from './credits'
+import Link from 'next/link'
+import { ArrowRight, Compass, MapPin, Search } from 'lucide-react'
+import { REGIONS } from './regions'
 
 const HERO =
   'https://images.pexels.com/photos/20018783/pexels-photo-20018783.jpeg?auto=compress&cs=tinysrgb&w=2000'
 
 export const metadata: Metadata = {
-  title: 'Areas We Serve | Charlotte Neighborhood Guides',
+  title: 'Areas We Serve | North Carolina Real Estate',
   description:
-    'Explore Charlotte neighborhood guides from Southern Cities Realty — Uptown, South End, Dilworth, Myers Park, Ballantyne, Lake Norman towns, Union County and more. Find the right area to call home.',
+    'Southern Cities Realty serves buyers and sellers across all of North Carolina — Charlotte, the Triangle (Raleigh–Durham), the Triad, Asheville & the mountains, Wilmington & the coast, the Sandhills, Eastern NC, and the Outer Banks.',
   alternates: { canonical: '/neighborhoods' },
 }
 
+function RegionCard({ region }: { region: (typeof REGIONS)[number] }) {
+  return (
+    <Link
+      href={`/neighborhoods/${region.slug}`}
+      className="group relative block aspect-[16/11] overflow-hidden rounded-[22px] border border-slate-200/70 bg-navy-950 shadow-[0_12px_34px_rgba(15,23,42,0.08)] transition duration-300 hover:-translate-y-1.5 hover:shadow-[0_30px_64px_rgba(15,23,42,0.22)]"
+    >
+      {region.image ? (
+        <img
+          src={region.image}
+          alt={region.name}
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.06]"
+        />
+      ) : (
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-950 to-[#0e1b3d]">
+          <MapPin className="absolute right-5 top-5 h-6 w-6 text-brand-400/70" />
+        </div>
+      )}
+      <div className="absolute inset-0 bg-gradient-to-t from-navy-950/92 via-navy-950/25 to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 p-5">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-brand-300">{region.tagline}</p>
+        <h3 className="mt-1 font-display text-2xl leading-tight text-white">{region.short}</h3>
+        <p className="mt-1.5 flex items-center gap-1.5 text-xs text-white/65">
+          {region.counties}
+        </p>
+      </div>
+      <span className="absolute right-5 bottom-5 flex h-9 w-9 items-center justify-center rounded-full bg-white/0 text-white/0 transition group-hover:bg-brand-500 group-hover:text-white">
+        <ArrowRight className="h-4 w-4" />
+      </span>
+    </Link>
+  )
+}
+
 export default function AreasWeServePage() {
-  const groups = neighborhoodsByGroup()
   return (
     <>
       {/* HERO */}
@@ -26,80 +56,47 @@ export default function AreasWeServePage() {
         <div className="page-shell relative max-w-3xl">
           <p className="section-label text-brand-300">Areas We Serve</p>
           <h1 className="mt-3 font-display text-5xl leading-[1.02] text-white md:text-6xl">
-            Explore Charlotte&rsquo;s best neighborhoods.
+            We cover all of North Carolina.
           </h1>
           <p className="mt-5 text-base leading-8 text-white/75 md:text-lg">
-            Whether you&rsquo;re looking for walkable city living, top-rated schools, luxury homes, or quiet
-            suburbs, browse our local neighborhood guides to find the perfect place to call home.
+            Based in Charlotte, working statewide. Choose a region to explore local guides, current market data, and
+            the towns we serve — from the mountains to the coast.
           </p>
-        </div>
-      </section>
-
-      {/* QUIZ CTA + QUIZ */}
-      <section id="quiz" className="bg-cream-50 py-16 md:py-20">
-        <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">🔍 Not sure where to start?</p>
-            <h2 className="section-title mt-3">Take our Neighborhood Match Quiz.</h2>
-            <p className="section-copy mt-4 max-w-lg">
-              Answer a few quick questions and we&rsquo;ll recommend the Charlotte neighborhoods that fit your
-              lifestyle, budget, and pace. It takes about a minute.
-            </p>
+          <div className="mt-7 flex flex-wrap gap-3">
+            <Link href="/neighborhoods/charlotte#quiz" className="cta-primary">
+              <Compass className="h-4 w-4" /> Neighborhood Match Quiz
+            </Link>
+            <a href="/listings" className="cta-ghost border-white/30 bg-white/5 text-white hover:bg-white/10 hover:text-white">
+              <Search className="h-4 w-4" /> Search Homes
+            </a>
           </div>
-          <NeighborhoodQuiz />
         </div>
       </section>
 
-      {/* GROUPED NEIGHBORHOODS */}
-      <div className="bg-white/70">
-        {groups.map(({ group, items }) => (
-          <section key={group} className="page-shell border-t border-slate-200/60 py-14 first:border-t-0 md:py-16">
-            <div className="mb-8 flex items-end justify-between gap-4">
-              <div>
-                <h2 className="font-display text-3xl text-navy-950 md:text-4xl">{group}</h2>
-                <p className="mt-2 text-sm text-slate-500">{items.length} areas</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-4 sm:gap-5 md:grid-cols-3 lg:grid-cols-4">
-              {items.map((n) => (
-                <NeighborhoodCard key={n.slug} n={n} />
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
+      {/* REGION GRID */}
+      <section className="bg-cream-50 py-16 md:py-20">
+        <div className="page-shell">
+          <p className="section-label">Explore by region</p>
+          <h2 className="section-title mt-3">Find your part of North Carolina.</h2>
+          <div className="mt-9 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {REGIONS.map((region) => (
+              <RegionCard key={region.slug} region={region} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* CTA */}
-      <section className="bg-cream-50 py-16 md:py-20">
+      <section className="bg-white/70 py-16 md:py-20">
         <div className="page-shell flex flex-col items-start gap-6 rounded-[34px] border border-slate-200 bg-white p-8 shadow-[0_24px_80px_rgba(15,23,42,0.06)] md:flex-row md:items-center md:justify-between md:p-12">
           <div className="max-w-2xl">
-            <p className="section-label">Don&rsquo;t see your area?</p>
-            <h2 className="section-title mt-3">We cover buyers and sellers across North Carolina.</h2>
-            <p className="section-copy mt-4">Tell us where you&rsquo;re headed and we&rsquo;ll help you find the right fit.</p>
+            <p className="section-label">Don&rsquo;t see your town?</p>
+            <h2 className="section-title mt-3">If it&rsquo;s in North Carolina, we can help.</h2>
+            <p className="section-copy mt-4">Tell us where you&rsquo;re headed and we&rsquo;ll put local expertise to work.</p>
           </div>
-          <a href="/listings" className="cta-primary whitespace-nowrap">
-            <Search className="h-4 w-4" /> Search Homes
-          </a>
-        </div>
-      </section>
-
-      {/* PHOTO CREDITS */}
-      <section className="border-t border-slate-200/60 bg-white/70 py-8">
-        <div className="page-shell">
-          <details className="text-xs text-slate-400">
-            <summary className="cursor-pointer font-medium text-slate-500">Neighborhood photo credits</summary>
-            <p className="mt-3 leading-6">
-              {PHOTO_CREDITS.map((c, i) => (
-                <span key={c.source}>
-                  {i > 0 ? ' · ' : ''}
-                  <a href={c.source} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-brand-500">
-                    {c.name}
-                  </a>{' '}
-                  ({c.creator}, {c.license})
-                </span>
-              ))}
-            </p>
-          </details>
+          <Link href="/contact" className="cta-primary whitespace-nowrap">
+            Get Started <ArrowRight className="h-4 w-4" />
+          </Link>
         </div>
       </section>
     </>

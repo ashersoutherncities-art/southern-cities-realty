@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { Fraunces, Manrope } from 'next/font/google'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { Analytics } from '@vercel/analytics/react'
+import { AreasDropdown } from './AreasDropdown'
+import { MobileNav } from './MobileNav'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -70,9 +72,11 @@ function Header() {
           />
         </Link>
 
-        <nav className="flex items-center gap-x-5 gap-y-1 text-sm font-medium text-navy-950 sm:gap-x-7">
+        <nav className="hidden items-center gap-x-5 gap-y-1 text-sm font-medium text-navy-950 md:flex md:gap-x-7">
           {navLinks.map((link) =>
-            link.href.includes('#') ? (
+            link.label === 'Areas We Serve' ? (
+              <AreasDropdown key={link.href} />
+            ) : link.href.includes('#') ? (
               <a key={link.href} href={link.href} className="transition hover:text-brand-500">
                 {link.label}
               </a>
@@ -86,10 +90,12 @@ function Header() {
 
         <Link
           href="/listings"
-          className="rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400"
+          className="hidden rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400 md:inline-flex"
         >
           Search homes
         </Link>
+
+        <MobileNav />
       </div>
     </header>
   )
@@ -113,9 +119,19 @@ function Footer() {
               across North Carolina make their move with honest advice, real local knowledge, and
               brokers who actually pick up the phone.
             </p>
-            <div className="mt-7 flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-white/50">
-              <span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-400" />
-              Equal Housing Opportunity
+            <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3">
+              <span className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-white/70">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" className="h-6 w-6" aria-hidden="true">
+                  <path d="M3 11 L12 3 L21 11" />
+                  <path d="M5 10 V21 H19 V10" />
+                  <line x1="9" y1="14" x2="15" y2="14" />
+                  <line x1="9" y1="17" x2="15" y2="17" />
+                </svg>
+                Equal Housing Opportunity
+              </span>
+              <span className="rounded border border-white/25 px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-white">
+                REALTOR&reg;
+              </span>
             </div>
           </div>
 
@@ -165,7 +181,8 @@ function Footer() {
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <span>NC Real Estate Brokerage</span>
             <span>Firm License #C42672</span>
-            <span>Broker-in-Charge: Darius Walton, NC License #321548</span>
+            <span>Broker-in-Charge: Darius Walton, REALTOR&reg;, NC License #321548</span>
+            <span>Member, National Association of REALTORS&reg;</span>
           </div>
         </div>
       </div>

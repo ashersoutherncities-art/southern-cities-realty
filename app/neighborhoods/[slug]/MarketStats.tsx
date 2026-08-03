@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { Clock, DollarSign, Home, Ruler, TrendingUp } from 'lucide-react'
+import { Banknote, Clock, DollarSign, Home, Ruler, TrendingUp } from 'lucide-react'
 
 type Stats = {
   available: boolean
@@ -10,6 +10,7 @@ type Stats = {
   medianPricePerSqft?: number | null
   medianDaysOnMarket?: number | null
   totalListings?: number | null
+  medianRent?: number | null
   lastUpdated?: string | null
 }
 
@@ -59,6 +60,7 @@ export function MarketStats({ zip, name }: { zip: string; name: string }) {
 
   const cards = [
     { label: 'Median list price', value: money(data.medianPrice), icon: DollarSign },
+    { label: 'Median rent', value: data.medianRent != null ? money(data.medianRent) + '/mo' : '—', icon: Banknote },
     { label: 'Median $ / sq ft', value: money(data.medianPricePerSqft), icon: Ruler },
     { label: 'Median days on market', value: data.medianDaysOnMarket ?? '—', icon: Clock },
     { label: 'Active listings', value: data.totalListings ?? '—', icon: Home },
@@ -66,7 +68,7 @@ export function MarketStats({ zip, name }: { zip: string; name: string }) {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
         {cards.map(({ label, value, icon: Icon }) => (
           <div key={label} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
             <Icon className="h-5 w-5 text-brand-500" />
