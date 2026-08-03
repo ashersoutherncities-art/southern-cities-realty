@@ -169,12 +169,12 @@
  },
  "davidson": {
   "name": "Davidson",
-  "area": "North Mecklenburg",
+  "area": "North Carolina",
   "file": "/neighborhoods/davidson.jpg",
-  "creator": "Jim Evans",
-  "license_name": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Davidson_Penland_House,_Galveston.jpg",
-  "kb": 243
+  "creator": "Brett VA",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mainstreet_shopping_Davidson_(6124620836).jpg",
+  "kb": 292
  },
  "harrisburg": {
   "name": "Harrisburg",
@@ -499,15 +499,6 @@
   "source": "https://commons.wikimedia.org/wiki/File:Front_of_Hope_Valley_Country_Club.jpg",
   "kb": 113
  },
- "forest-hills": {
-  "name": "Forest Hills",
-  "area": "Durham",
-  "file": "/neighborhoods/forest-hills.jpg",
-  "creator": "Nyttend",
-  "license_name": "Public domain",
-  "source": "https://commons.wikimedia.org/wiki/File:Forest_Hills_Historic_District_in_Indianapolis.jpg",
-  "kb": 205
- },
  "south-durham": {
   "name": "South Durham",
   "area": "Durham",
@@ -555,12 +546,12 @@
  },
  "biltmore-village": {
   "name": "Biltmore Village",
-  "area": "Asheville",
+  "area": "North Carolina",
   "file": "/neighborhoods/biltmore-village.jpg",
-  "creator": "Jeremy Thompson",
+  "creator": "David Wilson",
   "license_name": "CC BY 2.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Biltmore_McDonald%27s,_Asheville_NC_-_exterior.jpg",
-  "kb": 128
+  "source": "https://commons.wikimedia.org/wiki/File:All_Souls_Episcopal_Cathedral,_Biltmore_Village,_Asheville,_NC_Sept_2011_-_exterior.jpg",
+  "kb": 478
  },
  "north-asheville": {
   "name": "North Asheville",
@@ -678,5 +669,158 @@
   "license_name": "CC BY-SA 3.0",
   "source": "https://commons.wikimedia.org/wiki/File:Historic_Main_Street_Waynesville.JPG",
   "kb": 210
+ },
+ "corolla": {
+  "name": "Corolla",
+  "area": "North Carolina",
+  "file": "/neighborhoods/corolla.jpg",
+  "creator": "The Woz from Kansas City, MO",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Currituck_Beach_Light_-_keepers_house.jpg",
+  "kb": 275
+ },
+ "kill-devil-hills": {
+  "name": "Kill Devil Hills",
+  "area": "North Carolina",
+  "file": "/neighborhoods/kill-devil-hills.jpg",
+  "creator": "Drummike55",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Kill_Devil_Hills_Shore.jpg",
+  "kb": 397
+ },
+ "kitty-hawk": {
+  "name": "Kitty Hawk",
+  "area": "North Carolina",
+  "file": "/neighborhoods/kitty-hawk.jpg",
+  "creator": "RJVIII",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Beach_at_Kitty_Hawk,_North_Carolina.jpg",
+  "kb": 101
+ },
+ "nags-head": {
+  "name": "Nags Head",
+  "area": "North Carolina",
+  "file": "/neighborhoods/nags-head.jpg",
+  "creator": "Ken Lund from Reno, Nevada, USA",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Jockeys_Ridge_State_Park,_Nags_Head,_North_Carolina_(14446284654).jpg",
+  "kb": 166
+ },
+ "carolina-beach": {
+  "name": "Carolina Beach",
+  "area": "North Carolina",
+  "file": "/neighborhoods/carolina-beach.jpg",
+  "creator": "DiscoA340",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Carolina_Beach_Boardwalk_(4_November_2023)_01.jpg",
+  "kb": 211
+ },
+ "leland": {
+  "name": "Leland",
+  "area": "North Carolina",
+  "file": "/neighborhoods/leland.jpg",
+  "creator": "Idawriter",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Leland,_NC,_USA_-_panoramio.jpg",
+  "kb": 178
+ },
+ "southport": {
+  "name": "Southport",
+  "area": "North Carolina",
+  "file": "/neighborhoods/southport.jpg",
+  "creator": "DiscoA340",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Southport_Waterfront_Park_(July_2023)_02.jpg",
+  "kb": 338
+ },
+ "wrightsville-beach": {
+  "name": "Wrightsville Beach",
+  "area": "North Carolina",
+  "file": "/neighborhoods/wrightsville-beach.jpg",
+  "creator": "DiscoA340",
+  "license_name": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Wrightsville_Beach,_North_Carolina_(January_2023)_10.jpg",
+  "kb": 173
+ },
+ "aberdeen": {
+  "name": "Aberdeen",
+  "area": "North Carolina",
+  "file": "/neighborhoods/aberdeen.jpg",
+  "creator": "Bigbird78",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Aberdeen_Train_Station,_North_Carolina.JPG",
+  "kb": 330
+ },
+ "fayetteville": {
+  "name": "Fayetteville",
+  "area": "North Carolina",
+  "file": "/neighborhoods/fayetteville.jpg",
+  "creator": "Public domain, City of Fayetteville",
+  "license_name": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Fayetteville,_NC_Downtown_Skyline.jpg",
+  "kb": 210
+ },
+ "southern-pines": {
+  "name": "Southern Pines",
+  "area": "North Carolina",
+  "file": "/neighborhoods/southern-pines.jpg",
+  "creator": "Jerrye &amp; Roy Klotz, MD",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:SOUTHERN_PINES_HISTORIC_DISTRICT,_MOORE_COUNTY.jpg",
+  "kb": 241
+ },
+ "wilson": {
+  "name": "Wilson",
+  "area": "North Carolina",
+  "file": "/neighborhoods/wilson.jpg",
+  "creator": "David Wilson",
+  "license_name": "CC BY 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sylva,_North_Carolina,_Sept_2011,_downtown_shops.jpg",
+  "kb": 351
+ },
+ "jacksonville": {
+  "name": "Jacksonville",
+  "area": "North Carolina",
+  "file": "/neighborhoods/jacksonville.jpg",
+  "creator": "Indy beetle",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Onslow_County_Courthouse,_North_Carolina.jpg",
+  "kb": 279
+ },
+ "hope-mills": {
+  "name": "Hope Mills",
+  "area": "North Carolina",
+  "file": "/neighborhoods/hope-mills.jpg",
+  "creator": "gerrydincher",
+  "license_name": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hope_Mills_Dam_and_Spillway_high_water.jpg",
+  "kb": 245
+ },
+ "greenville": {
+  "name": "Greenville",
+  "area": "North Carolina",
+  "file": "/neighborhoods/greenville.jpg",
+  "creator": "Indy beetle",
+  "license_name": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Greenville,_North_Carolina_(1).jpg",
+  "kb": 279
+ },
+ "kinston": {
+  "name": "Kinston",
+  "area": "North Carolina",
+  "file": "/neighborhoods/kinston.jpg",
+  "creator": "Tradewinds",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Queen-Gordon_Streets_Historic_District.JPG",
+  "kb": 338
+ },
+ "pinehurst": {
+  "name": "Pinehurst",
+  "area": "North Carolina",
+  "file": "/neighborhoods/pinehurst.jpg",
+  "creator": "Leonard J. DeFrancisci",
+  "license_name": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Mystic_Cottage_(Pinehurst,_North_Carolina)_001.jpg",
+  "kb": 323
  }
 }

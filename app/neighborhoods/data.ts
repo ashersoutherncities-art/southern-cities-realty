@@ -484,7 +484,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['wrightsville-beach', 'carolina-beach', 'leland'],
   },
   {
-    slug: 'wrightsville-beach', name: 'Wrightsville Beach', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: null,
+    slug: 'wrightsville-beach', name: 'Wrightsville Beach', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: '/neighborhoods/wrightsville-beach.jpg',
     about: 'A classic barrier-island beach town just east of Wilmington, known for surfing, paddleboarding, and its walkable, laid-back vibe.',
     food: 'Beachside seafood spots and casual dining.',
     shops: 'Beach shops and local boutiques.',
@@ -492,7 +492,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['wilmington', 'carolina-beach'],
   },
   {
-    slug: 'carolina-beach', name: 'Carolina Beach', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: null,
+    slug: 'carolina-beach', name: 'Carolina Beach', subtitle: 'New Hanover County · The Coast', region: 'wilmington', image: '/neighborhoods/carolina-beach.jpg',
     about: 'A family-friendly beach town on Pleasure Island with a nostalgic boardwalk, state park, and easy access to Wilmington.',
     food: 'Boardwalk eats, seafood, and Britt’s famous donuts.',
     shops: 'Boardwalk and beach-town shops.',
@@ -500,7 +500,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['wilmington', 'wrightsville-beach'],
   },
   {
-    slug: 'leland', name: 'Leland', subtitle: 'Brunswick County · The Coast', region: 'wilmington', image: null,
+    slug: 'leland', name: 'Leland', subtitle: 'Brunswick County · The Coast', region: 'wilmington', image: '/neighborhoods/leland.jpg',
     about: 'A fast-growing Brunswick County town just across the river from Wilmington, popular for newer neighborhoods and easy coastal access.',
     food: 'Local restaurants and everyday dining.',
     shops: 'Shopping centers and everyday retail.',
@@ -508,7 +508,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['wilmington', 'southport'],
   },
   {
-    slug: 'southport', name: 'Southport', subtitle: 'Brunswick County · The Coast', region: 'wilmington', image: null,
+    slug: 'southport', name: 'Southport', subtitle: 'Brunswick County · The Coast', region: 'wilmington', image: '/neighborhoods/southport.jpg',
     about: 'A picture-perfect historic waterfront town at the mouth of the Cape Fear River, known for its charm, film shoots, and small-town coastal pace.',
     food: 'Waterfront seafood and downtown cafes.',
     shops: 'Historic downtown boutiques and antiques.',
@@ -526,7 +526,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
 
   // ================= EASTERN NC =================
   {
-    slug: 'greenville', name: 'Greenville', subtitle: 'Pitt County · Eastern NC', region: 'eastern', image: null,
+    slug: 'greenville', name: 'Greenville', subtitle: 'Pitt County · Eastern NC', region: 'eastern', image: '/neighborhoods/greenville.jpg',
     about: 'The hub of eastern NC, home to East Carolina University and a growing medical center, with a lively Uptown and Tar River waterfront.',
     food: 'Uptown restaurants, breweries, and college-town dining.',
     shops: 'Uptown boutiques and area retail.',
@@ -542,7 +542,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['greenville', 'jacksonville'],
   },
   {
-    slug: 'jacksonville', name: 'Jacksonville', subtitle: 'Onslow County · Eastern NC', region: 'eastern', image: null,
+    slug: 'jacksonville', name: 'Jacksonville', subtitle: 'Onslow County · Eastern NC', region: 'eastern', image: '/neighborhoods/jacksonville.jpg',
     about: 'A coastal-plain city in Onslow County, home to Marine Corps Base Camp Lejeune and close to the beaches of the Crystal Coast.',
     food: 'Local restaurants and everyday dining.',
     shops: 'Shopping centers and area retail.',
@@ -558,7 +558,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['wilson', 'kinston'],
   },
   {
-    slug: 'kinston', name: 'Kinston', subtitle: 'Lenoir County · Eastern NC', region: 'eastern', image: null,
+    slug: 'kinston', name: 'Kinston', subtitle: 'Lenoir County · Eastern NC', region: 'eastern', image: '/neighborhoods/kinston.jpg',
     about: 'A Neuse River town with a nationally celebrated downtown food scene, riverfront nature, and minor-league baseball.',
     food: 'A celebrated downtown dining scene and local barbecue.',
     shops: 'Downtown shops and galleries.',
@@ -566,7 +566,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['greenville', 'goldsboro'],
   },
   {
-    slug: 'wilson', name: 'Wilson', subtitle: 'Wilson County · Eastern NC', region: 'eastern', image: null,
+    slug: 'wilson', name: 'Wilson', subtitle: 'Wilson County · Eastern NC', region: 'eastern', image: '/neighborhoods/wilson.jpg',
     about: 'A historic tobacco-market town with a revitalizing downtown, known for the whimsical Whirligig Park.',
     food: 'Downtown restaurants and eastern-NC barbecue.',
     shops: 'Downtown shops and boutiques.',
@@ -576,7 +576,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
 
   // ================= FAYETTEVILLE & THE SANDHILLS =================
   {
-    slug: 'fayetteville', name: 'Fayetteville', subtitle: 'Cumberland County · The Sandhills', region: 'sandhills', image: null,
+    slug: 'fayetteville', name: 'Fayetteville', subtitle: 'Cumberland County · The Sandhills', region: 'sandhills', image: '/neighborhoods/fayetteville.jpg',
     about: 'A diverse, growing city anchored by Fort Liberty, with a revitalizing downtown, strong value, and a central Sandhills location.',
     food: 'Downtown restaurants and international dining.',
     shops: 'Downtown boutiques and Cross Creek Mall.',
@@ -584,7 +584,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['hope-mills', 'southern-pines', 'pinehurst'],
   },
   {
-    slug: 'pinehurst', name: 'Pinehurst', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: null,
+    slug: 'pinehurst', name: 'Pinehurst', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: '/neighborhoods/pinehurst.jpg',
     about: 'The golf capital of America, a resort village of tree-lined streets, historic charm, and world-famous courses.',
     food: 'Village restaurants and resort dining.',
     shops: 'The historic Village of Pinehurst shops.',
@@ -592,7 +592,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['southern-pines', 'aberdeen'],
   },
   {
-    slug: 'southern-pines', name: 'Southern Pines', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: null,
+    slug: 'southern-pines', name: 'Southern Pines', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: '/neighborhoods/southern-pines.jpg',
     about: 'A charming Sandhills town with a historic downtown, horse-country estates, and longleaf-pine nature preserves.',
     food: 'Historic downtown restaurants and cafes.',
     shops: 'Walkable downtown boutiques.',
@@ -600,7 +600,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['pinehurst', 'aberdeen'],
   },
   {
-    slug: 'aberdeen', name: 'Aberdeen', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: null,
+    slug: 'aberdeen', name: 'Aberdeen', subtitle: 'Moore County · The Sandhills', region: 'sandhills', image: '/neighborhoods/aberdeen.jpg',
     about: 'A Moore County town with historic railroad heritage and easy access to the golf and amenities of Pinehurst and Southern Pines.',
     food: 'Local restaurants and everyday dining.',
     shops: 'Local shops and area retail.',
@@ -608,7 +608,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['southern-pines', 'pinehurst'],
   },
   {
-    slug: 'hope-mills', name: 'Hope Mills', subtitle: 'Cumberland County · The Sandhills', region: 'sandhills', image: null,
+    slug: 'hope-mills', name: 'Hope Mills', subtitle: 'Cumberland County · The Sandhills', region: 'sandhills', image: '/neighborhoods/hope-mills.jpg',
     about: 'A friendly Cumberland County town just south of Fayetteville, centered on Hope Mills Lake with an easy commute.',
     food: 'Local restaurants and casual dining.',
     shops: 'Everyday shopping centers.',
@@ -618,7 +618,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
 
   // ================= THE OUTER BANKS =================
   {
-    slug: 'corolla', name: 'Corolla', subtitle: 'Currituck County · Outer Banks', region: 'outer-banks', image: null,
+    slug: 'corolla', name: 'Corolla', subtitle: 'Currituck County · Outer Banks', region: 'outer-banks', image: '/neighborhoods/corolla.jpg',
     about: 'A quiet, upscale beach community on the northern Outer Banks, famous for its wild horses, lighthouse, and 4x4 beaches.',
     food: 'Beachside restaurants and seafood.',
     shops: 'Corolla Light and TimBuck II shops.',
@@ -634,7 +634,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['corolla', 'kitty-hawk'],
   },
   {
-    slug: 'kitty-hawk', name: 'Kitty Hawk', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    slug: 'kitty-hawk', name: 'Kitty Hawk', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: '/neighborhoods/kitty-hawk.jpg',
     about: 'A classic Outer Banks beach town tied to the Wright Brothers’ first flight, with wide beaches and an easy, uncrowded feel.',
     food: 'Beach-town seafood and casual dining.',
     shops: 'Beach shops and local retail.',
@@ -642,7 +642,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['kill-devil-hills', 'duck'],
   },
   {
-    slug: 'kill-devil-hills', name: 'Kill Devil Hills', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    slug: 'kill-devil-hills', name: 'Kill Devil Hills', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: '/neighborhoods/kill-devil-hills.jpg',
     about: 'The most populous Outer Banks town and home to the Wright Brothers National Memorial, with lively beaches and amenities.',
     food: 'Oceanfront restaurants and seafood.',
     shops: 'Beach shops and shopping centers.',
@@ -650,7 +650,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['nags-head', 'kitty-hawk'],
   },
   {
-    slug: 'nags-head', name: 'Nags Head', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: null,
+    slug: 'nags-head', name: 'Nags Head', subtitle: 'Dare County · Outer Banks', region: 'outer-banks', image: '/neighborhoods/nags-head.jpg',
     about: 'A quintessential Outer Banks beach town, home to the East Coast’s tallest sand dune and classic oceanfront cottages.',
     food: 'Oceanfront seafood and OBX favorites.',
     shops: 'Beach shops, outlets, and local boutiques.',
@@ -750,7 +750,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     nearby: ['forest-hills', 'south-durham'],
   },
   {
-    slug: 'forest-hills', name: 'Forest Hills', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: '/neighborhoods/forest-hills.jpg',
+    slug: 'forest-hills', name: 'Forest Hills', subtitle: 'Durham · The Triangle', region: 'triangle', parent: 'durham', image: null,
     about: 'A historic, hilly neighborhood just south of Downtown, known for its 1920s architecture and its namesake park.',
     food: 'Downtown Durham dining a short drive away.',
     shops: 'Nearby Lakewood and Downtown retail.',
