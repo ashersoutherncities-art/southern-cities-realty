@@ -189,6 +189,29 @@ export const HOME_CSS = `
   .dok b{color:#fff;}
   @media(max-width:820px){.dreamer{grid-template-columns:1fr;}.dstage{position:static;}}
 
+  /* ---- Charlotte market dashboard ---- */
+  .mkt-stamp{font-size:12.5px;font-weight:600;color:var(--muted);display:flex;align-items:center;gap:8px;white-space:nowrap;}
+  .mkt-stamp i{width:8px;height:8px;border-radius:50%;background:#31b57d;box-shadow:0 0 0 4px rgba(49,181,125,.18);flex:none;}
+  .mkt-stamp.off i{background:var(--muted-2);box-shadow:0 0 0 4px rgba(138,147,165,.18);}
+  .mkt-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+  .mkt-card{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:24px;position:relative;overflow:hidden;transition:transform .3s var(--ease),box-shadow .3s var(--ease);}
+  .mkt-card:hover{transform:translateY(-4px);box-shadow:0 30px 60px -40px rgba(19,36,82,.5);}
+  .mkt-ic{width:38px;height:38px;border-radius:10px;background:var(--orange-soft);display:grid;place-items:center;margin-bottom:16px;}
+  .mkt-ic svg{width:20px;height:20px;fill:none;stroke:var(--orange-2);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+  .mkt-lab{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);}
+  .mkt-val{font-family:var(--display);font-weight:600;font-size:clamp(30px,3.4vw,40px);color:var(--navy);line-height:1.05;margin-top:9px;font-variant-numeric:tabular-nums;}
+  .mkt-sub{font-size:12.5px;color:var(--muted-2);margin-top:9px;}
+  .mkt-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px;}
+  .mkt-chip{display:flex;align-items:center;gap:7px;background:var(--cream-2);border:1px solid var(--line);border-radius:999px;padding:5px 11px 5px 5px;font-size:12.5px;font-weight:600;color:var(--navy);}
+  .mkt-chip b{color:var(--orange-2);font-variant-numeric:tabular-nums;font-weight:700;}
+  .mkt-chip .rk{width:18px;height:18px;border-radius:50%;background:var(--navy);color:#fff;font-size:10px;display:grid;place-items:center;font-family:var(--body);flex:none;}
+  .mkt-card.pending{background:var(--cream-2);border-style:dashed;}
+  .mkt-card.pending .mkt-ic{background:rgba(138,147,165,.16);}
+  .mkt-card.pending .mkt-ic svg{stroke:var(--muted-2);}
+  .mkt-card.pending .mkt-val{color:var(--muted-2);font-size:17px;font-family:var(--body);font-weight:600;line-height:1.4;margin-top:9px;}
+  @media(max-width:820px){.mkt-grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:520px){.mkt-grid{grid-template-columns:1fr;}}
+
   .worth{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,60px);align-items:center;}
   .worth h2{font-size:clamp(28px,3.8vw,44px);color:#fff;}
   .worth p{color:#aeb8d6;margin-top:14px;max-width:38ch;}
@@ -319,10 +342,18 @@ export const HOME_CSS = `
   .tcard .tbody p{font-size:14px;color:var(--muted);}
   @media(max-width:720px){.teamgrid{grid-template-columns:1fr;}}
 
+  .burger{display:none;align-items:center;justify-content:center;width:44px;height:44px;border:0;background:transparent;cursor:pointer;margin-left:auto;}
+  .mobmenu{display:none;position:fixed;inset:0;z-index:200;background:rgba(19,36,82,.45);}
+  .mobmenu.open{display:block;}
+  .mobmenu-panel{position:absolute;right:0;top:0;height:100%;width:84%;max-width:320px;background:#fbf7f1;box-shadow:-10px 0 40px rgba(19,36,82,.25);padding:20px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;}
+  .mobmenu-panel a{padding:13px 8px;font-size:17px;font-weight:600;color:#132452;text-decoration:none;border-radius:10px;}
+  .mobmenu-close{align-self:flex-end;background:transparent;border:0;font-size:26px;line-height:1;color:#132452;cursor:pointer;padding:2px 8px;margin-bottom:6px;}
+  .mobmenu-panel .btn-orange{margin-top:12px;text-align:center;color:#fff;}
   @media(max-width:1000px){
     header{flex-wrap:wrap;}
-    nav{order:3;width:100%;margin:10px 0 0 0;gap:20px;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch;}
-    nav a{white-space:nowrap;}
+    #nav{display:none;}
+    #hdr .btn-orange{display:none;}
+    .burger{display:inline-flex;}
   }
   .progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--orange);z-index:60;transition:width .08s linear;}
   .saved{display:flex;align-items:center;gap:6px;font-weight:600;font-size:13.5px;color:var(--navy);white-space:nowrap;}
@@ -422,7 +453,8 @@ export const HOME_CSS = `
   .chband-in h2{font-size:clamp(28px,4vw,44px);color:#fff;margin-top:10px;}
   .chband-in p{color:#e7ecf5;margin-top:14px;font-size:16px;}
 
-  body:has(#scr) > header, body:has(#scr) > footer{display:none !important;}`;
+  body:has(#scr) > footer{display:none !important;}
+  #hdr{display:none !important;}`;
 
 export const HOME_HTML = `<div id="scr">
   <div class="progress" id="progress"></div>
@@ -433,11 +465,13 @@ export const HOME_HTML = `<div id="scr">
         <span class="wm">Southern Cities Realty<small>Charlotte · Serving all of NC</small></span></a>
       <nav id="nav">
         <a href="/">Home</a><a href="/listings">Buy</a>
-        <a href="#sell">Sell</a><a href="/neighborhoods">Areas We Serve</a>
+        <a href="#sell">Sell</a><a href="/investors">Investors</a><span style="position:relative;display:inline-block"><a href="/neighborhoods" onclick="event.preventDefault();var m=this.nextElementSibling;m.style.display=(m.style.display==='block')?'none':'block'" style="cursor:pointer">Areas We Serve ▾</a><span style="position:absolute;left:50%;transform:translateX(-50%);top:100%;margin-top:16px;min-width:252px;background:#fff;border:1px solid #e8e2d6;border-radius:16px;box-shadow:0 22px 54px rgba(19,36,82,.18);padding:8px;display:none;z-index:200;text-align:left"><a href="/neighborhoods/charlotte" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Charlotte</a><a href="/neighborhoods/triangle" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Raleigh–Durham</a><a href="/neighborhoods/triad" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Greensboro–Winston-Salem</a><a href="/neighborhoods/western" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Asheville &amp; the Mountains</a><a href="/neighborhoods/wilmington" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Wilmington &amp; the Coast</a><a href="/neighborhoods/eastern" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Eastern NC</a><a href="/neighborhoods/sandhills" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Fayetteville &amp; Pinehurst</a><a href="/neighborhoods/outer-banks" style="display:block;padding:9px 13px;border-radius:10px;color:#132452;font-weight:600;text-decoration:none;font-size:14px">Outer Banks</a><a href="/neighborhoods" style="display:block;padding:9px 13px;border-radius:10px;color:#fa8c41;font-weight:700;text-decoration:none;font-size:14px;border-top:1px solid #f0ece3;margin-top:4px">All areas we serve →</a></span></span>
         <a href="/about">About</a><a href="/contact">Contact</a></nav>
       <a class="btn btn-orange" href="/listings">Search homes</a>
+      <button class="burger" aria-label="Open menu" onclick="document.querySelector('.mobmenu').classList.add('open')"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#132452" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
     </div>
   </header>
+  <div class="mobmenu" onclick="this.classList.remove('open')"><div class="mobmenu-panel" onclick="event.stopPropagation()"><button class="mobmenu-close" aria-label="Close menu" onclick="document.querySelector('.mobmenu').classList.remove('open')">✕</button><a href="/">Home</a><a href="/listings">Buy</a><a href="#sell" onclick="document.querySelector('.mobmenu').classList.remove('open')">Sell</a><a href="/investors">Investors</a><a href="/neighborhoods">Areas We Serve</a><a href="/about">About</a><a href="/contact">Contact</a><a class="btn btn-orange" href="/listings">Search homes</a></div></div>
 
   <!-- ================= HOME ================= -->
   <main class="page" data-page="home">
@@ -466,9 +500,8 @@ export const HOME_HTML = `<div id="scr">
       </div>
       <div class="hero-art" id="heroArt">
         <figure class="float fcard" data-depth="18">
-          <div class="im"><img src="/neighborhoods/dilworth.jpg" alt="Tree-lined Dilworth homes with the Charlotte skyline rising behind them" loading="eager" width="360" height="270"></div>
-          <figcaption class="cap"><div class="p2">Dilworth</div><div class="a">Charlotte, North Carolina</div>
-            <div class="cr">Photo © James Willamor · CC BY-SA 2.0</div></figcaption>
+          <div class="im"><img src="https://images.pexels.com/photos/20018783/pexels-photo-20018783.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Charlotte, North Carolina skyline at dusk" loading="eager" width="360" height="270"></div>
+          <figcaption class="cap"><div class="p2">Rooted in Charlotte</div><div class="a">Serving all of North Carolina</div></figcaption>
         </figure>
         <div class="float fbadge" data-depth="34" aria-hidden="true"><i></i>Charlotte, NC</div>
         <div class="float fpill" data-depth="26" aria-hidden="true"><span class="dot"></span><div class="t">Homes worth coming home to.</div></div>
@@ -561,6 +594,51 @@ export const HOME_HTML = `<div id="scr">
     </div>
   </section>
 
+  <section class="sec" id="market">
+    <div class="sec-head reveal">
+      <div><span class="eyebrow">Charlotte market · updated automatically</span>
+        <h2 style="margin-top:10px">The Charlotte market, at a glance</h2></div>
+      <div class="mkt-stamp off" id="mktStamp"><i></i>Loading live data…</div>
+    </div>
+    <p class="dreamintro reveal" style="margin-top:-18px">Live figures across the neighborhoods we serve, refreshed automatically. Directional by design &mdash; your broker gives you the street-level read before you make a move.</p>
+    <div class="mkt-grid reveal" id="mktGrid">
+      <article class="mkt-card">
+        <div class="mkt-ic"><svg viewBox="0 0 24 24"><path d="M3 12l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M12 15v-3"/></svg></div>
+        <div class="mkt-lab">Median home price</div>
+        <div class="mkt-val skel" id="mMedian">&mdash;</div>
+        <div class="mkt-sub" id="mMedianSub">across tracked neighborhoods</div>
+      </article>
+      <article class="mkt-card">
+        <div class="mkt-ic"><svg viewBox="0 0 24 24"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/></svg></div>
+        <div class="mkt-lab">Active inventory</div>
+        <div class="mkt-val skel" id="mInv">&mdash;</div>
+        <div class="mkt-sub" id="mInvSub">homes for sale</div>
+      </article>
+      <article class="mkt-card pending">
+        <div class="mkt-ic"><svg viewBox="0 0 24 24"><path d="M3 7l6 6 4-4 8 8"/><path d="M21 17v-6"/><path d="M15 17h6"/></svg></div>
+        <div class="mkt-lab">Price reductions</div>
+        <div class="mkt-val">Live once the Canopy MLS feed connects.</div>
+      </article>
+      <article class="mkt-card">
+        <div class="mkt-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <div class="mkt-lab">Avg. days on market</div>
+        <div class="mkt-val skel" id="mDom">&mdash;</div>
+        <div class="mkt-sub">from list to under contract</div>
+      </article>
+      <article class="mkt-card">
+        <div class="mkt-ic"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h7l-1 8 10-12h-7z"/></svg></div>
+        <div class="mkt-lab">Most competitive areas</div>
+        <div class="mkt-chips" id="mComp"><span class="mkt-sub skel">Ranking neighborhoods…</span></div>
+      </article>
+      <article class="mkt-card pending">
+        <div class="mkt-ic"><svg viewBox="0 0 24 24"><path d="M3 21h18"/><path d="M6 21V8l6-4 6 4v13"/><path d="M10 21v-5h4v5"/></svg></div>
+        <div class="mkt-lab">New construction</div>
+        <div class="mkt-val">Live once the Canopy MLS feed connects.</div>
+      </article>
+    </div>
+    <p class="areacredit reveal" id="mktNote">Source: RentCast market data across Charlotte-area ZIP codes, refreshed automatically. Price reductions and new-construction inventory arrive with our upcoming Canopy MLS feed. Figures are directional, not an appraisal.</p>
+  </section>
+
   <section class="sec sec-navy">
     <div class="worth reveal">
       <div><span class="eyebrow">For sellers</span>
@@ -624,7 +702,7 @@ export const HOME_HTML = `<div id="scr">
     <div class="teamgrid reveal">
       <div class="tcard">
         <div class="photo"><img src="/team/darius.jpg" alt="Darius Walton" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><span class="ph-fallback" style="display:none">DW</span></div>
-        <div class="tbody"><h3>Darius Walton</h3><div class="role">Broker-in-Charge · NC License #321548</div>
+        <div class="tbody"><h3>Darius Walton</h3><div class="role">Broker-in-Charge · REALTOR® · NC License #321548</div>
           <p>Broker-in-Charge of Southern Cities Realty, with a background spanning real estate finance, development, lending, and construction. A licensed NC Real Estate Broker and General Contractor who helps buyers, sellers, and investors navigate complex moves with confidence.</p>
           <div class="tcontact"><a href="mailto:darius@southerncitiesrealty.com">darius@southerncitiesrealty.com</a><a href="tel:+17046040608">(704) 604-0608</a></div>
           <a class="go" href="#about">Read full bio →</a></div>
@@ -652,23 +730,9 @@ export const HOME_HTML = `<div id="scr">
     <h1>Buy a home in Charlotte &amp; across the Carolinas</h1>
     <p>Live MLS search is coming soon. In the meantime, get to know the areas we serve with honest local guides &mdash; then tell us exactly what you're after and we'll bring you matches, on the market and off.</p></div>
   <section class="sec">
-    <div class="chips" id="chips">
-      <button class="chip on" data-m="all">All areas</button>
-      <button class="chip" data-m="ballantyne">Ballantyne</button>
-      <button class="chip" data-m="dilworth">Dilworth</button>
-      <button class="chip" data-m="lknorman">Lake Norman</button>
-      <button class="chip" data-m="waxhaw">Waxhaw</button>
-      <button class="chip" data-m="concord">Concord</button>
-    </div>
-    <div class="listings" id="grid">
-      <a class="listing arealink" data-m="ballantyne" href="/neighborhoods/ballantyne"><div class="im"><span class="tag">Ballantyne</span><img src="/neighborhoods/ballantyne.jpg" alt="Ballantyne, South Charlotte" loading="lazy"></div><div class="b"><div class="p2">Ballantyne</div><div class="a">South Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a>
-      <a class="listing arealink" data-m="dilworth" href="/neighborhoods/dilworth"><div class="im"><span class="tag">Dilworth</span><img src="/neighborhoods/dilworth.jpg" alt="Dilworth, Charlotte" loading="lazy"></div><div class="b"><div class="p2">Dilworth</div><div class="a">Historic Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a>
-      <a class="listing arealink" data-m="lknorman" href="/neighborhoods/cornelius"><div class="im"><span class="tag">Lake Norman</span><img src="/neighborhoods/cornelius.jpg" alt="Cornelius on Lake Norman" loading="lazy"></div><div class="b"><div class="p2">Cornelius</div><div class="a">Lake Norman</div><div class="areago">Explore the area &rarr;</div></div></a>
-      <a class="listing arealink" data-m="lknorman" href="/neighborhoods/davidson"><div class="im"><span class="tag">Lake Norman</span><img src="/neighborhoods/davidson.jpg" alt="Davidson, North Carolina" loading="lazy"></div><div class="b"><div class="p2">Davidson</div><div class="a">North of Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a>
-      <a class="listing arealink" data-m="waxhaw" href="/neighborhoods/waxhaw"><div class="im"><span class="tag">Union County</span><img src="/neighborhoods/waxhaw.jpg" alt="Waxhaw, North Carolina" loading="lazy"></div><div class="b"><div class="p2">Waxhaw</div><div class="a">Union County</div><div class="areago">Explore the area &rarr;</div></div></a>
-      <a class="listing arealink" data-m="concord" href="/neighborhoods/concord"><div class="im"><span class="tag">Cabarrus County</span><img src="/neighborhoods/concord.jpg" alt="Concord, North Carolina" loading="lazy"></div><div class="b"><div class="p2">Concord</div><div class="a">Northeast of Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a>
-    </div>
-    <p class="areacredit">Neighborhood photos via Openverse (Creative Commons) &mdash; City Dweller 2, James Willamor, Dough4872, Jim Evans &amp; Indy beetle. Full credits on each area guide.</p>
+    <div class="chips" id="chips"><button class="chip on" data-m="all">All areas</button><button class="chip" data-m="city">City &amp; walkable</button><button class="chip" data-m="historic">Historic</button><button class="chip" data-m="suburban">Suburban</button><button class="chip" data-m="lake">Lake Norman</button></div>
+    <div class="listings" id="grid"><a class="listing arealink" data-m="city" href="/neighborhoods/uptown"><div class="im"><span class="tag">Charlotte</span><img src="/neighborhoods/uptown.jpg" alt="Uptown Charlotte skyline" loading="lazy"></div><div class="b"><div class="p2">Uptown</div><div class="a">Center City</div><div class="areago">Explore the area &rarr;</div></div></a><a class="listing arealink" data-m="city" href="/neighborhoods/south-end"><div class="im"><span class="tag">Charlotte</span><img src="/neighborhoods/south-end.jpg" alt="South End, Charlotte" loading="lazy"></div><div class="b"><div class="p2">South End</div><div class="a">Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a><a class="listing arealink" data-m="city" href="/neighborhoods/noda"><div class="im"><span class="tag">Arts District</span><img src="/neighborhoods/noda.jpg" alt="NoDa arts district, Charlotte" loading="lazy"></div><div class="b"><div class="p2">NoDa</div><div class="a">North Davidson</div><div class="areago">Explore the area &rarr;</div></div></a><a class="listing arealink" data-m="historic" href="/neighborhoods/myers-park"><div class="im"><span class="tag">Historic</span><img src="/neighborhoods/myers-park.jpg" alt="Myers Park, Charlotte" loading="lazy"></div><div class="b"><div class="p2">Myers Park</div><div class="a">Central Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a><a class="listing arealink" data-m="city" href="/neighborhoods/plaza-midwood"><div class="im"><span class="tag">Charlotte</span><img src="/neighborhoods/plaza-midwood.jpg" alt="Plaza Midwood, Charlotte" loading="lazy"></div><div class="b"><div class="p2">Plaza Midwood</div><div class="a">Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a><a class="listing arealink" data-m="suburban" href="/neighborhoods/ballantyne"><div class="im"><span class="tag">South Charlotte</span><img src="/neighborhoods/ballantyne.jpg" alt="Ballantyne, South Charlotte" loading="lazy"></div><div class="b"><div class="p2">Ballantyne</div><div class="a">South Charlotte</div><div class="areago">Explore the area &rarr;</div></div></a><a class="listing arealink" data-m="lake" href="/neighborhoods/cornelius"><div class="im"><span class="tag">Lake Norman</span><img src="/neighborhoods/cornelius.jpg" alt="Cornelius on Lake Norman" loading="lazy"></div><div class="b"><div class="p2">Cornelius</div><div class="a">Lake Norman</div><div class="areago">Explore the area &rarr;</div></div></a></div>
+    <p class="areacredit">Neighborhood photos via Openverse &amp; Wikimedia Commons (CC BY-SA) &mdash; James Willamor, City Dweller 2, and Dough4872.</p>
     <div class="finalcta reveal" style="margin-top:56px"><h2>Don't see it yet?</h2>
       <p>Tell us your must-haves and budget, we'll send homes that fit before they hit everyone's inbox.</p>
       <a class="btn btn-orange" href="#contact">Set up my search</a></div>
@@ -742,7 +806,7 @@ export const HOME_HTML = `<div id="scr">
     <div class="teamgrid reveal">
       <div class="tcard">
         <div class="photo"><img src="/team/darius.jpg" alt="Darius Walton" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><span class="ph-fallback" style="display:none">DW</span></div>
-        <div class="tbody"><h3>Darius Walton</h3><div class="role">Broker-in-Charge · NC License #321548</div>
+        <div class="tbody"><h3>Darius Walton</h3><div class="role">Broker-in-Charge · REALTOR® · NC License #321548</div>
           <p>As Broker-in-Charge of Southern Cities Realty, Darius Walton brings a unique blend of real estate expertise, financial analysis, construction knowledge, and investment strategy to every client relationship. With experience spanning residential and commercial real estate, development, construction, lending, and investment management, he offers clients guidance that goes far beyond a traditional real estate transaction.</p><p>Darius earned his Bachelor's degree in Accounting from NC State University before completing a Master's in Real Estate Finance &amp; Development at UNC Charlotte's Childress Klein Center for Real Estate. Throughout his career, he has worked in real estate investment, affordable housing development, mortgage lending, acquisitions, construction, and brokerage, giving him a comprehensive understanding of the market from every angle.</p><p>As a licensed North Carolina Real Estate Broker, licensed General Contractor, and former Mortgage Loan Officer, Darius is uniquely equipped to help buyers, sellers, investors, and developers confidently navigate complex transactions. Whether helping a first-time homebuyer, advising an investor, or evaluating development opportunities, his goal is to provide strategic guidance backed by market expertise and data-driven decision-making.</p><p>Outside of real estate, Darius enjoys giving back to the community through organizations like Habitat for Humanity, where he supports efforts to create affordable housing and stronger neighborhoods. He is passionate about building lasting relationships and helping clients achieve long-term success through real estate.</p>
           <div class="tcontact"><a href="mailto:darius@southerncitiesrealty.com">darius@southerncitiesrealty.com</a><a href="tel:+17046040608">(704) 604-0608</a></div></div>
       </div>
@@ -1153,11 +1217,48 @@ export const HOME_JS = `(function(){
       var payload={email:email,beds:dream.bed,style:dream.style,budget:dream.budget,area:dream.area,features:dream.feats,summary:($('#dreamLine')||{}).textContent||''};
       fetch('/api/wishlist',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
         .then(function(r){return r.json().catch(function(){return{};});})
-        .then(function(){ok.innerHTML='<b>Got it — your wishlist is on the way to a broker.</b> We\'ll start the hunt and reach out with real matches, on and off market.';})
-        .catch(function(){ok.innerHTML='<b>Saved.</b> If you don\'t hear from us shortly, reach us any time at admin@southerncitiesrealty.com.';});
+        .then(function(){ok.innerHTML='<b>Got it — your wishlist is on the way to a broker.</b> We will start the hunt and reach out with real matches, on and off market.';})
+        .catch(function(){ok.innerHTML='<b>Saved.</b> If you do not hear from us shortly, reach us any time at admin@southerncitiesrealty.com.';});
     });
     render();
   }
+
+  /* ---- Charlotte market dashboard ---- */
+  try{
+    var mktGrid=$('#mktGrid');
+    if(mktGrid){
+      var mMoney=function(n){return '$'+Math.round(n).toLocaleString('en-US');};
+      var mNum=function(n){return Math.round(n).toLocaleString('en-US');};
+      var mDate=function(s){if(!s)return 'recently';var d=new Date(s);if(isNaN(d.getTime()))return 'recently';
+        return d.toLocaleDateString('en-US',{month:'short',year:'numeric'});};
+      var mDash='—';
+      var mCount=function(id,to,fmt){
+        var el=$(id);if(!el)return;el.classList.remove('skel');
+        if(reduce||!to){el.textContent=fmt(to);return;}
+        var t0=null,dur=900;
+        var step=function(ts){if(t0===null)t0=ts;var p=Math.min((ts-t0)/dur,1);var e=1-Math.pow(1-p,3);
+          el.textContent=fmt(to*e);if(p<1)requestAnimationFrame(step);};
+        requestAnimationFrame(step);};
+      var mFail=function(){var s=$('#mktStamp');if(s){s.className='mkt-stamp off';s.innerHTML='<i></i>Live data connecting soon';}
+        ['#mMedian','#mInv','#mDom'].forEach(function(id){var el=$(id);if(el){el.textContent=mDash;el.classList.remove('skel');}});
+        var comp=$('#mComp');if(comp)comp.innerHTML='<span class="mkt-sub">Available once live data connects.</span>';};
+      fetch('/api/market').then(function(r){return r.json();}).then(function(d){
+        if(!d||!d.available){mFail();return;}
+        var s=$('#mktStamp');if(s){s.className='mkt-stamp';s.innerHTML='<i></i>Updated '+mDate(d.updated);}
+        if(d.medianPrice)mCount('#mMedian',d.medianPrice,mMoney);
+        else{var m=$('#mMedian');if(m){m.textContent=mDash;m.classList.remove('skel');}}
+        var sub=$('#mMedianSub');if(sub&&d.coverage)sub.textContent='across '+d.coverage+' tracked neighborhoods';
+        if(d.inventory)mCount('#mInv',d.inventory,mNum);
+        var isub=$('#mInvSub');if(isub)isub.textContent=(d.newListings?mNum(d.newListings)+' new listings this period':'homes for sale');
+        if(d.avgDom)mCount('#mDom',d.avgDom,function(v){return Math.round(v)+' days';});
+        var comp=$('#mComp');
+        if(comp&&d.competitive&&d.competitive.length){
+          comp.innerHTML=d.competitive.map(function(c,i){
+            return '<span class="mkt-chip"><span class="rk">'+(i+1)+'</span>'+c.name+' <b>'+c.dom+'d</b></span>';}).join('');
+        }else if(comp){comp.innerHTML='<span class="mkt-sub">Available once live data connects.</span>';}
+      }).catch(mFail);
+    }
+  }catch(e){}
 
   var HOODS={
     ballantyne:{name:'Ballantyne',price:'$500k–$1.2M',tags:['Suburban','Newer homes','Golf nearby'],blurb:'Newer homes and an easy, spread-out feel in south Charlotte, with shopping and golf close by.'},
