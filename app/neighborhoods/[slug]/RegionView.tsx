@@ -64,26 +64,14 @@ function ClosingCTA({ region }: { region: Region }) {
 
 function CountiesServed({ region }: { region: Region }) {
   return (
-    <section className="border-t border-slate-200/60 bg-white/70 py-14 md:py-16">
-      <div className="page-shell">
-        <p className="section-label">Counties We Serve</p>
-        <h2 className="section-title mt-3">All {region.allCounties.length} counties across {region.short}.</h2>
-        <p className="section-copy mt-4 max-w-2xl">
-          We represent buyers and sellers in every county in {region.short} &mdash; not just the metros. Don&rsquo;t
-          see a town listed? If it&rsquo;s in North Carolina, we can help.
-        </p>
-        <div className="mt-7 flex flex-wrap gap-2.5">
-          {region.allCounties.map((c) => (
-            <span
-              key={c}
-              className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3.5 py-1.5 text-sm font-medium text-navy-950 shadow-[0_4px_14px_rgba(15,23,42,0.04)]"
-            >
-              <MapPin className="h-3.5 w-3.5 flex-none text-brand-500" /> {c}
-            </span>
-          ))}
-        </div>
-      </div>
-    </section>
+    <div className="page-shell pb-14 md:pb-16">
+      <p className="max-w-4xl text-sm leading-7 text-slate-500">
+        <span className="font-semibold text-navy-950">
+          Serving all {region.allCounties.length} counties in {region.short}:
+        </span>{' '}
+        {region.allCounties.join(' · ')}.
+      </p>
+    </div>
   )
 }
 
