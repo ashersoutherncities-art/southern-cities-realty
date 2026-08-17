@@ -12,7 +12,8 @@ export type Region = {
   blurb: string
   image: string | null
   depth: RegionDepth
-  counties: string
+  counties: string // short teaser list for cards
+  allCounties: string[] // full county coverage for this region (all 100 NC counties across regions)
   areaSlugs?: string[] // for depth 'cities' — areas with their own pages
   towns?: string[] // for depth 'landing' — towns we serve (no page yet)
 }
@@ -28,6 +29,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/uptown.jpg',
     depth: 'deep',
     counties: 'Mecklenburg, Union, Cabarrus, Gaston, Iredell',
+    allCounties: ['Mecklenburg', 'Union', 'Cabarrus', 'Gaston', 'Iredell', 'Lincoln', 'Cleveland', 'Rowan', 'Stanly', 'Anson'],
   },
   {
     slug: 'triangle',
@@ -39,6 +41,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/raleigh.jpg',
     depth: 'cities',
     counties: 'Wake, Durham, Orange, Chatham',
+    allCounties: ['Wake', 'Durham', 'Orange', 'Chatham', 'Johnston', 'Franklin', 'Granville', 'Vance', 'Warren', 'Person', 'Lee'],
     areaSlugs: ['raleigh', 'durham', 'chapel-hill', 'cary', 'apex', 'wake-forest'],
   },
   {
@@ -51,6 +54,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/winston-salem.jpg',
     depth: 'cities',
     counties: 'Guilford, Forsyth',
+    allCounties: ['Guilford', 'Forsyth', 'Davidson', 'Davie', 'Randolph', 'Rockingham', 'Alamance', 'Surry', 'Stokes', 'Yadkin', 'Caswell'],
     areaSlugs: ['greensboro', 'winston-salem', 'high-point', 'kernersville'],
   },
   {
@@ -63,6 +67,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/asheville.jpg',
     depth: 'cities',
     counties: 'Buncombe, Watauga, Catawba, Caldwell, Henderson',
+    allCounties: ['Buncombe', 'Henderson', 'Haywood', 'Madison', 'Transylvania', 'Jackson', 'Macon', 'Swain', 'Graham', 'Cherokee', 'Clay', 'Polk', 'Rutherford', 'McDowell', 'Burke', 'Caldwell', 'Catawba', 'Alexander', 'Wilkes', 'Watauga', 'Ashe', 'Alleghany', 'Avery', 'Mitchell', 'Yancey'],
     towns: ['Asheville', 'Hendersonville', 'Boone', 'Blowing Rock', 'Hickory', 'Lenoir', 'Waynesville', 'Brevard'],
   },
   {
@@ -75,6 +80,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/wilmington.jpg',
     depth: 'cities',
     counties: 'New Hanover, Brunswick, Pender',
+    allCounties: ['New Hanover', 'Brunswick', 'Pender', 'Columbus', 'Bladen'],
     towns: ['Wilmington', 'Wrightsville Beach', 'Carolina Beach', 'Leland', 'Southport', 'Hampstead'],
   },
   {
@@ -87,6 +93,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/new-bern.jpg',
     depth: 'cities',
     counties: 'Pitt, Craven, Onslow, Wayne, Lenoir',
+    allCounties: ['Pitt', 'Craven', 'Onslow', 'Wayne', 'Lenoir', 'Carteret', 'Jones', 'Greene', 'Duplin', 'Sampson', 'Beaufort', 'Martin', 'Nash', 'Edgecombe', 'Wilson', 'Halifax', 'Northampton', 'Bertie', 'Hertford', 'Pamlico'],
     towns: ['Greenville', 'New Bern', 'Jacksonville', 'Goldsboro', 'Kinston', 'Wilson'],
   },
   {
@@ -99,6 +106,7 @@ export const REGIONS: Region[] = [
     image: null,
     depth: 'cities',
     counties: 'Cumberland, Moore, Hoke',
+    allCounties: ['Cumberland', 'Moore', 'Hoke', 'Harnett', 'Richmond', 'Scotland', 'Robeson', 'Montgomery'],
     towns: ['Fayetteville', 'Pinehurst', 'Southern Pines', 'Aberdeen', 'Hope Mills'],
   },
   {
@@ -111,6 +119,7 @@ export const REGIONS: Region[] = [
     image: '/neighborhoods/hatteras.jpg',
     depth: 'cities',
     counties: 'Dare, Currituck',
+    allCounties: ['Dare', 'Currituck', 'Camden', 'Pasquotank', 'Perquimans', 'Chowan', 'Gates', 'Tyrrell', 'Hyde', 'Washington'],
     towns: ['Corolla', 'Duck', 'Kitty Hawk', 'Kill Devil Hills', 'Nags Head', 'Hatteras'],
   },
 ]

@@ -23,7 +23,7 @@ function Hero({ region }: { region: Region }) {
         <h1 className="mt-3 max-w-4xl font-display text-5xl leading-[1.03] text-white md:text-6xl">{region.name}</h1>
         <p className="mt-5 max-w-2xl text-base leading-8 text-white/75 md:text-lg">{region.blurb}</p>
         <p className="mt-6 inline-flex items-center gap-2 text-sm text-white/60">
-          <MapPin className="h-4 w-4 text-brand-300" /> {region.counties} counties
+          <MapPin className="h-4 w-4 text-brand-300" /> {region.allCounties.length} counties served
         </p>
         <div className="mt-7 flex flex-wrap gap-3">
           <a href="/listings" className="cta-primary">
@@ -56,6 +56,31 @@ function ClosingCTA({ region }: { region: Region }) {
           <a href="/listings" className="cta-ghost border-white/30 bg-white/5 text-white hover:bg-white/10 hover:text-white">
             Browse Homes <ArrowRight className="h-4 w-4" />
           </a>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function CountiesServed({ region }: { region: Region }) {
+  return (
+    <section className="border-t border-slate-200/60 bg-white/70 py-14 md:py-16">
+      <div className="page-shell">
+        <p className="section-label">Counties We Serve</p>
+        <h2 className="section-title mt-3">All {region.allCounties.length} counties across {region.short}.</h2>
+        <p className="section-copy mt-4 max-w-2xl">
+          We represent buyers and sellers in every county in {region.short} &mdash; not just the metros. Don&rsquo;t
+          see a town listed? If it&rsquo;s in North Carolina, we can help.
+        </p>
+        <div className="mt-7 flex flex-wrap gap-2.5">
+          {region.allCounties.map((c) => (
+            <span
+              key={c}
+              className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-white px-3.5 py-1.5 text-sm font-medium text-navy-950 shadow-[0_4px_14px_rgba(15,23,42,0.04)]"
+            >
+              <MapPin className="h-3.5 w-3.5 flex-none text-brand-500" /> {c}
+            </span>
+          ))}
         </div>
       </div>
     </section>
@@ -117,6 +142,7 @@ export function RegionView({ region }: { region: Region }) {
             </details>
           </div>
         </section>
+        <CountiesServed region={region} />
         <ClosingCTA region={region} />
       </>
     )
@@ -143,6 +169,7 @@ export function RegionView({ region }: { region: Region }) {
             </div>
           </div>
         </section>
+        <CountiesServed region={region} />
         <ClosingCTA region={region} />
       </>
     )
@@ -179,6 +206,7 @@ export function RegionView({ region }: { region: Region }) {
           </div>
         </div>
       </section>
+      <CountiesServed region={region} />
       <ClosingCTA region={region} />
     </>
   )

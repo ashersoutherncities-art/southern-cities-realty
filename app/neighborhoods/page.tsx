@@ -86,6 +86,31 @@ export default function AreasWeServePage() {
         </div>
       </section>
 
+      {/* EVERY COUNTY */}
+      <section className="border-t border-slate-200/60 bg-cream-50 py-16 md:py-20">
+        <div className="page-shell">
+          <p className="section-label">Statewide coverage</p>
+          <h2 className="section-title mt-3">Every county in North Carolina.</h2>
+          <p className="section-copy mt-4 max-w-2xl">
+            All 100 NC counties, grouped by region. Wherever you&rsquo;re buying or selling in the state, we can help.
+            Tap a region to explore it.
+          </p>
+          <div className="mt-9 grid gap-x-8 gap-y-9 sm:grid-cols-2 lg:grid-cols-3">
+            {REGIONS.map((region) => (
+              <div key={region.slug}>
+                <Link href={`/neighborhoods/${region.slug}`} className="group inline-flex items-baseline gap-2">
+                  <h3 className="font-display text-xl text-navy-950 transition group-hover:text-brand-500">
+                    {region.short}
+                  </h3>
+                  <span className="text-xs font-semibold text-slate-400">{region.allCounties.length} counties</span>
+                </Link>
+                <p className="mt-2 text-sm leading-7 text-slate-600">{region.allCounties.join(' \u00b7 ')}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-white/70 py-16 md:py-20">
         <div className="page-shell flex flex-col items-start gap-6 rounded-[34px] border border-slate-200 bg-white p-8 shadow-[0_24px_80px_rgba(15,23,42,0.06)] md:flex-row md:items-center md:justify-between md:p-12">
