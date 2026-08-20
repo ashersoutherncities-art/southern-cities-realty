@@ -5,6 +5,7 @@ import { Mail, MapPin, Phone } from 'lucide-react'
 import { Analytics } from '@vercel/analytics/react'
 import { AreasDropdown } from './AreasDropdown'
 import { MobileNav } from './MobileNav'
+import { ChatWidget } from './chat-widget'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -55,6 +56,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/listings', label: 'Buy' },
   { href: '/#sell', label: 'Sell' },
+  { href: '/investors', label: 'Investors' },
   { href: '/neighborhoods', label: 'Areas We Serve' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
@@ -66,9 +68,9 @@ function Header() {
       <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3 sm:px-6 lg:px-8">
         <Link href="/" className="mr-auto flex items-center" aria-label="Southern Cities Realty home">
           <img
-            src="/logos/sc-realty-horizontal.png"
+            src="/logos/sc-mark.png"
             alt="Southern Cities Realty"
-            className="h-9 w-auto sm:h-11"
+            className="h-10 w-auto sm:h-11"
           />
         </Link>
 
@@ -108,7 +110,7 @@ function Footer() {
         <div className="grid gap-12 md:grid-cols-[1.4fr_0.8fr_0.8fr_0.8fr]">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logos/sc-realty-mark.png" alt="" aria-hidden="true" className="h-12 w-auto" />
+              <img src="/logos/sc-mark-white.png" alt="" aria-hidden="true" className="h-12 w-auto" />
               <span className="font-display text-lg leading-none tracking-[0.04em] text-white">
                 <span className="block font-semibold">SOUTHERN CITIES</span>
                 <span className="block font-semibold text-brand-400">REALTY</span>
@@ -177,7 +179,15 @@ function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-8 text-xs text-white/48 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 Southern Cities Realty. All rights reserved.</p>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+            <p>© 2026 Southern Cities Realty. All rights reserved.</p>
+            <Link href="/privacy" className="transition hover:text-white">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="transition hover:text-white">
+              Terms of Service
+            </Link>
+          </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <span>NC Real Estate Brokerage</span>
             <span>Firm License #C42672</span>
@@ -202,6 +212,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <Analytics />
+        <ChatWidget />
       </body>
     </html>
   )
