@@ -13,8 +13,8 @@ const CHARLOTTE_SKYLINE =
   'https://images.pexels.com/photos/20018783/pexels-photo-20018783.jpeg?auto=compress&cs=tinysrgb&w=2000'
 
 const dariusBio = [
-  'As Broker-in-Charge of Southern Cities Realty, Darius Walton brings a unique blend of real estate expertise, financial analysis, construction knowledge, and investment strategy to every client relationship. With experience spanning residential and commercial real estate, development, construction, lending, and investment management, he offers clients guidance that goes far beyond a traditional real estate transaction.',
-  'Darius earned his Bachelor’s degree in Accounting from NC State University before completing a Master’s in Real Estate Finance & Development at UNC Charlotte’s Childress Klein Center for Real Estate. Throughout his career, he has worked in real estate investment, affordable housing development, mortgage lending, acquisitions, construction, and brokerage, giving him a comprehensive understanding of the market from every angle.',
+  'As Broker-in-Charge of Southern Cities Realty, Elizabeth City native Darius Walton brings a unique blend of real estate expertise, financial analysis, construction knowledge, and investment strategy to every client relationship. With experience spanning residential and commercial real estate, development, construction, lending, and investment management, he offers clients guidance that goes far beyond a traditional real estate transaction.',
+  'Darius earned his Bachelor’s degree in Accounting from NC State University, where he also played football, before completing a Master’s in Real Estate Finance & Development at UNC Charlotte’s Childress Klein Center for Real Estate. Throughout his career, he has worked in real estate investment, affordable housing development, mortgage lending, acquisitions, construction, and brokerage, giving him a comprehensive understanding of the market from every angle.',
   'As a licensed North Carolina Real Estate Broker, licensed General Contractor, and former Mortgage Loan Officer, Darius is uniquely equipped to help buyers, sellers, investors, and developers confidently navigate complex transactions. Whether helping a first-time homebuyer, advising an investor, or evaluating development opportunities, his goal is to provide strategic guidance backed by market expertise and data-driven decision-making.',
   'Outside of real estate, Darius enjoys giving back to the community through organizations like Habitat for Humanity, where he supports efforts to create affordable housing and stronger neighborhoods. He is passionate about building lasting relationships and helping clients achieve long-term success through real estate.',
 ]
@@ -49,7 +49,7 @@ type Broker = {
 const brokers: Broker[] = [
   {
     name: 'Darius Walton',
-    role: 'Broker-in-Charge',
+    role: 'Broker-in-Charge · REALTOR®',
     license: 'NC Real Estate License #321548',
     email: 'darius@southerncitiesrealty.com',
     phone: '(704) 604-0608',

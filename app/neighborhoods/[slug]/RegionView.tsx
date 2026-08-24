@@ -4,6 +4,8 @@ import type { Region } from '../regions'
 import { areasInRegion, neighborhoodsByGroup } from '../data'
 import { NeighborhoodCard } from '../NeighborhoodCard'
 import { NeighborhoodQuiz } from '../NeighborhoodQuiz'
+import { HubQuiz } from '../HubQuiz'
+import { REGION_QUIZZES } from '../hub-quizzes'
 import { PHOTO_CREDITS } from '../credits'
 
 function Hero({ region }: { region: Region }) {
@@ -157,6 +159,21 @@ export function RegionView({ region }: { region: Region }) {
             </div>
           </div>
         </section>
+        {REGION_QUIZZES[region.slug] && (
+          <section className="bg-white/70 py-16 md:py-20">
+            <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">🔍 Not sure where to start?</p>
+                <h2 className="section-title mt-3">Find your spot in {region.short}.</h2>
+                <p className="section-copy mt-4 max-w-lg">
+                  Answer a few quick questions and we&rsquo;ll point you to the {region.short} town that best fits
+                  your lifestyle.
+                </p>
+              </div>
+              <HubQuiz questions={REGION_QUIZZES[region.slug]} hubName={region.short} />
+            </div>
+          </section>
+        )}
         <CountiesServed region={region} />
         <ClosingCTA region={region} />
       </>

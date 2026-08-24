@@ -728,6 +728,14 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     thingsToDo: 'The Cape Hatteras Lighthouse, the National Seashore, and world-class fishing.',
     nearby: ['nags-head', 'kill-devil-hills'],
   },
+  {
+    slug: 'elizabeth-city', name: 'Elizabeth City', subtitle: 'Pasquotank County · Northeast NC', region: 'outer-banks', image: null,
+    about: 'A historic Pasquotank River port and college town in northeastern North Carolina, known for its walkable downtown, working waterfront, and small-city charm on the way to the Outer Banks.',
+    food: 'Downtown cafes, local seafood, and riverfront dining.',
+    shops: 'Historic downtown shops and the Saturday farmers market.',
+    thingsToDo: "The Museum of the Albemarle, Mariners' Wharf on the waterfront, and Elizabeth City State University.",
+    nearby: ['kitty-hawk', 'corolla'],
+  },
 
   // ================= RALEIGH NEIGHBORHOODS =================
   {
@@ -992,6 +1000,7 @@ export const AREA_META: Record<string, AreaMeta> = {
   corolla: { zip: '27927', district: 'Currituck County Schools', districtUrl: 'https://www.currituck.k12.nc.us' },
   duck: { zip: '27949', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
   'kitty-hawk': { zip: '27949', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
+  'elizabeth-city': { zip: '27909', district: 'Elizabeth City-Pasquotank Public Schools', districtUrl: 'https://www.ecpps.k12.nc.us' },
   'kill-devil-hills': { zip: '27948', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
   'nags-head': { zip: '27959', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
   hatteras: { zip: '27943', district: 'Dare County Schools', districtUrl: 'https://www.daretolearn.org' },
