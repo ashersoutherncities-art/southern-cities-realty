@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Banknote, Clock, DollarSign, Home, Ruler } from 'lucide-react'
+import { money } from '../format'
 
 const MARKETS: { label: string; zip: string }[] = [
   { label: 'Charlotte — South End (28203)', zip: '28203' },
@@ -16,8 +17,6 @@ const MARKETS: { label: string; zip: string }[] = [
   { label: 'Asheville (28801)', zip: '28801' },
   { label: 'Wilmington (28401)', zip: '28401' },
 ]
-
-const money = (n?: number | null) => (n == null ? '—' : '$' + Math.round(n).toLocaleString('en-US'))
 
 type Stats = {
   available: boolean
