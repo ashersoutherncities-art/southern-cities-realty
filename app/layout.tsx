@@ -166,9 +166,9 @@ function Footer() {
                 <MapPin className="mt-0.5 h-4 w-4 flex-none text-brand-300" />
                 <span>Charlotte, North Carolina</span>
               </div>
-              <a href="tel:+17046040608" className="flex items-start gap-3 transition hover:text-white">
+              <a href="tel:+19809448961" className="flex items-start gap-3 transition hover:text-white">
                 <Phone className="mt-0.5 h-4 w-4 flex-none text-brand-300" />
-                <span>(704) 604-0608</span>
+                <span>(980) 944-8961</span>
               </a>
               <a href="mailto:admin@southerncitiesrealty.com" className="flex items-start gap-3 transition hover:text-white">
                 <Mail className="mt-0.5 h-4 w-4 flex-none text-brand-300" />

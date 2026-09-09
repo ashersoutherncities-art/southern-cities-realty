@@ -9,6 +9,7 @@ import {
   Coffee,
   Croissant,
   Dog,
+  Dumbbell,
   Gem,
   GraduationCap,
   Heart,
@@ -25,6 +26,7 @@ import {
 import { AREA_META, BY_SLUG, NEIGHBORHOODS, childrenOf } from '../data'
 import { BY_REGION, REGIONS } from '../regions'
 import { PLACES, type Places } from '../places'
+import { PLACE_PHOTOS } from '../place-photos'
 import { LOCAL_PICKS } from '../local-picks'
 import { HUB_QUIZZES } from '../hub-quizzes'
 import { NeighborhoodCard } from '../NeighborhoodCard'
@@ -40,6 +42,7 @@ const PLACE_CATS: { key: keyof Places; label: string; icon: IconCmp }[] = [
   { key: 'parks', label: 'Parks & Outdoors', icon: Trees },
   { key: 'shopping', label: 'Shopping', icon: ShoppingBag },
   { key: 'entertainment', label: 'Entertainment & Culture', icon: Ticket },
+  { key: 'fitness', label: 'Fitness & Wellness', icon: Dumbbell },
 ]
 
 const PICK_CARDS: { key: 'coffee' | 'brunch' | 'dateNight'; label: string; icon: IconCmp }[] = [
@@ -102,6 +105,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
   const hubQuiz = HUB_QUIZZES[n.slug]
   const places = PLACES[n.slug]
   const hasPlaces = places && PLACE_CATS.some((c) => places[c.key]?.length)
+  const photos = PLACE_PHOTOS[n.slug]
   const picks = LOCAL_PICKS[n.slug]
   const hasPicks =
     picks &&
@@ -230,6 +234,56 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
             <p className="mt-4 text-xs text-slate-400">
               A curated sample of established local landmarks — not a complete directory.
             </p>
+          </div>
+        </section>
+      )}
+
+      {/* PLACE PHOTO GALLERY (CC-licensed landmarks) */}
+      {photos && photos.length > 0 && (
+        <section className="bg-cream-50 py-14 md:py-16">
+          <div className="page-shell">
+            <p className="section-label">In Photos</p>
+            <h2 className="section-title mt-3">A look around {n.name}.</h2>
+            <p className="section-copy mt-4 max-w-2xl">
+              A few of the landmarks and gathering spots that give {n.name} its character.
+            </p>
+            <div className="mt-8 flex snap-x gap-5 overflow-x-auto pb-4 [scrollbar-width:thin]">
+              {photos.map((ph) => (
+                <figure
+                  key={ph.file}
+                  className="group w-72 flex-none snap-start overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_10px_30px_rgba(15,23,42,0.05)]"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <img
+                      src={ph.file}
+                      alt={ph.place}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-navy-950/10 to-transparent" />
+                    <figcaption className="absolute inset-x-0 bottom-0 p-4">
+                      <p className="font-display text-lg leading-tight text-white">{ph.place}</p>
+                    </figcaption>
+                  </div>
+                  <div className="px-4 py-2.5 text-[11px] leading-4 text-slate-400">
+                    Photo:{' '}
+                    {ph.source ? (
+                      <a
+                        href={ph.source}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-slate-300 underline-offset-2 hover:text-slate-600"
+                      >
+                        {ph.creator}
+                      </a>
+                    ) : (
+                      ph.creator
+                    )}{' '}
+                    · {ph.license}
+                  </div>
+                </figure>
+              ))}
+            </div>
           </div>
         </section>
       )}

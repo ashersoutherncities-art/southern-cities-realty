@@ -1,0 +1,80 @@
+{
+ "greensboro": [
+  {
+   "n": 1,
+   "title": "File:Greensboro Skyline.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Greensboro_Skyline.jpg"
+  },
+  {
+   "n": 2,
+   "title": "File:Greensboro banner Skyline.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Greensboro_banner_Skyline.jpg"
+  },
+  {
+   "n": 3,
+   "title": "File:Greensboro skyline from the Depot.j",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Greensboro_skyline_from_the_Depot.jpg"
+  },
+  {
+   "n": 4,
+   "title": "File:Greensboro skyline night.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Greensboro_skyline_night.jpg"
+  }
+ ],
+ "new-bern": [
+  {
+   "n": 1,
+   "title": "File:Downtown New Bern, NC, USA.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Downtown_New_Bern,_NC,_USA.jpg"
+  },
+  {
+   "n": 2,
+   "title": "File:New Bern Historic District.JPG",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:New_Bern_Historic_District.JPG"
+  },
+  {
+   "n": 3,
+   "title": "File:Larder (Tryon Palace).jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Larder_(Tryon_Palace).jpg"
+  },
+  {
+   "n": 4,
+   "title": "File:Library (Tryon Palace).jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Library_(Tryon_Palace).jpg"
+  }
+ ],
+ "pinehurst": [
+  {
+   "n": 1,
+   "title": "File:Bank of Pinehurst in the 1920s.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Bank_of_Pinehurst_in_the_1920s.jpg"
+  },
+  {
+   "n": 2,
+   "title": "File:Chorale performs in The Village Cha",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Chorale_performs_in_The_Village_Chapel_in_Pinehurst,_North_Carolina.jpg"
+  },
+  {
+   "n": 3,
+   "title": "File:Clubhouse in Pinehurst, 1930s.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Clubhouse_in_Pinehurst,_1930s.jpg"
+  },
+  {
+   "n": 4,
+   "title": "File:Gymkhana games in Pinehurst 2.jpg",
+   "src": "commons",
+   "source": "https://commons.wikimedia.org/wiki/File:Gymkhana_games_in_Pinehurst_2.jpg"
+  }
+ ]
+}

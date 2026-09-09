@@ -12,11 +12,31 @@ const intakePrompts = [
 ]
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false)
+  const [status, setStatus] = useState<'idle' | 'sending' | 'done' | 'error'>('idle')
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    setSubmitted(true)
+    const fd = new FormData(e.currentTarget)
+    const payload = {
+      name: String(fd.get('name') || ''),
+      email: String(fd.get('email') || ''),
+      interest: String(fd.get('interest') || ''),
+      areas: String(fd.get('areas') || ''),
+      timeline: String(fd.get('timeline') || ''),
+      message: String(fd.get('message') || ''),
+    }
+    setStatus('sending')
+    try {
+      const res = await fetch('/api/contact-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+      const data = await res.json()
+      setStatus(data?.ok ? 'done' : 'error')
+    } catch {
+      setStatus('error')
+    }
   }
 
   return (
@@ -49,7 +69,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {submitted ? (
+            {status === 'done' ? (
               <div className="mt-8 rounded-[24px] border border-emerald-200 bg-emerald-50 p-6">
                 <h3 className="font-display text-2xl text-emerald-900">Thanks — we got it!</h3>
                 <p className="mt-2 text-sm leading-7 text-emerald-800">
@@ -65,7 +85,7 @@ export default function ContactPage() {
                       type="text"
                       required
                       className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400"
-                      placeholder="Your full name"
+                      name="name" placeholder="Your full name"
                     />
                   </label>
                   <label className="block">
@@ -74,23 +94,15 @@ export default function ContactPage() {
                       type="email"
                       required
                       className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400"
-                      placeholder="you@example.com"
+                      name="email" placeholder="you@example.com"
                     />
                   </label>
                 </div>
 
-                <div className="grid gap-5 md:grid-cols-2">
-                  <label className="block">
-                    <span className="mb-2 block text-sm font-semibold text-slate-700">Phone</span>
-                    <input
-                      type="tel"
-                      className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400"
-                      placeholder="(555) 555-5555"
-                    />
-                  </label>
+                <div className="grid gap-5">
                   <label className="block">
                     <span className="mb-2 block text-sm font-semibold text-slate-700">I’m interested in</span>
-                    <select className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400">
+                    <select name="interest" className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400">
                       <option>Buying a home</option>
                       <option>Selling a home</option>
                       <option>Relocating to Charlotte</option>
@@ -107,12 +119,12 @@ export default function ContactPage() {
                     <input
                       type="text"
                       className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400"
-                      placeholder="Charlotte, Fort Mill, Lake Norman…"
+                      name="areas" placeholder="Charlotte, Fort Mill, Lake Norman…"
                     />
                   </label>
                   <label className="block">
                     <span className="mb-2 block text-sm font-semibold text-slate-700">Timeline</span>
-                    <select className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400">
+                    <select name="timeline" className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400">
                       <option>As soon as possible</option>
                       <option>Next 30 days</option>
                       <option>1–3 months</option>
@@ -125,14 +137,29 @@ export default function ContactPage() {
                 <label className="block">
                   <span className="mb-2 block text-sm font-semibold text-slate-700">How can we help?</span>
                   <textarea
+                    name="message"
                     rows={6}
                     required
                     className="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 outline-none transition focus:border-brand-400"
                     placeholder="Tell us about your price range, the kind of home you want, your timing, or anything you’re unsure about. The more you share, the more helpful we can be."
                   />
                 </label>
-                <button type="submit" className="cta-primary w-full sm:w-auto">
-                  Send Message
+                <p className="text-xs leading-6 text-slate-500">
+                  Prefer to talk or text? Use the chat on any page of this site. By sending this
+                  message you agree to our{' '}
+                  <a href="/privacy" className="font-semibold text-brand-500 hover:underline">Privacy Policy</a>
+                  {' '}and{' '}
+                  <a href="/terms" className="font-semibold text-brand-500 hover:underline">Terms of Service</a>.
+                </p>
+
+                {status === 'error' && (
+                  <p className="rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-700">
+                    Something went wrong. Please call (980) 944-8961 or email admin@southerncitiesrealty.com.
+                  </p>
+                )}
+
+                <button type="submit" disabled={status === 'sending'} className="cta-primary w-full justify-center disabled:opacity-60 sm:w-auto">
+                  {status === 'sending' ? 'Sending…' : 'Send Message'}
                 </button>
               </form>
             )}
@@ -152,9 +179,9 @@ export default function ContactPage() {
                 <Mail className="mt-1 h-5 w-5 text-brand-300" />
                 <span>admin@southerncitiesrealty.com</span>
               </a>
-              <a href="tel:+17046040608" className="flex gap-3 transition hover:text-white">
+              <a href="tel:+19809448961" className="flex gap-3 transition hover:text-white">
                 <Phone className="mt-1 h-5 w-5 text-brand-300" />
-                <span>(704) 604-0608</span>
+                <span>(980) 944-8961</span>
               </a>
             </div>
 
@@ -165,11 +192,11 @@ export default function ContactPage() {
                   <p className="font-semibold text-white">Darius Walton</p>
                   <p className="text-white/60">Broker-in-Charge · NC License #321548</p>
                   <a href="mailto:darius@southerncitiesrealty.com" className="mt-1 block transition hover:text-white">darius@southerncitiesrealty.com</a>
-                  <a href="tel:+17046040608" className="block transition hover:text-white">(704) 604-0608</a>
+                  <a href="tel:+19809448961" className="block transition hover:text-white">(980) 944-8961</a>
                 </div>
                 <div>
                   <p className="font-semibold text-white">Madison Moore</p>
-                  <p className="text-white/60">Real Estate Broker · NC License #366705</p>
+                  <p className="text-white/60">REALTOR® · NC License #366705</p>
                   <a href="mailto:madison@southerncitiesrealty.com" className="mt-1 block transition hover:text-white">madison@southerncitiesrealty.com</a>
                   <a href="tel:+18282915653" className="block transition hover:text-white">(828) 291-5653</a>
                 </div>
