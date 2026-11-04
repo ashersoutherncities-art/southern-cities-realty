@@ -18,12 +18,12 @@ type Lead = {
   smsConsent?: boolean
 }
 
-function audienceFrom(interest: string): string {
+function leadTypeFrom(interest: string): 'Buyer' | 'Seller' | 'Buyer & Seller' | 'Other' {
   const i = interest.toLowerCase()
   if (i.includes('buying') && i.includes('selling')) return 'Buyer & Seller'
   if (i.includes('selling')) return 'Seller'
   if (i.includes('buying') || i.includes('relocat')) return 'Buyer'
-  return 'General'
+  return 'Other'
 }
 
 export async function POST(request: Request) {
@@ -50,12 +50,24 @@ export async function POST(request: Request) {
     timeline: (body.timeline || '').trim(),
     message: (body.message || '').trim(),
     smsConsent: !!body.smsConsent,
-    audience: audienceFrom(interest),
+    leadType: leadTypeFrom(interest),
     source: 'src-web-contact',
     tags: ['web-lead', 'src-web-contact'],
     submittedAt: new Date().toISOString(),
     site: 'southerncitiesrealty.com',
   }
+
+  const lines = [
+    `Name: ${lead.name}`,
+    `Email: ${lead.email}`,
+    `Phone: ${lead.phone || '—'}`,
+    `Interested in: ${lead.interest || '—'}`,
+    `Areas: ${lead.areas || '—'}`,
+    `Timeline: ${lead.timeline || '—'}`,
+    `SMS consent: ${lead.smsConsent ? 'Yes' : 'No'}`,
+    '',
+    lead.message || '(no message)',
+  ].join('\n')
 
   let delivered = false
 
@@ -63,27 +75,18 @@ export async function POST(request: Request) {
     name: lead.name,
     email: lead.email,
     phone: lead.phone,
-    source: lead.source,
+    source: 'Southern Cities Realty — Website',
     tags: lead.tags,
-    message: lead.message,
-    audience: lead.audience,
+    leadType: lead.leadType,
+    areas: lead.areas,
+    smsConsent: lead.smsConsent,
+    note: lines,
   })
   if (ghlResult.ok) delivered = true
 
   const resendKey = process.env.RESEND_API_KEY_SCR || process.env.RESEND_API_KEY
   if (resendKey) {
     try {
-      const lines = [
-        `Name: ${lead.name}`,
-        `Email: ${lead.email}`,
-        `Phone: ${lead.phone || '—'}`,
-        `Interested in: ${lead.interest || '—'}`,
-        `Areas: ${lead.areas || '—'}`,
-        `Timeline: ${lead.timeline || '—'}`,
-        `SMS consent: ${lead.smsConsent ? 'Yes' : 'No'}`,
-        '',
-        lead.message || '(no message)',
-      ].join('\n')
       const r = await fetch('https://api.resend.com/emails', {
         method: 'POST',
         headers: {

@@ -41,12 +41,23 @@ export async function POST(request: Request) {
     strategy: (body.strategy || '').trim(),
     message: (body.message || '').trim(),
     smsConsent: !!body.smsConsent,
-    audience: 'Investor',
     source: 'src-web-investor',
     tags: ['investor-lead', 'src-web-investor'],
     submittedAt: new Date().toISOString(),
     site: 'southerncitiesrealty.com',
   }
+
+  const lines = [
+    `Name: ${lead.name}`,
+    `Email: ${lead.email}`,
+    `Phone: ${lead.phone || '—'}`,
+    `Target market: ${lead.market || '—'}`,
+    `Budget: ${lead.budget || '—'}`,
+    `Strategy: ${lead.strategy || '—'}`,
+    `SMS consent: ${lead.smsConsent ? 'Yes' : 'No'}`,
+    '',
+    lead.message || '(no message)',
+  ].join('\n')
 
   let delivered = false
 
@@ -55,10 +66,12 @@ export async function POST(request: Request) {
     name: lead.name,
     email: lead.email,
     phone: lead.phone,
-    source: lead.source,
+    source: 'Southern Cities Realty — Website',
     tags: lead.tags,
-    message: lead.message,
-    audience: lead.audience,
+    leadType: 'Investor',
+    areas: lead.market,
+    smsConsent: lead.smsConsent,
+    note: lines,
   })
   if (ghlResult.ok) delivered = true
 
@@ -66,17 +79,6 @@ export async function POST(request: Request) {
   const resendKey = process.env.RESEND_API_KEY_SCR || process.env.RESEND_API_KEY
   if (resendKey) {
     try {
-      const lines = [
-        `Name: ${lead.name}`,
-        `Email: ${lead.email}`,
-        `Phone: ${lead.phone || '—'}`,
-        `Target market: ${lead.market || '—'}`,
-        `Budget: ${lead.budget || '—'}`,
-        `Strategy: ${lead.strategy || '—'}`,
-        `SMS consent: ${lead.smsConsent ? 'Yes' : 'No'}`,
-        '',
-        lead.message || '(no message)',
-      ].join('\n')
       const r = await fetch('https://api.resend.com/emails', {
         method: 'POST',
         headers: {
