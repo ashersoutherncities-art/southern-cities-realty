@@ -1,10 +1,11 @@
 import { NextResponse } from 'next/server'
+import { upsertGhlContact } from '@/lib/ghl'
 
 export const runtime = 'nodejs'
 
 // General buyer/seller contact lead. Same delivery path as the investor form:
-// GoHighLevel Inbound Webhook (GHL_INBOUND_WEBHOOK_URL) with an email fallback via
-// Resend. Tagged for the general web-lead pipeline (the investor form uses its own tag).
+// GoHighLevel contact upsert (lib/ghl.ts) with an email fallback via Resend.
+// Tagged for the general web-lead pipeline (the investor form uses its own tag).
 
 type Lead = {
   name?: string
@@ -58,21 +59,18 @@ export async function POST(request: Request) {
 
   let delivered = false
 
-  const hook = process.env.GHL_INBOUND_WEBHOOK_URL
-  if (hook) {
-    try {
-      const r = await fetch(hook, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(lead),
-      })
-      if (r.ok) delivered = true
-    } catch {
-      /* fall through */
-    }
-  }
+  const ghlResult = await upsertGhlContact({
+    name: lead.name,
+    email: lead.email,
+    phone: lead.phone,
+    source: lead.source,
+    tags: lead.tags,
+    message: lead.message,
+    audience: lead.audience,
+  })
+  if (ghlResult.ok) delivered = true
 
-  const resendKey = process.env.RESEND_API_KEY
+  const resendKey = process.env.RESEND_API_KEY_SCR || process.env.RESEND_API_KEY
   if (resendKey) {
     try {
       const lines = [

@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server'
+import { upsertGhlContact } from '@/lib/ghl'
 
 export const runtime = 'nodejs'
 
-// Investor lead capture. Delivers to GoHighLevel via an Inbound Webhook (no auth
-// token needed — create a workflow with an "Inbound Webhook" trigger and paste its
-// URL into GHL_INBOUND_WEBHOOK_URL). Falls back to an email notification via Resend
-// if RESEND_API_KEY is set. Tags the lead for the investor pipeline.
+// Investor lead capture. Delivers to GoHighLevel via a direct contact upsert
+// (lib/ghl.ts), falling back to an email notification via Resend. Tags the
+// lead for the investor pipeline.
 
 type Lead = {
   name?: string
@@ -50,23 +50,20 @@ export async function POST(request: Request) {
 
   let delivered = false
 
-  // 1) GoHighLevel inbound webhook (preferred)
-  const hook = process.env.GHL_INBOUND_WEBHOOK_URL
-  if (hook) {
-    try {
-      const r = await fetch(hook, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(lead),
-      })
-      if (r.ok) delivered = true
-    } catch {
-      /* fall through to email */
-    }
-  }
+  // 1) GoHighLevel contact upsert (preferred)
+  const ghlResult = await upsertGhlContact({
+    name: lead.name,
+    email: lead.email,
+    phone: lead.phone,
+    source: lead.source,
+    tags: lead.tags,
+    message: lead.message,
+    audience: lead.audience,
+  })
+  if (ghlResult.ok) delivered = true
 
   // 2) Email notification fallback via Resend
-  const resendKey = process.env.RESEND_API_KEY
+  const resendKey = process.env.RESEND_API_KEY_SCR || process.env.RESEND_API_KEY
   if (resendKey) {
     try {
       const lines = [
