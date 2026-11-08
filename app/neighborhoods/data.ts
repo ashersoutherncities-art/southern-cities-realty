@@ -346,7 +346,7 @@ export const NEIGHBORHOODS: Neighborhood[] = [
     food: 'Nearby dining in Waxhaw and Weddington.',
     shops: 'Everyday retail nearby, with a deliberately residential, low-density feel.',
     thingsToDo: 'Marvin Efird Park, greenways, and open space.',
-    nearby: ['weddington', 'waxhaw', 'marvin'].filter((s) => s !== 'marvin'),
+    nearby: ['weddington', 'waxhaw'],
   },
   {
     slug: 'indian-trail', name: 'Indian Trail', subtitle: 'Union County', group: 'Union County',

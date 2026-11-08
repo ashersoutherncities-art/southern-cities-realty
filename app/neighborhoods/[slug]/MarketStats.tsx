@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Banknote, Clock, DollarSign, Home, Ruler, TrendingUp } from 'lucide-react'
+import { money } from '../../format'
 
 type Stats = {
   available: boolean
@@ -13,9 +14,6 @@ type Stats = {
   medianRent?: number | null
   lastUpdated?: string | null
 }
-
-const money = (n?: number | null) =>
-  n == null ? '—' : '$' + Math.round(n).toLocaleString('en-US')
 
 export function MarketStats({ zip, name }: { zip: string; name: string }) {
   const [data, setData] = useState<Stats | null>(null)
