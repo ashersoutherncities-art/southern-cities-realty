@@ -6,6 +6,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { AreasDropdown } from './AreasDropdown'
 import { MobileNav } from './MobileNav'
 import { ChatWidget } from './chat-widget'
+import { AIAssistantWidget } from './ai-assistant-widget'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/listings', label: 'Buy' },
-  { href: '/#sell', label: 'Sell' },
+  { href: '/sell', label: 'Sell' },
   { href: '/investors', label: 'Investors' },
   { href: '/neighborhoods', label: 'Areas We Serve' },
   { href: '/about', label: 'About' },
@@ -213,6 +214,7 @@ export default function RootLayout({
         <Footer />
         <Analytics />
         <ChatWidget />
+        <AIAssistantWidget />
       </body>
     </html>
   )
