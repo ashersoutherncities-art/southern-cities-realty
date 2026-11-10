@@ -6,7 +6,6 @@ import { Analytics } from '@vercel/analytics/react'
 import { AreasDropdown } from './AreasDropdown'
 import { MobileNav } from './MobileNav'
 import { ChatWidget } from './chat-widget'
-import { AIAssistantWidget } from './ai-assistant-widget'
 import './globals.css'
 
 const fraunces = Fraunces({
@@ -214,7 +213,6 @@ export default function RootLayout({
         <Footer />
         <Analytics />
         <ChatWidget />
-        <AIAssistantWidget />
       </body>
     </html>
   )
