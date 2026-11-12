@@ -265,6 +265,8 @@ export default function InvestorsPage() {
         </div>
       </section>
 
+      <section className="page-shell py-12"><div className="glass-panel flex flex-wrap items-center justify-between gap-6 p-8"><div><p className="section-label">Southern Cities Realty Deal Room</p><h2 className="mt-3 font-display text-3xl text-navy-950">Submit an opportunity. Explore a complete package.</h2><p className="section-copy mt-3">Wholesalers and realtors can submit deals for review. Members get access to approved, published packages for $59/month.</p></div><Link className="cta-primary" href="/deals">Open the deal room</Link></div></section>
+
       {/* FINANCING */}
       <section className="bg-cream-50 py-16 md:py-20">
         <div className="page-shell">
