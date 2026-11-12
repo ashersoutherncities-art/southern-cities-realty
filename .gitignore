@@ -41,3 +41,4 @@ next-env.d.ts
 /test-output.txt
 /deal-room-*.png
 /supabase/.temp/
+/.vercel-global/

@@ -191,6 +191,7 @@ export async function checkout() {
     if (!["canceled", "incomplete_expired"].includes(subscription.status)) {
       const portal = await client.billingPortal.sessions.create({
         customer: data.customer_id,
+        configuration: process.env.STRIPE_REALTY_BILLING_PORTAL_CONFIGURATION_ID,
         return_url: `${siteURL()}/deals/dashboard`,
       });
       redirect(portal.url);
@@ -233,6 +234,7 @@ export async function billingPortal() {
     (
       await stripe().billingPortal.sessions.create({
         customer: data.customer_id,
+        configuration: process.env.STRIPE_REALTY_BILLING_PORTAL_CONFIGURATION_ID,
         return_url: `${siteURL()}/deals/dashboard`,
       })
     ).url,
