@@ -31,3 +31,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local tooling caches
+/.npm-cache/
+/package/
+/npm.tgz
+/.supabase-cli/
+
+/test-output.txt
+/deal-room-*.png
+/supabase/.temp/

@@ -57,6 +57,7 @@ const navLinks = [
   { href: '/listings', label: 'Buy' },
   { href: '/sell', label: 'Sell' },
   { href: '/investors', label: 'Investors' },
+  { href: '/deals', label: 'Deal Room' },
   { href: '/neighborhoods', label: 'Areas We Serve' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },

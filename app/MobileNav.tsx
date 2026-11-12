@@ -50,6 +50,9 @@ export function MobileNav() {
               <Link href="/investors" onClick={close} className={item}>
                 Investors
               </Link>
+              <Link href="/deals" onClick={close} className={item}>
+                Deal Room
+              </Link>
               <button
                 type="button"
                 onClick={() => setAreasOpen((o) => !o)}
