@@ -78,6 +78,9 @@ export function MobileNav() {
               <Link href="/contact" onClick={close} className={item}>
                 Contact
               </Link>
+              <Link href="/tools/comp-distance" onClick={close} className={item}>
+                Team tools
+              </Link>
 
               <Link
                 href="/listings"

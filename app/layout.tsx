@@ -187,6 +187,9 @@ function Footer() {
             <Link href="/terms" className="transition hover:text-white">
               Terms of Service
             </Link>
+            <Link href="/tools/comp-distance" className="transition hover:text-white">
+              Team tools
+            </Link>
           </div>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
             <span>NC Real Estate Brokerage</span>
