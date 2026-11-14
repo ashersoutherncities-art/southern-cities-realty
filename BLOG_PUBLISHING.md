@@ -8,3 +8,6 @@ Repository: ashersoutherncities-art/southern-cities-realty. Production branch: m
 6. Push only within authorized recurring publishing scope. Main auto-deploys via Vercel. Verify the deployment for that exact commit is READY, then verify article and index on southerncitiesrealty.com. Report failure honestly; do not schedule duplicate deploys.
 7. Preserve all private tool gates and unrelated code. No lead forms, contact submissions, fabricated authorship or permission changes.
 Connector path: GitHub fetch (branch/current tree), fetch_file, create_tree(base tree), create_commit(parent current head), update_ref(expected SHA); Vercel list_deployments(sha), get_deployment and build logs. No new paid services required.
+
+## Structured articles (preferred after November 14, 2026)
+Append a complete typed Article object to app/blog/articles.ts and matching metadata to app/blog/posts.ts. The app/blog/[slug]/page.tsx static generator creates each separate URL. Keep the original overview static route intact. Ensure unique slugs across both stores, source citations, current checked date, jurisdiction caveats, word-count-based reading time and complete sections/checklist. Never duplicate an existing topic just to meet frequency. Only published articles belong in both arrays.
