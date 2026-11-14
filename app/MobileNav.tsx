@@ -16,7 +16,7 @@ export function MobileNav() {
   const item = 'block rounded-xl px-3 py-3 text-base font-medium text-navy-950 transition hover:bg-white'
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         type="button"
         onClick={() => setOpen(true)}
@@ -78,10 +78,11 @@ export function MobileNav() {
               <Link href="/contact" onClick={close} className={item}>
                 Contact
               </Link>
-              <Link href="/tools/comp-distance" onClick={close} className={item}>
-                Team tools
+              <Link href="/tools" onClick={close} className={item}>
+                Tools
               </Link>
 
+              <Link href="/blog" onClick={close} className={item}>Blog</Link>
               <Link
                 href="/listings"
                 onClick={close}

@@ -58,6 +58,8 @@ const navLinks = [
   { href: '/sell', label: 'Sell' },
   { href: '/investors', label: 'Investors' },
   { href: '/neighborhoods', label: 'Areas We Serve' },
+  { href: '/tools', label: 'Tools' },
+  { href: '/blog', label: 'Blog' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ]
@@ -74,7 +76,7 @@ function Header() {
           />
         </Link>
 
-        <nav className="hidden items-center gap-x-5 gap-y-1 text-sm font-medium text-navy-950 md:flex md:gap-x-7">
+        <nav className="hidden items-center gap-x-5 gap-y-1 text-sm font-medium text-navy-950 lg:flex lg:gap-x-5">
           {navLinks.map((link) =>
             link.label === 'Areas We Serve' ? (
               <AreasDropdown key={link.href} />
@@ -92,7 +94,7 @@ function Header() {
 
         <Link
           href="/listings"
-          className="hidden rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400 md:inline-flex"
+          className="hidden rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400 lg:inline-flex"
         >
           Search homes
         </Link>

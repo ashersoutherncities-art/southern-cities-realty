@@ -1,0 +1,2 @@
+export type Post = { slug:string; title:string; description:string; category:string; date:string; readTime:string; tags:string[] }
+export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',title:'Home value estimates, appraisals and inspections: which number should you trust?',description:'A practical guide to separating price, value and condition before your next North Carolina home decision.',category:'Buying & Selling',date:'2026-11-14',readTime:'4 min read',tags:['valuation','appraisal','inspection','North Carolina']}]

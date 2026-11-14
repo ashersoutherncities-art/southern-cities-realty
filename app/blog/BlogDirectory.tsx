@@ -1,0 +1,13 @@
+'use client'
+import {useState} from 'react'
+import Link from 'next/link'
+import {posts} from './posts'
+export default function BlogDirectory(){
+const [query,setQuery]=useState(''); const [category,setCategory]=useState('All')
+const categories=['All',...Array.from(new Set(posts.map(p=>p.category)))]
+const visible=posts.filter(p=>(category==='All'||p.category===category)&&[p.title,p.description,p.category,...p.tags].join(' ').toLowerCase().includes(query.toLowerCase())).sort((a,b)=>b.date.localeCompare(a.date))
+return <><div className="mt-10 rounded-2xl border border-[#e8e2d6] bg-white p-5"><label htmlFor="blog-search" className="block text-sm font-semibold text-navy-950">Search field notes</label><input id="blog-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Try appraisal, inspection or North Carolina" className="mt-3 w-full rounded-xl border border-[#e8e2d6] px-4 py-3 text-slate-900 focus:outline-navy-950"/><div aria-label="Filter articles by category" className="mt-4 flex flex-wrap gap-2">{categories.map(c=><button type="button" key={c} aria-pressed={category===c} onClick={()=>setCategory(c)} className={'rounded-full px-5 py-2 text-sm font-semibold '+(category===c?'bg-navy-950 text-white':'bg-[#f5f1ea] text-navy-950')}>{c}</button>)}</div></div>
+<p role="status" className="mt-5 text-sm text-slate-500">{visible.length} {visible.length===1?'guide':'guides'} found</p>
+<div className="mt-5 grid gap-6 md:grid-cols-2">{visible.map(p=><article key={p.slug} className="rounded-[24px] border border-[#e8e2d6] bg-white p-7"><p className="text-xs font-semibold uppercase tracking-wider text-brand-500">{p.category}</p><h2 className="mt-4 font-display text-3xl text-navy-950"><Link href={'/blog/'+p.slug} className="hover:underline">{p.title}</Link></h2><p className="mt-4 leading-7 text-slate-600">{p.description}</p><p className="mt-5 text-sm text-slate-500"><time dateTime={p.date}>{new Date(p.date+'T12:00:00Z').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'})}</time> · {p.readTime}</p><Link href={'/blog/'+p.slug} className="mt-6 inline-flex rounded-full bg-navy-950 px-5 py-3 font-semibold text-white">Read the guide →</Link></article>)}</div>
+{!visible.length&&<div className="my-8 rounded-2xl border border-[#e8e2d6] p-7"><h2 className="font-display text-2xl text-navy-950">No matching field notes yet.</h2><p className="mt-3 text-slate-600">Try a broader phrase or clear your filters.</p><button type="button" className="mt-4 font-semibold text-navy-950 underline" onClick={()=>{setQuery('');setCategory('All')}}>Clear search and filters</button></div>}</>
+}
