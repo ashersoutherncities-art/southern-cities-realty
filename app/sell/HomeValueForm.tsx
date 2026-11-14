@@ -103,7 +103,7 @@ export function HomeValueForm() {
               </>
             ) : (
               <>
-                <Home className="h-4 w-4" /> Get My Free Estimate
+                <Home className="h-4 w-4" /> Get My Free Valuation
               </>
             )}
           </button>
