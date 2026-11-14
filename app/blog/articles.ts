@@ -572,5 +572,1087 @@ export const articles:Article[] = [
     ],
     "caveat": "Educational guidance, not a contractor bid, loan offer or appraisal. Obtain property-specific inspections, local approval guidance and lender confirmation.",
     "date": "2026-11-14"
+  },
+  {
+    "slug": "compare-loan-estimates-without-missing-costs",
+    "title": "Compare Loan Estimates without letting the interest rate hide the costs",
+    "description": "A focused worksheet for comparing mortgage offers on the same assumptions, cash requirements and decision horizon.",
+    "category": "Financing",
+    "tags": [
+      "Loan Estimate",
+      "mortgage",
+      "lender comparison"
+    ],
+    "sections": [
+      {
+        "title": "Give each lender the same assignment",
+        "paragraphs": [
+          "A mortgage comparison works only if the offers describe a sufficiently similar purchase. Write one scenario before collecting quotes: property, purchase price, down payment, loan amount, loan type, term and expected closing date. Ask lenders to identify any assumption they changed rather than quietly placing unlike offers side by side.",
+          "The CFPB recommends comparing the loan amount, rate, monthly payment, upfront loan costs, lender credits and cash to close. It also notes that rates can move daily. Record when each offer was issued so an older quote does not masquerade as a better current deal."
+        ],
+        "sourceLabel": "CFPB: comparing loan offers",
+        "source": "https://www.consumerfinance.gov/owning-a-home/compare/compare-loan-estimates/"
+      },
+      {
+        "title": "Build two comparisons: borrowing cost and cash required",
+        "paragraphs": [
+          "Make a column for each lender and a row for every meaningful difference. Keep lender-controlled charges separate from estimated property expenses and third-party items. If one quote assumes lower taxes or insurance, that does not necessarily mean its financing is cheaper. Ask which figures are actual quotes and which remain estimates.",
+          "Then make a separate cash-to-close comparison. An offer can require less money today while costing more over time. Record whether the difference comes from a lender credit, a changed down payment, a different loan amount or another assumption. Do not subtract credits twice or mistake prepaid ownership expenses for lender profit."
+        ]
+      },
+      {
+        "title": "Choose a time horizon before declaring a winner",
+        "paragraphs": [
+          "The CFPB describes a five-year borrowing-cost comparison using the Loan Estimate: subtract the principal paid from the total paid in its five-year comparison. That provides one reference point, not a prediction of how long you will keep the loan. Ask lenders to explain results over your own plausible holding periods as well."
+        ],
+        "sourceLabel": "CFPB: the five-year comparison",
+        "source": "https://www.consumerfinance.gov/owning-a-home/compare/compare-loan-estimates/"
+      },
+      {
+        "title": "Resolve differences in writing",
+        "paragraphs": [
+          "Circle every material difference and send a short question list to each lender. Request a revised estimate when the proposed scenario changes. Keep the original and revision together so you can see what moved. Evaluate responsiveness and the lender's ability to explain conditions alongside price; a low number you do not understand is not yet a usable decision.",
+          "Before selecting an offer, summarize why it fits: manageable upfront cash, acceptable recurring payment, understood features and a workable timeline. This one-paragraph decision record helps prevent a last-minute sales pitch from replacing the comparison you already completed."
+        ]
+      }
+    ],
+    "checklist": [
+      "Use the same scenario and note each quote date.",
+      "Separate loan charges, credits and ownership estimates.",
+      "Compare cash to close as well as borrowing cost.",
+      "Ask for explanations and revisions before choosing."
+    ],
+    "caveat": "Educational comparison guidance, not a loan recommendation. Estimates, approval and final terms depend on the lender and transaction.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "mortgage-rate-lock-closing-timeline",
+    "title": "Your rate lock has a deadline: connect it to the real closing timeline",
+    "description": "Understand what is locked, what could change and what to ask before a delayed closing becomes an expensive surprise.",
+    "category": "Financing",
+    "tags": [
+      "rate lock",
+      "mortgage",
+      "closing"
+    ],
+    "sections": [
+      {
+        "title": "A quoted rate and a locked rate are different",
+        "paragraphs": [
+          "A rate conversation can sound final before the paperwork is final. Ask explicitly whether the rate is floating or locked, and obtain the written terms. Do not infer a lock from a reassuring email, a payment worksheet or the fact that you submitted an application.",
+          "The CFPB explains that a lock protects a rate for a specified period, subject to its conditions and changes in the application. Page one of the Loan Estimate identifies lock status, but it does not explain all extension pricing or alternative lock periods. Those details require questions to the lender."
+        ],
+        "sourceLabel": "CFPB: mortgage rate locks",
+        "source": "https://www.consumerfinance.gov/ask-cfpb/whats-a-lock-in-or-a-rate-lock-en-143/"
+      },
+      {
+        "title": "Use a dependency calendar, not just a closing date",
+        "paragraphs": [
+          "Place the lock expiration beside the expected closing date. Under it, list the items that must happen first: remaining lender documents, valuation, insurance, title work and any property-related conditions. Have the responsible professional confirm the status of each item rather than assuming the calendar invitation proves the transaction is on track.",
+          "Ask the lender what buffer is appropriate for this transaction and how an extension request is handled. If a repair or missing record threatens timing, communicate early. The practical question is not only whether closing will move, but which other commitments need review if it does."
+        ]
+      },
+      {
+        "title": "Ask about exceptions before they become surprises",
+        "paragraphs": [
+          "The CFPB notes that changes in the application can affect a locked rate and that extending a lock can cost money. It also warns that a lock may prevent you from benefiting when rates fall. Ask which changes matter, what an extension would cost, and whether any lower-rate option exists under the agreement."
+        ],
+        "sourceLabel": "CFPB: lock conditions and tradeoffs",
+        "source": "https://www.consumerfinance.gov/ask-cfpb/whats-a-lock-in-or-a-rate-lock-en-143/"
+      },
+      {
+        "title": "Make the decision about risk, not a prediction contest",
+        "paragraphs": [
+          "Nobody needs to win a daily interest-rate guessing game to manage a purchase responsibly. Compare the payment you can support with the uncertainty you are willing to accept. A decision to float should include a plan for what you will do if the payment changes, not simply a hope that the market moves favorably.",
+          "Keep a dated record of the lock confirmation, expiration, conditions and extension contact. Recheck it when the purchase timetable changes. Ask for an updated explanation of any material pricing change before proceeding; a verbal shorthand such as 'everything is locked' leaves too much room for misunderstanding."
+        ]
+      }
+    ],
+    "checklist": [
+      "Obtain written lock status, terms and expiration.",
+      "Map outstanding tasks to the closing timeline.",
+      "Ask about extension costs and application changes.",
+      "Revisit the lock whenever the transaction schedule changes."
+    ],
+    "caveat": "General planning guidance, not an interest-rate forecast or financing recommendation. Your lender's written agreement controls the lock terms.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "mortgage-points-break-even-calculation",
+    "title": "Mortgage points: use a break-even calculation, then challenge its assumptions",
+    "description": "Compare paying more upfront with paying more each month without assuming a future refinance will solve the decision.",
+    "category": "Financing",
+    "tags": [
+      "discount points",
+      "lender credits",
+      "break-even",
+      "mortgage"
+    ],
+    "sections": [
+      {
+        "title": "Identify exactly what the fee buys",
+        "paragraphs": [
+          "Before paying a charge described as points, ask what changes in exchange. A percentage-based fee is not automatically evidence of a lower rate. Request the same loan scenario with and without discount points so the tradeoff is visible in writing.",
+          "The CFPB explains that discount points generally exchange a higher upfront payment for a lower interest rate, while rate-related lender credits reverse that tradeoff. One point equals one percent of the loan amount, but the rate reduction is not a universal fixed amount. Ask the lender to show the actual pricing effect."
+        ],
+        "sourceLabel": "CFPB: points and lender credits",
+        "source": "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/"
+      },
+      {
+        "title": "Calculate a simple first-pass break-even",
+        "paragraphs": [
+          "For two otherwise comparable offers, divide the additional upfront cost by the monthly payment savings. In an illustrative example, paying an additional $3,000 to save $60 per month produces a simple 50-month break-even: $3,000 divided by $60. These are invented teaching figures, not a quote, current pricing or a recommended deal.",
+          "That calculation is a screening tool. It ignores the time value of money, potential tax effects and differences in loan balances or other terms. If loan amounts, fees or features differ, ask for a fuller comparison rather than forcing unlike offers into a convenient formula."
+        ]
+      },
+      {
+        "title": "Test more than one future",
+        "paragraphs": [
+          "Write down a short, middle and long period you might keep this specific loan. Selling the home and refinancing can both change the relevant horizon. The CFPB recommends comparing costs over different possible timeframes when the future is uncertain. Do not treat an intention to stay in the home as a promise never to refinance."
+        ],
+        "sourceLabel": "CFPB: compare alternative timeframes",
+        "source": "https://www.consumerfinance.gov/ask-cfpb/how-should-i-use-lender-credits-and-points-also-called-discount-points-en-136/"
+      },
+      {
+        "title": "Protect the rest of the purchase budget",
+        "paragraphs": [
+          "Look at what the upfront payment displaces. If paying points leaves too little cash for moving, immediate repairs or a reserve, the lower monthly payment is only one side of the decision. Conversely, a credit that preserves cash today may come with a recurring cost you need to understand.",
+          "Ask for the cash required and total borrowing-cost comparison under each scenario, then record the assumption that would change your choice. A useful decision statement might be: this option works if we retain the loan beyond the modeled period and preserve our reserve. If either assumption is weak, revisit the offer rather than relying on the headline rate."
+        ]
+      }
+    ],
+    "checklist": [
+      "Request matching scenarios with and without points.",
+      "Calculate a clearly labeled simple break-even.",
+      "Compare shorter and longer loan-holding periods.",
+      "Include the effect on cash reserves."
+    ],
+    "caveat": "Illustrative education, not personalized financial or tax advice. Actual pricing, loan terms and the appropriate analysis vary.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "nchfa-buyer-assistance-eligibility-checklist",
+    "title": "North Carolina down payment assistance: verify the program before counting the money",
+    "description": "A practical eligibility and documentation checklist for exploring NCHFA options without relying on an outdated flyer.",
+    "category": "Financing",
+    "tags": [
+      "NCHFA",
+      "down payment assistance",
+      "first-time buyer",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with the exact program name",
+        "paragraphs": [
+          "Down payment assistance is not one interchangeable product. Begin by identifying the program, the participating lender and the current official information page. An old social post or saved brochure may describe a prior limit, a different product or a benefit that does not fit the property you plan to buy.",
+          "NCHFA's NC Home Advantage Mortgage serves qualifying first-time and move-up buyers through participating lenders. Its official page identifies borrower, occupancy, property and loan requirements. Rather than copying changing numeric limits into your budget, have a participating lender verify the current rules against your specific application."
+        ],
+        "sourceLabel": "NCHFA: NC Home Advantage Mortgage",
+        "source": "https://www.nchfa.com/home-buyers/buy-home/nc-home-advantage-mortgage"
+      },
+      {
+        "title": "First-time buyer status is only one part of eligibility",
+        "paragraphs": [
+          "The NC 1st Home Advantage Down Payment is a separate option with additional criteria. NCHFA describes eligibility involving first-time buyers, military veterans or purchases in targeted census tracts, together with other income, sales-price, occupancy and borrower requirements. Its description of first-time status looks at ownership of a principal residence during the preceding three years.",
+          "Do not decide your eligibility from one label alone. Ask which household or borrower information the particular program evaluates, what documents are needed, and whether the proposed property and loan qualify. If two people will purchase together, have the lender explain how their circumstances are evaluated."
+        ],
+        "sourceLabel": "NCHFA: NC 1st Home Advantage Down Payment",
+        "source": "https://www.nchfa.com/home-buyers/home-buyer-mortgage-products/nc-1st-home-advantage-down-payment"
+      },
+      {
+        "title": "Understand the obligation, not just the benefit",
+        "paragraphs": [
+          "NCHFA describes the NC 1st Home Advantage assistance as a deferred second mortgage with a forgiveness schedule. That is different from assuming money arrives without conditions. Ask what happens if you sell, refinance, transfer the property or stop meeting applicable requirements, and obtain the governing documents before relying on a verbal summary."
+        ],
+        "sourceLabel": "NCHFA: assistance structure",
+        "source": "https://www.nchfa.com/home-buyers/home-buyer-mortgage-products/nc-1st-home-advantage-down-payment"
+      },
+      {
+        "title": "Keep an eligibility worksheet with your loan file",
+        "paragraphs": [
+          "Create a one-page worksheet with four columns: requirement, source, document supplied and lender confirmation. Include the program version or date checked. Mark unresolved items as questions, not as approvals. Keep a conventional no-assistance comparison nearby so you can evaluate the complete payment and cash-to-close picture.",
+          "Before making financial commitments, ask when assistance can be confirmed, whether funds or reservations have conditions, and whether other assistance can be combined. Your next step is a verified lender review, not an assumption that an advertised benefit is already part of your closing funds."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify the exact NCHFA program and current official page.",
+      "Use a participating lender for eligibility review.",
+      "Verify borrower, property, occupancy and loan requirements.",
+      "Read repayment, forgiveness and combination conditions.",
+      "Do not count unconfirmed assistance as available cash."
+    ],
+    "caveat": "Program information checked against official NCHFA pages. Eligibility, availability and terms can change; this guide is not an approval or a promise of assistance.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "protect-closing-funds-from-wire-fraud",
+    "title": "Protect your closing funds: verify the instructions before you send the wire",
+    "description": "Build a verification routine before closing week and know what to do immediately if a transfer may be fraudulent.",
+    "category": "Buying",
+    "tags": [
+      "wire fraud",
+      "closing",
+      "security",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Accurate transaction details do not prove a message is genuine",
+        "paragraphs": [
+          "A message can mention the correct address, closing date and people involved and still be fraudulent. Treat payment instructions as something to verify independently, not as a normal email task to finish quickly. The closer you are to closing, the more important it is to protect time for that verification.",
+          "The FBI describes business email compromise schemes that impersonate familiar senders, including fraudulent down-payment instructions sent to homebuyers. Criminals may exploit compromised accounts or convincing look-alike addresses. A recognizable name or existing-looking conversation is not sufficient protection."
+        ],
+        "sourceLabel": "FBI: business email compromise",
+        "source": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise"
+      },
+      {
+        "title": "Establish a trusted contact route early",
+        "paragraphs": [
+          "Before funds are due, ask your closing professional to explain the approved payment process. Establish a telephone contact using information you independently verified, and retain it separately from later payment messages. Decide who in your household will initiate the transfer and who will check the instructions; avoid having two people act on different versions.",
+          "Immediately before sending money, contact the closing professional through that trusted route and verify the instructions. The FBI advises independent phone verification and particular caution with changes in account details or payment procedures. Do not use a replacement phone number supplied inside the message you are trying to authenticate."
+        ],
+        "sourceLabel": "FBI: verify payment requests independently",
+        "source": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise"
+      },
+      {
+        "title": "Make a changed instruction a stop signal",
+        "paragraphs": [
+          "If a message announces a last-minute bank change, unusual urgency or a new payment process, pause. Do not let a claimed deadline remove the verification step. Tell your legitimate closing contact what you received and ask them to resolve the discrepancy through the established channel.",
+          "Keep the payment workflow simple: one verified set of instructions, one designated sender and a clear record of confirmation. Do not forward bank details broadly or paste them into unnecessary chat threads. After the transfer, confirm receipt through the trusted contact rather than assuming the bank's send confirmation proves the intended recipient received it."
+        ]
+      },
+      {
+        "title": "If something is wrong, act immediately",
+        "paragraphs": [
+          "The FBI says to contact your financial institution immediately if a fraudulent transfer may have occurred and ask it to contact the receiving institution. Report the incident to the FBI's Internet Crime Complaint Center at IC3.gov. Prompt reporting is important, but recovery is not guaranteed."
+        ],
+        "sourceLabel": "FBI: reporting a suspected fraudulent transfer",
+        "source": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise"
+      },
+      {
+        "title": "Keep evidence without spreading it",
+        "paragraphs": [
+          "Preserve the suspicious messages and transaction records for your bank and investigators. Tell the legitimate closing professional promptly so the transaction can be handled accurately. Avoid sending additional money to anyone who promises recovery or asks for a corrective payment until the request has been independently verified."
+        ]
+      }
+    ],
+    "checklist": [
+      "Establish and retain a trusted closing contact number early.",
+      "Verify instructions independently immediately before sending.",
+      "Stop and reverify any payment change or urgent request.",
+      "Confirm receipt with the legitimate closing contact.",
+      "Contact your bank immediately and report to IC3.gov if fraud is suspected."
+    ],
+    "caveat": "General fraud-prevention guidance. No process guarantees prevention or recovery; follow your financial institution's and closing professional's verified procedures.",
+    "date": "2026-11-14",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "rental-property-cash-flow-stress-test",
+    "title": "Stress-test a rental property before trusting the cash flow",
+    "description": "Build a rental worksheet that makes vacancy, repairs and financing risk visible instead of hiding them behind gross rent.",
+    "category": "Investing",
+    "tags": [
+      "rentals",
+      "cash flow",
+      "risk",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Separate the property from the financing",
+        "paragraphs": [
+          "Begin with expected rent that you can support, not the highest asking rent you can find. Record the source, date, property condition and lease assumptions behind it. An advertised rent is an offer to the market, not proof that a tenant will sign at that amount.",
+          "Build the property operating budget first. Include the expenses the owner actually bears, such as taxes, insurance, management, maintenance and applicable association or utility costs. Then show debt service separately. This makes it easier to see whether the property itself is weak or a particular financing structure creates the shortfall."
+        ]
+      },
+      {
+        "title": "Keep cash planning separate from tax reporting",
+        "paragraphs": [
+          "The IRS identifies maintenance, insurance, taxes and interest among common rental expenses and distinguishes repairs from improvements for tax treatment. Those distinctions matter to reporting, but a tax deduction is not the same thing as cash available to pay next month's bills. Keep your cash forecast and tax records connected without treating them as identical calculations."
+        ],
+        "sourceLabel": "IRS: rental income and expenses",
+        "source": "https://www.irs.gov/businesses/small-businesses-self-employed/rental-income-and-expenses-real-estate-tax-tips"
+      },
+      {
+        "title": "Change one assumption, then combine the stresses",
+        "paragraphs": [
+          "First test lower collected rent. Next test a vacancy interval. Then add a repair event and an insurance increase as separate scenarios. These are hypothetical exercises, not predictions. Label the amounts you choose and explain why they are useful tests for this property.",
+          "After testing each change alone, combine a plausible set. A repair during a vacancy can be harder to manage than either event separately. Show the lowest projected cash balance as well as annual cash flow; a positive year-end total does not guarantee you can fund every month along the way."
+        ]
+      },
+      {
+        "title": "Decide what would make you pass",
+        "paragraphs": [
+          "Before negotiating, identify your reserve requirement and the assumptions you refuse to rely on without verification. Ask whether the investment still works if professional management is needed even when you initially plan to self-manage.",
+          "For a North Carolina rental, verify the actual property's taxes, insurance availability, association restrictions and permitted use. Do not import another owner's expense ratio without checking what it excludes. The final decision should reflect documented inputs and your ability to absorb a difficult period, not merely an attractive spreadsheet headline."
+        ]
+      }
+    ],
+    "checklist": [
+      "Support the rent estimate with comparable evidence.",
+      "Separate operating expenses, debt service and capital reserves.",
+      "Model vacancy, lower rent and repair events.",
+      "Review monthly cash balances, not only annual totals.",
+      "Write down your pass criteria before negotiating."
+    ],
+    "caveat": "Educational underwriting framework, not a forecast, tax advice or an investment recommendation. Assumptions and expense treatment vary; consult appropriate professionals.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "cap-rate-vs-cash-on-cash-return",
+    "title": "Cap rate versus cash-on-cash return: two views of the same rental",
+    "description": "Understand what each measure includes before comparing investment properties or financing proposals.",
+    "category": "Investing",
+    "tags": [
+      "cap rate",
+      "cash-on-cash",
+      "rental analysis"
+    ],
+    "sections": [
+      {
+        "title": "Use a property measure and an equity measure",
+        "paragraphs": [
+          "A capitalization rate relates a property's annual net operating income to its price or value. Direct capitalization is an income-based appraisal method; California's Board of Equalization explains the relationship as income divided by a capitalization rate equaling an indicated value. The arithmetic is useful, but selecting reliable income and an appropriate rate requires judgment."
+        ],
+        "sourceLabel": "California Board of Equalization: capitalization fundamentals",
+        "source": "https://www.boe.ca.gov/info/iav/lesson8.htm"
+      },
+      {
+        "title": "Make the definitions explicit",
+        "paragraphs": [
+          "For a basic purchase comparison, calculate cap rate as annual net operating income divided by purchase price. State how you developed net operating income, including vacancy and operating expenses. Keep debt service out of that property-level measure. Label whether replacement reserves or other adjustments are included so two worksheets can be compared fairly.",
+          "For this planning framework, define cash-on-cash return as annual pre-tax cash flow after debt service and the reserve allowance you selected, divided by initial cash invested. Include the down payment, acquisition costs and initial work funded with your cash. State the denominator instead of quietly using only the down payment."
+        ]
+      },
+      {
+        "title": "Work through a hypothetical example",
+        "paragraphs": [
+          "Suppose a property costs $300,000 and has $18,000 of annual net operating income under your stated assumptions. Its purchase-price cap rate is 6%. If annual debt service is $12,000 and you set aside another $2,000 for a reserve not already deducted in that NOI, the modeled pre-tax cash flow is $4,000.",
+          "If your total initial cash invested is $80,000, that particular cash-on-cash calculation is 5%. These figures are invented solely to show the math. They are not local market benchmarks, a loan quote or a recommended target. Changing the financing changes the equity cash flow without automatically improving the underlying property."
+        ]
+      },
+      {
+        "title": "Do not let either percentage end the analysis",
+        "paragraphs": [
+          "Neither simple measure captures every dimension of a holding period. Consider future capital work, changes in operating income, refinancing exposure, sale costs and taxes separately. A high initial percentage can coexist with substantial uncertainty.",
+          "When comparing North Carolina properties, use the same definitions and evidence standard for each. Ask whether a broker's advertised cap rate uses actual operations, a stabilized forecast or an optimistic future scenario. Keep those labels visible. A metric should help explain a decision, not disguise the assumptions doing the work."
+        ]
+      }
+    ],
+    "checklist": [
+      "Define NOI and every expense inclusion.",
+      "Use the same basis across properties.",
+      "Include all relevant initial cash in the equity calculation.",
+      "Keep reserve treatment consistent.",
+      "Evaluate timing, capital work and exit risks separately."
+    ],
+    "caveat": "Educational examples only, not an appraisal, tax calculation or promised return. Metrics have varying conventions; reconcile definitions with your lender, accountant and advisor.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "after-repair-value-comparable-sales",
+    "title": "Underwriting after-repair value: choose the finished product before the comps",
+    "description": "A practical way to test an investor's resale assumption without treating the nearest expensive sale as proof.",
+    "category": "Investing",
+    "tags": [
+      "ARV",
+      "comparables",
+      "rehab",
+      "resale"
+    ],
+    "sections": [
+      {
+        "title": "Describe the property you actually intend to deliver",
+        "paragraphs": [
+          "After-repair value, often shortened to ARV in investor discussions, is an assumption about a property's value after a specified project. Before attaching a number, describe that project: finished area, layout, condition, materials and any unresolved permit or use questions.",
+          "Separate a committed scope from an optional upgrade. If the resale assumption requires an extra bathroom or additional finished area, the budget and approval plan must support that outcome. Otherwise you are comparing a proposed product you may never build."
+        ]
+      },
+      {
+        "title": "Select competitive properties, not just nearby prices",
+        "paragraphs": [
+          "Fannie Mae's appraisal guidance emphasizes comparable physical and legal characteristics, including finished area, style and condition. It also describes competing market areas rather than an inflexible distance-only test. That is appraisal guidance for its lending context, not an investor valuation shortcut, but it illustrates why proximity alone is insufficient."
+        ],
+        "sourceLabel": "Fannie Mae: comparable-sales selection",
+        "source": "https://selling-guide.fanniemae.com/sel/b4-1.3-08/comparable-sales"
+      },
+      {
+        "title": "Build a comp file that another person can challenge",
+        "paragraphs": [
+          "For each candidate sale, record the sale date, verified price, property characteristics and the reason it belongs. Keep photos and available information about its condition at sale. Note any concessions or unusual transaction features you can verify rather than assuming every headline price represents the same economics.",
+          "List the differences you cannot confidently resolve. A small sample does not become strong evidence merely because it is formatted in a spreadsheet. Ask a qualified local professional to examine the evidence, especially for an unusual property or a location with limited relevant sales."
+        ]
+      },
+      {
+        "title": "Connect the resale case to the entire project",
+        "paragraphs": [
+          "Create a conservative scenario alongside the base case. Lower the resale assumption, extend the holding period and examine how those changes affect the project's remaining margin. Do not hide selling costs or financing costs inside the acquisition line.",
+          "The comp-distance tool can help you inspect location relationships. It does not evaluate finish quality, make market-supported adjustments or produce an appraisal. Use it as one research aid, not as a way to turn a hoped-for resale price into a certified conclusion."
+        ]
+      },
+      {
+        "title": "Record what would change your mind",
+        "paragraphs": [
+          "Keep a dated decision note stating the assumed finished condition, strongest supporting sales and biggest unanswered questions. Identify the evidence that would require revising the offer or scope. This makes it harder to keep the same resale number after the project has materially changed."
+        ]
+      }
+    ],
+    "checklist": [
+      "Define the finished scope before estimating resale.",
+      "Document why each comparable is competitive.",
+      "Distinguish closed-sale evidence from active asking prices.",
+      "Stress-test sale price and time to exit.",
+      "Obtain appropriate professional analysis for consequential decisions."
+    ],
+    "caveat": "Educational planning guidance, not an appraisal or guarantee of after-repair value. Market conditions, project completion and property-specific facts can change the outcome.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "seventy-percent-flip-rule-limitations",
+    "title": "Why the 70% flip rule is a screening shortcut, not an offer strategy",
+    "description": "Replace a single percentage with a complete project budget, explicit assumptions and a downside case.",
+    "category": "Investing",
+    "tags": [
+      "flipping",
+      "70 percent rule",
+      "risk",
+      "rehab"
+    ],
+    "sections": [
+      {
+        "title": "Understand the shortcut before using it",
+        "paragraphs": [
+          "The commonly discussed 70% rule is a screening formula: multiply an assumed after-repair value by 70%, then subtract estimated repairs to produce a rough acquisition ceiling. It is not a legal standard, lender requirement or guarantee of profit.",
+          "A hypothetical $300,000 resale assumption and $50,000 repair estimate would produce $160,000 using that shortcut. The remaining spread is not automatically profit. It must absorb all the costs, risks and compensation that the formula has not separately identified."
+        ]
+      },
+      {
+        "title": "Unpack what the percentage hides",
+        "paragraphs": [
+          "Build your own project ledger with acquisition and closing costs, construction, professional services, permits, financing, holding expenses, selling costs and a contingency. Avoid counting the same cost twice, but do not omit a cost simply because the shortcut has no dedicated field for it.",
+          "Write a separate target for the compensation you require for the capital, time and risk involved. A rule of thumb cannot decide that for you. The appropriate acquisition limit depends on the actual project rather than a universal discount applied to every neighborhood and property."
+        ]
+      },
+      {
+        "title": "Challenge the two biggest inputs",
+        "paragraphs": [
+          "A wrong resale assumption makes the formula wrong even when the arithmetic is perfect. Fannie Mae's comparable-sale guidance highlights physical characteristics, condition and market competition. Treat your resale evidence as a distinct research task; the highest nearby renovated sale is not automatically the right benchmark."
+        ],
+        "sourceLabel": "Fannie Mae: characteristics that matter in comparable selection",
+        "source": "https://selling-guide.fanniemae.com/sel/b4-1.3-08/comparable-sales"
+      },
+      {
+        "title": "Replace optimism with scenarios",
+        "paragraphs": [
+          "Test a lower exit price, a higher renovation cost and a longer project. Then combine them. Keep the assumptions labeled as hypothetical rather than suggesting you can predict exactly how the market or construction will behave.",
+          "For each scenario, calculate the dollars remaining after the modeled costs, not just the percentage spread. Also calculate the maximum cash needed before sale. A project can have an attractive estimated margin while requiring more interim liquidity than you can safely provide."
+        ]
+      },
+      {
+        "title": "Use the screen to prioritize work, not avoid it",
+        "paragraphs": [
+          "A quick screen can help you decide which leads deserve investigation. Before offering on a North Carolina property, replace estimates with property-specific evidence wherever possible and have professionals address contract, construction and financing questions.",
+          "If the opportunity works only because you assume an immediate sale, perfect scope execution and no unexpected costs, record that dependence clearly. Passing on a poorly supported project is a valid result of analysis. Do not force the inputs to make the shortcut approve the deal."
+        ]
+      }
+    ],
+    "checklist": [
+      "Label the 70% calculation as an initial screen.",
+      "Build a complete cost ledger.",
+      "Verify resale and construction assumptions independently.",
+      "Test price, cost and timing downside together.",
+      "Review liquidity and required margin before offering."
+    ],
+    "caveat": "Hypothetical educational analysis, not investment advice or a promised profit. This rule of thumb has no universal reliability and cannot replace property-specific diligence.",
+    "date": "2026-11-14",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "compare-investment-rehab-contractor-bids",
+    "title": "Comparing rehab bids: make every contractor price the same project",
+    "description": "Create an investor scope matrix that exposes exclusions, allowances and schedule assumptions before you choose a bid.",
+    "category": "Investing",
+    "tags": [
+      "contractors",
+      "rehab",
+      "scope",
+      "bids"
+    ],
+    "sections": [
+      {
+        "title": "Start with a common scope, not three unrelated totals",
+        "paragraphs": [
+          "A low bid may represent a different project rather than a better price. Prepare one scope package for all bidders: rooms or systems involved, intended result, selected materials where known, access conditions and the questions still unresolved.",
+          "Use a simple matrix with a row for each scope item and a column for each bid. Mark included, excluded, allowance or unclear. Do not interpret silence as inclusion. A bidder's written answer is more useful than an assumption you discover during construction."
+        ]
+      },
+      {
+        "title": "Check the business as well as the number",
+        "paragraphs": [
+          "The Federal Trade Commission recommends verifying licensing and insurance, obtaining multiple written estimates and asking about significant price differences rather than automatically choosing the lowest bid. It says written estimates should identify work, materials, completion timing and price."
+        ],
+        "sourceLabel": "FTC: contractor selection and written estimates",
+        "source": "https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam"
+      },
+      {
+        "title": "Resolve allowances before they become surprises",
+        "paragraphs": [
+          "For an allowance, ask what quantity and quality it assumes, what is included in installation and how a selection above the allowance changes the price. Separate an owner-selected upgrade from a newly discovered condition. They create different decisions even if both lead to added cost.",
+          "Ask how concealed conditions will be documented and priced, who approves a change and whether work pauses while that decision is pending. Record the agreed process in the contract with appropriate professional advice. A contingency fund does not replace a change-control process."
+        ]
+      },
+      {
+        "title": "Compare schedules by dependencies",
+        "paragraphs": [
+          "Ask what must happen before the contractor can start, which decisions you must make and what inspections or materials affect sequencing. A completion date without those assumptions is hard to evaluate. Consider how delays affect financing, insurance, utilities and the planned sale or rental date.",
+          "For a North Carolina project, verify licensing and permit requirements with the appropriate authorities for the actual work. Do not assume a contractor's experience on a nearby job establishes that every approval for your property is already handled."
+        ]
+      },
+      {
+        "title": "Choose the best documented fit",
+        "paragraphs": [
+          "Compare the normalized scope, qualifications, communication, timing and price together. Before committing, identify who is responsible for cleanup, protection of existing finishes, documentation and final punch-list work. Agree on a payment structure and completion evidence appropriate to the project.",
+          "Keep the bid matrix and signed scope together. During construction, update the forecast whenever an approved change affects cost or timing. That creates a useful investment-control record instead of a folder of disconnected invoices."
+        ]
+      }
+    ],
+    "checklist": [
+      "Issue the same scope package to each bidder.",
+      "Mark exclusions and unclear items explicitly.",
+      "Verify qualifications and insurance.",
+      "Define allowances, change approvals and schedule dependencies.",
+      "Compare the complete documented proposal, not only the total."
+    ],
+    "caveat": "Educational procurement guidance, not a construction contract or legal opinion. Have qualified professionals address licensing, permits, payment provisions and project-specific risks.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-property-disclosure-buyer-review",
+    "title": "Reading a North Carolina property disclosure: turn answers into a review plan",
+    "description": "A buyer's method for separating a seller's responses, missing information and the investigations still needed.",
+    "category": "Buying",
+    "tags": [
+      "disclosures",
+      "due diligence",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "A completed form is the beginning, not the conclusion",
+        "paragraphs": [
+          "Treat the disclosure packet as a map of questions rather than a certificate of condition. Read it before getting attached to a renovation plan or assuming the property is ready for your intended use. Create three columns: what the document says, what evidence supports it and what you still need to verify. Keep the property address and date visible on every page so you do not confuse an old packet with an updated one.",
+          "North Carolina's disclosure statute applies to covered transfers and recognizes exceptions. It permits specified no-representation responses. Those responses should not be read as confirmation that a condition is absent. Ask your broker and attorney which requirements apply to this transaction rather than assuming every sale uses the same disclosure obligations."
+        ],
+        "sourceLabel": "North Carolina General Statutes: required disclosures",
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_47E/GS_47E-4.html"
+      },
+      {
+        "title": "Look for questions that affect your decision",
+        "paragraphs": [
+          "Read for practical consequences. A roof entry might prompt a request for an invoice and a question about what work was actually done. An association response might lead to a budget review. A repair described as completed may still leave questions about permits, scope, workmanship or an underlying cause. Ask focused questions without treating an incomplete record as proof of wrongdoing.",
+          "Prioritize matters that could change your budget, financing, safety assessment or intended use. Assign each unresolved question to the right professional. A broker can help coordinate the investigation, but an engineer, inspector, surveyor, insurance professional or attorney may be needed for the underlying answer."
+        ]
+      },
+      {
+        "title": "Resolve inconsistencies without guessing",
+        "paragraphs": [
+          "Compare the disclosure with inspection findings and other records you obtain. If two sources disagree, record the exact difference and request clarification. Avoid silently choosing whichever answer makes the purchase easier. A fresh coat of paint, a reassuring conversation or the age of an appliance does not resolve a technical question.",
+          "Keep updated documents together and review them against your actual contract calendar. Before a decision deadline, list what is confirmed, what remains uncertain and how much uncertainty you are prepared to accept. Ask your professionals about the available options; do not assume that finding an issue creates an automatic refund or cancellation right."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm the property address, version and signatures.",
+      "Separate no-representation responses from affirmative answers.",
+      "Request supporting records for material repairs.",
+      "Route technical and legal questions to appropriate professionals.",
+      "Review unresolved items before contractual deadlines."
+    ],
+    "caveat": "Educational guidance, not legal advice or a substitute for inspections. Disclosure law, exemptions and contract remedies require property-specific review. The current statute includes a 2025 amendment; do not rely only on older summaries.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-hoa-documents-budget-buyers",
+    "title": "Buying in an HOA: review the documents, not just the monthly dues",
+    "description": "A practical review of association costs, restrictions and unanswered questions before committing to a North Carolina home.",
+    "category": "Buying",
+    "tags": [
+      "HOA",
+      "condominium",
+      "budget",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with the rules that affect your plans",
+        "paragraphs": [
+          "An attractive community can still be the wrong fit if its governing documents conflict with how you intend to use the home. The North Carolina Department of Justice recommends reviewing association bylaws and covenants before buying and understanding both fees and approval powers. Do not rely on a neighbor's description or a listing's short amenity summary as the complete rulebook.",
+          "Write down the activities that matter to you: exterior alterations, fences, parking, pets, a home business or renting the property. Request the applicable documents and amendments, then ask for clarification of the provisions affecting those plans. A seller's past practice is not proof that your future use will be approved."
+        ],
+        "sourceLabel": "NCDOJ: homeowners' associations",
+        "source": "https://ncdoj.gov/protecting-consumers/home-repair-and-products/homeowners-associations/"
+      },
+      {
+        "title": "Translate fees into an ownership budget",
+        "paragraphs": [
+          "Put regular assessments beside your mortgage, insurance, taxes and maintenance budget. Ask what the association pays for and what remains the owner's responsibility. Then request available information on approved special assessments, transfer-related fees and planned projects. Distinguish an adopted charge from an idea discussed at a meeting.",
+          "A low monthly fee does not establish that an association is well funded, and a higher fee does not automatically indicate poor value. Compare the obligations with the services and common property involved. Ask for the current budget, available financial statements and reserve information through the appropriate transaction channels. The goal is to understand the questions, not to certify the association's finances yourself."
+        ]
+      },
+      {
+        "title": "Read the operating story behind the numbers",
+        "paragraphs": [
+          "Available meeting records can help you identify projects and recurring concerns worth discussing with the manager or seller. Ask whether a large repair is being evaluated, already contracted or fully paid. Those are different stages. If documents are missing, note the gap rather than assuming there are no problems.",
+          "For a condominium, also ask your lender and insurance professional what project-level review and coverage information they need. Separately confirm responsibility for components such as roofs, windows or exterior surfaces in the actual governing documents. Building appearance alone cannot answer who pays when something fails. Have an attorney interpret unclear restrictions before you rely on them."
+        ]
+      }
+    ],
+    "checklist": [
+      "Obtain current governing documents and relevant amendments.",
+      "Check intended uses against written restrictions.",
+      "Identify regular dues, approved assessments and transaction fees.",
+      "Review available budgets, reserves and project information.",
+      "Confirm owner-versus-association maintenance and insurance responsibilities."
+    ],
+    "caveat": "This is a document-review framework, not an association financial audit or legal opinion. Availability of records, governing laws and approval procedures vary. No claim is made that every requested record must be provided to a prospective buyer.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "survey-title-questions-north-carolina-homebuyers",
+    "title": "Survey and title questions to ask before a North Carolina closing",
+    "description": "Separate ownership, boundaries, access and insurance coverage before treating a property as ready for your plans.",
+    "category": "Buying",
+    "tags": [
+      "survey",
+      "title insurance",
+      "easements",
+      "closing"
+    ],
+    "sections": [
+      {
+        "title": "Separate the physical property from the ownership record",
+        "paragraphs": [
+          "A property visit shows you fences, driveways and buildings. It does not, by itself, establish their legal boundaries or the rights attached to them. Make a list of features central to your decision: access, parking, a proposed addition, a detached structure or a portion of the yard. Bring that list into the survey and title conversation early enough for useful answers.",
+          "The North Carolina Department of Insurance explains that a closing attorney examines public records for title concerns. It also warns that title policies contain exclusions and exceptions. A lender's policy protects the lender, not the buyer's ownership interest. Ask separately about an owner's policy and the coverage actually offered."
+        ],
+        "sourceLabel": "NCDOI: title searches and title insurance",
+        "source": "https://www.ncdoi.gov/consumers/homeowners-insurance/title-insurance"
+      },
+      {
+        "title": "Ask what a survey would resolve",
+        "paragraphs": [
+          "Tell the surveyor and attorney the specific uncertainty you need addressed. You may be concerned about a fence, shared drive, apparent encroachment or the relationship between an improvement and the property line. Ask what scope is appropriate and what the work will not establish. Do not treat a general online parcel display as a professional opinion on a disputed boundary.",
+          "Obtain an estimate and schedule early. If an older survey is available, ask whether it is sufficient for the transaction and your intended use. Changes since it was prepared may matter. A survey is not a promise that you can build anything you want; zoning, setbacks, recorded restrictions and other requirements may need separate review."
+        ]
+      },
+      {
+        "title": "Read exceptions as questions, not boilerplate",
+        "paragraphs": [
+          "Ask your attorney to explain recorded restrictions, easements and access issues in terms of your plans. Who may use the shared area? What maintenance obligation exists? Does the document cover the access you expect? A phrase that looks routine may have practical consequences for a garage, fence or future sale.",
+          "Ask the title insurer and attorney how obtaining a survey affects the proposed policy's exceptions. NCDOI identifies boundary and encroachment matters among potential coverage limitations when a survey is not supplied. Do not assume that buying a policy erases a known issue. Request a clear explanation of what must be resolved before closing and what you would knowingly accept."
+        ],
+        "sourceLabel": "NCDOI: policy exclusions and survey-related limitations",
+        "source": "https://www.ncdoi.gov/consumers/homeowners-insurance/title-insurance"
+      }
+    ],
+    "checklist": [
+      "List the land uses and physical features important to your purchase.",
+      "Discuss an appropriate survey scope and timing.",
+      "Review legal access and any shared-use arrangements.",
+      "Ask about title exceptions before closing.",
+      "Confirm whether an owner's policy is included and retain final documents."
+    ],
+    "caveat": "Educational information, not a title opinion, survey or insurance recommendation. Coverage is controlled by the issued policy. A survey, title search and land-use review serve different purposes and cannot guarantee your intended development.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-flood-risk-insurance-homebuying",
+    "title": "Flood risk before you buy: investigate the property and price the coverage",
+    "description": "Why a map designation and an ordinary homeowners quote are not the whole flood-risk conversation.",
+    "category": "Buying",
+    "tags": [
+      "flood risk",
+      "insurance",
+      "North Carolina",
+      "due diligence"
+    ],
+    "sections": [
+      {
+        "title": "Do not turn a map label into a guarantee",
+        "paragraphs": [
+          "Start with official flood mapping, but keep the question broader than whether the lender requires insurance. FEMA's National Flood Insurance Program explains that properties outside high-risk areas still face flood risk. A lower-risk designation is not a promise that a house, driveway or access route will remain dry.",
+          "Review the property location, available flood history and any documentation the seller provides. Ask the local floodplain administrator about questions specific to the site. If you are planning an addition or substantial renovation, raise that plan explicitly rather than assuming existing development means every future project will be permitted."
+        ],
+        "sourceLabel": "FEMA/NFIP: understanding flood risk",
+        "source": "https://www.floodsmart.gov/flood-zones-and-maps/what-is-my-flood-risk"
+      },
+      {
+        "title": "Get the insurance conversation into the budget early",
+        "paragraphs": [
+          "North Carolina's Department of Insurance warns that ordinary homeowners coverage does not cover flood damage. It also notes that most NFIP policies have a 30-day waiting period, with exceptions. Confirm the applicable effective date with the insurer; do not assume a policy purchased at the last moment provides immediate protection.",
+          "Ask for property-specific quotes and compare the actual coverage, deductible and exclusions, not just the annual premium. Discuss building and contents protection, lower-level spaces, temporary living costs and any separate water-related coverage questions with a licensed insurance professional. Do not assume every policy handles those items the same way."
+        ],
+        "sourceLabel": "NCDOI: flood insurance and waiting periods",
+        "source": "https://www.ncdoi.gov/consumers/homeowners-insurance/flood-insurance"
+      },
+      {
+        "title": "Investigate condition separately from insurability",
+        "paragraphs": [
+          "A quote does not establish that a previous water problem was correctly repaired. If you find evidence of water entry or the history raises questions, ask an appropriate professional to evaluate the condition and scope of any needed work. Keep the cause, repair record and current condition separate in your notes.",
+          "Use a decision sheet with four headings: hazard information, building condition, insurance terms and ownership cost. Record the remaining uncertainty under each. A reassuring answer about one category should not close the others. For example, a manageable premium does not answer whether a planned improvement needs additional approval."
+        ]
+      },
+      {
+        "title": "Choose with a reserve, not just a payment",
+        "paragraphs": [
+          "Before committing, consider whether your cash reserve could absorb the deductible and expenses excluded from coverage. Use figures supplied by your insurance and building professionals, not a generic online repair allowance. If an important answer is still missing, discuss the contractual options with your broker and attorney before your deadline."
+        ]
+      }
+    ],
+    "checklist": [
+      "Check official maps and request available property flood history.",
+      "Discuss planned improvements with the appropriate local office.",
+      "Obtain a property-specific insurance quote and effective date.",
+      "Investigate signs of prior water damage separately.",
+      "Include deductibles and uncovered expenses in your reserve planning."
+    ],
+    "caveat": "Educational guidance, not an insurance binder, engineering assessment or guarantee against flooding. Risk, eligibility, pricing and coverage vary; policy wording and local requirements control.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-well-septic-homebuyer-checklist",
+    "title": "Buying a home with a well and septic system: investigate both before closing",
+    "description": "A records-and-specialist checklist for understanding capacity, condition and future plans on a North Carolina property.",
+    "category": "Buying",
+    "tags": [
+      "septic",
+      "well",
+      "rural property",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Identify the systems before planning the house",
+        "paragraphs": [
+          "Start by confirming how the property receives water and disposes of wastewater. Do not assume a street address, nearby utility line or listing description establishes a connection. Ask for the available permits, layout and service records, then compare those documents with what you observe and what you intend to do with the home.",
+          "NCDHHS advises homeowners to know their septic system type, its designed capacity and the locations of the tank, drainfield and repair area. It recommends requesting the permit and layout from the local health department and asking a seller about age and maintenance. Those records are a starting point for evaluation, not proof of present condition."
+        ],
+        "sourceLabel": "NCDHHS: septic system records and care",
+        "source": "https://www.dph.ncdhhs.gov/programs/environmental-health/site-water-protection-branch/site-wastewater-program/nc-homeowners-caring-your-septic-system"
+      },
+      {
+        "title": "Do not combine water quality and mechanical condition",
+        "paragraphs": [
+          "A well can involve several different questions: the physical installation, pumping performance, water quality and the maintenance history of any treatment equipment. Ask a qualified well professional and the local health department which evaluations and laboratory tests fit the property. A clear-looking glass of water is not a substitute for the relevant results.",
+          "Make sure your investigation scope is explicit. Who collects the sample, which tests are included and how will the findings be explained? Obtain written results rather than relying on a general statement that the water was tested. Ask when previous testing occurred and whether anything has changed since then."
+        ],
+        "sourceLabel": "NCDHHS: private well information",
+        "source": "https://www.dph.ncdhhs.gov/programs/environmental-health/site-water-protection-branch/private-wells-program/private-well-permits-and-construction-what-nc-homeowners-should-know"
+      },
+      {
+        "title": "Match future plans to what is supported",
+        "paragraphs": [
+          "Tell your professionals about a proposed bedroom addition, guest space, pool, driveway or outbuilding. Have the applicable capacity and location constraints evaluated before including that plan in your purchase decision. An attractive open area may have a system-related purpose that is not apparent during a showing.",
+          "If records cannot be located or do not match the advertised use, record the discrepancy and obtain qualified guidance. Do not fill the gap with an assumption about what must have been approved. Ask what investigation or approval would be needed and whether it can realistically be completed within your transaction schedule."
+        ]
+      },
+      {
+        "title": "Translate findings into a maintenance plan",
+        "paragraphs": [
+          "Request a written explanation of observed condition, recommended follow-up and foreseeable servicing. Separate an immediate repair from routine maintenance and an unverified future concern. Use actual professional estimates when budgeting, and leave room for uncertainty rather than treating a favorable inspection as a lifetime warranty."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm water and wastewater service types.",
+      "Request permits, layouts and maintenance records.",
+      "Define separate well-condition, water-testing and septic evaluation scopes.",
+      "Check proposed improvements against system capacity and locations.",
+      "Resolve material discrepancies before contractual decision deadlines."
+    ],
+    "caveat": "Educational guidance, not a water-quality determination, septic inspection or permit approval. Requirements vary with system, site and proposed use. Qualified professionals and the relevant local health department should interpret property-specific findings.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "seller-prelisting-document-folder",
+    "title": "Before you list: build a property document folder that answers real questions",
+    "description": "Organize improvements, warranties and unresolved issues so the marketing story rests on records rather than memory.",
+    "category": "Selling",
+    "tags": [
+      "prelisting",
+      "documentation",
+      "repairs"
+    ],
+    "sections": [
+      {
+        "title": "Start with an index, not a pile of attachments",
+        "paragraphs": [
+          "Create one folder with sections for property information, improvements, maintenance, association documents and open questions. Name files by date and subject, and keep a simple index describing what each document actually establishes. A receipt for a service visit is different from a report confirming a condition or a final inspection approval.",
+          "The goal is not to overwhelm a buyer with paperwork. It is to help your broker understand the property accurately before advertising begins. Keep originals intact and make readable copies. Separate your personal financial information from documents that may be appropriate to share."
+        ]
+      },
+      {
+        "title": "Build a factual improvement timeline",
+        "paragraphs": [
+          "For each significant project, record when it happened, who performed it, the scope and the records available. Mark dates as approximate when you cannot verify them. If you bought the home after work was completed, distinguish what a prior owner told you from what you independently know.",
+          "NCREC's case study on material omissions emphasizes a listing broker's investigation of repairs and renovations, including available documentation. Give your broker the records and uncertainties together; do not assume that a finished surface or an old invoice answers every material question."
+        ],
+        "sourceLabel": "NCREC: repair documentation and material omissions",
+        "source": "https://bulletins.ncrec.gov/regulatory-affairs-case-study-repeated-material-omissions/"
+      },
+      {
+        "title": "Keep unresolved issues visible",
+        "paragraphs": [
+          "Use an open-questions list for missing permits, unclear warranty transfer terms, incomplete work or a report you do not understand. Assign a person to help resolve each question and keep the response with its source. Missing paperwork is a reason to investigate, not permission to invent a confident answer.",
+          "Ask your broker and attorney how the information affects disclosures, advertising and the transaction. Seller obligations and broker duties are not identical. This organizing exercise does not replace required forms or property-specific legal guidance."
+        ]
+      },
+      {
+        "title": "Prepare a controlled sharing copy",
+        "paragraphs": [
+          "Before sending a folder outside your household, remove unrelated account numbers, payment-card details and personal correspondence. Preserve information needed to understand the property and have your professionals review any uncertainty about what should be provided.",
+          "When new information arrives, update the index and clearly identify the newer version. An orderly folder cannot guarantee a smooth sale, but it reduces the chance that an important answer is scattered among text messages when a decision is due."
+        ]
+      }
+    ],
+    "checklist": [
+      "Create a dated index of property records.",
+      "Label verified facts, estimates and prior-owner statements separately.",
+      "Include unresolved questions rather than hiding gaps.",
+      "Review disclosure implications with your broker and attorney.",
+      "Share an appropriate copy without unrelated personal information."
+    ],
+    "caveat": "Educational organization guidance, not legal advice. Records do not establish that every defect has been found or every improvement was properly completed.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "compare-multiple-home-offers",
+    "title": "Comparing multiple offers: a seller's decision sheet beyond the highest price",
+    "description": "Put net proceeds, timing, financing and contractual uncertainty on one consistent page.",
+    "category": "Selling",
+    "tags": [
+      "offers",
+      "negotiation",
+      "selling"
+    ],
+    "sections": [
+      {
+        "title": "Decide your priorities before comparing buyers",
+        "paragraphs": [
+          "Write down what matters to your move: expected proceeds, timing, possession needs and tolerance for unresolved conditions. Give each priority a plain-language explanation. Without this step, the most exciting headline number can dominate a decision that also affects your next home and cash needs.",
+          "Use the same objective, transaction-related criteria for every offer. Avoid personal buyer stories and demographic assumptions. Your comparison should focus on terms and documented ability to perform, with your broker helping you apply a consistent process."
+        ]
+      },
+      {
+        "title": "Normalize the numbers",
+        "paragraphs": [
+          "For each offer, list price, requested seller credits, known seller obligations and estimated net proceeds using the same assumptions. Put uncertain amounts in their own column rather than quietly treating them as zero. A comparison is useful only when the inputs are comparable.",
+          "Consider hypothetical offers of different prices with different credits, but do not reduce the decision to arithmetic alone. A net sheet is an estimate. The transaction still depends on its terms, the property's circumstances and the parties' performance."
+        ]
+      },
+      {
+        "title": "Make a separate risk-and-timing row",
+        "paragraphs": [
+          "Record financing information, investigation deadlines, proposed closing date, possession arrangements and any unusual terms. Identify the questions that need an answer before you can meaningfully compare the offer. A cash label does not itself answer every question about the agreement.",
+          "Ask your broker to explain what the supporting documents do and do not establish. Ask an attorney about clauses that change your obligations or remedies. Do not assume a shorter deadline is automatically preferable if it creates avoidable uncertainty for your own move."
+        ]
+      },
+      {
+        "title": "Keep the negotiation process accurate",
+        "paragraphs": [
+          "NCREC's July 2025 guidance says the existence of multiple offers is not itself a material fact that must be disclosed. With seller consent, the listing broker may disclose that multiple offers exist, but must communicate fairly and honestly. Discuss the approach with your broker rather than improvising competing messages to buyers.",
+          "Do not invent competing offers or encourage disclosure of protected terms without proper authority. Document your decision and any authorized next step. A clear process helps you explain why an offer fits your goals even when it is not the highest headline price."
+        ],
+        "sourceLabel": "NCREC: navigating multiple offers",
+        "source": "https://bulletins.ncrec.gov/navigating-multiple-offers/"
+      }
+    ],
+    "checklist": [
+      "Define your priorities before ranking offers.",
+      "Use the same net-proceeds assumptions for each.",
+      "List unresolved financing and timing questions.",
+      "Evaluate objective terms, not buyer personal characteristics.",
+      "Confirm negotiation instructions with your broker."
+    ],
+    "caveat": "Educational planning guidance, not contract advice. Your broker and attorney should explain the specific offers, applicable duties and consequences before you accept or counter.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-tax-assessment-vs-sale-price",
+    "title": "Tax assessment versus sale price in North Carolina: check the date before the number",
+    "description": "Understand why a county tax record is useful information but not a ready-made asking price or tax forecast.",
+    "category": "Ownership",
+    "tags": [
+      "property tax",
+      "assessment",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Ask what the number was created to do",
+        "paragraphs": [
+          "A county property record helps explain the local tax assessment. An asking price expresses a seller's current marketing decision. A negotiated sale price reflects a particular transaction. Putting these figures side by side can be useful, but treating them as interchangeable skips the purpose and timing behind each.",
+          "Start by noting the parcel, recorded property characteristics and the assessment's effective date. Verify that you are looking at the correct property and not merely a similar street address. A total without its context can lead to a misleading comparison."
+        ]
+      },
+      {
+        "title": "Understand the reappraisal cycle",
+        "paragraphs": [
+          "NCDOR explains that North Carolina counties must conduct a general reappraisal at least every eight years. Between reappraisals, assessed values may change only in specified circumstances. That means a tax record is not simply an automatically refreshed estimate of today's sale price.",
+          "Check the relevant county's actual schedule and records rather than assuming neighboring counties use the same date. If you see a discrepancy in property characteristics, ask the assessor's office about the record and its correction process."
+        ],
+        "sourceLabel": "NCDOR: real property and reappraisals",
+        "source": "https://www.ncdor.gov/taxes-forms/property-tax/types-property-be-taxed"
+      },
+      {
+        "title": "Separate a value discussion from a tax-bill estimate",
+        "paragraphs": [
+          "To plan ownership costs, ask for the applicable taxing jurisdictions, current rates and property-specific treatment. Do not assume the seller's last bill will be your bill. The correct estimate depends on information that a listing's single annual-tax figure may not capture.",
+          "Keep tax planning separate from the broker's analysis of probable selling price. A home listed above assessed value is not automatically overpriced, and a home listed below it is not automatically a bargain. Review current relevant sales and the property's condition instead of applying a universal discount or markup to tax value."
+        ]
+      },
+      {
+        "title": "Bring a precise question to the right office",
+        "paragraphs": [
+          "If your concern is a record error or assessment, collect the parcel identifier, the field you question and supporting evidence. Ask the county about the applicable process and deadlines. If the question is what to offer or how to price a listing, work with your broker on current market evidence.",
+          "For your decision file, save the source and date of every tax assumption. Revisit it when newer information becomes available. This simple practice prevents an old bill from silently becoming a long-term ownership-cost promise."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm the parcel and property facts.",
+      "Record the reappraisal effective date.",
+      "Verify local taxing jurisdictions and applicable information.",
+      "Keep pricing analysis separate from tax assessment.",
+      "Ask the county about correction or appeal procedures when needed."
+    ],
+    "caveat": "Educational guidance, not tax advice or a property-specific assessment opinion. County procedures, dates, exemptions and bills vary; verify with the appropriate tax office.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "energy-upgrades-without-resale-promises",
+    "title": "Energy upgrades: separate comfort, operating savings and resale expectations",
+    "description": "Evaluate a home improvement on the benefits you can document rather than assuming every dollar returns at resale.",
+    "category": "Ownership",
+    "tags": [
+      "energy",
+      "improvements",
+      "resale"
+    ],
+    "sections": [
+      {
+        "title": "Define the problem you are trying to solve",
+        "paragraphs": [
+          "Start with the complaint, not the product: an uncomfortable room, a draft, uneven temperatures or an unusually burdensome bill. A specific problem gives you a way to evaluate whether a proposed upgrade addresses the right issue. Buying equipment before understanding the home can leave the underlying problem unresolved.",
+          "Write separate goals for comfort, operating cost, maintenance and eventual resale. Those benefits may matter differently depending on how long you expect to own the home. Avoid combining them into one optimistic return percentage."
+        ]
+      },
+      {
+        "title": "Get a baseline and a prioritized assessment",
+        "paragraphs": [
+          "ENERGY STAR describes a home performance assessment that includes homeowner concerns, historical energy bills, evaluation of the building and mechanical systems, diagnostic testing and prioritized recommendations. This creates a more grounded starting point than choosing improvements solely from advertisements.",
+          "Gather available utility history and note occupancy patterns or major changes that could affect comparison. Ask the assessor which findings are measured, which are estimates and what assumptions support projected savings."
+        ],
+        "sourceLabel": "ENERGY STAR: home performance assessment",
+        "source": "https://www.energystar.gov/saveathome/improvements/how-it-works/home-performance-assessment"
+      },
+      {
+        "title": "Compare scopes, not just price tags",
+        "paragraphs": [
+          "Request proposals that identify the work, equipment or materials, exclusions, verification and warranty terms. Ask how the measure interacts with the rest of the house and whether other work should happen first. The cheapest isolated measure is not necessarily the best sequence.",
+          "Keep any incentive separate from the base project economics until eligibility, timing and availability are confirmed through current program rules. Do not assume a benefit mentioned in an old article applies to a future installation. A contractor's sales statement is not a substitute for checking the program administrator's requirements."
+        ]
+      },
+      {
+        "title": "Treat resale as a separate question",
+        "paragraphs": [
+          "Document the completed scope, specifications and available performance information for a future buyer. These records help explain what was done; they do not guarantee a higher appraisal or sale price. Ask your broker what current comparable-market evidence can support rather than converting installation cost directly into expected resale gain.",
+          "If you proceed primarily for comfort or reduced operating burden, say so in your own decision record. That can be a rational choice without a resale promise. Revisit actual bills carefully after installation, recognizing that weather, rates and usage can change the comparison."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify a measurable comfort or operating problem.",
+      "Collect a baseline and obtain an appropriate assessment.",
+      "Compare written scopes and project sequencing.",
+      "Verify incentives before counting them.",
+      "Keep resale assumptions separate from documented improvements."
+    ],
+    "caveat": "Educational planning guidance, not an energy audit, tax recommendation or promise of savings or resale value. Property performance and program eligibility require current, specific verification.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "compare-north-carolina-communities-objectively",
+    "title": "Relocating within North Carolina: compare daily-life logistics, not neighborhood stereotypes",
+    "description": "Build a location shortlist using your own destinations, service needs and verified public infrastructure information.",
+    "category": "Local Planning",
+    "tags": [
+      "relocation",
+      "commute",
+      "infrastructure",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Turn preferences into observable questions",
+        "paragraphs": [
+          "Begin with the places and services you actually use: work locations, medical appointments, groceries, recreation and any accessibility needs. Define what an acceptable trip looks like for you. A neighborhood described as convenient may not be convenient for your schedule or mode of travel.",
+          "Use the same questions for every candidate address. Do not substitute assumptions about residents for facts about a property or location. Personal fit is best evaluated through your priorities, direct observation and reliable service information, not demographic stereotypes."
+        ]
+      },
+      {
+        "title": "Test the trip you would really make",
+        "paragraphs": [
+          "Compare routes at relevant times and, where practical, make the trip yourself. Note alternate routes, parking, transfers or walking connections. A single map estimate is a snapshot rather than a guarantee of your future commute.",
+          "Keep distance and travel time separate. A shorter straight-line distance can still involve an inconvenient route. If your work pattern changes during the week, record more than one scenario instead of averaging away the trip that is hardest to manage."
+        ]
+      },
+      {
+        "title": "Distinguish existing infrastructure from proposed projects",
+        "paragraphs": [
+          "NCDOT's Projects Near Me map organizes transportation projects by location and type and identifies upcoming projects. Its notices state that information is subject to change. Use it to identify questions, then read the specific project materials and status before relying on an improvement.",
+          "Record whether a project is proposed, in development, under construction or completed, along with the date you checked. A planned road or transit improvement is not an existing amenity and should not be treated as a guaranteed completion date or price-growth catalyst."
+        ],
+        "sourceLabel": "NCDOT: Projects Near Me",
+        "source": "https://www.ncdot.gov/projects/ProjectsNearMe/default.aspx"
+      },
+      {
+        "title": "Verify the services at the address",
+        "paragraphs": [
+          "Check the relevant provider or public office for service boundaries, availability and any connection requirements that matter to your intended use. For internet, utilities or transportation, a general statement about a town may not establish service at a specific property.",
+          "Keep your shortlist compact: three advantages, three unresolved questions and the next verification step for each address. The result is not a ranking of communities as good or bad. It is a transparent record of how each option meets your own practical needs, with uncertainties left visible."
+        ]
+      }
+    ],
+    "checklist": [
+      "List your actual destinations and time constraints.",
+      "Compare the same objective criteria for every address.",
+      "Test relevant routes and alternatives.",
+      "Label infrastructure plans by current status and checked date.",
+      "Verify services with the responsible provider or public office."
+    ],
+    "caveat": "Educational relocation planning, not a guarantee of travel time, service availability, project completion or property appreciation. Evaluate locations through objective, property-related criteria and your own needs.",
+    "date": "2026-11-14",
+    "readTime": "2 min read"
   }
 ]
