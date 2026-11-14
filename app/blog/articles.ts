@@ -1654,5 +1654,319 @@ export const articles:Article[] = [
     "caveat": "Educational relocation planning, not a guarantee of travel time, service availability, project completion or property appreciation. Evaluate locations through objective, property-related criteria and your own needs.",
     "date": "2026-11-14",
     "readTime": "2 min read"
+  },
+  {
+    "slug": "selling-without-a-realtor-north-carolina",
+    "title": "Selling without a Realtor in North Carolina: compare the workload, not just the fee",
+    "description": "A practical way to evaluate a for-sale-by-owner plan, professional support and the responsibilities you will keep.",
+    "category": "Selling",
+    "date": "2026-11-14",
+    "readTime": "3 min read",
+    "tags": [
+      "FSBO",
+      "selling",
+      "representation",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with a full task list",
+        "paragraphs": [
+          "A for-sale-by-owner decision is not simply a choice between paying a broker and paying nothing. It is a decision about who will perform the work, how reliably it will be done and which specialists you will still need. Begin by listing pricing research, property preparation, advertising, inquiries, showings, offer review, negotiation and transaction coordination.",
+          "Next to each task, write a responsible person, a cost allowance and a realistic time commitment. Include evenings and interruptions, not just scheduled appointments. If a task has no owner, your plan has a gap. This is an operating worksheet, not an argument that every seller must use the same service model."
+        ]
+      },
+      {
+        "title": "Know who represents whom",
+        "paragraphs": [
+          "When a broker becomes involved, ask whom that broker represents before sharing negotiating priorities or assuming you are receiving advice for your benefit. A friendly interaction and an offer to help with paperwork do not, by themselves, establish that someone is your representative.",
+          "NCREC explains that its Working With Real Estate Agents disclosure is used to explain agency relationships at first substantial contact in sales transactions. Review that disclosure and any proposed agreement carefully. Ask direct questions about representation, services and compensation; obtain your own legal advice for contract questions."
+        ],
+        "source": "https://bulletins.ncrec.gov/working-with-real-estate-agents-disclosure/",
+        "sourceLabel": "NCREC: Working With Real Estate Agents disclosure"
+      },
+      {
+        "title": "Compare complete costs and service scope",
+        "paragraphs": [
+          "Request written descriptions of any services you are considering, whether full-service brokerage, a limited marketing service or other professional assistance. Compare what is included, what remains your responsibility, what triggers payment and whether there are additional charges. Do not assume that a low advertised entry price covers negotiation or closing coordination.",
+          "Brokerage compensation is negotiable. If a transaction involves a buyer's broker, understand any proposed compensation or seller contribution before agreeing. A decision to market without a listing broker does not answer every cost-allocation question in a future offer."
+        ],
+        "source": "https://bulletins.ncrec.gov/buyer-agency-agreements/",
+        "sourceLabel": "NCREC: brokerage compensation is negotiable"
+      },
+      {
+        "title": "Create a process before the first inquiry",
+        "paragraphs": [
+          "Prepare accurate property information and discuss applicable disclosure requirements with an attorney. Establish how you will handle showings, document questions and evaluate offers consistently. Protect private information and use objective transaction criteria rather than buyer personal stories or demographic assumptions.",
+          "For each serious offer, compare estimated proceeds, financing information, deadlines and unresolved issues using the same worksheet. A high price does not eliminate execution risk. Ask your attorney to explain unfamiliar terms before signing, and do not assume a generic downloadable form fits your particular facts."
+        ]
+      },
+      {
+        "title": "Set a review point instead of making an indefinite commitment",
+        "paragraphs": [
+          "Choose a date to assess the plan using actual inquiries, feedback, workload and remaining questions. Decide in advance what would make you seek additional support. That preserves flexibility without treating a change of approach as a failure.",
+          "The useful question is whether your chosen process supports an informed, manageable sale. No service model guarantees a particular price, faster closing or lower total cost. Compare the likely work and the support you value, then make the choice with its tradeoffs visible."
+        ]
+      }
+    ],
+    "checklist": [
+      "Assign every marketing and transaction task.",
+      "Clarify representation before sharing negotiating priorities.",
+      "Compare written service scopes and all proposed costs.",
+      "Obtain property-specific disclosure and contract advice.",
+      "Set an evidence-based review date for your approach."
+    ],
+    "caveat": "Educational planning guidance, not legal advice or a promise of sale results. REALTOR is a membership designation; brokerage services and compensation vary. Confirm the obligations in every agreement before signing."
+  },
+  {
+    "slug": "sell-or-rent-your-current-north-carolina-home",
+    "title": "Sell or rent your current North Carolina home? Compare two complete plans",
+    "description": "Evaluate liquidity, rental operations, risk and tax questions before turning your former residence into an investment.",
+    "category": "Investing",
+    "date": "2026-11-14",
+    "readTime": "3 min read",
+    "tags": [
+      "sell or rent",
+      "rental property",
+      "cash flow",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with what the next move requires",
+        "paragraphs": [
+          "Before estimating rent, decide what you need from the existing home. Is the priority releasing cash, simplifying your responsibilities, retaining a property you may return to, or building a rental business? A strategy that looks attractive on paper may not meet the cash or attention requirements of your next move.",
+          "Write two plans using the same decision date. The sale plan estimates cash available after payoff and transaction costs. The rental plan estimates operating results, upfront preparation and reserves. Keep uncertain appreciation out of the base comparison so the decision does not depend on a favorable future sale."
+        ]
+      },
+      {
+        "title": "Build a rental operating plan, not a rent-minus-mortgage calculation",
+        "paragraphs": [
+          "Estimate rent using relevant evidence, then allow for vacancy, collection risk, maintenance, insurance, taxes, management and larger future replacements. Avoid double-counting expenses already included in an escrow payment. Record which figures are quoted, supported by records or simply assumptions.",
+          "Test a more demanding scenario: a longer vacancy, an unexpected repair or a period when you cannot manage the property personally. Decide who handles leasing, maintenance requests, records and emergencies. If the arrangement works only when nothing goes wrong and your time is free, it needs more work before becoming a business plan."
+        ]
+      },
+      {
+        "title": "Verify that the intended use is workable",
+        "paragraphs": [
+          "Review the loan documents, insurance requirements, association restrictions and applicable local rules with the appropriate professionals before advertising. Do not assume that permission to occupy a home automatically resolves every question about renting it. Ask a North Carolina attorney about lease terms, deposits and landlord obligations relevant to your situation.",
+          "Keep the decision focused on an actual property and intended rental arrangement. Long-term leasing, short-term stays and renting only part of a home can raise different questions. A general statement that a neighborhood has rentals is not a substitute for verifying your own obligations."
+        ]
+      },
+      {
+        "title": "Get tax advice before converting the use",
+        "paragraphs": [
+          "IRS Publication 527 explains that converting a personal residence to rental use involves specific depreciation-basis rules. Keep acquisition records, improvements information and documentation relevant to the conversion date. Ask a tax professional what records are needed rather than trying to reconstruct them after the first filing season."
+        ],
+        "source": "https://www.irs.gov/publications/p527",
+        "sourceLabel": "IRS Publication 527: residential rental property"
+      },
+      {
+        "title": "Compare the exit as well as the first year",
+        "paragraphs": [
+          "IRS Publication 523 addresses how rental use and depreciation can affect a later home sale. Do not assume that a home-sale exclusion automatically removes all tax consequences, or that renting for a particular period has the same result for every owner. Have a tax professional evaluate your actual ownership, use and depreciation history."
+        ],
+        "source": "https://www.irs.gov/publications/p523",
+        "sourceLabel": "IRS Publication 523: selling your home"
+      },
+      {
+        "title": "Choose with a written threshold",
+        "paragraphs": [
+          "Define the minimum cash reserve, acceptable workload and financial result you would require to keep the property. Compare those thresholds with the sale plan and your next-home needs. Include a review date and the information that would prompt reconsideration.",
+          "The point is not to prove that selling or renting always wins. It is to understand which plan you can execute, what could change the result and whether retaining this particular property still fits your goals."
+        ]
+      }
+    ],
+    "checklist": [
+      "Define cash and time requirements for your next move.",
+      "Compare complete sale and rental scenarios.",
+      "Include vacancy, maintenance, management and reserves.",
+      "Verify loan, insurance, association and legal requirements.",
+      "Review conversion and eventual-sale tax questions with a professional."
+    ],
+    "caveat": "Educational decision framework, not personalized investment, legal or tax advice. Rental income, expenses, property appreciation and tax treatment are not guaranteed. Verify current requirements for your property and intended use."
+  },
+  {
+    "slug": "north-carolina-buyer-representation-compensation",
+    "title": "Hiring a buyer's agent in North Carolina: understand the services, agreement and compensation",
+    "description": "Questions to resolve before signing a representation agreement, including scope, negotiable fees and possible out-of-pocket obligations.",
+    "category": "Buying",
+    "date": "2026-11-14",
+    "readTime": "3 min read",
+    "tags": [
+      "buyer representation",
+      "agency",
+      "compensation",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start by asking who the broker represents",
+        "paragraphs": [
+          "A helpful conversation does not answer every question about representation. Before discussing your maximum budget, negotiating flexibility or personal urgency, ask the broker to explain the agency relationship and the applicable disclosure. Make sure you understand whether the broker represents you, the seller or another permitted arrangement.",
+          "The North Carolina Real Estate Commission emphasizes reviewing agency disclosure before a prospective buyer reveals confidential information. Use that conversation to establish expectations, not simply to collect another signature. Ask how representation affects advice, communication and confidentiality in the properties you are considering."
+        ],
+        "source": "https://bulletins.ncrec.gov/working-with-real-estate-agents-disclosure-update/",
+        "sourceLabel": "NCREC: agency disclosure and confidential information"
+      },
+      {
+        "title": "Turn the service promise into a concrete scope",
+        "paragraphs": [
+          "Before signing a buyer representation agreement, ask what the firm will actually do. Discuss property search, tours, comparable-property analysis, offer preparation, negotiation support and transaction coordination. Identify what requires a separate professional, such as legal advice, inspection, engineering or lending decisions. A broker's coordination is not a substitute for those services.",
+          "Read the agreement's property coverage, duration and exclusivity provisions. Ask how it applies to new construction, a property you discover yourself or a change in your search area. If your plans change, what amendment or termination process applies? Resolve those questions before relying on a casual assurance that you can simply switch agents later."
+        ]
+      },
+      {
+        "title": "Negotiate compensation with the service package in view",
+        "paragraphs": [
+          "NCREC states that brokerage commissions are negotiable between the firm and client. There is not one universally required percentage you must accept. Ask the firm to explain its proposed compensation, the services connected to it, when a fee becomes earned and when it becomes payable.",
+          "Request a plain-language walk-through of the payment scenarios. What would you owe if a seller contributes nothing, contributes only part of the agreed amount or offers a different arrangement? Which credits count toward your obligation? Use the written terms to answer those questions rather than assuming representation is free because someone else might contribute."
+        ],
+        "source": "https://bulletins.ncrec.gov/buyer-agency-agreements/",
+        "sourceLabel": "NCREC: brokerage compensation is negotiable"
+      },
+      {
+        "title": "Use current paperwork, not old internet instructions",
+        "paragraphs": [
+          "North Carolina forms and compensation procedures have changed. NC REALTORS' 2026 forms summary identifies changes involving buyer agency and seller-paid buyer-agent compensation. Do not treat an old article about where compensation may be documented as instructions for today's transaction. Ask the broker which current documents apply and involve your attorney when you need legal interpretation."
+        ],
+        "source": "https://www.ncrealtors.org/question/summary-of-2026-changes-to-nc-realtors-residential-forms/",
+        "sourceLabel": "NC REALTORS: 2026 residential forms changes"
+      },
+      {
+        "title": "Keep the agreement aligned with the purchase",
+        "paragraphs": [
+          "Before touring with a broker, ask what written agreement is required for that service and review it before signing. Requirements can arise from applicable rules, brokerage practices and the services being provided; do not assume every interaction follows one nationwide script.",
+          "Before making an offer, revisit the compensation arrangement and your available cash. Have the broker show how the proposed transaction fits the representation agreement. Keep signed copies and amendments together. The goal is a clear working relationship in which neither services nor payment obligations become a surprise during the final week."
+        ]
+      }
+    ],
+    "checklist": [
+      "Clarify agency before sharing negotiating limits.",
+      "Review services, term, property scope and exclusivity.",
+      "Discuss compensation and payment scenarios explicitly.",
+      "Check amendment and termination provisions.",
+      "Use current documents and obtain legal advice for contract questions."
+    ],
+    "caveat": "Educational guidance, not legal advice or a statement that every brokerage uses identical terms. Compensation is negotiable. Your signed agreements, applicable rules and transaction circumstances control."
+  },
+  {
+    "slug": "selling-current-home-buying-next-north-carolina",
+    "title": "Selling your current home while buying the next: manage the dependency, not just the dates",
+    "description": "Build a plan for sale proceeds, overlapping costs, contract protection and housing logistics before coordinating two closings.",
+    "category": "Buying & Selling",
+    "date": "2026-11-14",
+    "readTime": "3 min read",
+    "tags": [
+      "move-up buyer",
+      "home sale",
+      "contingency",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Identify what the new purchase depends on",
+        "paragraphs": [
+          "Start with one direct question: do you need the current home to sell in order to qualify for the new loan, provide the down payment or remain comfortable with the payments? Those are three different dependencies. Ask the lender to evaluate the financing requirement, then separately evaluate your own cash-flow tolerance.",
+          "The CFPB notes that homeowners moving to another property commonly try to sell first and reminds buyers to plan for ownership and moving expenses. That is a starting point, not a universal prescription. The right sequence depends on your financing, available cash, housing alternatives and willingness to carry uncertainty."
+        ],
+        "source": "https://www.consumerfinance.gov/consumer-tools/mortgages/ready-to-buy-a-home/",
+        "sourceLabel": "CFPB: preparing financially for a home purchase"
+      },
+      {
+        "title": "Compare three plans before committing to one",
+        "paragraphs": [
+          "A sell-first plan can make the available proceeds clearer, but may require temporary housing, storage or two moves. A buy-first plan can simplify moving logistics, but can create overlapping payments and exposure if the old home takes longer to sell. A coordinated plan aims to align both transactions, but needs a backup when one side slips.",
+          "Put each option on a one-page worksheet. Include cash available, expected net sale proceeds, overlapping expenses, moving arrangements and the longest delay you can tolerate. Label proceeds as estimates until the transaction is completed and funds are available. Do not budget the gross sale price as if it were your usable down payment."
+        ]
+      },
+      {
+        "title": "Do not confuse disclosure with a contractual contingency",
+        "paragraphs": [
+          "Simply telling a seller that you need to sell your current home does not necessarily make your purchase obligation conditional on that sale. NC REALTORS explains that the representation about another property in Form 2-T is not itself a home-sale contingency. Its guidance directs buyers seeking that protection to an attorney-drafted addendum.",
+          "Have your North Carolina attorney review the actual current contract, addenda and intended protection before you sign. Ask what happens if the old home does not close, what notice is required and which funds may be at risk. A longer timeline alone is not the same thing as a right to terminate without consequence."
+        ],
+        "source": "https://www.ncrealtors.org/question/the-offer-to-purchase-and-contract-and-contingent-sales/",
+        "sourceLabel": "NC REALTORS: contingent sales and Form 2-T"
+      },
+      {
+        "title": "Build a dependency calendar with backup decisions",
+        "paragraphs": [
+          "Track both transactions on one calendar, but keep their obligations distinct. Record inspection-related dates, financing tasks, expected settlement, possession and when proceeds are needed. Ask the closing professionals about the actual sequence for funds and access rather than assuming two scheduled closings guarantee immediate availability.",
+          "Create decision points before deadlines arrive. If the sale becomes uncertain, who needs to know and which purchase obligations need legal review? If the next home is delayed, where will you stay? Temporary occupancy, if proposed, needs appropriate written terms and professional advice rather than a handshake about remaining a few extra days."
+        ]
+      },
+      {
+        "title": "Keep everyone working from the same facts",
+        "paragraphs": [
+          "Give your broker, lender and closing attorney prompt updates when either transaction changes. Avoid making a new promise on one side before understanding its effect on the other. Maintain a short status sheet showing confirmed facts, unresolved conditions and the person responsible for each answer.",
+          "A successful move is not measured only by whether two dates line up. It is a plan that still works when a document, repair or funding step takes longer than expected. Choose the sequence with a survivable fallback, not merely the cleanest-looking calendar."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify financing, cash and personal-budget dependencies separately.",
+      "Compare sell-first, buy-first and coordinated scenarios.",
+      "Have an attorney review any intended home-sale contingency.",
+      "Confirm funds and possession timing with closing professionals.",
+      "Plan temporary housing and communicate changes early."
+    ],
+    "caveat": "General planning information, not legal, lending or tax advice. Contract rights, proceeds availability, loan qualification and occupancy arrangements require transaction-specific professional review."
+  },
+  {
+    "slug": "sell-house-fast-charlotte-options",
+    "title": "Selling a house quickly in Charlotte: compare the options before choosing speed",
+    "description": "Compare a market listing, a direct offer and a sale with fewer repairs using net proceeds, contract conditions and a realistic closing plan.",
+    "category": "Selling",
+    "date": "2026-11-14",
+    "readTime": "3 min read",
+    "tags": [
+      "Charlotte",
+      "selling",
+      "cash offers",
+      "closing"
+    ],
+    "sections": [
+      {
+        "title": "Start with the deadline and the money you actually need",
+        "paragraphs": [
+          "A fast sale is useful only if it solves the right problem. Write down why you need to move, the last workable possession date, the cash needed after closing and the repairs you can reasonably complete. A relocation deadline is different from a mortgage-payment emergency. Treat those as separate planning problems rather than assuming the same buyer or marketing strategy fits both.",
+          "For a Charlotte property, build a comparison using recent, relevant closed sales and competing homes in the same practical market. Citywide headlines cannot price a particular street, condominium or house with major condition issues. Ask for a supported price range and a second scenario showing the likely effect of limited preparation. This article does not quote current Charlotte selling times or predict a sale date."
+        ]
+      },
+      {
+        "title": "Compare three paths on the same worksheet",
+        "paragraphs": [
+          "A market listing can expose the home to a broader pool of buyers, but preparation, showings and negotiations take work. A listing with the property offered in its present condition may reduce upfront projects while still allowing competition; it does not eliminate contractual obligations or buyer requests. A direct offer may reduce showing disruption, but its price and conditions still need scrutiny.",
+          "For each actual proposal, compare price minus your mortgage payoff, transaction charges, agreed compensation, concessions, repair commitments and carrying costs until completion. Separate estimated costs from written quotes. A lower headline price can sometimes produce an acceptable result with fewer costs, but it can also leave substantially less equity. The worksheet should reveal the difference, not justify a decision already made."
+        ]
+      },
+      {
+        "title": "A cash label is not a closing guarantee",
+        "paragraphs": [
+          "Ask who will actually purchase the home, how funds will be verified, what investigation or termination rights remain, whether assignment is permitted and what happens if the proposed closing slips. Have your North Carolina real estate attorney review unfamiliar terms before signing. A proposed settlement date and an advertisement promising speed are not proof that title issues, payoff requirements or other closing work have been resolved.",
+          "North Carolina's Department of Justice warns about schemes in which owners sign over control of their homes while remaining responsible for the mortgage. Do not confuse a promise to handle payments with a confirmed loan payoff at closing. If payment pressure is driving the sale, contact your mortgage servicer directly rather than relying solely on an unsolicited buyer's rescue proposal."
+        ],
+        "source": "https://ncdoj.gov/protecting-consumers/mortgages-home-loans/we-buy-homes-scams/",
+        "sourceLabel": "NCDOJ: We Buy Homes scams"
+      },
+      {
+        "title": "Keep possession and ongoing obligations in the comparison",
+        "paragraphs": [
+          "If an offer lets you stay after the sale, review the occupancy agreement separately: rent, deposit, insurance, maintenance, move-out date and the consequences of overstaying. The FTC cautions that sale-leaseback arrangements turn owners into tenants and can involve substantial fees, rising rent and eviction risk. They are not simply a sale with free extra moving time.",
+          "Choose the path with a credible closing process and a net result you understand. Before accepting, ask your advisers to explain the weakest link in each offer and the backup plan if it fails. Southern Cities Realty can discuss a marketing strategy; this guide does not represent a cash-purchase program, a guaranteed buyer, a guaranteed timeline or a promise to buy your home."
+        ],
+        "source": "https://consumer.ftc.gov/consumer-alerts/2024/10/risky-business-offers-cash-out-your-home-equity-through-sale-leaseback",
+        "sourceLabel": "FTC: sale-leaseback risks"
+      }
+    ],
+    "checklist": [
+      "Define the sale deadline, possession deadline and minimum net proceeds separately.",
+      "Compare written net sheets for actual options, including carrying costs.",
+      "Verify the purchasing party, available funds and remaining contract conditions.",
+      "Have an attorney review assignment, possession and unfamiliar financing terms.",
+      "Confirm payoff and closing arrangements rather than relying on advertising promises."
+    ],
+    "caveat": "General decision guidance, not legal, tax or mortgage advice. Actual prices, timelines and contract rights depend on the property and transaction. Obtain current local advice and independent legal review before committing."
   }
 ]
