@@ -208,14 +208,14 @@ export default function PrivacyPage() {
               Email:{' '}
               <a
                 href="mailto:admin@southerncitiesrealty.com"
-                className="font-semibold text-brand-500 hover:underline"
+                className="font-semibold text-brand-700 hover:underline"
               >
                 admin@southerncitiesrealty.com
               </a>
             </>,
             <>
               Phone:{' '}
-              <a href="tel:+19809448961" className="font-semibold text-brand-500 hover:underline">
+              <a href="tel:+19809448961" className="font-semibold text-brand-700 hover:underline">
                 (980) 944-8961
               </a>
             </>,
@@ -224,7 +224,7 @@ export default function PrivacyPage() {
         />
         <p>
           See also our{' '}
-          <Link href="/terms" className="font-semibold text-brand-500 hover:underline">
+          <Link href="/terms" className="font-semibold text-brand-700 hover:underline">
             Terms of Service
           </Link>
           , which include our full text messaging terms.

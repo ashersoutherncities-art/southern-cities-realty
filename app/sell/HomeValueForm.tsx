@@ -122,7 +122,7 @@ export function HomeValueForm() {
           <button
             type="button"
             onClick={() => setStage('address')}
-            className="mt-3 text-sm font-semibold text-brand-500 hover:underline"
+            className="mt-3 text-sm font-semibold text-brand-700 hover:underline"
           >
             Try a different address
           </button>
@@ -133,7 +133,7 @@ export function HomeValueForm() {
       ) : (
         estimate && (
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-brand-500">
+            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-brand-700">
               Estimated value
             </p>
             <p className="mt-2 font-display text-5xl text-navy-950">{money(estimate.value)}</p>
@@ -151,7 +151,7 @@ export function HomeValueForm() {
                 setStage('address')
                 setEstimate(null)
               }}
-              className="mt-3 text-sm font-semibold text-brand-500 hover:underline"
+              className="mt-3 text-sm font-semibold text-brand-700 hover:underline"
             >
               Check another address
             </button>
@@ -185,7 +185,7 @@ function LeadFields({
   dark?: boolean
 }) {
   const inputCls = dark
-    ? 'w-full rounded-2xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder:text-white/50 outline-none transition focus:border-brand-300'
+    ? 'w-full rounded-2xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder:text-white/75 outline-none transition focus:border-brand-300'
     : 'w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-navy-950 outline-none transition focus:border-brand-400'
   const labelCls = dark
     ? 'mb-1.5 block text-sm font-semibold text-white/85'

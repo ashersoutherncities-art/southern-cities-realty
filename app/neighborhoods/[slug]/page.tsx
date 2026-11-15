@@ -155,7 +155,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
             {HIGHLIGHTS.map(({ key, label, icon: Icon }) => (
               <div key={key} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
                 <div className="flex items-center gap-3">
-                  <span className="flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                  <span className="flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                     <Icon className="h-5 w-5" />
                   </span>
                   <h3 className="font-display text-xl text-navy-950">{label}</h3>
@@ -190,7 +190,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
         <section id="quiz" className="bg-cream-50 py-14 md:py-16">
           <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">🔍 Not sure where to start?</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-700">🔍 Not sure where to start?</p>
               <h2 className="section-title mt-3">Find your {n.name} neighborhood.</h2>
               <p className="section-copy mt-4 max-w-lg">
                 Answer a few quick questions and we&rsquo;ll point you to the {n.name} neighborhoods that fit your
@@ -215,7 +215,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
               {PLACE_CATS.filter((c) => places[c.key]?.length).map(({ key, label, icon: Icon }) => (
                 <div key={key} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
                   <div className="flex items-center gap-3">
-                    <span className="flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                    <span className="flex h-10 w-10 flex-none items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                       <Icon className="h-5 w-5" />
                     </span>
                     <h3 className="font-display text-lg text-navy-950">{label}</h3>
@@ -231,7 +231,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
                 </div>
               ))}
             </div>
-            <p className="mt-4 text-xs text-slate-400">
+            <p className="mt-4 text-xs text-slate-600">
               A curated sample of established local landmarks — not a complete directory.
             </p>
           </div>
@@ -265,7 +265,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
                       <p className="font-display text-lg leading-tight text-white">{ph.place}</p>
                     </figcaption>
                   </div>
-                  <div className="px-4 py-2.5 text-[11px] leading-4 text-slate-400">
+                  <div className="px-4 py-2.5 text-[11px] leading-4 text-slate-600">
                     Photo:{' '}
                     {ph.source ? (
                       <a
@@ -298,11 +298,11 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
 
             {picks.weekend && (
               <div className="mt-8 flex items-start gap-4 rounded-[22px] border border-brand-400/40 bg-white p-6 shadow-[0_14px_40px_rgba(15,23,42,0.06)] md:p-7">
-                <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-brand-500 text-white">
+                <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-brand-500 text-navy-950">
                   <Route className="h-5 w-5" />
                 </span>
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-brand-600">The perfect weekend</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-brand-700">The perfect weekend</p>
                   <p className="mt-1.5 text-[15px] leading-7 text-navy-950">{picks.weekend}</p>
                 </div>
               </div>
@@ -312,10 +312,10 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
               <div className="mt-5 grid gap-4 sm:grid-cols-3">
                 {PICK_CARDS.filter((c) => picks[c.key]).map(({ key, label, icon: Icon }) => (
                   <div key={key} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                    <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                       <Icon className="h-5 w-5" />
                     </span>
-                    <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">{label}</p>
+                    <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-slate-600">{label}</p>
                     <p className="mt-1 font-display text-lg leading-snug text-navy-950">{picks[key]}</p>
                   </div>
                 ))}
@@ -327,7 +327,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
                 {PICK_TAGS.filter((t) => picks[t.key]?.length).map(({ key, label, icon: Icon }) => (
                   <div key={key} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
                     <div className="flex items-center gap-2">
-                      <Icon className="h-4 w-4 text-brand-500" />
+                      <Icon className="h-4 w-4 text-brand-700" />
                       <h3 className="text-xs font-semibold uppercase tracking-[0.14em] text-navy-950">{label}</h3>
                     </div>
                     <ul className="mt-3 space-y-2">
@@ -371,11 +371,11 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
             <h2 className="section-title mt-3">Schools serving {n.name}.</h2>
             <div className="mt-6 flex flex-col gap-6 rounded-[26px] border border-slate-200 bg-white p-7 shadow-[0_14px_40px_rgba(15,23,42,0.06)] md:flex-row md:items-center md:justify-between md:p-9">
               <div className="flex items-start gap-4">
-                <span className="flex h-12 w-12 flex-none items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                <span className="flex h-12 w-12 flex-none items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                   <GraduationCap className="h-6 w-6" />
                 </span>
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">Public school district</p>
+                  <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-600">Public school district</p>
                   <p className="mt-1 font-display text-xl text-navy-950">{meta.district}</p>
                   <p className="mt-2 max-w-xl text-sm leading-6 text-slate-600">
                     Assigned elementary, middle, and high schools depend on the exact address and current
@@ -405,7 +405,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
             <p className="mt-3 max-w-2xl text-sm leading-7 text-slate-600">
               Featured {n.name} homes, an interactive map, and commute times arrive as we connect the MLS
               feed. Want them now?{' '}
-              <Link href="/contact" className="font-semibold text-brand-500 underline underline-offset-2">
+              <Link href="/contact" className="font-semibold text-brand-700 underline underline-offset-2">
                 Ask a local broker
               </Link>
               .
@@ -413,7 +413,7 @@ export default function NeighborhoodPage({ params }: { params: { slug: string } 
             <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
               {UPCOMING.map(({ label, icon: Icon }) => (
                 <div key={label} className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3.5">
-                  <Icon className="h-4 w-4 flex-none text-slate-400" />
+                  <Icon className="h-4 w-4 flex-none text-slate-600" />
                   <span className="text-[13px] font-medium text-slate-600">{label}</span>
                 </div>
               ))}

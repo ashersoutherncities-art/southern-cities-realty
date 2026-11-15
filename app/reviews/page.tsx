@@ -131,7 +131,7 @@ export default function ReviewsPage() {
       {/* ANCHOR REVIEW */}
       <section className="page-shell py-16 md:py-20">
         <figure className="glass-panel relative p-8 md:p-12">
-          <Quote className="h-10 w-10 text-brand-500/30" />
+          <Quote className="h-10 w-10 text-brand-700/30" />
           {anchorReview.isExample && (
             <div className="absolute right-6 top-6">
               <ExamplePill />
@@ -141,7 +141,7 @@ export default function ReviewsPage() {
             “{anchorReview.quote}”
           </blockquote>
           <figcaption className="mt-8 flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-500/12 font-display text-lg text-brand-500">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-500/12 font-display text-lg text-brand-700">
               {anchorReview.name.charAt(0)}
             </div>
             <div>
@@ -164,7 +164,7 @@ export default function ReviewsPage() {
           {reviews.map((review, i) => (
             <figure key={i} className="flex h-full flex-col rounded-[28px] border border-slate-200/70 bg-white p-7 shadow-[0_16px_50px_rgba(15,23,42,0.06)]">
               <div className="flex items-center justify-between">
-                <div className="flex gap-0.5 text-brand-500" aria-hidden="true">
+                <div className="flex gap-0.5 text-brand-700" aria-hidden="true">
                   {[0, 1, 2, 3, 4].map((s) => (
                     <Star key={s} className="h-4 w-4 fill-current" />
                   ))}

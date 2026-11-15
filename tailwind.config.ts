@@ -18,6 +18,7 @@ const config: Config = {
           400: '#f7a15f',
           500: '#fa8c41',
           600: '#e0742c',
+          700: '#9a4f16', // Accessible text accent on white/cream surfaces
         },
         navy: {
           900: '#1b2d5e',

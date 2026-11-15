@@ -147,9 +147,9 @@ export default function ContactPage() {
                 <p className="text-xs leading-6 text-slate-500">
                   Prefer to talk or text? Use the chat on any page of this site. By sending this
                   message you agree to our{' '}
-                  <a href="/privacy" className="font-semibold text-brand-500 hover:underline">Privacy Policy</a>
+                  <a href="/privacy" className="font-semibold text-brand-700 hover:underline">Privacy Policy</a>
                   {' '}and{' '}
-                  <a href="/terms" className="font-semibold text-brand-500 hover:underline">Terms of Service</a>.
+                  <a href="/terms" className="font-semibold text-brand-700 hover:underline">Terms of Service</a>.
                 </p>
 
                 {status === 'error' && (
@@ -200,7 +200,7 @@ export default function ContactPage() {
                   <a href="mailto:madison@southerncitiesrealty.com" className="mt-1 block transition hover:text-white">madison@southerncitiesrealty.com</a>
                   <a href="tel:+18282915653" className="block transition hover:text-white">(828) 291-5653</a>
                 </div>
-                <p className="pt-2 text-xs uppercase tracking-[0.18em] text-white/45">Firm License #C42672</p>
+                <p className="pt-2 text-xs uppercase tracking-[0.18em] text-white/75">Firm License #C42672</p>
               </div>
             </div>
 

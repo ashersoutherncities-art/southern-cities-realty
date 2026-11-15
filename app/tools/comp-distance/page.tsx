@@ -25,7 +25,7 @@ export default function CompDistancePage() {
               <h1 className="mt-3 font-display text-3xl md:text-5xl">Comp Distance Tool</h1>
               <p className="mt-4 leading-7 text-white/70">Your existing SCI tool, now accessible from the Realty workspace. Use the team password in the tool below.</p>
             </div>
-            <a href={TOOL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-white hover:bg-brand-400">
+            <a href={TOOL_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-navy-950 hover:bg-brand-400">
               Open standalone <ExternalLink className="h-4 w-4" />
             </a>
           </div>

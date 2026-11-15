@@ -75,7 +75,7 @@ export default function ServicesPage() {
             const Icon = service.icon
             return (
               <div key={service.title} className="glass-panel p-7 md:p-8">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-500/12 text-brand-500">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-500/12 text-brand-700">
                   <Icon className="h-6 w-6" />
                 </div>
                 <h2 className="mt-5 font-display text-3xl text-navy-950">{service.title}</h2>

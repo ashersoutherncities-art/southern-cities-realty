@@ -81,11 +81,11 @@ function Header() {
             link.label === 'Areas We Serve' ? (
               <AreasDropdown key={link.href} />
             ) : link.href.includes('#') ? (
-              <a key={link.href} href={link.href} className="transition hover:text-brand-500">
+              <a key={link.href} href={link.href} className="transition hover:text-brand-700">
                 {link.label}
               </a>
             ) : (
-              <Link key={link.href} href={link.href} className="transition hover:text-brand-500">
+              <Link key={link.href} href={link.href} className="transition hover:text-brand-700">
                 {link.label}
               </Link>
             )
@@ -94,7 +94,7 @@ function Header() {
 
         <Link
           href="/listings"
-          className="hidden rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400 lg:inline-flex"
+          className="hidden rounded-full bg-brand-500 px-4 py-2 text-sm font-semibold text-navy-950 transition hover:bg-brand-400 lg:inline-flex"
         >
           Search homes
         </Link>
@@ -180,7 +180,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-8 text-xs text-white/48 md:flex-row md:items-center md:justify-between">
+        <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-8 text-xs text-white/75 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
             <p>© 2026 Southern Cities Realty. All rights reserved.</p>
             <Link href="/privacy" className="transition hover:text-white">

@@ -132,7 +132,7 @@ export function NeighborhoodQuiz() {
   if (phase === 'intro') {
     return (
       <div className={CARD}>
-        <span className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-brand-500">
+        <span className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-brand-700">
           <Compass className="h-3.5 w-3.5" /> 8 quick questions
         </span>
         <h3 className="mt-5 font-display text-3xl leading-tight text-navy-950 md:text-4xl">
@@ -146,7 +146,7 @@ export function NeighborhoodQuiz() {
           <button onClick={() => setPhase('quiz')} className="cta-primary">
             Start the quiz <ArrowRight className="h-4 w-4" />
           </button>
-          <span className="text-sm text-slate-400">No sign-up needed</span>
+          <span className="text-sm text-slate-600">No sign-up needed</span>
         </div>
       </div>
     )
@@ -189,7 +189,7 @@ export function NeighborhoodQuiz() {
               <div className="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-950 to-[#0e1b3d]" />
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-navy-950/95 via-navy-950/25 to-transparent" />
-            <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-brand-500 px-3 py-1 text-xs font-bold text-white shadow-lg">
+            <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-brand-500 px-3 py-1 text-xs font-bold text-navy-950 shadow-lg">
               <Sparkles className="h-3.5 w-3.5" /> {matchPct}% match
             </span>
             <div className="absolute inset-x-0 bottom-0 p-5">
@@ -251,14 +251,14 @@ export function NeighborhoodQuiz() {
             </div>
           ))}
         </div>
-        <span className="text-xs font-medium tabular-nums text-slate-400">
+        <span className="text-xs font-medium tabular-nums text-slate-600">
           {qi + 1} / {QUIZ.length}
         </span>
       </div>
 
       <div key={qi} className="quiz-fade">
         <h3 className="mt-6 font-display text-2xl text-navy-950 md:text-[28px]">{q.q}</h3>
-        {q.hint && <p className="mt-1 text-sm text-slate-400">{q.hint}</p>}
+        {q.hint && <p className="mt-1 text-sm text-slate-600">{q.hint}</p>}
 
         {q.layout === 'photo' ? (
           <div className="mt-6 grid grid-cols-2 gap-3">
@@ -275,7 +275,7 @@ export function NeighborhoodQuiz() {
                   <img src={o.img} alt="" className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.08]" />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent" />
                   {on && (
-                    <span className="absolute right-2.5 top-2.5 flex h-6 w-6 items-center justify-center rounded-full bg-brand-500 text-white shadow">
+                    <span className="absolute right-2.5 top-2.5 flex h-6 w-6 items-center justify-center rounded-full bg-brand-500 text-navy-950 shadow">
                       <Check className="h-3.5 w-3.5" />
                     </span>
                   )}
@@ -308,9 +308,9 @@ export function NeighborhoodQuiz() {
                   )}
                   <span className="flex-1">{o.t}</span>
                   {on ? (
-                    <Check className="h-4 w-4 flex-none text-brand-500" />
+                    <Check className="h-4 w-4 flex-none text-brand-700" />
                   ) : (
-                    <ArrowRight className="h-4 w-4 flex-none text-slate-300 transition group-hover:text-brand-500" />
+                    <ArrowRight className="h-4 w-4 flex-none text-slate-300 transition group-hover:text-brand-700" />
                   )}
                 </button>
               )
@@ -320,7 +320,7 @@ export function NeighborhoodQuiz() {
       </div>
 
       {qi > 0 && (
-        <button onClick={back} className="mt-5 text-sm font-medium text-slate-500 transition hover:text-brand-500">
+        <button onClick={back} className="mt-5 text-sm font-medium text-slate-500 transition hover:text-brand-700">
           ← Back
         </button>
       )}

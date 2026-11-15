@@ -31,7 +31,7 @@ export function AreasDropdown() {
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         aria-haspopup="true"
-        className="inline-flex items-center gap-1 transition hover:text-brand-500"
+        className="inline-flex items-center gap-1 transition hover:text-brand-700"
       >
         Areas We Serve
         <ChevronDown className={`h-3.5 w-3.5 transition-transform ${open ? 'rotate-180' : ''}`} />
@@ -48,13 +48,13 @@ export function AreasDropdown() {
                 className="block rounded-xl px-3 py-2 transition hover:bg-cream-50"
               >
                 <span className="block text-sm font-semibold text-navy-950">{r.short}</span>
-                <span className="block text-xs text-slate-400">{r.tagline}</span>
+                <span className="block text-xs text-slate-600">{r.tagline}</span>
               </Link>
             ))}
             <Link
               href="/neighborhoods"
               onClick={() => setOpen(false)}
-              className="mt-1 block rounded-xl border-t border-slate-100 px-3 py-2.5 text-sm font-semibold text-brand-500 hover:bg-cream-50"
+              className="mt-1 block rounded-xl border-t border-slate-100 px-3 py-2.5 text-sm font-semibold text-brand-700 hover:bg-cream-50"
             >
               All areas we serve →
             </Link>

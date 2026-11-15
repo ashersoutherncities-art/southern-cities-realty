@@ -83,7 +83,7 @@ export default function SellPage() {
           <div className="mt-9 grid gap-4 sm:grid-cols-3">
             {WHY.map(({ icon: Icon, t, s }) => (
               <div key={t} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                   <Icon className="h-5 w-5" />
                 </span>
                 <h3 className="mt-4 font-display text-lg text-navy-950">{t}</h3>
@@ -104,7 +104,7 @@ export default function SellPage() {
           <div className="mt-9 grid gap-4 md:grid-cols-3">
             {STEPS.map((s) => (
               <div key={s.n} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                <span className="font-display text-3xl text-brand-500">{s.n}</span>
+                <span className="font-display text-3xl text-brand-700">{s.n}</span>
                 <h3 className="mt-3 font-display text-lg leading-snug text-navy-950">{s.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{s.body}</p>
               </div>
@@ -145,7 +145,7 @@ export default function SellPage() {
               <details key={q} className="group px-6 py-5">
                 <summary className="flex cursor-pointer items-center justify-between gap-4 font-display text-lg text-navy-950 [&::-webkit-details-marker]:hidden">
                   {q}
-                  <span className="flex-none text-2xl leading-none text-brand-500 transition group-open:rotate-45">+</span>
+                  <span className="flex-none text-2xl leading-none text-brand-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{a}</p>
               </details>

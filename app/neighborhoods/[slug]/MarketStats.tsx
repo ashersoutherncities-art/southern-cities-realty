@@ -49,7 +49,7 @@ export function MarketStats({ zip, name }: { zip: string; name: string }) {
         <p className="text-[15px] leading-7 text-slate-600">
           We&rsquo;re connecting live {name} market data (median price, price per square foot, days on
           market, and active listings). Want today&rsquo;s numbers for {name}?{' '}
-          <Link href="/contact" className="font-semibold text-brand-500 underline underline-offset-2">
+          <Link href="/contact" className="font-semibold text-brand-700 underline underline-offset-2">
             Ask a local broker
           </Link>{' '}
           and we&rsquo;ll pull a current market report.
@@ -71,13 +71,13 @@ export function MarketStats({ zip, name }: { zip: string; name: string }) {
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
         {cards.map(({ label, value, icon: Icon }) => (
           <div key={label} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-            <Icon className="h-5 w-5 text-brand-500" />
+            <Icon className="h-5 w-5 text-brand-700" />
             <p className="mt-3 font-display text-2xl text-navy-950">{value}</p>
             <p className="mt-1 text-xs font-medium text-slate-500">{label}</p>
           </div>
         ))}
       </div>
-      <p className="mt-3 flex items-center gap-1.5 text-xs text-slate-400">
+      <p className="mt-3 flex items-center gap-1.5 text-xs text-slate-600">
         <TrendingUp className="h-3.5 w-3.5" /> For-sale market data via RentCast, ZIP {zip}
         {data.lastUpdated ? ` · updated ${new Date(data.lastUpdated).toLocaleDateString('en-US')}` : ''}
       </p>

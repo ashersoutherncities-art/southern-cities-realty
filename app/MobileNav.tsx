@@ -66,7 +66,7 @@ export function MobileNav() {
                       {r.short}
                     </Link>
                   ))}
-                  <Link href="/neighborhoods" onClick={close} className="block rounded-lg px-3 py-2.5 text-sm font-semibold text-brand-500 transition hover:bg-white">
+                  <Link href="/neighborhoods" onClick={close} className="block rounded-lg px-3 py-2.5 text-sm font-semibold text-brand-700 transition hover:bg-white">
                     All areas we serve →
                   </Link>
                 </div>
@@ -86,7 +86,7 @@ export function MobileNav() {
               <Link
                 href="/listings"
                 onClick={close}
-                className="mt-3 flex items-center justify-center gap-2 rounded-full bg-brand-500 px-4 py-3.5 text-sm font-semibold text-white transition hover:bg-brand-400"
+                className="mt-3 flex items-center justify-center gap-2 rounded-full bg-brand-500 px-4 py-3.5 text-sm font-semibold text-navy-950 transition hover:bg-brand-400"
               >
                 <Search className="h-4 w-4" /> Search Homes
               </Link>

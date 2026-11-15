@@ -50,7 +50,7 @@
   }
 
   .section-label {
-    @apply text-xs font-semibold uppercase tracking-[0.28em] text-brand-500;
+    @apply text-xs font-semibold uppercase tracking-[0.28em] text-brand-700;
   }
 
   .section-title {
@@ -62,11 +62,11 @@
   }
 
   .cta-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(250,140,65,0.32)] transition hover:bg-brand-400 hover:shadow-[0_12px_36px_rgba(250,140,65,0.45)];
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 text-sm font-semibold text-navy-950 shadow-[0_10px_30px_rgba(250,140,65,0.32)] transition hover:bg-brand-400 hover:shadow-[0_12px_36px_rgba(250,140,65,0.45)];
   }
 
   .cta-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3.5 text-sm font-semibold text-navy-950 transition hover:border-brand-400 hover:text-brand-500;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-7 py-3.5 text-sm font-semibold text-navy-950 transition hover:border-brand-400 hover:text-brand-700;
   }
 
   .cta-ghost-dark {

@@ -95,9 +95,9 @@ export function InvestorForm() {
       <p className="mt-4 text-xs leading-6 text-slate-500">
         Prefer to talk or text? Use the chat on any page of this site. By sending this message you
         agree to our{' '}
-        <a href="/privacy" className="font-semibold text-brand-500 hover:underline">Privacy Policy</a>
+        <a href="/privacy" className="font-semibold text-brand-700 hover:underline">Privacy Policy</a>
         {' '}and{' '}
-        <a href="/terms" className="font-semibold text-brand-500 hover:underline">Terms of Service</a>.
+        <a href="/terms" className="font-semibold text-brand-700 hover:underline">Terms of Service</a>.
       </p>
 
       {status === 'error' && (

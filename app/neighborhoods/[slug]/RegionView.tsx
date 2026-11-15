@@ -87,7 +87,7 @@ export function RegionView({ region }: { region: Region }) {
         <section id="quiz" className="bg-cream-50 py-16 md:py-20">
           <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">🔍 Not sure where to start?</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-700">🔍 Not sure where to start?</p>
               <h2 className="section-title mt-3">Take our Neighborhood Match Quiz.</h2>
               <p className="section-copy mt-4 max-w-lg">
                 Answer a few quick questions and we&rsquo;ll recommend the Charlotte neighborhoods that fit your
@@ -116,13 +116,13 @@ export function RegionView({ region }: { region: Region }) {
         </div>
         <section className="border-t border-slate-200/60 bg-white/70 py-8">
           <div className="page-shell">
-            <details className="text-xs text-slate-400">
+            <details className="text-xs text-slate-600">
               <summary className="cursor-pointer font-medium text-slate-500">Neighborhood photo credits</summary>
               <p className="mt-3 leading-6">
                 {PHOTO_CREDITS.map((c, i) => (
                   <span key={c.source}>
                     {i > 0 ? ' · ' : ''}
-                    <a href={c.source} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-brand-500">
+                    <a href={c.source} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-brand-700">
                       {c.name}
                     </a>{' '}
                     ({c.creator}, {c.license})
@@ -163,7 +163,7 @@ export function RegionView({ region }: { region: Region }) {
           <section className="bg-white/70 py-16 md:py-20">
             <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
               <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-500">🔍 Not sure where to start?</p>
+                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-700">🔍 Not sure where to start?</p>
                 <h2 className="section-title mt-3">Find your spot in {region.short}.</h2>
                 <p className="section-copy mt-4 max-w-lg">
                   Answer a few quick questions and we&rsquo;ll point you to the {region.short} town that best fits
@@ -196,7 +196,7 @@ export function RegionView({ region }: { region: Region }) {
           <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
             {towns.map((t) => (
               <div key={t} className="flex items-center gap-2.5 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-[0_8px_24px_rgba(15,23,42,0.05)]">
-                <MapPin className="h-4 w-4 flex-none text-brand-500" />
+                <MapPin className="h-4 w-4 flex-none text-brand-700" />
                 <span className="font-display text-lg text-navy-950">{t}</span>
               </div>
             ))}

@@ -66,12 +66,12 @@ export default function TermsPage() {
           <strong className="font-semibold text-navy-950">HELP</strong>, email{' '}
           <a
             href="mailto:admin@southerncitiesrealty.com"
-            className="font-semibold text-brand-500 hover:underline"
+            className="font-semibold text-brand-700 hover:underline"
           >
             admin@southerncitiesrealty.com
           </a>
           , or call{' '}
-          <a href="tel:+19809448961" className="font-semibold text-brand-500 hover:underline">
+          <a href="tel:+19809448961" className="font-semibold text-brand-700 hover:underline">
             (980) 944-8961
           </a>
           .
@@ -90,7 +90,7 @@ export default function TermsPage() {
           <strong className="font-semibold text-navy-950">Privacy.</strong> We do not sell or share
           your mobile information with third parties or affiliates for marketing or promotional
           purposes. See our{' '}
-          <Link href="/privacy" className="font-semibold text-brand-500 hover:underline">
+          <Link href="/privacy" className="font-semibold text-brand-700 hover:underline">
             Privacy Policy
           </Link>{' '}
           for the details.
@@ -184,14 +184,14 @@ export default function TermsPage() {
               Email:{' '}
               <a
                 href="mailto:admin@southerncitiesrealty.com"
-                className="font-semibold text-brand-500 hover:underline"
+                className="font-semibold text-brand-700 hover:underline"
               >
                 admin@southerncitiesrealty.com
               </a>
             </>,
             <>
               Phone:{' '}
-              <a href="tel:+19809448961" className="font-semibold text-brand-500 hover:underline">
+              <a href="tel:+19809448961" className="font-semibold text-brand-700 hover:underline">
                 (980) 944-8961
               </a>
             </>,

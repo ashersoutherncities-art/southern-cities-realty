@@ -20,14 +20,14 @@ export function DealCalculator() {
     <label className="block">
       <span className="mb-1.5 block text-sm font-semibold text-slate-700">{label}</span>
       <div className="flex items-center rounded-2xl border border-slate-200 bg-white px-4 transition focus-within:border-brand-400">
-        {prefix && <span className="text-slate-400">{prefix}</span>}
+        {prefix && <span className="text-slate-600">{prefix}</span>}
         <input
           type="number"
           value={Number.isFinite(value) ? value : ''}
           onChange={(e) => set(parseFloat(e.target.value) || 0)}
           className="w-full bg-transparent py-3 pl-1 text-navy-950 outline-none"
         />
-        {suffix && <span className="text-slate-400">{suffix}</span>}
+        {suffix && <span className="text-slate-600">{suffix}</span>}
       </div>
     </label>
   )
@@ -35,7 +35,7 @@ export function DealCalculator() {
   return (
     <div className="grid gap-6 rounded-[26px] border border-slate-200 bg-white p-7 shadow-[0_20px_60px_rgba(15,23,42,0.08)] md:grid-cols-[1fr_1fr] md:p-9">
       <div>
-        <div className="flex items-center gap-2 text-brand-500">
+        <div className="flex items-center gap-2 text-brand-700">
           <Calculator className="h-5 w-5" />
           <span className="text-xs font-semibold uppercase tracking-[0.16em]">Deal calculator</span>
         </div>
@@ -71,7 +71,7 @@ export function DealCalculator() {
             <span className={`font-display text-2xl ${profit >= 0 ? 'text-emerald-300' : 'text-rose-300'}`}>{money(profit)}</span>
           </div>
         </div>
-        <p className="mt-5 text-[11px] leading-5 text-white/45">
+        <p className="mt-5 text-[11px] leading-5 text-white/75">
           Estimate only. We&rsquo;ll verify ARV and rehab in person before you make an offer.
         </p>
       </div>

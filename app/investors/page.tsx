@@ -143,7 +143,7 @@ export default function InvestorsPage() {
               { icon: MapPin, t: 'Statewide reach', s: 'Deals across Charlotte and all of North Carolina.' },
             ].map(({ icon: Icon, t, s }) => (
               <div key={t} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                   <Icon className="h-5 w-5" />
                 </span>
                 <h3 className="mt-4 font-display text-lg text-navy-950">{t}</h3>
@@ -216,7 +216,7 @@ export default function InvestorsPage() {
           <div className="mt-9 grid gap-4 md:grid-cols-2 lg:grid-cols-5">
             {STEPS.map((s) => (
               <div key={s.n} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                <span className="font-display text-3xl text-brand-500">{s.n}</span>
+                <span className="font-display text-3xl text-brand-700">{s.n}</span>
                 <h3 className="mt-3 font-display text-lg leading-snug text-navy-950">{s.title}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{s.body}</p>
               </div>
@@ -277,7 +277,7 @@ export default function InvestorsPage() {
           <div className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {FINANCING.map(({ icon: Icon, title, body }) => (
               <div key={title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                   <Icon className="h-5 w-5" />
                 </span>
                 <h3 className="mt-4 font-display text-lg text-navy-950">{title}</h3>
@@ -300,7 +300,7 @@ export default function InvestorsPage() {
               { icon: Hammer, t: 'One accountable team', s: 'Find, analyze, buy, and renovate — no finger-pointing between agent and contractor.' },
             ].map(({ icon: Icon, t, s }) => (
               <div key={t} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-[0_10px_30px_rgba(15,23,42,0.05)]">
-                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-500">
+                <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-500/10 text-brand-700">
                   <Icon className="h-5 w-5" />
                 </span>
                 <h3 className="mt-4 font-display text-lg text-navy-950">{t}</h3>
@@ -313,7 +313,7 @@ export default function InvestorsPage() {
               <span className="font-semibold text-navy-950">Want the receipts?</span> Ask us for recent project
               addresses, numbers, and before-and-afters — we&rsquo;ll share real deals we&rsquo;ve worked, not stock
               photos.{' '}
-              <a href="#get-deals" className="font-semibold text-brand-500 underline underline-offset-2">
+              <a href="#get-deals" className="font-semibold text-brand-700 underline underline-offset-2">
                 Request our track record
               </a>
               .
@@ -332,7 +332,7 @@ export default function InvestorsPage() {
               <details key={q} className="group px-6 py-5">
                 <summary className="flex cursor-pointer items-center justify-between gap-4 font-display text-lg text-navy-950 [&::-webkit-details-marker]:hidden">
                   {q}
-                  <span className="flex-none text-2xl leading-none text-brand-500 transition group-open:rotate-45">+</span>
+                  <span className="flex-none text-2xl leading-none text-brand-700 transition group-open:rotate-45">+</span>
                 </summary>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{a}</p>
               </details>

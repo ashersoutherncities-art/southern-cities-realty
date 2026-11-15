@@ -59,7 +59,7 @@ export function HubQuiz({ questions, hubName }: { questions: HubQ[]; hubName: st
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
           <div className="h-full rounded-full bg-brand-500 transition-all" style={{ width: `${(qi / questions.length) * 100}%` }} />
         </div>
-        <span className="text-xs font-medium text-slate-400">
+        <span className="text-xs font-medium text-slate-600">
           {qi + 1} / {questions.length}
         </span>
       </div>
@@ -72,12 +72,12 @@ export function HubQuiz({ questions, hubName }: { questions: HubQ[]; hubName: st
             className="group flex items-center justify-between gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-4 text-left text-[15px] font-medium text-navy-950 transition hover:-translate-y-0.5 hover:border-brand-400 hover:bg-brand-50"
           >
             {o.t}
-            <ArrowRight className="h-4 w-4 flex-none text-slate-300 transition group-hover:text-brand-500" />
+            <ArrowRight className="h-4 w-4 flex-none text-slate-300 transition group-hover:text-brand-700" />
           </button>
         ))}
       </div>
       {qi > 0 && (
-        <button onClick={() => setQi(qi - 1)} className="mt-5 text-sm font-medium text-slate-500 hover:text-brand-500">
+        <button onClick={() => setQi(qi - 1)} className="mt-5 text-sm font-medium text-slate-500 hover:text-brand-700">
           ← Back
         </button>
       )}

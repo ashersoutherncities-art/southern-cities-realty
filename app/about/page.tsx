@@ -120,16 +120,16 @@ export default function AboutPage() {
                 <div className="mt-5 grid gap-2 rounded-2xl border border-slate-200/70 bg-white p-5 text-sm">
                   <a
                     href={`mailto:${b.email}`}
-                    className="flex items-center gap-3 text-navy-950 transition hover:text-brand-500"
+                    className="flex items-center gap-3 text-navy-950 transition hover:text-brand-700"
                   >
-                    <Mail className="h-4 w-4 flex-none text-brand-500" />
+                    <Mail className="h-4 w-4 flex-none text-brand-700" />
                     {b.email}
                   </a>
                   <a
                     href={b.phoneHref}
-                    className="flex items-center gap-3 text-navy-950 transition hover:text-brand-500"
+                    className="flex items-center gap-3 text-navy-950 transition hover:text-brand-700"
                   >
-                    <Phone className="h-4 w-4 flex-none text-brand-500" />
+                    <Phone className="h-4 w-4 flex-none text-brand-700" />
                     {b.phone}
                   </a>
                 </div>
