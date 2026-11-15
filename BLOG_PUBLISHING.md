@@ -11,3 +11,8 @@ Connector path: GitHub fetch (branch/current tree), fetch_file, create_tree(base
 
 ## Structured articles (preferred after November 14, 2026)
 Append a complete typed Article object to app/blog/articles.ts and matching metadata to app/blog/posts.ts. The app/blog/[slug]/page.tsx static generator creates each separate URL. Keep the original overview static route intact. Ensure unique slugs across both stores, source citations, current checked date, jurisdiction caveats, word-count-based reading time and complete sections/checklist. Never duplicate an existing topic just to meet frequency. Only published articles belong in both arrays.
+
+## Required article imagery
+Every published article must have relevant imagery on its page and directory card. Add its mapping in app/blog/images.ts with meaningful alt text. Prefer original contextual editorial artwork or properly licensed photographs; preserve rights/source documentation in public/blog/README.md. Never imply a stock or conceptual image depicts a real listing or client. Serve local optimized assets with fixed dimensions, lazy-load cards, and verify each article image and index live. Do not publish a new article without checking that its image mapping and local file exist.
+
+Run `node scripts/check-blog-images.cjs` before TypeScript and the production build.
