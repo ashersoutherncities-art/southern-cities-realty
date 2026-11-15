@@ -1968,5 +1968,190 @@ export const articles:Article[] = [
       "Confirm payoff and closing arrangements rather than relying on advertising promises."
     ],
     "caveat": "General decision guidance, not legal, tax or mortgage advice. Actual prices, timelines and contract rights depend on the property and transaction. Obtain current local advice and independent legal review before committing."
-  }
+  },
+{
+  "slug": "radon-testing-north-carolina-home-purchase",
+  "title": "Radon testing before a North Carolina purchase: build time for the result",
+  "description": "A practical way to organize testing, follow-up and transaction decisions without treating an old result as a guarantee.",
+  "category": "Buying",
+  "tags": [
+    "radon",
+    "testing",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Schedule the decision, not just the device",
+      "paragraphs": [
+        "A radon test is useful only if you have time to understand the result and decide what to do next. Put testing on your purchase calendar early, alongside the contract deadlines that your broker and attorney identify. Do not assume the general home inspection automatically includes a separate radon measurement.",
+        "The North Carolina Radon Program recommends a trained measurement professional and a test of at least 48 hours. Ask the provider to explain location, conditions, equipment and reporting before reserving the appointment."
+      ],
+      "source": "https://www.ncdhhs.gov/divisions/health-service-regulation/north-carolina-radon-program/testing-radon",
+      "sourceLabel": "NC Radon Program: testing guidance"
+    },
+    {
+      "title": "Read an earlier result as a record, not a promise",
+      "paragraphs": [
+        "Request the complete report rather than a remembered number. Identify when and where the measurement was taken, whether the home has changed, and whether your intended living space was covered. A finished basement you intend to occupy deserves specific discussion.",
+        "EPA identifies older testing, altered homes and plans to occupy a lower level as reasons a buyer may request another test. A prior result is not a guarantee about a different configuration or period."
+      ],
+      "source": "https://www.epa.gov/radon/how-often-should-i-testretest-my-home-radon",
+      "sourceLabel": "EPA: when to test again"
+    },
+    {
+      "title": "Translate the result into a documented next step",
+      "paragraphs": [
+        "The NC program describes follow-up testing after an initial short-term result of 4 picocuries per liter or higher and explains how to interpret the follow-up. It also advises considering mitigation at 2\u20134. Have the measurement professional apply the appropriate protocol to your transaction rather than using a single number as an automatic purchase decision.",
+        "Separate three questions on your worksheet: what the measurement supports, what additional work the provider recommends, and what the parties will agree to do. The health guidance does not itself create a seller obligation or a buyer cancellation right."
+      ],
+      "source": "https://www.ncdhhs.gov/divisions/health-service-regulation/north-carolina-radon-program/testing-radon",
+      "sourceLabel": "NC Radon Program: follow-up and mitigation guidance"
+    },
+    {
+      "title": "Keep scope, verification and responsibility together",
+      "paragraphs": [
+        "If mitigation is proposed, request a written scope with the installation location, schedule, warranty terms and verification plan. Ask who will arrange and pay for any follow-up measurement. Keep the invoice separate from evidence that the system performs as intended.",
+        "Before accepting a credit instead of completed work, ask whether you can manage the provider, access and timing after closing. Have your broker and attorney document the actual agreement. Save the test, scope and subsequent records with the property file so a future sale does not depend on memory."
+      ]
+    }
+  ],
+  "checklist": [
+    "Book testing early enough for interpretation and follow-up.",
+    "Obtain the full earlier report, if any.",
+    "Discuss intended lower-level occupancy with the tester.",
+    "Request a written mitigation and verification scope when needed.",
+    "Resolve contractual responsibility with your broker and attorney."
+  ],
+  "caveat": "Educational transaction planning, not medical, environmental or legal advice. Testing protocols and contractual rights are property-specific. Sources checked November 15, 2026.",
+  "date": "2026-11-15",
+  "readTime": "2 min read"
+},
+{
+  "slug": "buying-north-carolina-home-solar-panels",
+  "title": "Buying a North Carolina home with solar panels: investigate the contract as well as the roof",
+  "description": "Separate system ownership, transfer obligations and documented performance before assigning value to rooftop solar.",
+  "category": "Buying",
+  "tags": [
+    "solar",
+    "contracts",
+    "ownership",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Start with ownership",
+      "paragraphs": [
+        "Panels on a roof do not tell you who owns the equipment. The Department of Energy distinguishes systems owned by the seller from third-party arrangements that may need extra transfer steps. Ask for the actual purchase, financing, lease or power-purchase documents.",
+        "Build a simple record: equipment owner, contract counterparties, remaining payment obligation, transfer conditions and written answers still needed. A listing phrase such as paid solar is not a substitute for documentation reviewed by your closing attorney and lender."
+      ],
+      "source": "https://www.energy.gov/cmei/systems/consumers-guide-buying-house-solar-panels",
+      "sourceLabel": "Department of Energy: buying a house with solar"
+    },
+    {
+      "title": "Separate the equipment review from the paperwork review",
+      "paragraphs": [
+        "Ask a qualified solar professional to assess the installation and explain the maintenance history. Obtain the installation date, equipment identifiers and warranty documents. The Department of Energy also recommends comparing the roof age with the system age and reviewing production records.",
+        "For your purchase file, request an explanation of who handles removal and reinstallation if roof work is needed. Ask what is covered by each warranty and whether transfer requires a fee or registration. Do not assume an operating system means the roof, wiring and paperwork have all been evaluated."
+      ],
+      "source": "https://www.energy.gov/cmei/systems/consumers-guide-buying-house-solar-panels",
+      "sourceLabel": "Department of Energy: condition and documentation questions"
+    },
+    {
+      "title": "Make a property-specific cost worksheet",
+      "paragraphs": [
+        "Use actual bills and production records to frame questions, not to promise your own savings. Your occupancy, equipment use and future tariff may differ from the seller\u2019s. Ask the utility which service and export-credit terms would apply after your purchase.",
+        "Keep separate lines for utility charges, equipment payments, maintenance and reserves. Ask your lender how any continuing obligation affects underwriting. Request written clarification of any payoff or transfer that must occur before settlement; do not insert an assumed zero simply because a number is unavailable."
+      ]
+    },
+    {
+      "title": "Do not turn an energy feature into an automatic price premium",
+      "paragraphs": [
+        "Evaluate the purchase price using comparable properties and an explanation of relevant differences. A national claim about solar value is not a local adjustment for this particular system, condition or contract. Ask the broker or appraiser what evidence supports the treatment used.",
+        "This guide deliberately does not count a tax credit or promise future resale value. If a tax benefit matters to your decision, obtain current advice about eligibility and timing rather than copying the seller\u2019s original installation assumptions. A benefit the seller once received is not necessarily available to you."
+      ]
+    },
+    {
+      "title": "Close the transfer loop",
+      "paragraphs": [
+        "Before closing, list each unresolved document and its responsible party. A useful handover file includes service contacts, manuals, warranty-transfer evidence and access instructions for any monitoring account. Arrange a secure account-transfer method; do not circulate the seller\u2019s password in the transaction email chain.",
+        "If the seller cannot document the arrangement, make that an explicit decision issue with your attorney rather than an administrative task for moving day. Southern Cities Realty can help organize the questions; specialist and lender determinations remain separate."
+      ]
+    }
+  ],
+  "checklist": [
+    "Identify who owns the panels and any battery.",
+    "Obtain contracts, payoff information and transfer requirements.",
+    "Coordinate roof and solar-system reviews.",
+    "Confirm utility terms and budget recurring obligations.",
+    "Keep price assumptions separate from documented savings."
+  ],
+  "caveat": "Educational guidance for North Carolina buyers, not legal, tax, engineering or lending advice. Contract, utility and lender requirements vary. Sources checked November 15, 2026.",
+  "date": "2026-11-15",
+  "readTime": "3 min read"
+},
+{
+  "slug": "final-walkthrough-north-carolina-home-closing",
+  "title": "Your final walkthrough in North Carolina: verify the agreement before the closing rush",
+  "description": "Turn the last property visit into an organized comparison of agreed repairs, included items and current condition.",
+  "category": "Buying",
+  "tags": [
+    "walkthrough",
+    "closing",
+    "repairs",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Bring the agreement back to the property",
+      "paragraphs": [
+        "The final visit is not a decorating appointment. The Consumer Financial Protection Bureau recommends a walkthrough before signing to check agreed repairs and items the seller promised to leave. Bring the executed agreement, repair amendments and relevant photos, not just your memory of the showing.",
+        "Arrange access through your broker with enough time to communicate findings. Ask which utilities and areas will be available. Do not assume a universal appointment length or that your contract grants an automatic extension if the visit starts late."
+      ],
+      "source": "https://www.consumerfinance.gov/owning-a-home/close/close-the-deal/",
+      "sourceLabel": "CFPB: preparing to close"
+    },
+    {
+      "title": "Use three columns: promised, observed, unresolved",
+      "paragraphs": [
+        "For each agreed repair, record the precise commitment and what evidence is available. An invoice can identify work performed, but it does not replace a specialist\u2019s evaluation when the issue requires one. Schedule any needed reinspection before the last-minute paperwork rush.",
+        "Then compare included items and visible condition. The National Association of REALTORS\u00ae walkthrough checklist covers repairs, belongings that should remain, removal of unwanted items and basic operating checks. Stay within safe, ordinary use; do not dismantle equipment or attempt hazardous testing yourself."
+      ],
+      "source": "https://www.nar.realtor/news/tools/client-education/handouts-for-buyers/checklist-your-final-walk-through",
+      "sourceLabel": "NAR: final walkthrough checklist"
+    },
+    {
+      "title": "Report a specific discrepancy, not a general complaint",
+      "paragraphs": [
+        "A useful message identifies the room, the agreed requirement, what you observed and the evidence attached. For example, distinguish a missing repair receipt from a repair that a qualified professional found incomplete. These are different problems and may require different responses.",
+        "Send the issue promptly to your broker and closing attorney. Ask what options the signed agreement permits and how any proposed change affects lender approval, closing documents and timing. A walkthrough is not a new unrestricted negotiation period, and discovering a concern does not by itself establish a right to cancel."
+      ]
+    },
+    {
+      "title": "Do not rely on an informal after-closing promise",
+      "paragraphs": [
+        "If work will remain unfinished, have the attorney advise on an enforceable written arrangement and any lender constraints before proceeding. NC REALTORS\u00ae discusses the importance of agreements that explicitly survive closing rather than assuming an earlier promise will continue unchanged.",
+        "Keep the scope, deadline, access, payment responsibility and verification method together. Do not assume a holdback or credit is automatically available. If the proposed solution remains vague, tell the professionals before signing rather than treating the moving schedule as proof that the issue is resolved."
+      ],
+      "source": "https://www.ncrealtors.org/question/which-contractual-obligations-survive-closing/",
+      "sourceLabel": "NC REALTORS: obligations after closing"
+    },
+    {
+      "title": "Finish with a handover record",
+      "paragraphs": [
+        "Save the completed checklist, dated photos, repair records and the written resolution of any exceptions. Identify keys, remotes and service information that will be transferred, and confirm the possession arrangement rather than assuming signing means immediate access.",
+        "This last record can make the first days of ownership more organized. It is not a substitute for the earlier inspection or a warranty against hidden defects. Its purpose is narrower: make sure the decision to proceed uses the current facts and the actual agreement."
+      ]
+    }
+  ],
+  "checklist": [
+    "Arrange access and identify any needed specialist reinspection.",
+    "Bring signed repair terms and included-item details.",
+    "Document observable discrepancies precisely.",
+    "Consult the broker, attorney and lender before changing terms.",
+    "Keep written resolutions and the possession plan with closing records."
+  ],
+  "caveat": "Educational planning, not legal advice or an inspection. Your executed contract and property circumstances control; ask your North Carolina closing attorney about remedies and obligations. Sources checked November 15, 2026.",
+  "date": "2026-11-15",
+  "readTime": "3 min read"
+}
 ]
