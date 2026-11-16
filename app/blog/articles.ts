@@ -2154,4 +2154,177 @@ export const articles:Article[] = [
   "date": "2026-11-15",
   "readTime": "3 min read"
 }
+,
+{
+  "slug": "north-carolina-home-insurance-before-buying",
+  "title": "Before buying a North Carolina home, get an insurance plan, not just a premium",
+  "description": "Compare the coverage, deductibles and underwriting questions that can change your ownership budget before closing.",
+  "category": "Buying",
+  "tags": [
+    "insurance",
+    "deductibles",
+    "replacement cost",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Start while you still have decisions to make",
+      "paragraphs": [
+        "An appealing purchase price can distract from the cost of protecting the house. Make insurance a separate due-diligence workstream: identify the intended occupancy, request property-specific quotes and ask what the insurer still needs before it can issue coverage. A seller\u2019s premium is not your quote.",
+        "Give the insurance professional the same facts you are using to evaluate the purchase: address, construction details, known roof age, planned renovations and intended use. Ask which facts need records or inspection. Put unresolved conditions beside your transaction deadlines so the decision is not deferred to closing week."
+      ]
+    },
+    {
+      "title": "Separate rebuilding cost from purchase price",
+      "paragraphs": [
+        "The North Carolina Department of Insurance explains that dwelling coverage generally relates to rebuilding the home, not the value of its land. Replacement cost describes repair or rebuilding with comparable materials without a depreciation deduction. Your purchase price is therefore not a reliable substitute for an insurer\u2019s replacement-cost analysis.",
+        "Ask the agent to explain the proposed dwelling limit, the settlement basis for the roof and personal property, and any conditions for receiving a replacement-cost payment. Record the answer rather than assuming the same label means identical coverage in every proposal."
+      ],
+      "source": "https://www.ncdoi.gov/consumers/homeowners-insurance/basic-homeowners-insurance",
+      "sourceLabel": "NC Department of Insurance: basic homeowners coverage"
+    },
+    {
+      "title": "Convert every deductible into dollars",
+      "paragraphs": [
+        "NCDOI warns that windstorm or hail may be excluded from the primary policy and covered separately. That separate coverage has its own deductible. Named-storm and wind/hail deductibles may be percentages of a coverage amount rather than a flat dollar figure; the declarations and policy terms identify the applicable basis and trigger.",
+        "For each quote, ask for the ordinary deductible, any wind/hail or named-storm deductible, the amount to which a percentage applies, and a written dollar calculation. Then compare that potential cash requirement with the emergency reserve you expect to retain after closing. Do not confuse a percentage of insured value with a percentage of the repair bill."
+      ],
+      "source": "https://www.ncdoi.gov/consumers/homeowners-insurance/windstorm-and-hail",
+      "sourceLabel": "NC Department of Insurance: windstorm, hail and percentage deductibles"
+    },
+    {
+      "title": "Use one comparison sheet and close the gaps",
+      "paragraphs": [
+        "Keep the annual premium, dwelling limit, settlement terms, deductibles, exclusions and remaining underwriting conditions together. List separate policies separately. NCDOI notes that most homeowners policies do not cover flood losses, so a general homeowners quote is not confirmation of flood protection.",
+        "Ask your lender what evidence of insurance it needs and when. Ask your insurance professional when coverage can begin, what could prevent issuance, and whether your proposed rental use or renovation changes the appropriate policy. If the coverage or reserve requirement does not fit the purchase plan, discuss options with your broker before contractual decisions expire."
+      ],
+      "source": "https://www.ncdoi.gov/consumers/homeowners-insurance/basic-homeowners-insurance",
+      "sourceLabel": "NC Department of Insurance: exclusions and lender considerations"
+    }
+  ],
+  "checklist": [
+    "Request property-specific quotes using consistent occupancy and property facts.",
+    "Compare coverage limits and settlement terms, not just premiums.",
+    "Write each deductible as a dollar amount using the correct policy basis.",
+    "Identify excluded hazards and any separate coverage needed.",
+    "Resolve underwriting conditions and lender documentation before closing."
+  ],
+  "caveat": "Educational purchasing guidance, not an insurance recommendation, binder or coverage determination. A licensed insurance professional must explain the actual policy and property-specific eligibility. No premium or claim outcome is promised.",
+  "date": "2026-11-16",
+  "readTime": "3 min read"
+},
+{
+  "slug": "buying-tenant-occupied-property-north-carolina",
+  "title": "Buying a tenant-occupied North Carolina property: verify the lease before underwriting the rent",
+  "description": "Organize leases, collections, deposits and the ownership handoff before treating an occupied rental as ready-made income.",
+  "category": "Investing",
+  "tags": [
+    "rental property",
+    "leases",
+    "security deposits",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Buy the documented arrangement, not the advertised rent",
+      "paragraphs": [
+        "An occupied property comes with operational questions that a vacant-house inspection cannot answer. Before relying on projected income, request the signed lease, amendments, renewal documents and a current ledger. Compare the contractual rent with actual collections and identify concessions, arrears, prepaid rent and unresolved disputes.",
+        "Build a tenant-by-tenant schedule showing the lease term, payment due date, deposit held, included utilities and landlord responsibilities. Keep personal tenant information limited to what the transaction legitimately needs and share it securely with the professionals handling the purchase. A rent roll is a starting point, not proof of every entry."
+      ]
+    },
+    {
+      "title": "Make document review part of the purchase plan",
+      "paragraphs": [
+        "NC REALTORS describes a rental-property provision in its Additional Provisions Addendum that addresses existing leases, delivery of rental agreements and related information, security-deposit transfer at settlement and treatment of pet fees. This is a reminder to use the right contract provisions, not to assume a standard sale form answers every rental question.",
+        "Have your broker and North Carolina attorney identify the current forms and terms appropriate to this transaction. Agree when records must arrive and how inconsistencies will be resolved. If your plan depends on vacancy, a rent increase or a different use, obtain advice on the existing rights and lawful timing rather than assuming ownership transfer makes the property immediately available."
+      ],
+      "source": "https://www.ncrealtors.org/question/how-should-the-transfer-of-rental-property-be-addressed-in-an-offer-to-purchase/",
+      "sourceLabel": "NC REALTORS: transferring rental property under a purchase contract"
+    },
+    {
+      "title": "Treat security deposits as an obligation to reconcile",
+      "paragraphs": [
+        "North Carolina General Statute 42-54 addresses security deposits when a landlord\u2019s interest ends, including by sale. Within 30 days, the statute provides for transferring the remaining deposit to the successor and mailing the tenant notice of the transfer and successor\u2019s name and address, or returning the remaining deposit to the tenant. The transaction\u2019s contract may require a particular approach and earlier performance.",
+        "Before settlement, ask the attorney and property manager to reconcile the lease deposit amounts, deposit ledger and funds actually being transferred. Identify who will send required notices and retain evidence. Do not count tenant deposits as freely available operating cash or assume a closing credit alone completes every obligation."
+      ],
+      "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_42/Article_6.html",
+      "sourceLabel": "North Carolina General Assembly: Tenant Security Deposit Act, including G.S. 42-54"
+    },
+    {
+      "title": "Plan the first month before taking ownership",
+      "paragraphs": [
+        "Create a written handoff covering management responsibilities, emergency contacts, keys, maintenance requests, utility arrangements and rent-payment instructions. Have the parties coordinate tenant communication rather than issuing competing instructions. Match any closing prorations to the attorney\u2019s settlement documents and the actual lease records.",
+        "Underwrite a downside case using documented income, realistic operating costs and unresolved repairs. Separate a rent you might pursue later from the rent supported by the present agreement. If records are missing, mark the assumption as unverified and decide with your advisers whether the risk can be resolved before you commit."
+      ]
+    }
+  ],
+  "checklist": [
+    "Obtain signed leases, amendments, a current rent roll and collection records.",
+    "Reconcile deposits, prepaid rent, concessions and outstanding balances.",
+    "Have an attorney review lease, possession and planned-use assumptions.",
+    "Specify document delivery, deposit handling and prorations in the transaction.",
+    "Assign the tenant notice, management and maintenance handoff."
+  ],
+  "caveat": "Educational due-diligence guidance, not legal, tax or property-management advice. Lease terms, the executed purchase agreement and applicable law control. Vacation rentals, subsidized housing and commercial tenancies can involve different requirements.",
+  "date": "2026-11-16",
+  "readTime": "3 min read"
+},
+{
+  "slug": "pre-1978-north-carolina-home-lead-paint-review",
+  "title": "Buying a pre-1978 home in North Carolina: separate lead disclosures from testing",
+  "description": "Understand the documents, inspection opportunity and specialist questions to organize before buying an older home.",
+  "category": "Buying",
+  "tags": [
+    "lead paint",
+    "older homes",
+    "disclosures",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Establish the age, then ask for the records",
+      "paragraphs": [
+        "An older home may offer the layout and character you want, but its age should also shape your investigation. Start by checking the construction year and asking for existing lead-related records. Do not treat a freshly painted room, a seller\u2019s lack of knowledge or an ordinary inspection summary as a lead-free certification.",
+        "EPA explains that the federal disclosure rule applies to most housing built before 1978, with specified exceptions. For covered transactions, buyers must receive the required lead information before signing the purchase contract. Ask your broker and attorney to confirm how the rule applies to the particular property rather than assuming an exemption."
+      ],
+      "source": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "sourceLabel": "US EPA: lead-based paint real estate disclosures"
+    },
+    {
+      "title": "Distinguish the disclosure package from a new inspection",
+      "paragraphs": [
+        "For covered sales, EPA identifies required materials including an approved lead-hazard pamphlet, disclosure of known lead paint or hazards, available records and reports, and the required warning and acknowledgment language. A disclosure describes known information; it is not a new test of the property.",
+        "Create a simple inventory of what arrived, the date received, who prepared any report and which areas it covered. If a report is referenced but absent, request it. If the seller reports no knowledge, ask what evaluation would give you enough information for your own decision instead of interpreting the response as proof that no lead is present."
+      ],
+      "source": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "sourceLabel": "US EPA: required disclosure materials"
+    },
+    {
+      "title": "Put the evaluation opportunity on the calendar",
+      "paragraphs": [
+        "EPA describes a 10-day buyer opportunity for a lead-paint inspection or risk assessment. The parties can agree in writing to a longer or shorter period, and the buyer can waive the opportunity. Do not automatically equate this federal opportunity with a North Carolina contract\u2019s general due-diligence period; have your attorney and broker coordinate the relevant dates and terms.",
+        "Before deciding whether to proceed without an evaluation, ask a qualified lead professional about scope, access, timing and the report you would receive. The useful question is not simply whether the house passed an inspection, but which lead-related question a particular service answers."
+      ],
+      "source": "https://www.epa.gov/lead/real-estate-disclosures-about-potential-lead-hazards",
+      "sourceLabel": "US EPA: buyer inspection opportunity"
+    },
+    {
+      "title": "Connect the findings to your renovation plans",
+      "paragraphs": [
+        "If you plan to replace windows, remove painted trim or remodel soon after buying, tell the lead professional and prospective contractor before work is priced. Ask what additional evaluation and applicable lead-safe work requirements the intended project needs. Keep that investigation separate from assumptions about cosmetic condition.",
+        "Build your decision around records, qualified advice and a documented scope. Ask for specialist cost and timing information where needed; do not insert an unsupported allowance and call the risk solved. Any purchase terms addressing further investigation or work should be handled by your broker and attorney. This guide does not establish that a particular home is safe or hazardous."
+      ]
+    }
+  ],
+  "checklist": [
+    "Verify the construction year and whether the disclosure rule applies.",
+    "Collect the pamphlet, disclosure documents and available lead reports.",
+    "Confirm the evaluation opportunity and relevant contract dates in writing.",
+    "Ask a qualified lead professional which service answers your questions.",
+    "Coordinate any planned renovation with appropriate lead-related advice."
+  ],
+  "caveat": "Educational transaction planning, not medical, environmental or legal advice. Federal exceptions and property circumstances matter. Consult qualified lead professionals and your North Carolina attorney; a disclosure or general home inspection is not a lead-free certification.",
+  "date": "2026-11-16",
+  "readTime": "3 min read"
+}
 ]

@@ -156,4 +156,19 @@ export const blogImages: Record<string,BlogImage> = {
     "src": "/blog/final-walkthrough-north-carolina-home-closing.svg",
     "alt": "House and checked inspection record."
   }
+,
+
+  "north-carolina-home-insurance-before-buying": {
+    "src": "/blog/north-carolina-home-insurance-before-buying.svg",
+    "alt": "House beside a shield and check mark, illustrating insurance planning."
+  },
+  "buying-tenant-occupied-property-north-carolina": {
+    "src": "/blog/buying-tenant-occupied-property-north-carolina.svg",
+    "alt": "House and key illustrating rental ownership and the lease handoff."
+  },
+  "pre-1978-north-carolina-home-lead-paint-review": {
+    "src": "/blog/pre-1978-north-carolina-home-lead-paint-review.svg",
+    "alt": "House and magnifying glass illustrating a review of lead-disclosure records."
+  }
+
 }
