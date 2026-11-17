@@ -169,6 +169,19 @@ export const blogImages: Record<string,BlogImage> = {
   "pre-1978-north-carolina-home-lead-paint-review": {
     "src": "/blog/pre-1978-north-carolina-home-lead-paint-review.svg",
     "alt": "House and magnifying glass illustrating a review of lead-disclosure records."
+  },
+
+  "closing-disclosure-review-north-carolina-buyers": {
+    "src": "/blog/closing-disclosure-review-north-carolina-buyers.svg",
+    "alt": "House beside a document and calculation rows illustrating a mortgage closing review."
+  },
+  "wood-destroying-insect-report-north-carolina-homebuyers": {
+    "src": "/blog/wood-destroying-insect-report-north-carolina-homebuyers.svg",
+    "alt": "House beside a magnifying glass and timber beams illustrating a wood-destroying insect report."
+  },
+  "square-footage-discrepancies-north-carolina-homes": {
+    "src": "/blog/square-footage-discrepancies-north-carolina-homes.svg",
+    "alt": "House and dimensional floor plan illustrating square-footage verification."
   }
 
 }

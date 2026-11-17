@@ -2326,5 +2326,190 @@ export const articles:Article[] = [
   "caveat": "Educational transaction planning, not medical, environmental or legal advice. Federal exceptions and property circumstances matter. Consult qualified lead professionals and your North Carolina attorney; a disclosure or general home inspection is not a lead-free certification.",
   "date": "2026-11-16",
   "readTime": "3 min read"
+},
+{
+  "slug": "closing-disclosure-review-north-carolina-buyers",
+  "title": "Your Closing Disclosure: a review plan before a North Carolina mortgage closing",
+  "description": "Reconcile the loan terms, cash needed and unanswered questions before closing day rather than treating the final numbers as a formality.",
+  "category": "Financing",
+  "tags": [
+    "Closing Disclosure",
+    "mortgage",
+    "closing",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Give the final numbers their own review session",
+      "paragraphs": [
+        "Closing week can become a series of short messages: confirm the appointment, arrange the move, send the last document. Set aside a separate session for your financing paperwork. A familiar monthly payment does not establish that every fee, credit or loan feature matches what you expected.",
+        "The Consumer Financial Protection Bureau describes the Closing Disclosure as a five-page statement of final mortgage terms, projected payments and closing costs. For loans covered by this disclosure requirement, the borrower must receive it at least three business days before closing. Some loan types use different forms. Confirm your loan’s requirements and timing with the lender rather than calculating the deadline from a moving-company reservation."
+      ],
+      "source": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-closing-disclosure-en-1983/",
+      "sourceLabel": "CFPB: what a Closing Disclosure is and when it is provided"
+    },
+    {
+      "title": "Build a small difference log",
+      "paragraphs": [
+        "Put the most recent Loan Estimate, the Closing Disclosure and your written agreements in one folder. Make a four-column note: item, expected amount or term, current amount or term, and explanation still needed. Include document dates so the team is not comparing a new disclosure with an obsolete estimate.",
+        "Start with differences that change your ability or willingness to close. An unfamiliar loan feature needs a different conversation from a minor clerical error. For each question, identify the page and line and ask the lender or closing attorney who can resolve it. Keep the answer with the revised document instead of relying on memory."
+      ]
+    },
+    {
+      "title": "Separate closing costs from cash to close",
+      "paragraphs": [
+        "The CFPB’s form explainer distinguishes total closing costs from the amount of money you must bring to closing. It also directs borrowers to review loan amount, rate, payment, credits and costs, and to identify taxes, insurance or assessments that are not escrowed. A familiar total can still contain an unexpected component."
+      ],
+      "source": "https://www.consumerfinance.gov/owning-a-home/closing-disclosure/",
+      "sourceLabel": "CFPB: interactive Closing Disclosure explainer"
+    },
+    {
+      "title": "Make the comparison useful for your own budget",
+      "paragraphs": [
+        "Use two separate notes: money needed for the transaction and money you intend to retain afterward. Do not spend a reserve twice by mentally assigning it both to closing and to the first repair. If a changed figure reduces the reserve you planned, revisit the budget before treating the change as harmless.",
+        "For example, a buyer may have set aside money for moving and an immediate appliance replacement. If the updated closing amount uses that same cash, the household plan needs a revision even if the lender remains willing to lend. This is a hypothetical planning issue, not a recommendation for a particular reserve amount."
+      ]
+    },
+    {
+      "title": "Close questions, not just document windows",
+      "paragraphs": [
+        "Send a concise list of open items with a requested response date. When an explanation arrives, mark whether it answers the question, requires a corrected form or changes your decision. Ask the lender whether any correction affects the permitted closing schedule; do not assume every correction restarts a waiting period or that none can.",
+        "If the proposed solution changes contractual terms, involve the appropriate professionals before agreeing. Review the final version actually presented for signature. A completed review checklist does not replace legal advice, and the presence of a figure on a disclosure is not by itself an explanation of why you owe it."
+      ]
+    }
+  ],
+  "checklist": [
+    "Collect the latest Loan Estimate and Closing Disclosure with their dates.",
+    "List term and cost differences by page and line.",
+    "Reconcile cash needed with your remaining ownership and moving reserves.",
+    "Get explanations or corrected documents from the responsible professional.",
+    "Confirm the actual signing and funding requirements with your lender and closing attorney."
+  ],
+  "caveat": "Educational transaction-planning guidance, not lending, legal or financial advice. Disclosure rules vary by loan type. Confirm your specific terms and deadlines with your lender and North Carolina closing attorney.",
+  "date": "2026-11-17",
+  "readTime": "3 min read"
+},
+{
+  "slug": "wood-destroying-insect-report-north-carolina-homebuyers",
+  "title": "Reading a wood-destroying insect report in North Carolina: findings are not a structural verdict",
+  "description": "Separate pest evidence, access limitations, treatment and repair questions before deciding what a report means for your purchase.",
+  "category": "Buying",
+  "tags": [
+    "wood-destroying insects",
+    "inspection",
+    "due diligence",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Ask for the complete report",
+      "paragraphs": [
+        "A brief message saying “the termite inspection is back” leaves the important questions open. Ask for the full Wood-Destroying Insect Report, or WDIR, including its conditions, diagram and any attachments. Put the actual findings into your due-diligence file rather than reducing the result to a pass-or-fail label.",
+        "The North Carolina Department of Agriculture and Consumer Services explains that the WDIR records visible evidence at the time of inspection and is not a warranty that insects are absent. It covers more than termites. Its guidance also says the report is not a structural damage evaluation. Those distinctions matter when deciding which professional should answer the next question."
+      ],
+      "source": "https://www.ncagr.gov/divisions/structural-pest-control-and-pesticides/structural/consumer-information/homeowners-guide-wood-destroying-insect-report",
+      "sourceLabel": "NC Agriculture: homeowner guide to the WDIR"
+    },
+    {
+      "title": "Create separate tracks for separate questions",
+      "paragraphs": [
+        "Use four headings in your notes: evidence, inspection limitations, treatment and building repairs. Copy the report’s location references into your notes accurately. Ask the pest professional to clarify the finding rather than substituting your own diagnosis from a photo.",
+        "Treatment and repair are different assignments. If the report raises a concern about a building component, ask an appropriately qualified contractor, engineer or other building expert what evaluation is needed. Avoid assuming that a treatment proposal establishes the extent or price of construction repairs."
+      ]
+    },
+    {
+      "title": "Understand what was not accessible",
+      "paragraphs": [
+        "The state’s guide explains that the inspection concerns accessible areas, requires identified inaccessible areas to be noted, and does not routinely include detached structures unless requested. Ask the provider which structures and areas your engagement covers. An unexamined space should remain an open question, not become a reassuring result by omission."
+      ],
+      "source": "https://www.ncagr.gov/divisions/structural-pest-control-and-pesticides/structural/consumer-information/homeowners-guide-wood-destroying-insect-report",
+      "sourceLabel": "NC Agriculture: inspection scope and limitations"
+    },
+    {
+      "title": "Coordinate follow-up before transaction deadlines",
+      "paragraphs": [
+        "Create one line per unresolved issue with the location, professional needed, access permission, expected report date and decision deadline. If follow-up requires access beyond the original inspection, coordinate permission through the transaction team. Do not remove finishes or direct destructive investigation without proper authorization.",
+        "Consider a hypothetical crawlspace finding beneath a kitchen. The buyer may need the pest professional to explain the evidence and a separate building professional to evaluate a framing concern. Scheduling only treatment could leave the repair question unanswered. Scheduling only a repair estimate could leave the pest-management question unanswered. The useful plan keeps both visible."
+      ]
+    },
+    {
+      "title": "Read the actual treatment and warranty documents",
+      "paragraphs": [
+        "If treatment is proposed, ask for a written scope and the actual agreement. If the property has a previous treatment history, request the records and ask the provider to explain what continuing service, coverage or transfer may apply. Do not assume that a seller’s reference to a “bond” means the protection you want exists.",
+        "Put any unresolved contractual or negotiation question to your broker and attorney before the relevant deadline. A report does not by itself determine who must pay, what a seller must agree to or whether you can end the transaction. Use the findings to make a documented decision, not to invent contractual rights."
+      ]
+    }
+  ],
+  "checklist": [
+    "Save the entire WDIR and any diagrams or attachments.",
+    "List pest findings separately from structural and repair questions.",
+    "Identify access limitations and detached structures requiring separate arrangements.",
+    "Arrange authorized specialist follow-up before your decision deadlines.",
+    "Read treatment, service and warranty terms rather than relying on a label."
+  ],
+  "caveat": "Educational due-diligence guidance, not pest identification, treatment instructions, engineering or legal advice. Use qualified professionals and your actual purchase agreement. No inspection guarantees concealed conditions or future performance.",
+  "date": "2026-11-17",
+  "readTime": "3 min read"
+},
+{
+  "slug": "square-footage-discrepancies-north-carolina-homes",
+  "title": "Different square-footage numbers for the same NC home? Investigate before comparing prices",
+  "description": "A practical process for reconciling a listing, tax record and measurement report without averaging away a meaningful difference.",
+  "category": "Buying & Selling",
+  "tags": [
+    "square footage",
+    "measurement",
+    "comparables",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Treat a mismatch as a question, not a verdict",
+      "paragraphs": [
+        "The listing gives one size, the county record gives another and an old floor plan suggests something else. None of those differences should be resolved by choosing the largest number or averaging all three. First determine what each document measures, when it was prepared and whether the property has changed.",
+        "The North Carolina Real Estate Commission’s square-footage reminder says brokers cannot use tax records or blueprints as their measurement resource. It also notes that a difference between a measured property and the tax record may point to another issue, such as a permit question, requiring investigation. A mismatch is a reason to ask for support, not proof by itself of an unpermitted improvement."
+      ],
+      "source": "https://bulletins.ncrec.gov/reminder-square-footage/",
+      "sourceLabel": "NC Real Estate Commission: reminder on square-footage sources"
+    },
+    {
+      "title": "Build a source-and-definition sheet",
+      "paragraphs": [
+        "Make one row for each number. Record the source, date, area label, person responsible and available sketch. Ask whether the figures are actually describing the same category of space. A garage, separate building or unfinished area should not silently migrate into a living-area comparison just because it appears on a floor plan.",
+        "Ask the responsible broker or measurement professional to explain the current standard used and the treatment of the spaces creating the difference. This article is not a measurement manual. A do-it-yourself tape measurement or a phone scan should not be treated as a professional reconciliation merely because it produces a precise decimal."
+      ]
+    },
+    {
+      "title": "Separate measurement, approvals and usefulness",
+      "paragraphs": [
+        "Ask three distinct questions: how was the area measured and reported, what records support the improvements, and does the layout serve your needs? Answers can come from different people. A measurement report does not replace a permit-record review, and a permit document is not a substitute for measuring the existing building.",
+        "For example, a buyer may value a separate workshop highly for personal use. That does not mean it should be combined with the home’s living-area figure when comparing sale prices. Describe the feature separately and ask the appropriate professional how relevant market evidence treats similar properties. This is an illustrative comparison problem, not a valuation conclusion."
+      ]
+    },
+    {
+      "title": "Do not let a ratio hide the property",
+      "paragraphs": [
+        "Price per square foot is a calculation, not an explanation of value. If the denominator changes, the ratio changes even when the asking price stays fixed. That can make one house appear cheaper without improving the quality of the comparison.",
+        "Before relying on the ratio, examine condition, layout, land, location and the kind of space included in each property’s reported area. Ask your broker why each comparable belongs in the analysis. Do not apply an assumed dollar value to the disputed area and call the result a proven adjustment. An appraiser or broker’s supported analysis has a different purpose from an owner’s quick screening calculation."
+      ]
+    },
+    {
+      "title": "Resolve the record before relying on it",
+      "paragraphs": [
+        "For sellers, surface conflicting records before marketing decisions are built on them. Provide the broker with available plans and improvement history as background, and ask what independent measurement or records review is appropriate. Keep the final explanation and supporting documents in the property file.",
+        "For buyers, flag a material mismatch promptly so the team can plan verification before contractual decision points. Ask what the lender needs if its valuation documents differ. Do not assume a size discrepancy automatically changes a price or creates a cancellation right. Get advice on the actual agreement and keep unresolved facts clearly labeled."
+      ]
+    }
+  ],
+  "checklist": [
+    "Record every reported size with its source, date and area definition.",
+    "Request the measurement sketch and explanation of the standard used.",
+    "Investigate improvement or permit questions separately from measurement.",
+    "Use like-for-like areas before comparing price-per-square-foot figures.",
+    "Resolve material discrepancies with the appropriate professionals before relying on them."
+  ],
+  "caveat": "Educational planning guidance, not an appraisal, measurement certification, code determination or legal opinion. Ask a qualified professional to apply current measurement standards to the actual property and obtain advice on transaction deadlines.",
+  "date": "2026-11-17",
+  "readTime": "3 min read"
 }
 ]
