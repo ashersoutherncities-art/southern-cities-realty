@@ -5,3 +5,5 @@ These original SVG illustrations were authored for Southern Cities Realty on Nov
 November 16, 2026: added original insurance shield, rental lease/key and older-home disclosure illustrations for the three November 16 articles, under the same original-artwork provenance described above.
 
 November 17, 2026: added original vector illustrations for Closing Disclosure review, wood-destroying insect report review and square-footage reconciliation. These extend the existing house-and-document editorial system using original vector shapes, not stock images or actual properties.
+
+November 18, 2026: original vector artwork for manufactured-home records, condominium project financing and builder warranty review. Authored from geometric shapes; conceptual, not real properties or third-party artwork.

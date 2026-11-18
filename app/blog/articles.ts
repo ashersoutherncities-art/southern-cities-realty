@@ -2511,5 +2511,178 @@ export const articles:Article[] = [
   "caveat": "Educational planning guidance, not an appraisal, measurement certification, code determination or legal opinion. Ask a qualified professional to apply current measurement standards to the actual property and obtain advice on transaction deadlines.",
   "date": "2026-11-17",
   "readTime": "3 min read"
+},
+{
+  "slug": "manufactured-home-records-before-buying-north-carolina",
+  "title": "Buying a manufactured home in North Carolina: assemble the identity and financing file first",
+  "description": "Separate home identification, land ownership, lender requirements and condition before you commit to a manufactured-home purchase.",
+  "category": "Buying",
+  "tags": [
+    "manufactured homes",
+    "financing",
+    "documentation",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Identify the home, not just the street address",
+      "paragraphs": [
+        "A listing address is the start of your investigation, not the complete identity of a manufactured home. Before comparing prices, ask the seller for clear photographs of the identifying records and give them to your lender and closing attorney. Keep a single folder for the home and the land so discrepancies are visible early.",
+        "HUD distinguishes the exterior metal certification label from the interior paper data plate. The data plate includes the manufacturer, serial number, model and manufacture date, as well as design-zone information. These are different records; a photograph of one should not be described as both."
+      ],
+      "source": "https://www.hud.gov/hud-partners/manufactured-home-labels",
+      "sourceLabel": "HUD: certification labels and data plates"
+    },
+    {
+      "title": "Resolve missing records before promising a closing date",
+      "paragraphs": [
+        "HUD does not reissue missing certification labels. Its guidance identifies a label-verification route through the Institute for Building Technology and Safety when historical information is available. Ask your lender exactly what documentation it will accept before ordering a service or assuming a missing tag can be replaced.",
+        "Create a simple log with four columns: record needed, person responsible, expected delivery and professional who must review it. Mark a requested record as pending, not verified. If a seller has an old verification letter, ask whether it identifies every relevant home section and whether your lender can use it."
+      ],
+      "source": "https://www.hud.gov/hud-partners/manufactured-home-labels",
+      "sourceLabel": "HUD: missing-label verification process"
+    },
+    {
+      "title": "Ask three professionals three different questions",
+      "paragraphs": [
+        "Ask your closing attorney how ownership of the home and land is documented and what must be resolved for this transaction. Ask the lender about its requirements for this specific property, including foundation, alterations, age and any relocation history. Ask the inspector what can be evaluated and whether a specialist is needed. Do not substitute one professional\u2019s answer for the others.",
+        "If the land is leased rather than included, obtain the actual lease and review its costs, renewal terms and restrictions with appropriate advisers. Build your monthly budget from the arrangement being purchased, not from a similar listing that includes land. This is a recommended investigation sequence, not a statement that every property qualifies for the same loan."
+      ]
+    },
+    {
+      "title": "Compare properties on matching assumptions",
+      "paragraphs": [
+        "For a useful broker discussion, separate the price of the home, land rights, known improvements and unresolved costs. Record whether each comparison has a similar ownership arrangement and condition. A renovated interior does not answer a foundation or documentation question.",
+        "Before making a final decision, build a written unresolved-items list. Include who will confirm each item, its potential effect on financing and the last date you can act under your contract. Ask your broker and attorney about deadlines rather than assuming a documentation delay extends them."
+      ]
+    }
+  ],
+  "checklist": [
+    "Collect label and data-plate photographs without removing or altering them.",
+    "Confirm whether land is owned, leased or excluded.",
+    "Get property-specific lender requirements in writing.",
+    "Have the attorney reconcile ownership and identification records.",
+    "Arrange condition and specialist reviews before your decision deadlines."
+  ],
+  "caveat": "Educational guidance, not title, engineering, lending or legal advice. Manufactured and modular homes are not interchangeable classifications. North Carolina transaction requirements and lender programs must be checked for the actual property.",
+  "date": "2026-11-18",
+  "readTime": "2 min read"
+},
+{
+  "slug": "condo-project-financing-review-north-carolina",
+  "title": "Buying a North Carolina condo: your loan approval also depends on the project",
+  "description": "Keep borrower qualification, unit appraisal and condominium project review on separate tracks so a missing document does not surprise you near closing.",
+  "category": "Financing",
+  "tags": [
+    "condominium",
+    "mortgage",
+    "project review",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "A preapproval is not a project decision",
+      "paragraphs": [
+        "A comfortable payment and a borrower preapproval do not finish a condominium financing review. Ask your lender to identify the project and the review path for the loan you actually intend to use. Do this while you still have time to obtain documents and evaluate alternatives.",
+        "Fannie Mae describes project eligibility as distinct from borrower credit risk. For loans subject to its standards, the project review is additional to borrower underwriting, transaction review and the individual unit appraisal. Its guidance identifies project financial condition, litigation and insurance among the relevant risks. Other loan programs may use different requirements."
+      ],
+      "source": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards",
+      "sourceLabel": "Fannie Mae: project standards and separate risk review"
+    },
+    {
+      "title": "Turn the document request into a shared tracker",
+      "paragraphs": [
+        "Ask the lender for a specific outstanding-document list, then identify who at the association or management company can supply each item. Fannie Mae lists budgets, financial statements, reserve studies, governing documents and engineering reports among possible project-review materials. The lender decides what is necessary for the applicable review.",
+        "Use a tracker with a document date, source, delivery status and remaining question. A budget received is not the same as a budget approved by underwriting. If the lender needs a current insurance document, sending last year\u2019s declaration repeatedly will not resolve the request. Ask what is missing rather than guessing."
+      ],
+      "source": "https://selling-guide.fanniemae.com/sel/b4-2.1-01/general-information-project-standards",
+      "sourceLabel": "Fannie Mae: project documentation"
+    },
+    {
+      "title": "Read a status result precisely",
+      "paragraphs": [
+        "Fannie Mae\u2019s Condo Status Finder is designed for associations, management companies and authorized advisers. Its \u201cNo findings\u201d result means the project is not currently identified as ineligible; it does not mean Fannie Mae has reviewed or approved it. Ask your lender or association to clarify the actual status and remaining work instead of treating a screenshot as a financing guarantee.",
+        "Keep the status-check date with your notes. A prior buyer\u2019s successful closing is useful context, but ask your lender whether it establishes anything for your loan, timing and current project documents. Do not advertise a property as eligible for a particular program without support."
+      ],
+      "source": "https://singlefamily.fanniemae.com/condo-status-finder",
+      "sourceLabel": "Fannie Mae: what Condo Status Finder results mean"
+    },
+    {
+      "title": "Separate a financing obstacle from your ownership decision",
+      "paragraphs": [
+        "If a question arises, ask whether it concerns missing information, a specific project condition or your individual loan. These are different problems with different possible responses. Request a clear explanation and any realistic review timeline before deciding what to do next.",
+        "Even when financing is available, examine how the association\u2019s plans affect your own budget and intended use. Conversely, one lender\u2019s inability to proceed does not by itself prove that every financing option is unavailable. Compare actual alternatives and their costs; do not assume a more expensive loan fixes an underlying property concern. Consult your broker and attorney about contractual options before any deadline passes."
+      ]
+    }
+  ],
+  "checklist": [
+    "Give the lender the exact project name and unit details early.",
+    "Ask which project-review path applies to your loan.",
+    "Track requested documents separately from underwriting approval.",
+    "Clarify the meaning and date of any status result.",
+    "Evaluate association obligations alongside financing, not after it."
+  ],
+  "caveat": "Educational guidance, not a loan approval or legal opinion. Fannie Mae guidance applies to loans governed by its requirements and is not a universal rule for FHA, VA, portfolio or other financing. Confirm current program and North Carolina contract requirements.",
+  "date": "2026-11-18",
+  "readTime": "3 min read"
+},
+{
+  "slug": "new-home-builder-warranty-review-north-carolina",
+  "title": "A new-home warranty is a process, not a promise that everything is covered",
+  "description": "Build a coverage map and claim calendar before buying a newly built North Carolina home.",
+  "category": "Ownership",
+  "tags": [
+    "new construction",
+    "builder warranty",
+    "documentation",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Start with the actual coverage documents",
+      "paragraphs": [
+        "Before choosing a new home, request the warranty documents that would apply to your purchase. Do not rely on a sales conversation or a headline about years of protection. Ask which company is responsible for each type of issue and which document controls the answer.",
+        "The Federal Trade Commission distinguishes a builder warranty from an extra-cost home service contract. Builder warranties generally provide limited coverage for specified workmanship and materials; coverage periods can differ by component. A service contract is not simply another name for the builder\u2019s obligations."
+      ],
+      "source": "https://consumer.ftc.gov/articles/warranties-new-homes",
+      "sourceLabel": "FTC: builder warranties and service contracts"
+    },
+    {
+      "title": "Make a coverage map you can use after moving",
+      "paragraphs": [
+        "As an organizing exercise, create rows for the roof, exterior, plumbing, electrical systems, heating and cooling, appliances and finishes. For each row, copy the responsible party, coverage start and end dates, exclusions and claim route from the applicable document. Leave a field unresolved when the paperwork does not answer it.",
+        "Keep manufacturer documents separate from the builder\u2019s warranty and any purchased service contract. Ask the provider to explain overlap, gaps and required registration or maintenance. Do not infer that a long structural-coverage period applies equally to paint, appliances or every crack. A useful comparison is the specific protection and process, not the largest number on a brochure."
+      ]
+    },
+    {
+      "title": "Prepare a claim file before there is a dispute",
+      "paragraphs": [
+        "The FTC advises following the warranty\u2019s claim instructions, making repair requests in writing and preserving records of communications. It also notes that many warranties provide for mediation or arbitration. Read the dispute section before signing, with legal advice where needed.",
+        "For your own recordkeeping, save dated photographs, a factual description, the date first noticed and copies of submitted requests. Track acknowledgment, inspection appointments and what was actually repaired. A calendar reminder can help you review unresolved issues before a stated deadline, but it is not a substitute for submitting notice through the required process."
+      ],
+      "source": "https://consumer.ftc.gov/articles/warranties-new-homes",
+      "sourceLabel": "FTC: making claims and resolving warranty problems"
+    },
+    {
+      "title": "Budget for ownership, not just covered repairs",
+      "paragraphs": [
+        "The FTC cautions that most new-home warranties do not cover incidental expenses such as temporary housing during repairs. Ask your provider what costs you would bear and keep an ownership reserve rather than treating warranty coverage as a reason to eliminate it.",
+        "Separate pre-closing unfinished work from issues discovered after moving. Maintain a written punch list and ask your attorney how completion obligations are documented. Do not assume a warranty claim is the same as a signed agreement to finish an item. If something appears urgent or unsafe, seek appropriate professional help rather than waiting for a routine warranty appointment.",
+        "For North Carolina buyers, use this framework to compare builders\u2019 actual documents and proposed contracts. It is not a statement of all legal remedies or deadlines. Have counsel review any waiver, dispute procedure or unresolved obligation that could materially affect your decision."
+      ],
+      "source": "https://consumer.ftc.gov/articles/warranties-new-homes",
+      "sourceLabel": "FTC: limits on incidental expense coverage"
+    }
+  ],
+  "checklist": [
+    "Obtain the proposed warranty before committing.",
+    "Map components to responsible parties, dates and exclusions.",
+    "Preserve manufacturer and service-contract documents separately.",
+    "Set reminders ahead of the actual written notice deadlines.",
+    "Keep a dated claim log and confirm unresolved work in writing."
+  ],
+  "caveat": "Educational planning guidance, not a warranty interpretation or North Carolina legal advice. Coverage depends on the actual documents and applicable law; consult counsel about rights, deadlines and dispute provisions.",
+  "date": "2026-11-18",
+  "readTime": "3 min read"
 }
 ]

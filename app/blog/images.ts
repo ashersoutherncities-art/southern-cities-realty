@@ -182,6 +182,8 @@ export const blogImages: Record<string,BlogImage> = {
   "square-footage-discrepancies-north-carolina-homes": {
     "src": "/blog/square-footage-discrepancies-north-carolina-homes.svg",
     "alt": "House and dimensional floor plan illustrating square-footage verification."
-  }
-
+  },
+"manufactured-home-records-before-buying-north-carolina":{"src": "/blog/manufactured-home-records-before-buying-north-carolina.svg", "alt": "Manufactured home with separate identity label and land record, conceptual illustration."},
+"condo-project-financing-review-north-carolina":{"src": "/blog/condo-project-financing-review-north-carolina.svg", "alt": "Condominium building beside three financing review checkpoints, conceptual illustration."},
+"new-home-builder-warranty-review-north-carolina":{"src": "/blog/new-home-builder-warranty-review-north-carolina.svg", "alt": "New house beside a warranty calendar and coverage document, conceptual illustration."},
 }
