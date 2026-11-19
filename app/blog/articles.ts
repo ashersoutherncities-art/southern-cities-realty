@@ -2684,5 +2684,167 @@ export const articles:Article[] = [
   "caveat": "Educational planning guidance, not a warranty interpretation or North Carolina legal advice. Coverage depends on the actual documents and applicable law; consult counsel about rights, deadlines and dispute provisions.",
   "date": "2026-11-18",
   "readTime": "3 min read"
+},
+{
+  "slug": "north-carolina-driveway-access-before-buying-land",
+  "title": "Before buying NC land, test the driveway plan as well as the lot",
+  "description": "Turn road frontage into a documented access investigation before assuming a home or subdivision can use the entrance you pictured.",
+  "category": "Local Planning",
+  "tags": [
+    "land",
+    "driveway",
+    "access",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Draw the entrance before drawing the house",
+      "paragraphs": [
+        "A parcel can look straightforward from an aerial image while leaving an important question unanswered: where would vehicles actually enter? For a North Carolina land purchase, put a proposed entrance on the first sketch, not the last construction drawing. Treat the sketch as a question for review, not a representation that access is approved.",
+        "Make three columns in your property file: legal access, physical construction and agency review. Record who will answer each question. A surveyor, closing attorney, road authority and site designer have different jobs; one person\u2019s preliminary comment should not silently become approval for the entire plan."
+      ]
+    },
+    {
+      "title": "Confirm the authority and the applicable rule",
+      "paragraphs": [
+        "The North Carolina Department of Transportation\u2019s published driveway rule addresses connections within state highway rights-of-way. It normally excludes residential driveways, but allows the Department to require a permit for specified safety, highway-project or drainage circumstances. The rule also addresses more restrictive local ordinances. Do not translate either the general rule or the residential exception into a blanket answer for your parcel.",
+        "Ask the responsible road authority to identify the review path for your proposed use, entrance location and scope. Distinguish one house from a subdivision or a change to an existing connection. Save the written response with the parcel identification and a dated sketch."
+      ],
+      "source": "https://connect.ncdot.gov/resources/safety/Teppl/TEPPL%20All%20Documents%20Library/A-21_code.pdf",
+      "sourceLabel": "NCDOT: driveway entrance rules"
+    },
+    {
+      "title": "Price the unanswered questions",
+      "paragraphs": [
+        "Have the appropriate site professional examine the proposed alignment, grade, drainage, sight conditions and construction needs. Ask for a list of missing information before requesting a firm budget. A line on a map does not price excavation, a culvert, retaining work or changes to the building layout.",
+        "Keep preliminary construction allowances separate from verified quotes. If moving the entrance changes the usable building area, update the concept plan and cost comparison together. Avoid carrying the original house layout forward after its access assumption has changed."
+      ]
+    },
+    {
+      "title": "Make access a purchase decision",
+      "paragraphs": [
+        "Prepare a short decision memo: the entrance you prefer, an alternative, what each depends on, and the investigation still required. Ask your broker and attorney how to fit that work into your actual contract timeline. Do not assume a pending agency answer automatically extends a deadline.",
+        "If you are comparing two lots, compare the documented path to a workable entrance rather than the apparent width of road frontage alone. Unresolved access is a question to investigate, not a discount you can reliably estimate without evidence."
+      ]
+    }
+  ],
+  "checklist": [
+    "Identify the road owner or maintaining authority.",
+    "Locate the proposed entrance on a dated parcel sketch.",
+    "Separate legal access review from driveway design and permits.",
+    "Obtain property-specific guidance for the intended use.",
+    "Update site costs and the purchase timeline when assumptions change."
+  ],
+  "date": "2026-11-19",
+  "readTime": "2 min read",
+  "caveat": "Educational planning guidance, not legal, engineering, tax or personalized financial advice. Requirements depend on the property, transaction and applicable rules; consult the responsible professionals."
+},
+{
+  "slug": "mortgage-escrow-analysis-north-carolina-homeowners",
+  "title": "Your mortgage payment changed: read the escrow analysis before rewriting the budget",
+  "description": "Separate next year\u2019s tax and insurance costs from a past escrow shortfall so you can ask the servicer precise questions.",
+  "category": "Ownership",
+  "tags": [
+    "escrow",
+    "mortgage",
+    "ownership budget",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Start with the payment components",
+      "paragraphs": [
+        "When a new mortgage payment notice arrives, do not assume the interest rate changed. Put the old statement beside the new one and identify which components differ. For a North Carolina homeowner, the useful first question is not simply how much more is due, but what the additional money is intended to cover.",
+        "Create a small reconciliation sheet with the old amount, new amount, effective date and explanation for each line. Keep principal and interest separate from escrow collections and any other charges. That structure makes a call with the servicer more productive than debating the total in isolation."
+      ]
+    },
+    {
+      "title": "Read the history and projection together",
+      "paragraphs": [
+        "For covered mortgage escrow accounts, the Consumer Financial Protection Bureau\u2019s Regulation X requires an annual analysis and an annual statement containing account history and projections, subject to its provisions and exceptions. A shortage is a balance below the target at analysis; a deficiency means a negative balance. These are not interchangeable labels.",
+        "Compare actual tax and insurance disbursements with the prior estimates, then inspect the upcoming projected bills. Ask the servicer to explain its calculation, any cushion, and the treatment of a shortage. The applicable repayment rules depend on the circumstances; do not assume every notice requires an immediate lump-sum payment."
+      ],
+      "source": "https://www.consumerfinance.gov/rules-policy/regulations/1024/17/",
+      "sourceLabel": "CFPB: Regulation X escrow account requirements"
+    },
+    {
+      "title": "Separate the catch-up from the ongoing cost",
+      "paragraphs": [
+        "Use two planning buckets: money needed to address an existing shortfall and money needed for future bills. Paying a catch-up amount does not itself change the underlying tax bill or insurance premium. Request an explanation of the payment under any available option before choosing how to use your cash.",
+        "For example, your worksheet might show a higher projected insurance bill alongside a prior-year balance issue. Keep those explanations on separate lines even if they appear in one monthly payment. This is a budgeting method, not a calculation of what your servicer is legally permitted to collect."
+      ]
+    },
+    {
+      "title": "Resolve discrepancies with the right party",
+      "paragraphs": [
+        "Check the tax parcel, policy period, payment dates and amounts against the underlying documents. If a bill appears wrong, distinguish the organization issuing it from the company collecting escrow. Ask who must correct the underlying record and what documentation the servicer needs afterward.",
+        "Record your questions and responses, keep copies of statements, and ask how a corrected bill would affect the analysis. Do not unilaterally reduce the payment or stop paying while an issue is investigated. If you cannot afford the new amount, contact the servicer promptly about available assistance rather than waiting for the next statement."
+      ]
+    }
+  ],
+  "checklist": [
+    "Compare old and new payment components.",
+    "Match actual disbursements to tax and insurance documents.",
+    "Separate the existing shortfall from projected future costs.",
+    "Request an explanation of the calculation and available options.",
+    "Update the ownership budget using confirmed amounts and dates."
+  ],
+  "date": "2026-11-19",
+  "readTime": "2 min read",
+  "caveat": "Educational planning guidance, not legal, engineering, tax or personalized financial advice. Requirements depend on the property, transaction and applicable rules; consult the responsible professionals."
+},
+{
+  "slug": "mineral-rights-disclosure-north-carolina-homebuyers",
+  "title": "North Carolina mineral-rights disclosures: six answers worth reading separately",
+  "description": "Use the mineral and oil and gas disclosure to organize a title conversation instead of assuming the surface purchase answers every ownership question.",
+  "category": "Buying",
+  "tags": [
+    "mineral rights",
+    "disclosure",
+    "title",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Treat this as its own document",
+      "paragraphs": [
+        "A property-condition questionnaire and a mineral-rights disclosure answer different questions. When assembling a North Carolina purchase file, give the mineral and oil and gas form its own place in the checklist. A tidy house, a recent renovation and a clean inspection do not answer what rights the seller is conveying.",
+        "Start by identifying the property, the version of the form provided and who completed it. Write down questions in plain language rather than trying to interpret a historic deed reservation yourself. The objective is to give your closing attorney a focused review request before you rely on an assumption."
+      ]
+    },
+    {
+      "title": "Separate past acts from the proposed sale",
+      "paragraphs": [
+        "North Carolina General Statutes section 47E-4.1 describes separate questions for mineral rights and for oil and gas rights: whether a previous owner severed them, whether the seller has done so, and whether the seller intends to do so before transfer. The form\u2019s no-representation option is limited to previous severance. The statute also distinguishes covered and exempt transfers.",
+        "The statute explains that these rights can be separated through a conveyance or a reservation. A form answer is therefore a starting point for asking what documents exist and what the proposed deed will convey, not a substitute for property-specific legal review."
+      ],
+      "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_47E/GS_47E-4.1.html",
+      "sourceLabel": "NC General Statutes: mineral and oil and gas disclosures"
+    },
+    {
+      "title": "Build a document request, not a conclusion",
+      "paragraphs": [
+        "Create a three-column note: the answer on the form, the record needed to understand it, and the person reviewing that record. Ask your attorney which recorded instruments, title exceptions or proposed deed provisions need attention. If a response is unclear, keep the question open rather than converting uncertainty into a reassuring yes or no.",
+        "Ask specifically whether the documents have implications for your intended ownership or use. Do not infer from a reservation alone that extraction is imminent, or from a lack of visible activity that no separate rights exist. The practical significance requires review of the actual record and circumstances."
+      ]
+    },
+    {
+      "title": "Resolve the question before the deadline",
+      "paragraphs": [
+        "Give the review team the same planned use: owner-occupied home, rental, future addition or other project. Ask for a plain-language explanation of any unresolved issue and what additional investigation would be needed. Record the answer alongside your other due-diligence decisions.",
+        "If the seller proposes retaining rights, ask your attorney and broker to evaluate the proposed transaction documents before you agree. Do not assume a disclosure automatically changes the contract, supplies a cancellation right or determines an appropriate price adjustment. Keep legal advice, negotiation and your own risk tolerance distinct."
+      ]
+    }
+  ],
+  "checklist": [
+    "Locate the separate mineral and oil and gas disclosure.",
+    "Read all six answers rather than one summary label.",
+    "Ask what prior records or proposed reservations need review.",
+    "Have the closing attorney explain implications for your intended use.",
+    "Resolve outstanding questions within the actual contract timeline."
+  ],
+  "date": "2026-11-19",
+  "readTime": "2 min read",
+  "caveat": "Educational planning guidance, not legal, engineering, tax or personalized financial advice. Requirements depend on the property, transaction and applicable rules; consult the responsible professionals."
 }
 ]

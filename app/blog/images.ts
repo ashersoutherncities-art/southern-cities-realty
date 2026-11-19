@@ -186,4 +186,7 @@ export const blogImages: Record<string,BlogImage> = {
 "manufactured-home-records-before-buying-north-carolina":{"src": "/blog/manufactured-home-records-before-buying-north-carolina.svg", "alt": "Manufactured home with separate identity label and land record, conceptual illustration."},
 "condo-project-financing-review-north-carolina":{"src": "/blog/condo-project-financing-review-north-carolina.svg", "alt": "Condominium building beside three financing review checkpoints, conceptual illustration."},
 "new-home-builder-warranty-review-north-carolina":{"src": "/blog/new-home-builder-warranty-review-north-carolina.svg", "alt": "New house beside a warranty calendar and coverage document, conceptual illustration."},
+"north-carolina-driveway-access-before-buying-land":{"src": "/blog/north-carolina-driveway-access-before-buying-land.svg", "alt": "Conceptual house and driveway illustrating access planning, not a surveyed parcel."},
+"mortgage-escrow-analysis-north-carolina-homeowners":{"src": "/blog/mortgage-escrow-analysis-north-carolina-homeowners.svg", "alt": "Conceptual escrow statement and check mark illustrating payment reconciliation."},
+"mineral-rights-disclosure-north-carolina-homebuyers":{"src": "/blog/mineral-rights-disclosure-north-carolina-homebuyers.svg", "alt": "Conceptual home above layered ground illustrating separate property rights."},
 }
