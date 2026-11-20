@@ -3015,11 +3015,12 @@ export const articles:Article[] = [
       {
         "title": "Use the application cycle deliberately",
         "paragraphs": [
-          "Both cited statutes provide for applications through June 1 preceding the tax year for which the benefit is claimed. When planning ahead, ask the assessor which application year, income year and supporting records apply. Confirm how to submit, how receipt is documented and what must be renewed or reported afterward.",
+          "For the 2027 property-tax year, North Carolina’s Form AV-9 sets the elderly or disabled homestead exclusion income limit at $39,900, using qualifying income from calendar year 2026. For otherwise eligible circuit-breaker applicants, the current tax payment is limited to 4% of qualifying income at or below $39,900, or 5% above $39,900 through $59,850. Tax above the applicable limit is deferred, not forgiven.",
+          "File the 2027 AV-9 with the tax assessor in the county where the property is located by June 1, 2027, for timely filing. Do not send it to the North Carolina Department of Revenue. The circuit breaker requires a new application every year. Ask the assessor which supporting records apply and how to confirm receipt.",
           "Keep the discussion private. An advisor does not need sensitive medical or income documentation in a marketing folder. Send required evidence through the county’s approved process and share only the outcome needed by other transaction professionals."
         ],
-        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1.html",
-        "sourceLabel": "NC statute: application timing and eligibility documentation"
+        "source": "https://www.ncdor.gov/2027-av-9-securedpdf/open",
+        "sourceLabel": "NC Department of Revenue: 2027 Form AV-9 and filing instructions"
       },
       {
         "title": "Compare staying and moving with two different budgets",
@@ -3038,7 +3039,7 @@ export const articles:Article[] = [
       "Build a separate tax budget for the next home."
     ],
     "date": "2026-11-20",
-    "caveat": "Sources checked November 20, 2026. Educational guidance, not legal, tax or personalized financial advice. Eligibility, loan coverage and local procedures require case-specific verification with the responsible professionals.",
+    "caveat": "Educational guidance, not legal, tax or personalized financial advice. Eligibility, loan coverage and local procedures require case-specific verification with the responsible professionals.",
     "readTime": "3 min read"
   }
 ]]
