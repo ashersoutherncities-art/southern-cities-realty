@@ -189,4 +189,7 @@ export const blogImages: Record<string,BlogImage> = {
 "north-carolina-driveway-access-before-buying-land":{"src": "/blog/north-carolina-driveway-access-before-buying-land.svg", "alt": "Conceptual house and driveway illustrating access planning, not a surveyed parcel."},
 "mortgage-escrow-analysis-north-carolina-homeowners":{"src": "/blog/mortgage-escrow-analysis-north-carolina-homeowners.svg", "alt": "Conceptual escrow statement and check mark illustrating payment reconciliation."},
 "mineral-rights-disclosure-north-carolina-homebuyers":{"src": "/blog/mineral-rights-disclosure-north-carolina-homebuyers.svg", "alt": "Conceptual home above layered ground illustrating separate property rights."},
+"private-mortgage-insurance-removal-review":{"src": "/blog/private-mortgage-insurance-removal-review.svg", "alt": "Conceptual three-step pmi review review: Balance, Evidence, Decision."},
+"mortgage-servicer-transfer-homeowner-checklist":{"src": "/blog/mortgage-servicer-transfer-homeowner-checklist.svg", "alt": "Conceptual three-step payment handoff review: Old servicer, Transfer date, New servicer."},
+"north-carolina-property-tax-relief-exclusion-deferral":{"src": "/blog/north-carolina-property-tax-relief-exclusion-deferral.svg", "alt": "Conceptual three-step tax relief review: Exclusion, Deferral, Move plan."}
 }

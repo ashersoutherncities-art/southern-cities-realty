@@ -2846,5 +2846,199 @@ export const articles:Article[] = [
   "date": "2026-11-19",
   "readTime": "2 min read",
   "caveat": "Educational planning guidance, not legal, engineering, tax or personalized financial advice. Requirements depend on the property, transaction and applicable rules; consult the responsible professionals."
-}
-]
+},...[
+  {
+    "slug": "private-mortgage-insurance-removal-review",
+    "title": "Still paying private mortgage insurance? Build a cancellation review file",
+    "description": "Separate borrower-requested cancellation from scheduled termination before assuming a higher home estimate removes PMI.",
+    "category": "Financing",
+    "tags": [
+      "PMI",
+      "mortgage",
+      "ownership costs",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with the insurance you actually have",
+        "paragraphs": [
+          "A North Carolina homeowner reviewing monthly costs may notice a mortgage-insurance charge long after closing. Before ordering an appraisal or making an extra principal payment, identify the loan type, who pays the insurance and the governing cancellation rules. A lower payment is a useful goal, but the route matters.",
+          "The Consumer Financial Protection Bureau explains that the federal cancellation rules it summarizes apply to many single-family principal-residence mortgages closed on or after July 29, 1999. Federal Housing Administration, Veterans Affairs and lender-paid mortgage-insurance arrangements have different requirements. Ask the servicer which rules cover your loan."
+        ],
+        "source": "https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/",
+        "sourceLabel": "CFPB: private mortgage insurance cancellation"
+      },
+      {
+        "title": "Keep the two percentage tests separate",
+        "paragraphs": [
+          "For covered loans, the CFPB describes a right to request cancellation when the principal is scheduled to reach 80% of original value, or reaches that level through extra payments. The request is written and subject to payment-history, current-status, junior-lien and property-value criteria. Automatic termination generally uses the scheduled 78% point and requires the borrower to be current.",
+          "Original value is generally the lower of the purchase price and original appraisal; after refinancing, the relevant original value is the refinance appraisal. An online estimate of today’s value is not the denominator for these particular tests."
+        ],
+        "source": "https://www.consumerfinance.gov/ask-cfpb/when-can-i-remove-private-mortgage-insurance-pmi-from-my-loan-en-202/",
+        "sourceLabel": "CFPB: original value and cancellation conditions"
+      },
+      {
+        "title": "Ask before buying a valuation",
+        "paragraphs": [
+          "Create a short file containing the closing insurance disclosure, current statement, loan identifier and any extra-principal payment history. Ask the servicer to identify the applicable cancellation date and provide its written process, required evidence and any valuation charge. If it offers a current-value route under investor rules, request that route’s separate eligibility conditions rather than mixing it with the original-value test.",
+          "Do not assume a broker opinion, tax assessment or privately ordered appraisal will be accepted. Confirm who must order the valuation and what happens if the result does not support cancellation. An accepted valuation for one purpose is not automatically accepted for another."
+        ]
+      },
+      {
+        "title": "Evaluate a principal payment as a cash decision",
+        "paragraphs": [
+          "If an extra payment could make you eligible sooner, compare the cash committed with the expected insurance savings and your remaining reserves. Principal reduction builds equity but also removes liquid cash from your account. Keep near-term repair needs and other obligations visible.",
+          "This is not a recommendation to refinance solely to remove insurance. A new loan can change the rate, term, fees and total borrowing cost. Compare the complete alternatives, not one line of the monthly statement."
+        ]
+      },
+      {
+        "title": "Close the loop in writing",
+        "paragraphs": [
+          "After approval, retain the effective date and check the next statements for the revised charge. If a request is denied, ask which criterion was not met and what evidence could resolve it. That gives you a decision path instead of another unsupported home-value estimate.",
+          "For a sale or move-up purchase, use only confirmed payment changes in your housing comparison. Southern Cities Realty can help organize the property side of that decision; your servicer determines the loan-specific cancellation process."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify loan and insurance type.",
+      "Locate original-value and scheduled-cancellation records.",
+      "Request the servicer’s written criteria before paying for a valuation.",
+      "Compare any extra payment with liquidity needs.",
+      "Verify the effective date and subsequent statements."
+    ],
+    "date": "2026-11-20",
+    "caveat": "Sources checked November 20, 2026. Educational guidance, not legal, tax or personalized financial advice. Eligibility, loan coverage and local procedures require case-specific verification with the responsible professionals.",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "mortgage-servicer-transfer-homeowner-checklist",
+    "title": "New mortgage servicer? Verify the payment handoff before changing autopay",
+    "description": "A practical handoff file for payment instructions, account records and unresolved issues when your mortgage servicing changes.",
+    "category": "Ownership",
+    "tags": [
+      "servicing transfer",
+      "mortgage",
+      "autopay",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "A new payment company is a handoff to manage",
+        "paragraphs": [
+          "A servicing-transfer letter can arrive when nothing about your North Carolina home has changed. The company collecting and administering payments is changing, so treat the transition as an account handoff. Do not ignore the notice, and do not treat an unexpected email link as sufficient verification of where your money belongs.",
+          "The CFPB explains that the old servicer generally sends notice at least 15 days before transfer and the new servicer generally sends notice within 15 days afterward, unless the notices are combined. Read the effective date and the dates each company accepts payments."
+        ],
+        "source": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-the-company-that-i-send-my-mortgage-payments-to-changes-en-215/",
+        "sourceLabel": "CFPB: mortgage servicing transfers"
+      },
+      {
+        "title": "Build a before-and-after record",
+        "paragraphs": [
+          "Download a recent statement and save the transfer notice, recent payment confirmations and any unresolved written correspondence. Use a secure personal folder, not a public document. Write a simple comparison: old account identifier, new identifier, effective date, next payment date and verified contact method.",
+          "Compare the first new statement against your last records. Investigate unexplained differences rather than assuming every difference is a new charge or every old balance should match exactly despite intervening transactions. Include dates in the comparison so the servicer can trace what happened."
+        ]
+      },
+      {
+        "title": "Separate bank bill pay from servicer withdrawals",
+        "paragraphs": [
+          "A scheduled payment pushed from your bank is not the same arrangement as an automatic withdrawal initiated by a servicer. The CFPB tells borrowers using bank or credit-union bill pay to update the payee for the new servicer and review statements for correct crediting.",
+          "Before editing either arrangement, confirm how the transfer affects it through a known, independently verified contact channel. Coordinate the final old payment and first new payment so you do not accidentally create duplicate withdrawals or cancel the only scheduled payment. Keep confirmation of the change."
+        ],
+        "source": "https://www.consumerfinance.gov/ask-cfpb/what-happens-if-the-company-that-i-send-my-mortgage-payments-to-changes-en-215/",
+        "sourceLabel": "CFPB: payment instructions after transfer"
+      },
+      {
+        "title": "The 60-day protection is not a payment holiday",
+        "paragraphs": [
+          "Regulation X provides a specific protection during the 60 days beginning on the effective transfer date: a payment received by the old servicer on or before the applicable due date, including an allowed grace period, may not be treated as late for any purpose. The rule also addresses handling incorrectly received payments.",
+          "That does not mean you can skip two months. Keep paying as required, direct payments according to verified instructions and preserve proof of receipt if a payment reaches the old company. Do not rely on the transition as permission to change your loan obligations."
+        ],
+        "source": "https://www.consumerfinance.gov/rules-policy/regulations/1024/33/",
+        "sourceLabel": "CFPB Regulation X: servicing-transfer payment protection"
+      },
+      {
+        "title": "Give an error a traceable description",
+        "paragraphs": [
+          "If a payment is missing or an unresolved issue disappears from the new portal, prepare a factual timeline: amount, payment date, receiving company, confirmation and the correction or information requested. Follow the servicer’s designated written inquiry process and retain copies. A screenshot of a balance alone may not explain the underlying transaction.",
+          "If you expect to sell or refinance soon, tell the closing professional about the transfer so the payoff request goes to the appropriate verified party. A mortgage statement balance is not a closing payoff quote. Keep the ownership decision separate from the administrative handoff."
+        ]
+      }
+    ],
+    "checklist": [
+      "Record transfer and payment-acceptance dates.",
+      "Save statements and confirmations securely.",
+      "Verify the new company before using supplied payment links.",
+      "Confirm both bill-pay and automatic-withdrawal arrangements.",
+      "Reconcile the first new statement and document unresolved items."
+    ],
+    "date": "2026-11-20",
+    "caveat": "Sources checked November 20, 2026. Educational guidance, not legal, tax or personalized financial advice. Eligibility, loan coverage and local procedures require case-specific verification with the responsible professionals.",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "north-carolina-property-tax-relief-exclusion-deferral",
+    "title": "NC property tax relief: distinguish an exclusion from a deferral before planning a move",
+    "description": "Build a county-assessor question list that separates current eligibility, annual cash flow and possible deferred taxes at sale.",
+    "category": "Ownership",
+    "tags": [
+      "property tax relief",
+      "homestead",
+      "selling",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with the program name, not just a smaller bill",
+        "paragraphs": [
+          "Two homeowners can have lower current property-tax payments for very different reasons. One may receive an exclusion from taxable value; another may defer part of the tax. For North Carolina owners considering whether to stay, sell or relocate, that distinction belongs in the planning file.",
+          "Do not assume a seller’s tax bill predicts a buyer’s bill. Request the property’s assessment and relief records, then ask the county assessor which benefits depend on the current owner’s qualifications. This article focuses on two programs, not every form of tax relief."
+        ]
+      },
+      {
+        "title": "An exclusion reduces the taxable portion",
+        "paragraphs": [
+          "General Statute 105-277.1 provides an elderly or disabled homestead exclusion for qualifying owners of a permanent residence. It excludes the greater of $25,000 or 50% of appraised residence value. Qualification includes North Carolina residency, the age or disability condition and the applicable preceding-year income limit.",
+          "The income limit changes under the statute’s adjustment process. Obtain the limit for the tax year you are applying for instead of reusing an old flyer. The statute also defines income and addresses spouses and other co-owners; do not assume a federal taxable-income figure or one owner’s income answers the county’s question."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1.html",
+        "sourceLabel": "NC General Statute 105-277.1: homestead exclusion"
+      },
+      {
+        "title": "A circuit breaker can postpone tax rather than erase it",
+        "paragraphs": [
+          "General Statute 105-277.1B provides a separate circuit-breaker deferral for qualifying owners. It includes income, residency, age or disability, and five-year ownership and occupancy conditions. Deferred amounts are a lien, and the statute provides for preceding deferred years to become due after specified disqualifying events.",
+          "Transfers, death and ceasing permanent-residence use are addressed, with exceptions and additional rules. Do not calculate a closing payoff from a general article. Ask the county for the actual deferred-tax record and have the closing attorney assess how the proposed transaction affects it."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1B.html",
+        "sourceLabel": "NC General Statute 105-277.1B: circuit breaker and deferred taxes"
+      },
+      {
+        "title": "Use the application cycle deliberately",
+        "paragraphs": [
+          "Both cited statutes provide for applications through June 1 preceding the tax year for which the benefit is claimed. When planning ahead, ask the assessor which application year, income year and supporting records apply. Confirm how to submit, how receipt is documented and what must be renewed or reported afterward.",
+          "Keep the discussion private. An advisor does not need sensitive medical or income documentation in a marketing folder. Send required evidence through the county’s approved process and share only the outcome needed by other transaction professionals."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.1.html",
+        "sourceLabel": "NC statute: application timing and eligibility documentation"
+      },
+      {
+        "title": "Compare staying and moving with two different budgets",
+        "paragraphs": [
+          "For a stay-put plan, use the tax obligation supported by your current eligibility and the county’s determination. For a move, budget the destination property independently and include any confirmed deferred-tax amount in the sale proceeds calculation. Do not subtract the same liability twice if it already appears in a closing estimate.",
+          "Illustrative decision: an owner sees a manageable annual bill and assumes selling produces no additional tax question. The useful next step is not predicting a tax penalty; it is asking whether that bill reflects an exclusion, deferral or neither. The answer determines what records the closing attorney needs.",
+          "Southern Cities Realty can help organize the property sale and purchase comparison. Eligibility decisions, tax calculations and legal consequences belong with the county assessor and the appropriate tax or legal professional."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify the exact relief program on the property.",
+      "Confirm the relevant tax year and current income threshold with the assessor.",
+      "Ask about co-ownership and documentation requirements.",
+      "Obtain any deferred-tax balance before relying on net proceeds.",
+      "Build a separate tax budget for the next home."
+    ],
+    "date": "2026-11-20",
+    "caveat": "Sources checked November 20, 2026. Educational guidance, not legal, tax or personalized financial advice. Eligibility, loan coverage and local procedures require case-specific verification with the responsible professionals.",
+    "readTime": "3 min read"
+  }
+]]

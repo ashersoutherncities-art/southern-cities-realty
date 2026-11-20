@@ -13,3 +13,5 @@ Original SVG editorial illustrations created for Southern Cities Realty; concept
 - north-carolina-driveway-access-before-buying-land.svg
 - mortgage-escrow-analysis-north-carolina-homeowners.svg
 - mineral-rights-disclosure-north-carolina-homebuyers.svg
+
+November 20, 2026: original conceptual vector decision-card illustrations for PMI review, servicing transfer and property-tax relief. Created from text and geometric shapes, no third-party assets or actual listings.
