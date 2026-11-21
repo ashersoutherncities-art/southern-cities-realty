@@ -191,5 +191,8 @@ export const blogImages: Record<string,BlogImage> = {
 "mineral-rights-disclosure-north-carolina-homebuyers":{"src": "/blog/mineral-rights-disclosure-north-carolina-homebuyers.svg", "alt": "Conceptual home above layered ground illustrating separate property rights."},
 "private-mortgage-insurance-removal-review":{"src": "/blog/private-mortgage-insurance-removal-review.svg", "alt": "Conceptual three-step pmi review review: Balance, Evidence, Decision."},
 "mortgage-servicer-transfer-homeowner-checklist":{"src": "/blog/mortgage-servicer-transfer-homeowner-checklist.svg", "alt": "Conceptual three-step payment handoff review: Old servicer, Transfer date, New servicer."},
-"north-carolina-property-tax-relief-exclusion-deferral":{"src": "/blog/north-carolina-property-tax-relief-exclusion-deferral.svg", "alt": "Conceptual three-step tax relief review: Exclusion, Deferral, Move plan."}
+"north-carolina-property-tax-relief-exclusion-deferral":{"src": "/blog/north-carolina-property-tax-relief-exclusion-deferral.svg", "alt": "Conceptual three-step tax relief review: Exclusion, Deferral, Move plan."},
+"seller-concessions-comparable-sales-north-carolina":{"src": "/blog/seller-concessions-comparable-sales-north-carolina.svg", "alt": "Conceptual comparable sale checklist: Sale price, Seller credit, Market reaction."},
+"north-carolina-hoa-unpaid-assessment-statement-before-selling":{"src": "/blog/north-carolina-hoa-unpaid-assessment-statement-before-selling.svg", "alt": "Conceptual hoa account checklist: Request, Reconcile, Close."},
+"north-carolina-first-rental-move-in-readiness-checklist":{"src": "/blog/north-carolina-first-rental-move-in-readiness-checklist.svg", "alt": "Conceptual rental move-in checklist: Inspect, Document, Handoff."}
 }

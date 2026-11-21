@@ -15,3 +15,5 @@ Original SVG editorial illustrations created for Southern Cities Realty; concept
 - mineral-rights-disclosure-north-carolina-homebuyers.svg
 
 November 20, 2026: original conceptual vector decision-card illustrations for PMI review, servicing transfer and property-tax relief. Created from text and geometric shapes, no third-party assets or actual listings.
+
+November 21, 2026: original conceptual SVG decision-card artwork for comparable sale concessions, planned-community account statements, and rental move-in review; no third-party artwork or actual listings included.

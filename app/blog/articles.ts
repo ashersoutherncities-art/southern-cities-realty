@@ -3042,4 +3042,165 @@ export const articles:Article[] = [
     "caveat": "Educational guidance, not legal, tax or personalized financial advice. Eligibility, loan coverage and local procedures require case-specific verification with the responsible professionals.",
     "readTime": "3 min read"
   }
+],...[
+  {
+    "slug": "seller-concessions-comparable-sales-north-carolina",
+    "title": "A comparable sale included a seller credit. What does that tell you about price?",
+    "description": "Separate verified concessions, seller economics and market reaction when comparing North Carolina home sales.",
+    "category": "Buying & Selling",
+    "tags": [
+      "comparable sales",
+      "seller concessions",
+      "appraisal"
+    ],
+    "sections": [
+      {
+        "title": "Record the transaction, not just the price",
+        "paragraphs": [
+          "Two closed homes can have the same contract price without having the same financing or negotiated incentives. A seller may agree to contribute toward buyer closing costs, pay for a rate buydown or cover another expense. Start by recording the reported sale price and what is known about those terms separately.",
+          "For each North Carolina comparable, note its closing date, condition, source of transaction terms and whether the incentive is verified, reported but unconfirmed, or unknown. Unknown does not mean zero. If your broker cannot confirm a term through an authorized source, label it rather than inferring it from a listing remark."
+        ]
+      },
+      {
+        "title": "Do not treat the credit as an automatic value deduction",
+        "paragraphs": [
+          "Fannie Mae’s appraisal guidance calls for adjustments that reflect how the market reacted to the concession at the time of sale. A dollar-for-dollar adjustment is appropriate in that framework only if evidence supports that full market reaction. This is an appraisal requirement for the relevant lending context, not a shortcut for adjusting every North Carolina sale.",
+          "A credit can reduce the seller’s proceeds without increasing the sale price by the same amount. A seller-net worksheet and an appraisal comparable grid answer different questions. Keep them separate."
+        ],
+        "source": "https://selling-guide.fanniemae.com/sel/b4-1.3-09/adjustments-comparable-sales",
+        "sourceLabel": "Fannie Mae: adjustments to comparable sales"
+      },
+      {
+        "title": "Look for patterns rather than one impressive closing",
+        "paragraphs": [
+          "Compare similar transactions with and without verified incentives where the available evidence allows. A builder offering an incentive on several similar homes may tell a different story from an individual seller negotiating one credit after inspection. Note marketing date, contract date, condition and financing context before attributing a price difference to a credit alone.",
+          "If a nearby sale is unusually hard to explain, keep it visible as a lower-confidence reference and consider a better-documented alternative. If the sample is thin, show a wider range of plausible readings rather than presenting a precise adjustment you cannot support."
+        ]
+      },
+      {
+        "title": "Translate the evidence into your next decision",
+        "paragraphs": [
+          "For a buyer, a seller credit may change cash needed at closing without making a property a better long-term value. Ask the lender how the proposed terms fit the actual loan and compare the total transaction. For a seller, compare offers using credits and estimated costs alongside timing and certainty, not headline price alone.",
+          "Bring your broker the specific comparable, the source of the credit information and the decision you are trying to make. Asking whether this transaction is still a useful comparison is more productive than asking someone to subtract the same percentage from every sale."
+        ]
+      }
+    ],
+    "checklist": [
+      "Record price, date and basis of the reported incentive.",
+      "Distinguish negotiated economics from market-supported value adjustment.",
+      "Identify a better-documented comparison where available.",
+      "Ask lender or appraiser which rules apply rather than assuming the treatment."
+    ],
+    "date": "2026-11-21",
+    "readTime": "2 min read",
+    "caveat": "Educational planning guidance, not an appraisal, inspection, legal opinion or guarantee. Confirm the facts and requirements for your property with the responsible professionals."
+  },
+  {
+    "slug": "north-carolina-hoa-unpaid-assessment-statement-before-selling",
+    "title": "Selling in an NC planned community? Request the HOA account statement early",
+    "description": "Keep the lot’s unpaid charges separate from association budgets, upcoming assessments and closing allocations.",
+    "category": "Selling",
+    "tags": [
+      "HOA",
+      "planned communities",
+      "closing",
+      "assessments"
+    ],
+    "sections": [
+      {
+        "title": "Ask for the document that answers the account question",
+        "paragraphs": [
+          "An association budget and a current dues schedule do not show what is unpaid on your lot. For a North Carolina planned-community sale, confirm who will request the association’s written account statement and who will reconcile it with the closing figures. A screenshot of your last automatic dues payment is useful backup, not the statement itself.",
+          "Ask your closing attorney whether the planned-community statute applies to the property and what other documents the transaction requires. Do not assume the same chapter governs a condominium or that a master association statement also covers a separate subassociation."
+        ]
+      },
+      {
+        "title": "Send the written request early enough to use the answer",
+        "paragraphs": [
+          "When the statute applies, North Carolina General Statute 47F-3-118(b) requires the association to provide a statement of unpaid assessments and other lot charges, upon written request from the owner or authorized agent, within 10 business days after receipt. The statement is binding on the association, its executive board and every lot owner. The section also permits reasonable statement and qualifying expedite fees subject to limits.",
+          "Confirm the association’s verified request channel, include the lot and relevant closing date, record when the request was received, and save the actual response. If the closing date moves, ask your attorney whether an updated statement or further confirmation is needed."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_47F/GS_47F-3-118.html",
+        "sourceLabel": "NC General Statutes: planned-community association records and account statements"
+      },
+      {
+        "title": "Keep past balances and future financial questions apart",
+        "paragraphs": [
+          "Review the statement for items you can match to your ledger. Record any unanswered amount rather than removing it from your proceeds estimate. If the property is billed by more than one association, obtain the relevant records from each as directed by the closing professional.",
+          "Ask separately about approved or proposed special assessments, upcoming installments, transfer-related charges, and any documents the buyer has requested. Whether an amount is already on the account is not the same question as whether the contract allocates it to you. Ask the attorney to distinguish charges already due, amounts anticipated later and entries that need verification."
+        ]
+      },
+      {
+        "title": "Tie the statement to a closing decision",
+        "paragraphs": [
+          "Share the statement and any written corrections with the closing attorney securely. Then compare the draft settlement entries with the latest statement and your records. Note recent payments to avoid counting the same charge twice. Do not rely on your own worksheet to determine who ultimately owes a disputed charge.",
+          "On your prelisting calendar, assign an owner to the request and keep one shared deadline for the broker, seller and closing attorney. The point is to surface avoidable account questions before the final paperwork, not to promise a closing date or a specific net amount."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm the association and statute relevant to the property.",
+      "Request the account statement in writing and record receipt.",
+      "Keep future assessments and contract allocation separate.",
+      "Send written corrections to the closing attorney."
+    ],
+    "date": "2026-11-21",
+    "readTime": "2 min read",
+    "caveat": "Educational planning guidance, not an appraisal, inspection, legal opinion or guarantee. Confirm the facts and requirements for your property with the responsible professionals."
+  },
+  {
+    "slug": "north-carolina-first-rental-move-in-readiness-checklist",
+    "title": "Before the first tenant moves in, check that the NC rental is ready",
+    "description": "Build a documented move-in gate for condition, safety equipment, repairs and reporting before handing over keys.",
+    "category": "Investing",
+    "tags": [
+      "landlord",
+      "rentals",
+      "move-in",
+      "habitability"
+    ],
+    "sections": [
+      {
+        "title": "Treat rent-ready as a decision, not a paint color",
+        "paragraphs": [
+          "A vacant purchase can look ready in photographs while basic systems remain untested. Before setting a move-in date, separate cosmetic punch-list items from conditions that need repair or qualified evaluation. Schedule the condition review early enough to get help and verify work rather than treating key delivery as the first full walkthrough.",
+          "Keep a unit-specific list of what you observed, what a professional must check, the owner of each action and the evidence that closes it. Mark inaccessible items as unverified. Never rely on a tenant’s willingness to accept an issue as a substitute for meeting your legal obligations."
+        ]
+      },
+      {
+        "title": "Start with habitability and supplied systems",
+        "paragraphs": [
+          "North Carolina General Statute 42-42 requires landlords to keep covered premises fit and habitable, maintain safe common areas and keep supplied or required facilities and appliances in good and safe working order, subject to the statute’s terms. It addresses applicable building and housing codes and how imminently dangerous conditions must be remedied.",
+          "Practical checks to organize include safe access, operable locks, sanitation, water, heating and the condition of supplied appliances. Stop and arrange qualified evaluation if you observe unsafe wiring, flooring or other possible hazards. This is not a technical inspection checklist or permission to undertake hazardous work yourself."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-42.html",
+        "sourceLabel": "NC General Statutes: landlord duties and fit premises"
+      },
+      {
+        "title": "Document smoke and carbon monoxide alarms separately",
+        "paragraphs": [
+          "The statute requires operable smoke alarms and that landlords ensure they are in good repair at the start of each tenancy. The carbon monoxide provision applies to units with a fossil-fuel-burning heater, appliance or fireplace, and units with an attached garage; when applicable it requires at least one operable alarm per level. Check the actual statutory device and installation provisions rather than relying on the building’s previous setup.",
+          "For your file, log each device’s location, relevant manufacturer information, inspection date and who resolved any missing or defective alarm. Coordinate with a qualified professional where type, placement or wiring is uncertain. Check applicable local rules separately."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-42.html",
+        "sourceLabel": "NC General Statutes: smoke and carbon monoxide alarm provisions"
+      },
+      {
+        "title": "Make post-move-in reporting usable",
+        "paragraphs": [
+          "Give the tenant a clear routine repair reporting route and explain how urgent hazards should be handled. Keep reports and follow-up records organized and make sure someone is responsible for monitoring the channel. Written reporting practices and emergency response are not interchangeable; get professional advice on the applicable requirements.",
+          "Finalize your move-in file with dated condition records, any contractor closeout documentation and remaining non-safety items with owners and dates. If a required repair cannot be completed as planned, review the move-in commitment and any contractual consequences with the property manager or attorney before promising a replacement date."
+        ]
+      }
+    ],
+    "checklist": [
+      "Assign a qualified reviewer for unresolved safety items.",
+      "Confirm alarm type, applicable locations and start-of-tenancy condition.",
+      "Document condition and verify repair closeout before key handoff.",
+      "Give tenants the confirmed reporting route."
+    ],
+    "date": "2026-11-21",
+    "readTime": "2 min read",
+    "caveat": "Educational planning guidance, not an appraisal, inspection, legal opinion or guarantee. Confirm the facts and requirements for your property with the responsible professionals."
+  }
 ]]

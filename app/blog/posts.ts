@@ -42,4 +42,46 @@ export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',t
       "North Carolina"
     ]
   }
+],...[
+  {
+    "slug": "seller-concessions-comparable-sales-north-carolina",
+    "title": "A comparable sale included a seller credit. What does that tell you about price?",
+    "description": "Separate verified concessions, seller economics and market reaction when comparing North Carolina home sales.",
+    "category": "Buying & Selling",
+    "date": "2026-11-21",
+    "readTime": "2 min read",
+    "tags": [
+      "comparable sales",
+      "seller concessions",
+      "appraisal"
+    ]
+  },
+  {
+    "slug": "north-carolina-hoa-unpaid-assessment-statement-before-selling",
+    "title": "Selling in an NC planned community? Request the HOA account statement early",
+    "description": "Keep the lot’s unpaid charges separate from association budgets, upcoming assessments and closing allocations.",
+    "category": "Selling",
+    "date": "2026-11-21",
+    "readTime": "2 min read",
+    "tags": [
+      "HOA",
+      "planned communities",
+      "closing",
+      "assessments"
+    ]
+  },
+  {
+    "slug": "north-carolina-first-rental-move-in-readiness-checklist",
+    "title": "Before the first tenant moves in, check that the NC rental is ready",
+    "description": "Build a documented move-in gate for condition, safety equipment, repairs and reporting before handing over keys.",
+    "category": "Investing",
+    "date": "2026-11-21",
+    "readTime": "2 min read",
+    "tags": [
+      "landlord",
+      "rentals",
+      "move-in",
+      "habitability"
+    ]
+  }
 ]]
