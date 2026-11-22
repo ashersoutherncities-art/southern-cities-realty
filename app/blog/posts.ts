@@ -84,4 +84,47 @@ export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',t
       "habitability"
     ]
   }
+], ...[
+  {
+    "slug": "north-carolina-buyers-building-permit-history-additions",
+    "title": "Is that extra room ready to count? Check its North Carolina permit history",
+    "description": "Match an addition to its actual permits, inspection status and condition before pricing the space into an offer.",
+    "category": "Buying",
+    "date": "2026-11-22",
+    "readTime": "3 min read",
+    "tags": [
+      "permit history",
+      "additions",
+      "due diligence",
+      "North Carolina"
+    ]
+  },
+  {
+    "slug": "assumable-mortgage-equity-gap-north-carolina",
+    "title": "Assuming a mortgage? Price the equity gap before comparing the rate",
+    "description": "Compare cash needed, monthly cost and sale timing before choosing a mortgage assumption on a North Carolina home.",
+    "category": "Financing",
+    "date": "2026-11-22",
+    "readTime": "2 min read",
+    "tags": [
+      "mortgage assumption",
+      "financing",
+      "closing",
+      "North Carolina"
+    ]
+  },
+  {
+    "slug": "north-carolina-coastal-property-cama-permit-before-buying",
+    "title": "Buying on the North Carolina coast? Check what you can change before you close",
+    "description": "Use a mapped project sketch and permit records to investigate future work on a coastal home or lot.",
+    "category": "Local Planning",
+    "date": "2026-11-22",
+    "readTime": "2 min read",
+    "tags": [
+      "CAMA",
+      "coastal property",
+      "permits",
+      "North Carolina"
+    ]
+  }
 ]]

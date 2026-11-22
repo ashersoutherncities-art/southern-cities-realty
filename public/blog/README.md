@@ -17,3 +17,5 @@ Original SVG editorial illustrations created for Southern Cities Realty; concept
 November 20, 2026: original conceptual vector decision-card illustrations for PMI review, servicing transfer and property-tax relief. Created from text and geometric shapes, no third-party assets or actual listings.
 
 November 21, 2026: original conceptual SVG decision-card artwork for comparable sale concessions, planned-community account statements, and rental move-in review; no third-party artwork or actual listings included.
+
+November 22, 2026: original conceptual vector illustrations for permit-history review, mortgage-assumption comparison, and coastal permit review. Created from original geometric shapes; no stock imagery, actual listings, or third-party assets.

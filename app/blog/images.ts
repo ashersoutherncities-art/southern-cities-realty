@@ -194,5 +194,17 @@ export const blogImages: Record<string,BlogImage> = {
 "north-carolina-property-tax-relief-exclusion-deferral":{"src": "/blog/north-carolina-property-tax-relief-exclusion-deferral.svg", "alt": "Conceptual three-step tax relief review: Exclusion, Deferral, Move plan."},
 "seller-concessions-comparable-sales-north-carolina":{"src": "/blog/seller-concessions-comparable-sales-north-carolina.svg", "alt": "Conceptual comparable sale checklist: Sale price, Seller credit, Market reaction."},
 "north-carolina-hoa-unpaid-assessment-statement-before-selling":{"src": "/blog/north-carolina-hoa-unpaid-assessment-statement-before-selling.svg", "alt": "Conceptual hoa account checklist: Request, Reconcile, Close."},
-"north-carolina-first-rental-move-in-readiness-checklist":{"src": "/blog/north-carolina-first-rental-move-in-readiness-checklist.svg", "alt": "Conceptual rental move-in checklist: Inspect, Document, Handoff."}
+"north-carolina-first-rental-move-in-readiness-checklist":{"src": "/blog/north-carolina-first-rental-move-in-readiness-checklist.svg", "alt": "Conceptual rental move-in checklist: Inspect, Document, Handoff."},
+  "north-carolina-buyers-building-permit-history-additions": {
+    "src": "/blog/north-carolina-buyers-building-permit-history-additions.svg",
+    "alt": "Illustrated permit review: job scope, inspection history, and decision."
+  },
+  "assumable-mortgage-equity-gap-north-carolina": {
+    "src": "/blog/assumable-mortgage-equity-gap-north-carolina.svg",
+    "alt": "Illustrated mortgage assumption worksheet: loan balance, price gap, and cash at closing."
+  },
+  "north-carolina-coastal-property-cama-permit-before-buying": {
+    "src": "/blog/north-carolina-coastal-property-cama-permit-before-buying.svg",
+    "alt": "Illustrated coastal permit review: project sketch, permit records, and proposed work."
+  }
 }

@@ -3203,4 +3203,172 @@ export const articles:Article[] = [
     "readTime": "2 min read",
     "caveat": "Educational planning guidance, not an appraisal, inspection, legal opinion or guarantee. Confirm the facts and requirements for your property with the responsible professionals."
   }
+], ...[
+  {
+    "slug": "north-carolina-buyers-building-permit-history-additions",
+    "title": "Is that extra room ready to count? Check its North Carolina permit history",
+    "description": "Match an addition to its actual permits, inspection status and condition before pricing the space into an offer.",
+    "category": "Buying",
+    "tags": [
+      "permit history",
+      "additions",
+      "due diligence",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Describe the work before searching for records",
+        "paragraphs": [
+          "A finished porch, garage conversion or attic can be useful space without resolving how that work was approved. Note what you see: when the work was done, any wall or roof changes, which utilities were added, and how the room is used. Ask the seller for plans, the contractor name and permit numbers if available.",
+          "North Carolina's building permit statute depends on the work and applicable requirements. Its limited cost exemption has scope exceptions, including work involving load-bearing structures. Don't let a seller's recollection of the renovation cost decide whether a permit was needed. Ask the local authority about the specific work and date."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-1110.html",
+        "sourceLabel": "North Carolina General Assembly: building permits"
+      },
+      {
+        "title": "Check the scope and status, not just the permit number",
+        "paragraphs": [
+          "Start with the local permitting authority. In Mecklenburg County, the public status portal accepts an address, parcel number or permit number. Match the record to the room and compare the approved scope with what you can see. An electrical permit for a panel change, for example, does not establish approval for the finished room around it.",
+          "Write down which permits were issued and which inspections were completed. Ask which closing record, such as a final inspection or an applicable certificate, would answer the question for that job."
+        ],
+        "source": "https://gis.mecklenburgcountync.gov/meck-accela/",
+        "sourceLabel": "Mecklenburg County permit and plan review lookup"
+      },
+      {
+        "title": "Treat a blank search as a question",
+        "paragraphs": [
+          "Search under any relevant earlier address or parcel number and ask whether older records are available outside the search tool. Mecklenburg's document research page describes a six-year retention period for listed building records, including permit applications and certificates. No match in a public search is not proof that work was unpermitted, and a permit record is not proof of current condition."
+        ],
+        "source": "https://code.mecknc.gov/public-records",
+        "sourceLabel": "Mecklenburg County Code Enforcement public records"
+      },
+      {
+        "title": "Make the unresolved room visible in your decision",
+        "paragraphs": [
+          "Ask your inspector what can be assessed without opening walls and whether a structural or trade specialist is needed. Consider two scenarios: the room is supportable as intended, or you would have to use it differently or budget for evaluation and corrective work. Ask your broker and lender how the unresolved facts affect the offer or financing and consult your closing attorney about contract deadlines. Do not assume that permit status alone decides how an appraiser treats the space."
+        ]
+      }
+    ],
+    "checklist": [
+      "Identify the changed room, approximate work date and permitting jurisdiction.",
+      "Request plans, permit numbers and any final approval record from the seller.",
+      "Compare official scope and inspection status with today's layout.",
+      "Ask the authority about missing records and the available review process.",
+      "Set a decision date before your applicable contract deadline."
+    ],
+    "caveat": "The Mecklenburg portal is a local example, not a statewide database. This guide does not determine permit status, legal use, value or safety for a specific property.",
+    "date": "2026-11-22",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "assumable-mortgage-equity-gap-north-carolina",
+    "title": "Assuming a mortgage? Price the equity gap before comparing the rate",
+    "description": "Compare cash needed, monthly cost and sale timing before choosing a mortgage assumption on a North Carolina home.",
+    "category": "Financing",
+    "tags": [
+      "mortgage assumption",
+      "financing",
+      "closing",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Confirm the loan can actually transfer",
+        "paragraphs": [
+          "A mortgage assumption is an approved takeover of a seller's existing loan. Start with the current servicer and loan documents, not a listing note. Ask for the assumption packet, qualification requirements, fees and a written estimate of the timeline. The terms of approval depend on the specific loan."
+        ],
+        "source": "https://www.consumerfinance.gov/consumer-tools/mortgages/answers/key-terms/",
+        "sourceLabel": "Consumer Financial Protection Bureau: mortgage key terms"
+      },
+      {
+        "title": "Calculate how much of the sale the old loan does not cover",
+        "paragraphs": [
+          "Example, not a quote: at a $340,000 purchase price with a $245,000 assumable balance at closing, the price gap is $95,000. That figure comes before closing costs and any adjustments or agreed credits. Use the servicer's projected balance, not a stale number from a listing.",
+          "Build one column for the assumption and one for a new mortgage. In each, write down cash at closing, principal and interest, taxes, insurance, any applicable mortgage insurance, and reserves left after closing. If financing the gap is necessary, have the relevant lenders confirm whether it is permitted and under what terms. Price any approved second payment before comparing the totals."
+        ],
+        "source": "https://www.consumerfinance.gov/archive/blog/mortgage-financing-options-in-a-higher-interest-rate-environment/",
+        "sourceLabel": "Consumer Financial Protection Bureau: comparing assumption and other financing"
+      },
+      {
+        "title": "Keep seller liability separate from VA entitlement",
+        "paragraphs": [
+          "For a Department of Veterans Affairs (VA) loan, ask for the servicer's process and documentation for release of liability. Then separately ask how seller entitlement is affected. Substitution of entitlement is a distinct process with eligibility and occupancy conditions; completing an assumption does not by itself establish that the seller has recovered the entitlement used on the loan."
+        ],
+        "source": "https://benefits.va.gov/WARMS/docs/admin26/pamphlet/pam26_7/vap26-7-chapter5-how-to-process-va-loans-and-submit-them-to-va.pdf",
+        "sourceLabel": "VA Lenders Handbook, Chapter 5: assumptions and entitlement"
+      },
+      {
+        "title": "Build the contract calendar around approval",
+        "paragraphs": [
+          "Bring the approval process, funding gap and seller-release questions to your North Carolina broker and closing attorney before agreeing to deadlines. Decide what happens if underwriting runs late or the gap can't be funded. A fallback quote from another lender is only useful if that financing and timing actually fit the transaction."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm assumability and request the current servicer's written requirements.",
+      "Calculate the purchase price less the projected assumed principal.",
+      "Compare cash, total monthly cost and reserves with a new loan.",
+      "Determine what proof the seller needs of release and, for a VA loan, entitlement treatment.",
+      "Review approval and backup dates with the closing team."
+    ],
+    "caveat": "Numbers are hypothetical. Neither a low rate nor preliminary servicer guidance is a financing approval. Confirm program conditions and contract consequences with the relevant professionals.",
+    "date": "2026-11-22",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-coastal-property-cama-permit-before-buying",
+    "title": "Buying on the North Carolina coast? Check what you can change before you close",
+    "description": "Use a mapped project sketch and permit records to investigate future work on a coastal home or lot.",
+    "category": "Local Planning",
+    "tags": [
+      "CAMA",
+      "coastal property",
+      "permits",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Ask about a specific project, not just whether the lot is buildable",
+        "paragraphs": [
+          "Pick the improvement driving the purchase: enlarging the house, rebuilding a deck, adding a dock or relocating a structure. Put the existing footprint, shoreline, proposed work and approximate dimensions on a dated sketch. Attach a survey if you have one. This turns a vague question into a proposal staff can actually screen.",
+          "Ask whether the work falls within a designated Area of Environmental Concern under the Coastal Area Management Act (CAMA). Do not use a coastal county address, a flood map or a neighbor's project as a substitute for a site-specific review."
+        ],
+        "source": "https://www.deq.nc.gov/about/divisions/coastal-management/coastal-management-enforcement/coastal-management-enforcement-faqs",
+        "sourceLabel": "NC Division of Coastal Management: areas of concern and enforcement"
+      },
+      {
+        "title": "Read the old permit as a record of past work",
+        "paragraphs": [
+          "Ask for issued permits, approved drawings, conditions, amendments and any correspondence on incomplete work. Compare the permitted scope with the structures you see. If the seller hands you a permit, ask the issuing authority whether it covers your proposal, whether it is still valid and whether a transfer, modification or new approval would be required. A permit for a deck is not proof of approval for a later expansion."
+        ],
+        "source": "https://www.deq.nc.gov/about/divisions/coastal-management/coastal-management-enforcement",
+        "sourceLabel": "NC Division of Coastal Management: permit compliance"
+      },
+      {
+        "title": "Identify the reviewer and keep other approvals separate",
+        "paragraphs": [
+          "North Carolina distinguishes minor, general and major coastal development permits; some work may instead qualify for an exemption certificate. Start with the Division of Coastal Management's locator or the local permit officer. Ask who decides the CAMA question and what separate local or other agency reviews the specific project may need.",
+          "For an oceanfront home, put replacement or relocation on the question list if your budget depends on either. Do not assume the size or location of an existing house can be reproduced later."
+        ],
+        "source": "https://www.deq.nc.gov/about/divisions/coastal-management/coastal-management-permits/types-permits",
+        "sourceLabel": "NC Division of Coastal Management: permits and field representative locator"
+      },
+      {
+        "title": "Decide whether the existing property works without the improvement",
+        "paragraphs": [
+          "Write a base case that uses only the existing property as independently verified. Show your proposed project as a second scenario and list the remaining approval, design and construction risks. If the base case does not work, flag the approval question as a purchase decision rather than a renovation task for after closing. Ask your broker and attorney how to handle it before your contract deadlines."
+        ]
+      }
+    ],
+    "checklist": [
+      "Draw the work you are counting on and attach the available survey.",
+      "Identify the coastal reviewer for the parcel.",
+      "Request the old permits, approved drawings and any conditions.",
+      "Ask which approvals and facts remain unverified for your project.",
+      "Decide whether to proceed if your planned improvement is unavailable."
+    ],
+    "caveat": "Educational planning guidance, not a site determination, survey, legal opinion or assurance of permission. Verify current rules and obtain parcel- and scope-specific guidance.",
+    "date": "2026-11-22",
+    "readTime": "2 min read"
+  }
 ]]
