@@ -206,5 +206,17 @@ export const blogImages: Record<string,BlogImage> = {
   "north-carolina-coastal-property-cama-permit-before-buying": {
     "src": "/blog/north-carolina-coastal-property-cama-permit-before-buying.svg",
     "alt": "Illustrated coastal permit review: project sketch, permit records, and proposed work."
+  },
+  "north-carolina-home-heating-oil-tank-due-diligence": {
+    "src": "/blog/north-carolina-home-heating-oil-tank-due-diligence.svg",
+    "alt": "Tank clues, records, and professional site review are shown as three decision cards."
+  },
+  "selling-inherited-north-carolina-home-title-payoff-calendar": {
+    "src": "/blog/selling-inherited-north-carolina-home-title-payoff-calendar.svg",
+    "alt": "A deed, calendar, and payoff ledger depict parallel tasks before an inherited home sale."
+  },
+  "north-carolina-rental-move-out-security-deposit-accounting": {
+    "src": "/blog/north-carolina-rental-move-out-security-deposit-accounting.svg",
+    "alt": "Three cards show rental condition evidence, a security deposit ledger, and due dates."
   }
 }

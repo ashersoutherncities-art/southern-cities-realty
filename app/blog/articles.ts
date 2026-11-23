@@ -3371,4 +3371,169 @@ export const articles:Article[] = [
     "date": "2026-11-22",
     "readTime": "2 min read"
   }
+], ...[
+  {
+    "slug": "north-carolina-home-heating-oil-tank-due-diligence",
+    "title": "Found signs of an old heating-oil tank? Investigate before buying an NC home",
+    "description": "Find the records, check whether the tank and any release were addressed, and protect your buying timeline.",
+    "category": "Buying",
+    "tags": [
+      "heating oil",
+      "environmental due diligence",
+      "older homes",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Treat the clue as a reason to check, not a diagnosis",
+        "paragraphs": [
+          "An old fill pipe, oil-delivery record or former oil furnace is a reason to ask what equipment used to serve the house. Conversion to a new heat source does not tell you whether a tank was removed, closed in place or left untouched. Ask the seller where the tank was, whether it was above or below ground, whether it was taken out of service and what records are available. A visible pipe by itself does not prove that a tank is still there or that it leaked."
+        ]
+      },
+      {
+        "title": "Use records and field evidence together",
+        "paragraphs": [
+          "Request any tank location sketch, removal or closure report, sampling results, and correspondence from the North Carolina Department of Environmental Quality (DEQ). The agency's public incident database is one lead, not a complete inventory of home heating-oil tanks. A blank search is not clearance. If the seller reports no release, ask what the statement is based on, not just whether the tank was removed.",
+          "If the history is unclear, ask a qualified environmental professional what they can verify and whether further investigation is warranted. Leave tank access, disturbance and sampling to qualified people with the property owner's permission."
+        ],
+        "source": "https://www.deq.nc.gov/about/divisions/waste-management/underground-storage-tanks-section/underground-storage-tank-databases-and-reports",
+        "sourceLabel": "NC DEQ tank databases and incident records"
+      },
+      {
+        "title": "Keep tank handling separate from release response",
+        "paragraphs": [
+          "Handling an unused tank and responding to petroleum contamination are different decisions. NC DEQ distinguishes most home heating-oil tanks from regulated commercial tanks; that does not make a release exempt from applicable reporting or cleanup requirements. If a leak is found, have the responsible parties get prompt direction from the regional DEQ office and qualified advisers. Do not assume who is responsible, how much work is required, or that a contractor invoice is an agency determination."
+        ],
+        "source": "https://www.deq.nc.gov/about/divisions/waste-management/underground-storage-tanks-section/ust-section-faqs",
+        "sourceLabel": "NC DEQ heating-oil tank guidance"
+      },
+      {
+        "title": "Build a decision into due diligence",
+        "paragraphs": [
+          "Set a date to receive the records and a specialist's written next steps. Compare proceeding, asking for more time, or deciding the unresolved risk is too large. A documented no-release assessment and an unresolved case with possible contamination are not the same financing or construction risk. Ask your attorney what the contract allows before your deadline and check what evidence your lender and insurer need."
+        ]
+      }
+    ],
+    "checklist": [
+      "Locate any visible clues without opening or disturbing equipment.",
+      "Ask for tank history, closure records and any sampling or agency correspondence.",
+      "Search agency incident records and note their limits.",
+      "Arrange qualified review if the records do not answer the material questions.",
+      "Plan a decision date before the applicable contract deadline."
+    ],
+    "caveat": "An educational checklist, not site clearance, legal advice or environmental testing. Confirm the exact tank, site conditions and applicable requirements with qualified professionals.",
+    "date": "2026-11-23",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "selling-inherited-north-carolina-home-title-payoff-calendar",
+    "title": "Selling an inherited North Carolina home? Confirm who can sign and when",
+    "description": "Build separate title, loan and property-care timelines before accepting a closing date.",
+    "category": "Selling",
+    "tags": [
+      "inherited property",
+      "estate",
+      "title",
+      "reverse mortgage",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with the recorded deed and the estate file",
+        "paragraphs": [
+          "Being the family member who has the keys or who pays the bills does not establish authority to sell. Gather the latest deed, the will if there is one, and any estate case number or appointment papers. Ask a North Carolina closing or estates attorney to explain who has an interest, who can sign a listing or contract, and who must sign the deed. Ask whether the lawyer needs documents from another state if the owner lived elsewhere."
+        ],
+        "source": "https://www.nccourts.gov/help-topics/wills-and-estates/estates",
+        "sourceLabel": "North Carolina Judicial Branch: estates"
+      },
+      {
+        "title": "Check the authority before promising a contract date",
+        "paragraphs": [
+          "North Carolina law provides different routes for some estate-related real estate sales, including a petition to the clerk to sell real property to pay estate debts and sales made under authority granted by a will. This is why it matters to ask counsel what applies here, not what a relative did with a different estate. Put any outstanding signatures, title issues and court steps on the calendar. Separate work you can start now, such as collecting records, from signing commitments that need confirmed authority."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_28A/Article_17.html",
+        "sourceLabel": "North Carolina General Statutes: sales of a decedent’s real property"
+      },
+      {
+        "title": "Put the loan servicer on a separate timeline",
+        "paragraphs": [
+          "Get current loan information through an authorized person. Ask what the servicer needs to recognize that person, how to obtain written payoff instructions, and what dates are already running. If there is a Home Equity Conversion Mortgage, a type of reverse mortgage, ask promptly about any due-and-payable notice, surviving borrower or eligible spouse, available options and written deadlines. Do not assume that a normal listing timetable gives the family extra time."
+        ],
+        "source": "https://www.consumerfinance.gov/ask-cfpb/with-a-reverse-mortgage-loan-can-my-heirs-keep-or-sell-my-home-after-i-die-en-242/",
+        "sourceLabel": "Consumer Financial Protection Bureau: heirs and reverse mortgages"
+      },
+      {
+        "title": "Budget for ownership while the signature question is open",
+        "paragraphs": [
+          "Assign an authorized person to monitor insurance, utilities, access, maintenance and any time-sensitive notices. Check insurance terms if the property is vacant. Estimate carrying costs by month and note who can approve expenses. Discuss an as-is plan and a prep plan with your broker, but avoid spending on major work before you know who can authorize it and when the property could close."
+        ]
+      }
+    ],
+    "checklist": [
+      "Gather the deed, will if available, and estate case information.",
+      "Have counsel confirm authority, required signatures and any court steps.",
+      "Identify loans and liens and ask authorized parties to verify payoff timing.",
+      "List occupancy, insurance and property-care tasks while the sale is pending.",
+      "Set contract dates only after putting title and loan dependencies on one calendar."
+    ],
+    "caveat": "This is a planning guide, not a determination of ownership, estate rights, signing authority, taxes or loan deadlines. Ask a North Carolina attorney and the relevant servicer about your situation.",
+    "date": "2026-11-23",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-rental-move-out-security-deposit-accounting",
+    "title": "NC rental move-out: document the security deposit before starting the turnover",
+    "description": "Build a move-out file that separates tenant damage, ordinary wear, and your own make-ready costs.",
+    "category": "Investing",
+    "tags": [
+      "rental housing",
+      "security deposit",
+      "move-out",
+      "documentation",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start the calendar with the two dates that matter",
+        "paragraphs": [
+          "Document when the tenancy ended and when possession was delivered back. Those are the statutory events for the accounting clock, not the date the painter or next tenant arrives. Record the handoff and ask for a forwarding address. If surrender or possession is disputed, ask a North Carolina attorney before assuming the dates or taking action."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-52.html",
+        "sourceLabel": "NC General Statutes § 42-52: landlord accounting duties"
+      },
+      {
+        "title": "Separate permitted charges from make-ready spending",
+        "paragraphs": [
+          "Compare dated move-in and move-out evidence before ordering turnover work. For each proposed deduction, write down what changed, the permitted category, the evidence tying it to the tenancy and the actual loss. Ordinary wear is not a damages deduction, and the landlord cannot retain more than the actual damages. A paint refresh or upgraded flooring for the next listing is not automatically a tenant charge just because it appears on the same invoice.",
+          "North Carolina lists permitted uses of the deposit, including certain unpaid rent and damage. Do not treat the deposit as a general renovation contingency or assume every lease charge can be deducted."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_42/Article_6.html",
+        "sourceLabel": "NC Tenant Security Deposit Act: permitted uses and normal wear"
+      },
+      {
+        "title": "Distinguish a completed accounting from an interim one",
+        "paragraphs": [
+          "North Carolina generally requires a written itemization and mailing or delivery of the deposit balance no later than 30 days after the tenancy ends and possession is returned. If the extent of the claim cannot be determined within that time, provide an interim accounting by 30 days and a final accounting within 60 days of those events. That is not a blanket 60-day window. If the address is unknown, the statute has a separate procedure: get guidance, track the unreturned balance, and do not treat it as income."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_42/GS_42-52.html",
+        "sourceLabel": "NC General Statutes § 42-52: interim and final deadlines"
+      },
+      {
+        "title": "Keep the turnover budget and deposit ledger separate",
+        "paragraphs": [
+          "Keep a copy of the accounting, proof of delivery or mailing, amounts refunded, and the supporting condition and cost records. For property operations, use another sheet for what it actually costs to make the unit ready. That difference matters: an owner's total turnover cost can exceed the sum that may fairly or lawfully be retained from the deposit."
+        ]
+      }
+    ],
+    "checklist": [
+      "Record lease termination and return-of-possession dates.",
+      "Request a forwarding address and save the move-out condition evidence.",
+      "Cross-check each proposed deduction against actual loss and permitted uses.",
+      "Calendar the 30-day deadline and conditional 60-day final deadline.",
+      "Keep the accounting and delivery proof apart from the next renter's make-ready budget."
+    ],
+    "caveat": "General education for North Carolina residential rentals, not legal advice or a determination that a particular deduction is valid. Consult a North Carolina attorney about disputes, exceptions or unclear facts.",
+    "date": "2026-11-23",
+    "readTime": "2 min read"
+  }
 ]]

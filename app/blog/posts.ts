@@ -127,4 +127,49 @@ export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',t
       "North Carolina"
     ]
   }
+], ...[
+  {
+    "slug": "north-carolina-home-heating-oil-tank-due-diligence",
+    "title": "Found signs of an old heating-oil tank? Investigate before buying an NC home",
+    "description": "Find the records, check whether the tank and any release were addressed, and protect your buying timeline.",
+    "category": "Buying",
+    "date": "2026-11-23",
+    "readTime": "3 min read",
+    "tags": [
+      "heating oil",
+      "environmental due diligence",
+      "older homes",
+      "North Carolina"
+    ]
+  },
+  {
+    "slug": "selling-inherited-north-carolina-home-title-payoff-calendar",
+    "title": "Selling an inherited North Carolina home? Confirm who can sign and when",
+    "description": "Build separate title, loan and property-care timelines before accepting a closing date.",
+    "category": "Selling",
+    "date": "2026-11-23",
+    "readTime": "2 min read",
+    "tags": [
+      "inherited property",
+      "estate",
+      "title",
+      "reverse mortgage",
+      "North Carolina"
+    ]
+  },
+  {
+    "slug": "north-carolina-rental-move-out-security-deposit-accounting",
+    "title": "NC rental move-out: document the security deposit before starting the turnover",
+    "description": "Build a move-out file that separates tenant damage, ordinary wear, and your own make-ready costs.",
+    "category": "Investing",
+    "date": "2026-11-23",
+    "readTime": "2 min read",
+    "tags": [
+      "rental housing",
+      "security deposit",
+      "move-out",
+      "documentation",
+      "North Carolina"
+    ]
+  }
 ]]
