@@ -218,5 +218,17 @@ export const blogImages: Record<string,BlogImage> = {
   "north-carolina-rental-move-out-security-deposit-accounting": {
     "src": "/blog/north-carolina-rental-move-out-security-deposit-accounting.svg",
     "alt": "Three cards show rental condition evidence, a security deposit ledger, and due dates."
+  },
+  "north-carolina-private-subdivision-road-maintenance-buyers": {
+    "src": "/blog/north-carolina-private-subdivision-road-maintenance-buyers.svg",
+    "alt": "Three illustrated cards distinguish subdivision road segments, maintenance records, and repair costs."
+  },
+  "north-carolina-present-use-value-deferred-tax-land-sale": {
+    "src": "/blog/north-carolina-present-use-value-deferred-tax-land-sale.svg",
+    "alt": "A field diagram, tax ledger and filing calendar represent a present-use value review."
+  },
+  "north-carolina-rental-sale-1031-exchange-timeline": {
+    "src": "/blog/north-carolina-rental-sale-1031-exchange-timeline.svg",
+    "alt": "A closing document connects to two calendar cards for identification and acquisition deadlines."
   }
 }

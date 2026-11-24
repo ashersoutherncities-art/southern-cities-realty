@@ -3535,5 +3535,158 @@ export const articles:Article[] = [
     "caveat": "General education for North Carolina residential rentals, not legal advice or a determination that a particular deduction is valid. Consult a North Carolina attorney about disputes, exceptions or unclear facts.",
     "date": "2026-11-23",
     "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-private-subdivision-road-maintenance-buyers",
+    "title": "Buying on a private road in North Carolina? Find out who pays to fix it",
+    "description": "Verify the exact road segment, the agreement that allocates costs, and the repair budget before you buy.",
+    "category": "Buying",
+    "tags": [
+      "private roads",
+      "due diligence",
+      "subdivisions",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Check the road segment, not just the street name",
+        "paragraphs": [
+          "Mark the route from the nearest public intersection all the way to the driveway. Flag transitions: the main entrance and the last stretch of pavement might not have the same maintainer. A paved street, address sign or completed subdivision map is not proof of public maintenance.",
+          "Start with the North Carolina Department of Transportation map. The map distinguishes state and other routes, but it is not a legal record. For an uncertain segment, confirm with the state road inventory office or the relevant municipality. Save the answer with a map of the exact segment rather than a general statement about the neighborhood."
+        ],
+        "source": "https://connect.ncdot.gov/resources/gis/Pages/Database-Map-HB620.aspx",
+        "sourceLabel": "NCDOT road status and mapping guidance"
+      },
+      {
+        "title": "Separate current maintenance from promised acceptance",
+        "paragraphs": [
+          "For the first sale of a lot in a subdivision covered by the state law, ask the developer for the subdivision street disclosure. For a resale, ask for the recorded road documents and current maintenance evidence, not just the original developer’s plan. A street built to state standards is not necessarily already accepted for state maintenance.",
+          "Ask who is paying today, whether acceptance is actually pending, what conditions are outstanding and who pays for any work needed before acceptance. A future handoff is not a reason to take an existing repair out of the budget."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_136/GS_136-102.6.html",
+        "sourceLabel": "North Carolina subdivision street requirements"
+      },
+      {
+        "title": "Read the agreement against a real repair",
+        "paragraphs": [
+          "Have your closing attorney check the recorded access rights and any maintenance agreement. Ask which properties must contribute, how votes and emergency repairs work, and whether obligations bind later owners. Request recent invoices, any current reserve balance and planned work such as resurfacing or culvert replacement.",
+          "For illustration only, a quoted $24,000 repair less $6,000 in available reserves leaves $18,000 unfunded. If an applicable agreement allocates that gap equally across nine paying lots, that is $2,000 per lot. If the split is by frontage, the road has additional segments, or the reserve is already earmarked, the number changes. Confirm the allocation and ask your lender early whether it needs documentation."
+        ],
+        "source": "https://bulletins.ncrec.gov/subdivision-street-disclosure-issues/",
+        "sourceLabel": "North Carolina Real Estate Commission on subdivision streets"
+      }
+    ],
+    "checklist": [
+      "Mark each part of the route to the driveway.",
+      "Get written confirmation of the current maintainer for any uncertain segment.",
+      "Request the applicable street disclosure, recorded access documents, and maintenance agreement.",
+      "Compare last year’s invoices and reserve balance against planned repairs.",
+      "Give the agreement and open issues to your attorney and lender before your contract deadline."
+    ],
+    "caveat": "General North Carolina buyer education, not a title opinion, lender approval, or statement that a particular road will be accepted. Confirm the exact segment and applicable documents.",
+    "date": "2026-11-24",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "north-carolina-present-use-value-deferred-tax-land-sale",
+    "title": "Selling North Carolina farm or timberland? Put deferred taxes on the closing worksheet",
+    "description": "Ask the county for parcel-level figures before assuming a land buyer can continue the current tax classification.",
+    "category": "Selling",
+    "tags": [
+      "land sales",
+      "present-use value",
+      "deferred property taxes",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "A low annual bill can leave a separate closing question",
+        "paragraphs": [
+          "North Carolina’s present-use value program can tax qualifying agricultural, horticultural or forestland based on its qualifying use. The difference from tax that would be due without the classification is tracked as deferred tax and is a lien under state law. A small bill this year does not tell you the amount potentially due at a sale or later change.",
+          "Get the county record for each parcel being conveyed. Ask for the approved acreage and land class, any separate improvements, and a written estimate of what would become due if the proposed transaction disqualifies some or all of the land."
+        ],
+        "source": "https://www.ncleg.gov/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-277.4.html",
+        "sourceLabel": "North Carolina present-use valuation, applications and deferred taxes"
+      },
+      {
+        "title": "Run two closing scenarios before setting a net target",
+        "paragraphs": [
+          "In one scenario, the assessor confirms the proposed owner and qualifying use meet applicable rules and identifies what must be filed. In the other, the land or affected acreage loses eligibility. State law generally makes the preceding three fiscal years of deferred taxes due on disqualification, subject to applicable exceptions. Have the county confirm the amount, interest, timing and treatment of the current year rather than multiplying one old bill by three.",
+          "This is especially worth doing before selling off a homesite or proposing a development parcel. A split can change what land meets the applicable qualifications. Ask the county to review the proposed parcel map and ownership structure; have your closing attorney address responsibility and documentation in the contract. Do not count deferred taxes twice in both prorations and a separate line item."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_105/GS_105-277.3.html",
+        "sourceLabel": "North Carolina land and ownership qualification rules"
+      },
+      {
+        "title": "Assign the post-transfer filing before closing",
+        "paragraphs": [
+          "If an application is required because of a transfer, the statute sets a 60-day filing window measured from the transfer date. Do not assume the deed, a seller’s past paperwork, or a buyer’s intended continued use takes the place of this filing.",
+          "Set up a handoff with the parcel IDs, records the county requests, the person responsible for filing and a way to confirm receipt. If you are pricing the deal before that information is available, show projected net proceeds both with and without a documented deferred-tax payment."
+        ],
+        "source": "https://www.ncdor.gov/documents/files/present-use-valuation-program-guide/open",
+        "sourceLabel": "North Carolina Department of Revenue present-use value guide"
+      }
+    ],
+    "checklist": [
+      "Confirm enrolled acreage and classification for each parcel.",
+      "Ask the assessor for written estimates for continuation and disqualification scenarios.",
+      "Check how a split or planned change of use could affect qualification.",
+      "Have the closing attorney review the deferred-tax allocation.",
+      "Identify the filing owner and confirm the transfer application deadline."
+    ],
+    "caveat": "General North Carolina land-sale education, not a tax calculation or legal advice. Eligibility, timing, exceptions and amounts depend on the facts and assessor’s determination.",
+    "date": "2026-11-24",
+    "readTime": "3 min read"
+  },
+  {
+    "slug": "north-carolina-rental-sale-1031-exchange-timeline",
+    "title": "Selling a North Carolina rental? Set up the 1031 exchange before the first closing",
+    "description": "Separate investment eligibility, control of proceeds, and replacement-property deadlines before a sale closes.",
+    "category": "Investing",
+    "tags": [
+      "1031 exchange",
+      "rental portfolio",
+      "sale planning",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "First establish whether the sale belongs in the exchange conversation",
+        "paragraphs": [
+          "Federal Section 1031 rules generally concern like-kind real property held for investment or productive use in a trade or business. Property held primarily for sale is excluded. A routine flip and a long-term rental do not automatically get the same treatment just because both are houses.",
+          "Give your tax adviser the facts early: deed ownership, how you used the property, rental records, estimated adjusted basis, debt and plans for replacement. Compare an ordinary taxable sale with the proposed exchange. Deferral is not tax forgiveness, and money or other non-like-kind property received can affect how much gain is recognized."
+        ],
+        "source": "https://www.irs.gov/instructions/i8824",
+        "sourceLabel": "IRS Form 8824 instructions: eligibility and reporting"
+      },
+      {
+        "title": "Arrange handling of proceeds before the sale transfer",
+        "paragraphs": [
+          "A qualified intermediary is a common safe harbor for a deferred exchange. Coordinate the written exchange and closing instructions with the intermediary, North Carolina closing attorney and tax adviser before closing. If the seller takes receipt or control of the proceeds, a later purchase does not simply turn the sale into a qualifying exchange.",
+          "Before sending any wire, independently verify the closing and intermediary instructions. Ask who holds the proceeds, what safeguards are in place, and how the acquisition closing will be funded. Have your tax adviser review the proposed replacement owner and any related-party issues rather than relying on matching names in a spreadsheet."
+        ],
+        "source": "https://www.govinfo.gov/content/pkg/CFR-2025-title26-vol13/xhtml/CFR-2025-title26-vol13-sec1-1031k-1.html",
+        "sourceLabel": "Federal deferred exchange regulation"
+      },
+      {
+        "title": "Use one clock for identification and a second for acquisition",
+        "paragraphs": [
+          "The usual deferred-exchange deadline is 45 days after the original transfer to identify replacement property. Receipt is due by the earlier of 180 days after that transfer or the tax-return due date, including extensions. Have your adviser or intermediary confirm calendar dates, identification procedure and whether the return due date cuts the expected period short.",
+          "Shortlist more than one acquisition before the sale closes, but confirm the applicable identification limits and exact written submission requirements. For each candidate, track realistic financing, inspection, income and reserve assumptions. If none works as an investment, compare the tax consequences of stopping with the capital and operating risk of forcing a deal."
+        ],
+        "source": "https://www.irs.gov/instructions/i8824",
+        "sourceLabel": "IRS identification and receipt deadlines"
+      }
+    ],
+    "checklist": [
+      "Have your tax adviser evaluate eligibility, gain and the taxable-sale alternative.",
+      "Set up any qualified intermediary and verified proceeds instructions before the first transfer.",
+      "Confirm and calendar the written identification and receipt deadlines.",
+      "Underwrite backup properties before time pressure narrows the choices.",
+      "Retain identification, closing and exchange documents for tax reporting."
+    ],
+    "caveat": "General education, not individualized tax or legal advice. Verify federal deadlines and exceptions, North Carolina tax treatment, and closing requirements with your advisers. No deferral or exchange outcome is guaranteed.",
+    "date": "2026-11-24",
+    "readTime": "3 min read"
   }
 ]]

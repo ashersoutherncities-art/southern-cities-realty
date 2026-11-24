@@ -171,5 +171,47 @@ export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',t
       "documentation",
       "North Carolina"
     ]
+  },
+  {
+    "slug": "north-carolina-private-subdivision-road-maintenance-buyers",
+    "title": "Buying on a private road in North Carolina? Find out who pays to fix it",
+    "description": "Verify the exact road segment, the agreement that allocates costs, and the repair budget before you buy.",
+    "category": "Buying",
+    "date": "2026-11-24",
+    "readTime": "3 min read",
+    "tags": [
+      "private roads",
+      "due diligence",
+      "subdivisions",
+      "North Carolina"
+    ]
+  },
+  {
+    "slug": "north-carolina-present-use-value-deferred-tax-land-sale",
+    "title": "Selling North Carolina farm or timberland? Put deferred taxes on the closing worksheet",
+    "description": "Ask the county for parcel-level figures before assuming a land buyer can continue the current tax classification.",
+    "category": "Selling",
+    "date": "2026-11-24",
+    "readTime": "3 min read",
+    "tags": [
+      "land sales",
+      "present-use value",
+      "deferred property taxes",
+      "North Carolina"
+    ]
+  },
+  {
+    "slug": "north-carolina-rental-sale-1031-exchange-timeline",
+    "title": "Selling a North Carolina rental? Set up the 1031 exchange before the first closing",
+    "description": "Separate investment eligibility, control of proceeds, and replacement-property deadlines before a sale closes.",
+    "category": "Investing",
+    "date": "2026-11-24",
+    "readTime": "3 min read",
+    "tags": [
+      "1031 exchange",
+      "rental portfolio",
+      "sale planning",
+      "North Carolina"
+    ]
   }
 ]]
