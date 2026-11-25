@@ -230,5 +230,17 @@ export const blogImages: Record<string,BlogImage> = {
   "north-carolina-rental-sale-1031-exchange-timeline": {
     "src": "/blog/north-carolina-rental-sale-1031-exchange-timeline.svg",
     "alt": "A closing document connects to two calendar cards for identification and acquisition deadlines."
+  },
+  "charlotte-water-sewer-connection-before-buying-land": {
+    "src": "/blog/charlotte-water-sewer-connection-before-buying-land.svg",
+    "alt": "Diagram of water and sewer routes connecting a proposed house to public mains."
+  },
+  "north-carolina-home-sale-firpta-withholding-closing": {
+    "src": "/blog/north-carolina-home-sale-firpta-withholding-closing.svg",
+    "alt": "Settlement worksheet beside a percentage symbol illustrating withholding."
+  },
+  "rental-property-repair-versus-improvement-records": {
+    "src": "/blog/rental-property-repair-versus-improvement-records.svg",
+    "alt": "Itemized invoice filed in a folder to document rental property work."
   }
 }

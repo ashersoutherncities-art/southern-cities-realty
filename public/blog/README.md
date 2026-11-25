@@ -23,3 +23,5 @@ November 22, 2026: original conceptual vector illustrations for permit-history r
 November 23, 2026: three original editorial SVGs for a heating-oil tank review, an inherited home sale, and rental move-out accounting. Conceptual geometric artwork; no third-party images or real listings.
 
 November 24, 2026: original conceptual SVGs for private road maintenance, present-use value and deferred taxes, and Section 1031 exchange timing. Made from geometric shapes and original text; no third-party artwork or real listings.
+
+November 25, 2026: original editorial SVGs for Charlotte utility connections, seller withholding and rental invoice records. Conceptual diagrams from original text and shapes; no external assets or actual listings.

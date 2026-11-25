@@ -214,4 +214,46 @@ export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',t
       "North Carolina"
     ]
   }
+],...[
+  {
+    "slug": "charlotte-water-sewer-connection-before-buying-land",
+    "title": "Before buying a Charlotte infill lot, verify the water and sewer connection",
+    "description": "Find out whether the proposed house can use an existing connection, needs a new tap, or depends on a public main extension.",
+    "category": "Local Planning",
+    "tags": [
+      "Charlotte",
+      "infill land",
+      "public water and sewer"
+    ],
+    "date": "2026-11-25",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "north-carolina-home-sale-firpta-withholding-closing",
+    "title": "Selling a North Carolina home from abroad? Check federal withholding before closing",
+    "description": "Separate tax status, cash withheld at settlement, and the final federal tax calculation before relying on your sale proceeds.",
+    "category": "Selling",
+    "tags": [
+      "FIRPTA",
+      "withholding",
+      "seller proceeds",
+      "North Carolina"
+    ],
+    "date": "2026-11-25",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "rental-property-repair-versus-improvement-records",
+    "title": "Rental repairs or improvements? Build an invoice file your tax adviser can use",
+    "description": "Preserve the work, dates and costs behind rental invoices instead of classifying a whole turnover or rehab under one label.",
+    "category": "Investing",
+    "tags": [
+      "rental property",
+      "repairs",
+      "capital improvements",
+      "recordkeeping"
+    ],
+    "date": "2026-11-25",
+    "readTime": "2 min read"
+  }
 ]]

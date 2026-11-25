@@ -3689,4 +3689,166 @@ export const articles:Article[] = [
     "date": "2026-11-24",
     "readTime": "3 min read"
   }
-]]
+],
+{
+  "slug": "charlotte-water-sewer-connection-before-buying-land",
+  "title": "Before buying a Charlotte infill lot, verify the water and sewer connection",
+  "description": "Find out whether the proposed house can use an existing connection, needs a new tap, or depends on a public main extension.",
+  "category": "Local Planning",
+  "tags": [
+    "Charlotte",
+    "infill land",
+    "public water and sewer"
+  ],
+  "checklist": [
+    "Identify the parcel, planned use and number of units.",
+    "Confirm existing services and proposed connection points separately for water and sewer.",
+    "Ask which review, extension and easements are needed.",
+    "Compare utility-side fees with site-side contractor costs.",
+    "Get a written response before committing to a closing or construction start."
+  ],
+  "caveat": "Educational guidance for property served by Charlotte Water, not a utility determination, engineering opinion or offer recommendation. Other providers use different rules. Verify service, cost and timing for the specific parcel and proposed use.",
+  "sections": [
+    {
+      "title": "Give the utility a project, not just an address",
+      "paragraphs": [
+        "Start with the parcel identification number, a survey or parcel map, and a sketch showing the proposed home and potential service route. Describe what you intend to build: one house, a duplex, or multiple homes on newly divided lots. A reply about one existing parcel does not necessarily answer a question about the buildout you have in mind. Ask how the utility identifies the site and which review applies to that exact proposal."
+      ],
+      "source": "https://www.charlottenc.gov/water/Commercial-Development/New-Connection-Installations/New-Residential-Install",
+      "sourceLabel": "Charlotte Water: new residential installations"
+    },
+    {
+      "title": "Separate a nearby main from an available connection",
+      "paragraphs": [
+        "Charlotte Water describes connections to accessible existing mains as well as work that requires extensions. Ask whether the lot already has a usable water meter or service stub and a separate sewer connection. If not, get the proposed connection points and ask whether either main must be extended. Have your designer check whether the sanitary sewer elevation allows gravity service from the proposed building. A line on a sales map does not resolve those questions by itself."
+      ]
+    },
+    {
+      "title": "Build two numbers before making an offer",
+      "paragraphs": [
+        "Start with the utility-side costs, including applicable connection and system development charges shown on the current fee schedule. Keep site-side costs separate: private service lines, trenching, paving or landscape restoration, and any easement or design work. Ask who installs each segment, what any quote actually includes, and which items may still depend on field conditions. If a main extension is needed, do not budget it as though it were a routine tap."
+      ],
+      "source": "https://www.charlottenc.gov/water/Pay-your-Bill/Rates-Fees",
+      "sourceLabel": "Charlotte Water: current rates and fees"
+    },
+    {
+      "title": "Put any capacity or timing condition on the calendar",
+      "paragraphs": [
+        "Charlotte Water has a wastewater Capacity Assurance Program for qualifying connections. Ask whether the full project requires that review and whether any approval is conditional on a public improvement. Obtain the written response, estimate and lead time early enough for your broker and attorney to help you evaluate the purchase before your contractual deadlines."
+      ],
+      "source": "https://www.charlottenc.gov/water/Commercial-Development/Commercial-Customer-Services/Capacity-Assurance-Program",
+      "sourceLabel": "Charlotte Water: Capacity Assurance Program"
+    }
+  ],
+  "date": "2026-11-25",
+  "readTime": "2 min read"
+},
+{
+  "slug": "north-carolina-home-sale-firpta-withholding-closing",
+  "title": "Selling a North Carolina home from abroad? Check federal withholding before closing",
+  "description": "Separate tax status, cash withheld at settlement, and the final federal tax calculation before relying on your sale proceeds.",
+  "category": "Selling",
+  "tags": [
+    "FIRPTA",
+    "withholding",
+    "seller proceeds",
+    "North Carolina"
+  ],
+  "checklist": [
+    "Provide the deed and exact names of every owner to the closing attorney.",
+    "Ask which tax-status documentation applies and how to send it securely.",
+    "Reconcile withholding and mortgage payoff on separate lines.",
+    "Confirm the basis for any exception or certificate before using the lower figure.",
+    "Ask your tax adviser what records to retain for the return."
+  ],
+  "caveat": "General federal tax information, not a determination of seller status, eligibility, withholding or tax due. For a North Carolina closing, get transaction-specific advice from your closing attorney and qualified tax adviser.",
+  "sections": [
+    {
+      "title": "Start with the owner shown on title",
+      "paragraphs": [
+        "If you are planning a sale from outside the United States, send your closing attorney and tax adviser the deed and exact ownership names early. Let them determine each seller’s U.S. tax status and what documentation is needed. A mailing address, citizenship assumption or an entity name is not enough to classify a seller. Flag multiple owners or an entity on title before the attorney prepares the settlement figures."
+      ],
+      "source": "https://www.irs.gov/individuals/international-taxpayers/definitions-of-terms-and-procedures-unique-to-firpta",
+      "sourceLabel": "IRS: definitions and procedures"
+    },
+    {
+      "title": "Estimate cash at closing separately from tax on gain",
+      "paragraphs": [
+        "The Foreign Investment in Real Property Tax Act (FIRPTA) generally requires the buyer to withhold on an applicable disposition by a foreign person. The usual federal rate is 15% of the amount realized, subject to exceptions and different rates. The amount realized is not the same as profit or cash remaining after your mortgage payoff. As an illustration only, if a $400,000 sale has a $400,000 amount realized and the general 15% rate applies, $60,000 would be withheld. That calculation is not a statement of the seller’s final tax liability."
+      ],
+      "source": "https://www.irs.gov/individuals/international-taxpayers/withholding-and-reporting-obligations",
+      "sourceLabel": "IRS: withholding and reporting"
+    },
+    {
+      "title": "Ask which exception or certificate actually fits",
+      "paragraphs": [
+        "Do not assume every home purchase receives a residence exception. The IRS describes an exception for qualifying purchases by an individual who will use the property as a residence when the amount realized is no more than $300,000. Other transactions can have different rates. If a withholding certificate is worth pursuing, ask your advisers about the documents and timing before relying on it in your closing plan."
+      ],
+      "source": "https://www.irs.gov/individuals/international-taxpayers/exceptions-from-firpta-withholding",
+      "sourceLabel": "IRS: exceptions to FIRPTA withholding"
+    },
+    {
+      "title": "Run two settlement scenarios early",
+      "paragraphs": [
+        "Ask for a preliminary net sheet under the applicable withholding assumption and a separate scenario only if your advisers confirm a defensible alternative. Include payoff, settlement expenses and any other known credits or deductions. Ask who handles filing and what documentation you should keep when reconciling withholding on your return. Do not commit proceeds to another purchase until you understand the amount that could actually be available."
+      ],
+      "source": "https://www.irs.gov/individuals/international-taxpayers/firpta-withholding",
+      "sourceLabel": "IRS: FIRPTA overview and questions"
+    }
+  ],
+  "date": "2026-11-25",
+  "readTime": "2 min read"
+},
+{
+  "slug": "rental-property-repair-versus-improvement-records",
+  "title": "Rental repairs or improvements? Build an invoice file your tax adviser can use",
+  "description": "Preserve the work, dates and costs behind rental invoices instead of classifying a whole turnover or rehab under one label.",
+  "category": "Investing",
+  "tags": [
+    "rental property",
+    "repairs",
+    "capital improvements",
+    "recordkeeping"
+  ],
+  "checklist": [
+    "Keep invoices, scope, change orders and proof of payment by property.",
+    "Record the condition before the work and exactly what the vendor replaced.",
+    "Request a vendor breakdown when one bill covers distinct work.",
+    "Save evidence of the date the unit or improvement was ready for rental use.",
+    "Review uncertain classifications and possible elections with your tax adviser."
+  ],
+  "caveat": "General recordkeeping information for residential rental owners, not advice on deductibility, depreciation, elections or state tax treatment. Classification depends on the facts and applicable tax year.",
+  "sections": [
+    {
+      "title": "Keep a cash-flow ledger and a tax workpaper",
+      "paragraphs": [
+        "Paying a contractor reduces cash regardless of how the invoice is treated for tax purposes. Track the full cash payment in your property budget. For tax review, keep a separate invoice-level view with the property, work description, date, and supporting photos or scope. This also helps you compare what you spent getting a unit ready with what your original underwriting assumed."
+      ]
+    },
+    {
+      "title": "Describe the work before labeling it",
+      "paragraphs": [
+        "The Internal Revenue Service describes improvements in terms of whether the expenditure makes a betterment, restores the property, or adapts it to a different use. A patch on a small section of roof and replacement of the entire roof describe different scopes. Neither invoice should say only “roof work.” Record how much was replaced, what was wrong before the work, and whether it was part of a larger project. Let the tax adviser evaluate the work in context."
+      ],
+      "source": "https://www.irs.gov/publications/p527",
+      "sourceLabel": "IRS Publication 527: residential rental property"
+    },
+    {
+      "title": "Separate mixed invoices without inventing allocations",
+      "paragraphs": [
+        "Ask the vendor to itemize work by system and task. An invoice for a new heating and cooling system and unrelated drywall touchups should identify the work and amounts separately. Preserve the signed scope, change orders, proof of payment and completion dates. If a vendor gives one combined price, flag the missing breakdown rather than splitting the amount arbitrarily or assuming the whole project belongs in the same category."
+      ]
+    },
+    {
+      "title": "Record when the unit or improvement was ready",
+      "paragraphs": [
+        "Document when the property or improvement was ready and available for rental use, not just when you paid the deposit or received the invoice. Ask your tax adviser which placed-in-service date applies, how improvements should be tracked, and whether an election or safe harbor fits your circumstances. Recordkeeping helps the adviser decide; a threshold copied from a checklist does not make every small purchase deductible."
+      ],
+      "source": "https://www.irs.gov/businesses/small-businesses-self-employed/tips-on-rental-real-estate-income-deductions-and-recordkeeping",
+      "sourceLabel": "IRS: rental records and deductions"
+    }
+  ],
+  "date": "2026-11-25",
+  "readTime": "2 min read"
+}
+]
