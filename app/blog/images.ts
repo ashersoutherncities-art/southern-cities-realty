@@ -242,5 +242,17 @@ export const blogImages: Record<string,BlogImage> = {
   "rental-property-repair-versus-improvement-records": {
     "src": "/blog/rental-property-repair-versus-improvement-records.svg",
     "alt": "Itemized invoice filed in a folder to document rental property work."
+  },
+  "new-bern-historic-district-exterior-work-before-buying": {
+    "src": "/blog/new-bern-historic-district-exterior-work-before-buying.svg",
+    "alt": "Illustrated historic facade with a marked window and a three-step exterior review checklist."
+  },
+  "north-carolina-wetlands-map-buildable-land-due-diligence": {
+    "src": "/blog/north-carolina-wetlands-map-buildable-land-due-diligence.svg",
+    "alt": "Conceptual parcel map with a house pad, wet area and dashed access route."
+  },
+  "north-carolina-rent-comps-utilities-concessions-hud-fmr": {
+    "src": "/blog/north-carolina-rent-comps-utilities-concessions-hud-fmr.svg",
+    "alt": "Conceptual lease worksheet and utility marks beside cards for rent, concessions and utilities."
   }
 }

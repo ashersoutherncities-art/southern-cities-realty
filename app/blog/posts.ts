@@ -256,4 +256,47 @@ export const posts: Post[] = [{slug:'home-value-estimate-appraisal-inspection',t
     "date": "2026-11-25",
     "readTime": "2 min read"
   }
-]]
+],
+{
+  "slug": "new-bern-historic-district-exterior-work-before-buying",
+  "title": "Buying in a New Bern historic district? Check your exterior plans before closing",
+  "description": "Verify which local designation applies, what the city needs to review, and how to budget for the work you actually want.",
+  "category": "Buying",
+  "date": "2026-11-26",
+  "readTime": "2 min read",
+  "tags": [
+    "New Bern",
+    "historic districts",
+    "renovation",
+    "due diligence"
+  ]
+},
+{
+  "slug": "north-carolina-wetlands-map-buildable-land-due-diligence",
+  "title": "Wetlands on a North Carolina lot: check the driveway, not just the house site",
+  "description": "Use a wetlands map as a first screen, then test the entire site layout before treating the listed acreage as buildable.",
+  "category": "Local Planning",
+  "date": "2026-11-26",
+  "readTime": "2 min read",
+  "tags": [
+    "land",
+    "wetlands",
+    "site feasibility",
+    "North Carolina"
+  ]
+},
+{
+  "slug": "north-carolina-rent-comps-utilities-concessions-hud-fmr",
+  "title": "What will the rental actually earn? Compare leases, utilities and concessions first",
+  "description": "Separate asking rent, effective lease rent, tenant utility costs and HUD benchmarks before underwriting a North Carolina rental.",
+  "category": "Investing",
+  "date": "2026-11-26",
+  "readTime": "2 min read",
+  "tags": [
+    "rent comps",
+    "concessions",
+    "utilities",
+    "rental underwriting"
+  ]
+}
+]

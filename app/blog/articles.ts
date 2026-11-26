@@ -3850,5 +3850,162 @@ export const articles:Article[] = [
   ],
   "date": "2026-11-25",
   "readTime": "2 min read"
+},
+{
+  "slug": "new-bern-historic-district-exterior-work-before-buying",
+  "title": "Buying in a New Bern historic district? Check your exterior plans before closing",
+  "description": "Verify which local designation applies, what the city needs to review, and how to budget for the work you actually want.",
+  "category": "Buying",
+  "date": "2026-11-26",
+  "readTime": "2 min read",
+  "tags": [
+    "New Bern",
+    "historic districts",
+    "renovation",
+    "due diligence"
+  ],
+  "sections": [
+    {
+      "title": "Confirm the parcel, not just the neighborhood name",
+      "paragraphs": [
+        "Ask New Bern Development Services whether the parcel lies in a locally designated district or is a local landmark. A house described as “historic” in a listing, an address in an older neighborhood, and a National Register listing are not interchangeable with a local designation. Save the parcel ID and the city’s answer so your broker and contractor are discussing the same property."
+      ],
+      "source": "https://www.hpo.nc.gov/local-preservation/local-historic-property-designations-north-carolina",
+      "sourceLabel": "NC Historic Preservation Office: local designations"
+    },
+    {
+      "title": "Show the city what you intend to change",
+      "paragraphs": [
+        "Give staff an exterior photo and a short line for each proposed change: location, what exists, what will come out, and what will replace it. “Replace windows” is less useful than showing the street-facing openings, the existing material and dimensions, and the proposed profiles. Put additions, fences and driveway work on the same sketch rather than treating them as afterthoughts. North Carolina’s local preservation statute addresses exterior changes; New Bern’s instructions direct buyers and owners to ask whether a Certificate of Appropriateness is needed."
+      ],
+      "source": "https://www3.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-947.html",
+      "sourceLabel": "NC General Statutes: Certificate of Appropriateness"
+    },
+    {
+      "title": "Build two scopes before you price the house",
+      "paragraphs": [
+        "Start with the work you could accept if your preferred design cannot go forward. Then price the preferred scope with a contractor who can describe the materials and methods. Ask city staff what the current review path, submission requirements and potential meeting dates are. A preservation review is a separate question from building permits and does not prove the building is structurally sound. Do not order custom materials on an assumed approval."
+      ],
+      "source": "https://cms7files.revize.com/newbernnc/document_center/historic%20preservation/CoA%20Application%20Instructions.pdf",
+      "sourceLabel": "City of New Bern: preservation application instructions"
+    },
+    {
+      "title": "Compare old records with what is there today",
+      "paragraphs": [
+        "Ask the seller for any prior certificates, approved drawings and permits relevant to your plan. Check which parts of the work those records actually cover. If an exterior change matters to your purchase and the answer will not arrive before your contract deadline, discuss the options with your broker and closing attorney rather than assuming you can sort it out after closing."
+      ]
+    }
+  ],
+  "checklist": [
+    "Confirm the local status by parcel.",
+    "Take photos and write a proposed scope by location and material.",
+    "Ask the city for the current review path and timing.",
+    "Price an acceptable fallback before committing."
+  ],
+  "caveat": "General information for buyers, not a decision on any parcel or permit. Confirm current standards and requirements with New Bern Development Services."
+},
+{
+  "slug": "north-carolina-wetlands-map-buildable-land-due-diligence",
+  "title": "Wetlands on a North Carolina lot: check the driveway, not just the house site",
+  "description": "Use a wetlands map as a first screen, then test the entire site layout before treating the listed acreage as buildable.",
+  "category": "Local Planning",
+  "date": "2026-11-26",
+  "readTime": "2 min read",
+  "tags": [
+    "land",
+    "wetlands",
+    "site feasibility",
+    "North Carolina"
+  ],
+  "sections": [
+    {
+      "title": "Start with a map, not a conclusion",
+      "paragraphs": [
+        "Use the U.S. Fish and Wildlife Service’s Wetlands Mapper alongside the parcel map and current aerial imagery. Mark where features are mapped and where information is missing. The national inventory describes habitat rather than regulatory jurisdiction. A shaded area does not settle the permit question, and a blank map does not rule wetlands out."
+      ],
+      "source": "https://www.fws.gov/page/national-wetlands-inventory-frequently-asked-questions",
+      "sourceLabel": "U.S. Fish and Wildlife Service: Wetlands Inventory FAQ"
+    },
+    {
+      "title": "Draw every part that has to work",
+      "paragraphs": [
+        "Mark the proposed house, driveway from the public road, utility trenches, grading, drainage and, where relevant, the septic and repair areas. The house may fit on high ground while its only practical driveway crosses a low area. On a second sketch, move the features that could shift and circle any crossing that remains. That shows a specialist what to look at first and tells you whether the property still suits the project if the original layout changes."
+      ]
+    },
+    {
+      "title": "Separate the field boundary from the regulatory answer",
+      "paragraphs": [
+        "A qualified consultant can investigate and map aquatic resources on the ground. A delineation maps their extent; a written jurisdictional determination from the U.S. Army Corps of Engineers deals with federal regulatory jurisdiction. Ask the Wilmington District about the relevant federal review for your scope. Separately ask North Carolina’s Department of Environmental Quality and the local permitting office what state or local requirements may apply. Do not assume an answer from one office clears the others."
+      ],
+      "source": "https://rrs.usace.army.mil/rrs/home/jurisdiction",
+      "sourceLabel": "Army Corps of Engineers: delineation and jurisdiction"
+    },
+    {
+      "title": "Set a deadline before paying for design",
+      "paragraphs": [
+        "Ask what a site visit and usable drawing would cost, when they could be ready, and whether a re-route still leaves enough usable area for your plan. Put that deadline beside your due diligence date. If the only viable layout depends on a still-unverified crossing or fill, carry the extra design, permitting and schedule uncertainty explicitly, or consider a different site."
+      ],
+      "source": "https://www.deq.nc.gov/about/divisions/water-resources/water-quality-permitting/401-buffer-permitting-branch/401-buffer-permitting-frequently-asked-questions",
+      "sourceLabel": "NC Department of Environmental Quality: water and buffer permitting FAQ"
+    }
+  ],
+  "checklist": [
+    "Pull the parcel map and screen for mapped wetlands.",
+    "Sketch house, access, grading, utilities and wastewater areas.",
+    "Ask for field review and verify the applicable federal, state and local paths.",
+    "Compare the fallback layout before the contract deadline."
+  ],
+  "caveat": "General land screening guidance, not a site delineation or a permit opinion. Obtain parcel-specific professional and agency review."
+},
+{
+  "slug": "north-carolina-rent-comps-utilities-concessions-hud-fmr",
+  "title": "What will the rental actually earn? Compare leases, utilities and concessions first",
+  "description": "Separate asking rent, effective lease rent, tenant utility costs and HUD benchmarks before underwriting a North Carolina rental.",
+  "category": "Investing",
+  "date": "2026-11-26",
+  "readTime": "2 min read",
+  "tags": [
+    "rent comps",
+    "concessions",
+    "utilities",
+    "rental underwriting"
+  ],
+  "sections": [
+    {
+      "title": "Use the right column for each number",
+      "paragraphs": [
+        "Build a small comparison sheet using units that compete with yours: similar location, bedroom count, condition, parking, and laundry. Record the source, date, lease term and whether the figure is an asking rent or a verified signed lease. If you only have listings, label them as offers to the market, not rents achieved. Keep an advertised discount in a separate column rather than overwriting the quoted rent."
+      ]
+    },
+    {
+      "title": "Show what the lease earns and what the resident pays",
+      "paragraphs": [
+        "For a hypothetical $1,350 monthly rent, one free month on a 12-month term produces $14,850 in rent for the term, or $1,237.50 per month on average before vacancy, collection losses or expenses. Keep that average for comparisons, but show the free month in the month-by-month cash forecast. For each unit, also record which utilities the owner pays and which the tenant pays. Owner-paid water belongs in operating expenses; tenant-paid water helps explain why a lower asking rent might not mean a lower total housing cost."
+      ]
+    },
+    {
+      "title": "Use the HUD benchmark for the question it answers",
+      "paragraphs": [
+        "The U.S. Department of Housing and Urban Development (HUD) publishes Fair Market Rents as area-level gross-rent estimates used in housing programs. They are not signed neighborhood leases, a rent quote for your property, or a promise of what a housing agency will approve. Look up the right area, bedroom count and effective year. Keep the HUD benchmark on its own line and compare gross costs on a consistent utility basis."
+      ],
+      "source": "https://www.huduser.gov/portal/datasets/fmr.html",
+      "sourceLabel": "HUD: Fair Market Rent data and uses"
+    },
+    {
+      "title": "Keep the voucher case separate from the market case",
+      "paragraphs": [
+        "For a Housing Choice Voucher scenario, ask the administering agency for its applicable payment standard, utility allowance and the process for verifying reasonable rent for the unit. The rent-to-owner rule calls for comparison with similar unassisted units and considers included utilities, services and amenities. Underwrite private-market rent from your comparables and keep the voucher scenario separate until you have the agency’s property-specific answer."
+      ],
+      "source": "https://www.ecfr.gov/current/title-24/subtitle-B/chapter-IX/part-982/subpart-K/section-982.507",
+      "sourceLabel": "Federal voucher rule: rent reasonableness"
+    }
+  ],
+  "checklist": [
+    "Record asking versus signed rent and when the figure was observed.",
+    "Normalize concessions over the actual lease term.",
+    "Separate owner utility expenses from resident housing costs.",
+    "Keep market evidence and voucher assumptions in separate scenarios."
+  ],
+  "caveat": "Illustration only, not a market-rent estimate or a voucher determination. Verify actual lease terms and local program requirements."
 }
 ]
