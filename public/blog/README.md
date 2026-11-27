@@ -27,3 +27,8 @@ November 24, 2026: original conceptual SVGs for private road maintenance, presen
 November 25, 2026: original editorial SVGs for Charlotte utility connections, seller withholding and rental invoice records. Conceptual diagrams from original text and shapes; no external assets or actual listings.
 
 November 26, 2026: original editorial SVG diagrams for historic-district review, wetland site layout, and rental comparable lease terms, made from original geometric shapes and text. No third-party artwork or actual listings.
+
+### November 27, 2026
+- albemarle-nc-lot-split-before-buying.svg — Original conceptual editorial illustration, not a real property or customer document.
+- home-sale-tax-exclusion-north-carolina-seller.svg — Original conceptual editorial illustration, not a real property or customer document.
+- new-construction-lien-agent-north-carolina-closing.svg — Original conceptual editorial illustration, not a real property or customer document.

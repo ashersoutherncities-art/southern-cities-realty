@@ -254,5 +254,17 @@ export const blogImages: Record<string,BlogImage> = {
   "north-carolina-rent-comps-utilities-concessions-hud-fmr": {
     "src": "/blog/north-carolina-rent-comps-utilities-concessions-hud-fmr.svg",
     "alt": "Conceptual lease worksheet and utility marks beside cards for rent, concessions and utilities."
+  },
+  "albemarle-nc-lot-split-before-buying": {
+    "src": "/blog/albemarle-nc-lot-split-before-buying.svg",
+    "alt": "Conceptual infill parcel split with frontage, utility and title checkpoints."
+  },
+  "home-sale-tax-exclusion-north-carolina-seller": {
+    "src": "/blog/home-sale-tax-exclusion-north-carolina-seller.svg",
+    "alt": "Conceptual house sale worksheet with separate cards for closing cash, tax basis and dates."
+  },
+  "new-construction-lien-agent-north-carolina-closing": {
+    "src": "/blog/new-construction-lien-agent-north-carolina-closing.svg",
+    "alt": "Conceptual new home outline with documents for a permit, lien notices and title review."
   }
 }

@@ -4007,5 +4007,161 @@ export const articles:Article[] = [
     "Keep market evidence and voucher assumptions in separate scenarios."
   ],
   "caveat": "Illustration only, not a market-rent estimate or a voucher determination. Verify actual lease terms and local program requirements."
-}
+},
+  {
+    "slug": "albemarle-nc-lot-split-before-buying",
+    "title": "Splitting a lot in Albemarle: four checks before pricing the second parcel",
+    "description": "A practical way to check subdivision review, buildability, utility service and title before underwriting a second lot in Albemarle.",
+    "category": "Local Planning",
+    "tags": [
+      "Albemarle",
+      "subdivision",
+      "infill",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Confirm who reviews the split",
+        "paragraphs": [
+          "Start with the existing parcel identification number, recorded deed and plat, and a sketch of the proposed boundary. Confirm that the site falls within Albemarle’s planning jurisdiction rather than assuming that an Albemarle mailing address settles it. Ask the city which review path applies. Its materials distinguish exempt or minor reviews from the multi-step major process. A surveyor’s sketch is an input, not a planning approval."
+        ],
+        "source": "https://www.albemarlenc.gov/departments/planning-and-development-services/applications-fees",
+        "sourceLabel": "Albemarle subdivision applications"
+      },
+      {
+        "title": "Test both lots, not just your proposed new one",
+        "paragraphs": [
+          "Have the surveyor show the existing house, driveways, access easements, utility routes and the proposed division. A line can leave an existing house too close to a boundary, split a driveway from the house it serves, or leave the new lot with no practical building pad. Ask the reviewing staff which standards apply to each resulting lot and what must be shown on the plat. Separately identify the water and sewer providers; verify whether each lot can connect, and who pays for new taps, extensions or easements."
+        ],
+        "source": "https://www.albemarlenc.gov/departments/planning-and-development-services/subdivisions-land-development",
+        "sourceLabel": "Albemarle subdivision and development standards"
+      },
+      {
+        "title": "Make the title and recording sequence explicit",
+        "paragraphs": [
+          "Ask a North Carolina closing attorney to check the legal description, recorded restrictions and any deed of trust before giving sale proceeds a date. If financing encumbers the parent parcel, ask how payoff or a lender-approved release would be handled. Do not confuse a tax parcel identifier or a signed drawing with an approved, recorded lot. State law restricts transfers or sales by reference to an unapproved or unrecorded subdivision plat in jurisdictions with adopted regulations; have counsel evaluate the transaction before making commitments."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-807.html",
+        "sourceLabel": "North Carolina General Statutes § 160D-807"
+      },
+      {
+        "title": "Price the outcome and the fallback",
+        "paragraphs": [
+          "Write two cases. In the first, fund the survey, approvals, legal work, utility work and extra carry from the second lot’s expected net proceeds. In the fallback, value the existing property without a second sale and see whether you can carry it if approval slips or the lot cannot be served. Keep construction feasibility separate from expected resale value. Give the additional lot a value in the base case only when its key dependencies can be verified."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm jurisdiction, subdivision category and application requirements.",
+      "Sketch two viable lots and obtain a written utility answer for each.",
+      "Ask counsel how restrictions, payoff or partial release affect recording and closing.",
+      "Compare a one-parcel fallback with the two-parcel case."
+    ],
+    "caveat": "Planning staff and your surveyor must verify the site-specific design. A North Carolina closing attorney should advise on title and transaction sequencing.",
+    "date": "2026-11-27",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "home-sale-tax-exclusion-north-carolina-seller",
+    "title": "Selling your main home: why closing cash and taxable gain are different",
+    "description": "Separate payoff and cash at closing from adjusted basis, potential federal exclusion and the records your tax adviser needs.",
+    "category": "Selling",
+    "tags": [
+      "home sale",
+      "adjusted basis",
+      "capital gains",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Keep two worksheets",
+        "paragraphs": [
+          "One worksheet answers how much cash you expect to receive. Start with price and subtract estimated selling costs, debt payoff and other applicable closing charges. The tax worksheet starts with the amount realized and subtracts the adjusted basis. Paying off a mortgage reduces cash you get at closing; it is not a separate deduction from real estate gain. Avoid treating the deposit into your bank account as the gain figure."
+        ],
+        "source": "https://www.irs.gov/publications/p523",
+        "sourceLabel": "IRS Publication 523: Selling Your Home"
+      },
+      {
+        "title": "Trace your dates before counting on a federal exclusion",
+        "paragraphs": [
+          "The federal exclusion can be up to $250,000 of gain, or up to $500,000 for a qualifying joint return. In the usual case, the home must pass ownership and use tests tied to the five years ending on the date of sale. The IRS also addresses prior use of the exclusion within two years, joint-filer requirements, and exceptions. Bring exact purchase, occupancy and planned sale dates to a tax professional if a move or lease puts you close to the threshold."
+        ],
+        "source": "https://www.irs.gov/taxtopics/tc701",
+        "sourceLabel": "IRS Topic 701: Sale of your home"
+      },
+      {
+        "title": "Pull the documents that can change the number",
+        "paragraphs": [
+          "Find the purchase and projected sale statements, improvement invoices, and any rental or business-use records. Adjusted basis is not the same as today’s value; qualifying improvements and other adjustments may change it. Depreciation and some periods of nonqualified use can also affect how much gain can be excluded. Keep records showing both what you spent and what the work actually was, rather than labeling every repair a capital improvement."
+        ],
+        "source": "https://www.irs.gov/publications/p523",
+        "sourceLabel": "IRS worksheets for adjusted basis and gain"
+      },
+      {
+        "title": "Run a simple example before making the next commitment",
+        "paragraphs": [
+          "Suppose a home sells for $400,000, with $24,000 in selling expenses, $240,000 adjusted basis and a $220,000 payoff. Ignoring other settlement items, estimated cash is $156,000, while gain before any exclusion is $136,000. The difference is why a seller can have substantial cash and little federal taxable gain, or a modest check and a taxable gain. Confirm reporting obligations, including what to do if a Form 1099-S is issued, before filing."
+        ]
+      }
+    ],
+    "checklist": [
+      "Make separate proceeds and gain worksheets.",
+      "Assemble dated purchase, occupancy, improvement and rental records.",
+      "Ask a tax professional to verify federal eligibility and state treatment before relying on an after-tax budget."
+    ],
+    "caveat": "Federal overview and hypothetical math only. Not a personal federal or North Carolina tax determination.",
+    "date": "2026-11-27",
+    "readTime": "2 min read"
+  },
+  {
+    "slug": "new-construction-lien-agent-north-carolina-closing",
+    "title": "Buying a newly built North Carolina home: get the construction lien questions to your closing attorney early",
+    "description": "What a lien agent can and cannot tell a new-construction buyer, and what to assemble before the closing attorney reviews title.",
+    "category": "Buying",
+    "tags": [
+      "new construction",
+      "lien agent",
+      "title",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "A finished house and clear title answer different questions",
+        "paragraphs": [
+          "A walkthrough is for the home you can see and the work you were promised. The title review addresses ownership and possible claims you do not see. Give your North Carolina closing attorney the builder’s legal name, lot or parcel identity, permit information and construction timeline early. If the street address changed as the subdivision was built out, provide the subdivision lot and recorded plat too."
+        ]
+      },
+      {
+        "title": "Know where the lien agent fits",
+        "paragraphs": [
+          "For improvements covered by the law that meet its threshold and conditions, North Carolina requires the owner to designate a lien agent; the statute has exceptions and specific timing. Section 44A-11.1 includes a procedure for the closing attorney to request notices, renewals and cancellations tied to a property. A notice is not itself a closing clearance, and a lien-agent search is not a substitute for the full title review. Ask counsel which statute and permit dates matter for this project."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_44A/GS_44A-11.1.html",
+        "sourceLabel": "North Carolina lien-agent statute"
+      },
+      {
+        "title": "Send a short list of open items",
+        "paragraphs": [
+          "Ask counsel what builder documents or other records would help resolve pending work or payment questions, who will deliver them, and when the attorney expects to review them. Identify late upgrades or exterior work the builder plans to finish after closing; give the attorney the contract and written change orders, not just the salesperson’s explanation. Let the attorney and title insurer evaluate any required affidavits, releases, exceptions or other protections together."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_44A/Article_2.html",
+        "sourceLabel": "North Carolina construction lien statutes"
+      },
+      {
+        "title": "Do not collapse closing milestones into one date",
+        "paragraphs": [
+          "Track completion and occupancy documentation, final walkthrough, lender conditions, title review, and recording separately. A scheduled signing does not resolve a missing notice or a title question. When deadlines move, ask counsel which parts of the agreement need written changes and who bears the cost of a delay. Do not release funds or agree to a workaround solely on the basis of this checklist."
+        ]
+      }
+    ],
+    "checklist": [
+      "Send lot number, address, permit and builder entity to your closing attorney early.",
+      "Ask what lien-agent and other title checks apply to the specific project.",
+      "Give counsel all signed change orders and the documented finish-after-closing items.",
+      "Resolve who owns each open condition before scheduling a firm closing."
+    ],
+    "caveat": "Educational only, not a title opinion or legal advice. Have a North Carolina attorney evaluate the project, contract and applicable law.",
+    "date": "2026-11-27",
+    "readTime": "2 min read"
+  }
 ]
