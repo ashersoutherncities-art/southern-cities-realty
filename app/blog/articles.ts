@@ -4163,5 +4163,162 @@ export const articles:Article[] = [
     "caveat": "Educational only, not a title opinion or legal advice. Have a North Carolina attorney evaluate the project, contract and applicable law.",
     "date": "2026-11-27",
     "readTime": "2 min read"
+  },
+  {
+    "slug": "usda-guaranteed-loan-seller-credits-commission-north-carolina",
+    "title": "USDA loan offers: separate seller credits from real estate commissions",
+    "description": "How the November 2026 guaranteed-loan rule affects the way rural buyers and sellers compare offer terms.",
+    "category": "Financing",
+    "date": "2026-11-28",
+    "readTime": "2 min read",
+    "tags": [
+      "USDA loans",
+      "seller credits",
+      "closing costs",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Start with the lender’s program name",
+        "paragraphs": [
+          "For a North Carolina purchase using the U.S. Department of Agriculture (USDA) Single Family Housing Guaranteed Loan Program, the November 9, 2026 final rule excludes real estate commission fees from the 6% seller-concession limit. Other covered contributions from the seller or interested third parties are still generally measured against 6% of the sales price unless USDA provides otherwise. Confirm that your lender is using the guaranteed program rather than assuming the change applies to every rural loan."
+        ],
+        "source": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/html/2026-22772.htm",
+        "sourceLabel": "Federal Register: final rule and effective date"
+      },
+      {
+        "title": "Put the commission and credit on different lines",
+        "paragraphs": [
+          "Suppose the price is $250,000, a proposed $10,000 seller credit pays eligible closing expenses, and a separate $7,500 is a real estate commission. The ordinary cap is $15,000. The $10,000 counts toward it; the $7,500 commission does not. The seller still has to budget both agreed payments when comparing net proceeds. The figures illustrate the accounting and do not recommend a commission or credit amount."
+        ],
+        "source": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/html/2026-22772.htm",
+        "sourceLabel": "Federal Register: amended 7 CFR 3555.102(h)"
+      },
+      {
+        "title": "Check how much credit the buyer can actually use",
+        "paragraphs": [
+          "A cap calculation does not approve any specific expense or guarantee cash back. If the lender documents only $8,000 of eligible expenses, ask how the unused portion of the proposed $10,000 credit would be handled before assuming the buyer can use it. A price change, different signed terms or a smaller credit can affect the deal differently. Ask the lender and closing attorney to review any proposed change before signing."
+        ],
+        "source": "https://www.govinfo.gov/content/pkg/FR-2026-11-09/html/2026-22772.htm",
+        "sourceLabel": "Federal Register: limits and safeguards"
+      },
+      {
+        "title": "Compare both sides of the offer before the deadline",
+        "paragraphs": [
+          "Ask for a worksheet with the sales price, each commission payment, each requested credit, eligible costs the lender expects the credit to cover, and estimated buyer cash and seller net. Check the signed agreements against lender and settlement figures when they arrive. This is especially useful when comparing two offers with similar prices but different credit requests."
+        ]
+      }
+    ],
+    "checklist": [
+      "Confirm the lender is using USDA’s guaranteed program.",
+      "Separate commissions from credits and identify who pays each line.",
+      "Ask the lender to classify covered contributions and confirm usable credit.",
+      "Compare buyer cash to close and seller net before signing revised terms."
+    ],
+    "caveat": "Illustration and general program information only. The lender and closing attorney must confirm how specific costs and signed terms are treated."
+  },
+  {
+    "slug": "mortgage-recast-versus-extra-principal-north-carolina",
+    "title": "A mortgage recast or extra principal? Decide what you want the payment to do",
+    "description": "Compare required monthly payment, cash reserves and payoff goals before putting a lump sum into a mortgage.",
+    "category": "Ownership",
+    "date": "2026-11-28",
+    "readTime": "2 min read",
+    "tags": [
+      "mortgage recast",
+      "principal",
+      "cash reserves",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Ask whether you want a smaller bill or a faster payoff",
+        "paragraphs": [
+          "A principal payment reduces the balance. It does not by itself rewrite the required payment on a typical fixed-rate mortgage. If you keep paying the original amount after the extra principal is applied, you can pay off the loan earlier, other things equal. A recast calculates a lower required principal-and-interest payment using the reduced balance, existing rate and remaining term. It is different from replacing the loan with a refinance."
+        ],
+        "source": "https://servicing-guide.fanniemae.com/svc/c-1.2-01/processing-additional-principal-payments",
+        "sourceLabel": "Fannie Mae: principal curtailments and re-amortization"
+      },
+      {
+        "title": "Calculate the change before moving the money",
+        "paragraphs": [
+          "For a hypothetical fixed-rate balance of $300,000 at 6% with 25 years remaining, principal and interest are about $1,933 per month. An approved recast after a $30,000 principal payment lowers that amount to about $1,740, a difference of about $193 per month. These rounded figures exclude escrow and fees. Paying the $30,000 without recasting can still reduce interest; it generally does not make the contractual bill $193 smaller."
+        ]
+      },
+      {
+        "title": "Get the servicer’s terms in writing first",
+        "paragraphs": [
+          "Ask whether your loan can be recast, whether the loan must be current, what minimum principal payment or fee applies, and when the revised amount would start. Request both payment figures: principal and interest, and the full billed amount including escrow if applicable. Confirm how to direct the funds to principal and what to keep paying until the new schedule becomes effective. The Fannie Mae guide is an example of how eligible loans are handled, not a promise for every loan."
+        ],
+        "source": "https://servicing-guide.fanniemae.com/svc/c-1.2-01/processing-additional-principal-payments",
+        "sourceLabel": "Fannie Mae: servicing process after a substantial principal payment"
+      },
+      {
+        "title": "Budget the lump sum as well as the lower payment",
+        "paragraphs": [
+          "In the example the household locks $30,000 into home equity for roughly $193 of monthly payment flexibility. Decide how much cash needs to stay available for repairs, insurance deductibles or income gaps first. Compare a smaller lump sum or no lump sum, and compare the effect of continuing to pay above the new minimum if you want both flexibility and faster payoff. Keep the written approval and check the first revised statement."
+        ]
+      }
+    ],
+    "checklist": [
+      "Choose a primary objective: lower required payment, faster payoff or liquidity.",
+      "Get the servicer’s eligibility, funding instructions and effective date in writing.",
+      "Compare principal and interest separately from escrow and fees.",
+      "Keep paying as billed until the servicer confirms the new amount."
+    ],
+    "caveat": "General education and rounded hypothetical math. Eligibility, payment handling and timing depend on your loan and servicer."
+  },
+  {
+    "slug": "north-carolina-condo-master-policy-unit-insurance",
+    "title": "Buying a North Carolina condo? Read the building policy beside your own",
+    "description": "A buyer’s worksheet for checking the association’s coverage, unit-owner coverage and deductible exposure.",
+    "category": "Buying",
+    "date": "2026-11-28",
+    "readTime": "2 min read",
+    "tags": [
+      "condominium",
+      "insurance",
+      "deductibles",
+      "North Carolina"
+    ],
+    "sections": [
+      {
+        "title": "Make a coverage map for the specific unit",
+        "paragraphs": [
+          "Get current association insurance evidence, including the deductible schedule and relevant endorsements, then pull the recorded declaration and unit boundaries. For condominiums governed by the applicable provisions, North Carolina law addresses association insurance on common elements and the treatment of units with horizontal boundaries. Owner-installed improvements may fall outside what the statute requires the association policy to cover. Have your closing attorney confirm which rules and documents apply to this project."
+        ],
+        "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_47C/GS_47C-3-113.html",
+        "sourceLabel": "North Carolina condominium insurance statute"
+      },
+      {
+        "title": "Price the gaps with a unit-owner quote",
+        "paragraphs": [
+          "Take both sets of documents to an insurance agent. Ask where the association’s coverage stops for drywall, flooring, fixtures, and upgrades, then ask which items the unit-owner policy would cover. The North Carolina Department of Insurance guide describes the unit-owner form, often called HO-6. Ask about belongings, temporary living costs, liability and gaps such as water backup. Confirm the policy’s actual terms; a form name does not establish coverage."
+        ],
+        "source": "https://www.ncdoi.gov/consumers-guide-homeowners-insurance/open",
+        "sourceLabel": "North Carolina Department of Insurance: consumer guide"
+      },
+      {
+        "title": "Test a deductible scenario before relying on loss assessment coverage",
+        "paragraphs": [
+          "Ask whether the master deductible is per occurrence, per unit or different for a particular peril. Ask the association and closing attorney how expenses may be allocated. Then ask your agent whether the quoted policy covers an assessment resulting from that specific peril, what limit applies and whether a separate deductible or exclusion changes the result. If the association’s deductible is expressed as a percentage, confirm the value it multiplies before estimating dollar exposure."
+        ]
+      },
+      {
+        "title": "Verify lender requirements separately",
+        "paragraphs": [
+          "A policy combination you are comfortable buying may still need lender review. For example, Fannie Mae’s guide treats a per-unit deductible on the master policy as a trigger for individual property insurance requirements. Send the lender the current documentation early, and check policy expiration against closing. Ask for an updated review if the association replaces its policy before you close."
+        ],
+        "source": "https://selling-guide.fanniemae.com/sel/b7-3-04/individual-property-insurance-requirements-unit-project-development",
+        "sourceLabel": "Fannie Mae: individual property insurance for project units"
+      }
+    ],
+    "checklist": [
+      "Request the current master coverage, deductibles and relevant endorsements.",
+      "Identify owner improvements and boundary questions for the agent and attorney.",
+      "Ask for a written unit-owner quote and a worked loss-assessment example.",
+      "Have the lender review the policies before depending on a closing date."
+    ],
+    "caveat": "Educational checklist only. Your governing documents, policies, lender and advisers control the transaction-specific answers."
   }
 ]

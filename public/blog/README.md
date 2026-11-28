@@ -32,3 +32,9 @@ November 26, 2026: original editorial SVG diagrams for historic-district review,
 - albemarle-nc-lot-split-before-buying.svg — Original conceptual editorial illustration, not a real property or customer document.
 - home-sale-tax-exclusion-north-carolina-seller.svg — Original conceptual editorial illustration, not a real property or customer document.
 - new-construction-lien-agent-north-carolina-closing.svg — Original conceptual editorial illustration, not a real property or customer document.
+
+### November 28, 2026
+Original conceptual SVG illustrations using original text and simple shapes. No third-party assets and no depiction of any actual property or client record.
+- usda-guaranteed-loan-seller-credits-commission-north-carolina.svg
+- mortgage-recast-versus-extra-principal-north-carolina.svg
+- north-carolina-condo-master-policy-unit-insurance.svg

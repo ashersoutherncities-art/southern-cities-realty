@@ -266,5 +266,17 @@ export const blogImages: Record<string,BlogImage> = {
   "new-construction-lien-agent-north-carolina-closing": {
     "src": "/blog/new-construction-lien-agent-north-carolina-closing.svg",
     "alt": "Conceptual new home outline with documents for a permit, lien notices and title review."
+  },
+  "usda-guaranteed-loan-seller-credits-commission-north-carolina": {
+    "src": "/blog/usda-guaranteed-loan-seller-credits-commission-north-carolina.svg",
+    "alt": "Conceptual offer worksheet with separate rows for price, credits and commission."
+  },
+  "mortgage-recast-versus-extra-principal-north-carolina": {
+    "src": "/blog/mortgage-recast-versus-extra-principal-north-carolina.svg",
+    "alt": "Conceptual payment diagram showing a lower required payment after a principal reduction."
+  },
+  "north-carolina-condo-master-policy-unit-insurance": {
+    "src": "/blog/north-carolina-condo-master-policy-unit-insurance.svg",
+    "alt": "Conceptual condominium building next to rows for building coverage, unit coverage and deductibles."
   }
 }
